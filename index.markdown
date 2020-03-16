@@ -1,5 +1,7 @@
 ---
 layout: page
+order: 1
+exclude: true
 ---
 
 You have reached Jimmy's webpage! 
