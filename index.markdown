@@ -7,7 +7,7 @@ exclude: true
 
 <h3>You Have Reached Jimmy's Webpage!</h3>
 
-![Mypic](/image/Jimmy_pic.png){:style="width: 23%; float: left; border: solid; margin: 10px 10px 10px 10px;"}
+![Mypic](/image/Jimmy_pic.png){:height="232px" width="174px" alt="Jimmy_pic" style="float: left; margin: 10px 10px 10px 10px; border: solid; "}
 
 
 My name is Jihun Hwang, but I usually go by Jimmy. I am a recent graduate of the [University of Massachusetts Amherst](https://www.umass.edu/), where I double majored in [Mathematics](https://www.math.umass.edu/) and [Computer Science](https://www.cics.umass.edu/), with a minor in [Physics](https://www.physics.umass.edu/). 
