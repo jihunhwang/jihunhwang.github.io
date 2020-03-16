@@ -4,7 +4,8 @@ order: 1
 exclude: true
 ---
 
-You have reached Jimmy's webpage! 
+# You have reached Jimmy's webpage! 
+
 ![Mypic](/image/Jimmy_pic.png){:style="width: 23%; float: left; border: solid; margin: 10px 10px 10px 10px;"}
 
 
