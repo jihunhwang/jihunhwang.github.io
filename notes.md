@@ -3,6 +3,7 @@ layout: page
 title: Notes
 permalink: /notes/
 group: Notes
+order: 3
 ---
 
 On this page, you will find the notes I made/typed for the courses "*I assigned to teach/TA*" and "*I took (as a student)*". 
