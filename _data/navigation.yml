@@ -1,4 +1,6 @@
 main:
+  - title: "Timeline"
+    url: /timeline/
   - title: "Notes"
     url: /notes/
   - title: "Talks"

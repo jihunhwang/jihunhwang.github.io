@@ -4,10 +4,9 @@ author_profile: true
 permalink: /notes/
 ---
 
-On this page, you will find the notes I made/typed for the courses "*I assigned to teach/TA*" and "*I took (as a student)*". 
-Roughly, UMass Amherst adopts the following course numbering system: 100-599 Undergraduate, 500-699 Master's, and 600-899 Ph.D. See [this](https://www.umass.edu/senate/course-proposal-info) for more details.
+Below are the notes I made for the courses *I took* or was *assigned to teach*. Roughly, UMass Amherst adopts the following course numbering system: 300-599 (upper) Undergraduate, 500-699 Master's, and 600-899 Doctoral. See [this](https://www.umass.edu/senate/course-proposal-info) for more details.
 
-**Courses I Taught/TAed**
+#### Courses I Taught/TAed
 
 Please do not reproduce or distribute without permission.
 
@@ -16,10 +15,10 @@ Please do not reproduce or distribute without permission.
 - Spring 2018, [MATH 421 Undergraduate Complex Analysis](https://drive.google.com/file/d/1kPq84MlS1eCzRC-WBtKCgWoWHFrlzqps/view?usp=sharing) created jointly with Professor [William Meeks](https://www.math.umass.edu/directory/emeritus-faculty/william-meeks) (typed, selected materials, wrote new problems, etc.).
 
 
-**Courses I Took (Coming Soon, very soon!)**
+#### Courses I Took (Coming Soon, very soon!)
 
 - Spring 2020, [MATH 797DS Infinite Dimensional Integrable System](https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3) taught by Professor [Franz Pedit](https://www.math.umass.edu/directory/faculty/franz-pedit) 
-- Spring 2020, [MATH 725 Functional Analysis](https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU) taught by Professor [Andrea Nahmod](http://people.math.umass.edu/~nahmod/). *Go over this [Graduate Real Analysis Review Sheet]() I made as well.*
+- Spring 2020, [MATH 725 Functional Analysis](https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU) taught by Professor [Andrea Nahmod](http://people.math.umass.edu/~nahmod/).
 - Spring 2020, [CS 690J Advanced Cryptography](https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm) taught by Professor [Adam O'Neill](https://groups.cs.umass.edu/oneill/). *Here is the compilation of my [CS 466 Undergrad Crypto notes]().*
 - Fall 2019, MATH 611 Abstract Algebra I taught by Professor [Paul Hacking](https://people.math.umass.edu/~hacking/)
 - Fall 2019, PHYS 586/821 General Relativity and Cosmology taught by Professor [Jennie Traschen](https://www.physics.umass.edu/people/jennie-traschen)
@@ -29,6 +28,8 @@ Please do not reproduce or distribute without permission.
 - Spring 2016, MATH 421 Undergraduate Complex Analysis taught by Professor [Bruce Turkington](http://www.math.umass.edu/directory/emeritus-faculty/bruce-turkington)
 
 
-**Notes for myself**
+#### Notes for myself
 
 - [Quick Analysis & Topology review for Functional Analysis](): This is the compilation of the notes I made in Winter 2020 to prepare myself for Math 725 in Fall 2020.
+- [Lemmas from Undergraduate Abstract Algebra](): A small list of the lemmas in undergrad algebra that I found useful for graduate algebra.
+- [Summary of Undergraduate Level Cryptography](): Some notes I took in undergraduate applied cryptogrphy course.
