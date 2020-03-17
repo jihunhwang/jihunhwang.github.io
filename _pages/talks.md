@@ -3,7 +3,7 @@ title: Talks
 permalink: /talks/
 ---
 
-**Talks I Presented (In class)**
+#### Talks I Presented (In class)
 
 - [Complexity of Numerical Analysis with BSS Machine](https://drive.google.com/open?id=1qC8w4TC-Urbf_Y6wJeoca7Sna0u1P76u). Reading project for CS 601 Computation Theory with Professor [Neil Immerman](https://people.cs.umass.edu/~immerman/)([Wiki](https://en.wikipedia.org/wiki/Neil_Immerman)).
 
@@ -12,9 +12,9 @@ permalink: /talks/
 - [Weierstrass Product and Sum of Reciprocals of Squares](https://drive.google.com/open?id=1cCTnSr_cReJvLxLMmprTFKUYuvExqVbs). Guest lecture in MATH 421 Undergraduate Complex Analysis (taught by [William Meeks](https://en.wikipedia.org/wiki/William_Hamilton_Meeks,_III)) in Apr 30th, 2018.
 
 
-**Notes from the Talks I Attended** (Not the talks I presented!)
+#### Notes from the Talks I Attended 
 
-Below are the notes I had taken at the seminars. Please note that I do not just transcribe/copy the lectures. *They are re-created after the talks, with my thoughts and understandings included*. Papers and books listed in the bibliography are the resources that I used to help myself understand the lectures. Any typos and missing/incorrect information in these notes are not attributed to the speakers but me. Please feel free to reach me out if you find any errors or have any equations.
+<font size = "4">(Not the talks I presented!)</font>
 
 - [Morse Inequalities for the Area functional (Draft)](https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby) by [Rafael Montezuma](https://web.math.princeton.edu/~rcabral/) from Princeton/UMass Amherst at [Geometry and Geometric Analysis Seminar](https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar) at UMass Amherst in Feb 5th, 12th, 20th, and Mar 11th, 2020.
 
