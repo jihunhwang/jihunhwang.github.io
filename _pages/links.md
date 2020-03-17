@@ -1,19 +1,12 @@
 ---
-layout: page
 title: Links
 permalink: /links/
-group: Links
-order: 4
 ---
 
-**My Colleagues/Friends**
+**My Colleagues/Collaborators**
 - [Patrick Lei](https://people.umass.edu/plei/)
 - Wenbo Xie
 - [Sharath Ramkumar](https://github.com/sharath)
-- Thanh Pham
-- Joseph Murray
-- Nicolas Dumont
-
 - Victoria Kraj
 - Joshua Gordon
 - Ashok Raja

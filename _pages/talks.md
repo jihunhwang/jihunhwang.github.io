@@ -1,9 +1,6 @@
 ---
-layout: page
 title: Talks
 permalink: /talks/
-group: talks
-order: 1
 ---
 
 **Talks I Presented (In class)**
