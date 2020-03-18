@@ -4,6 +4,12 @@ author_profile: true
 permalink: /notes/
 ---
 
+<style>
+body {
+font-size: 0.82em;
+}
+</style>
+
 Below are the notes I made for the courses *I took* or was *assigned to teach*. Roughly, UMass Amherst adopts the following course numbering system: 300-599 (upper) Undergraduate, 500-699 Master's, and 600-899 Doctoral. See [this](https://www.umass.edu/senate/course-proposal-info) for more details.
 
 #### Courses I Taught/TAed
