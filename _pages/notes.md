@@ -68,7 +68,16 @@ Please do not reproduce or distribute without permission.
 
 ###### Notes for myself
 
-- [Quick Analysis & Topology review for Functional Analysis](): This is the compilation of the notes I made in Winter 2020 to prepare myself for Math 725 in Fall 2020.
-- [Lemmas from Undergraduate Abstract Algebra](): A small list of the lemmas in undergrad algebra that I found useful for graduate algebra.
-- [Summary of Undergraduate Level Cryptography](): Some notes I took in undergraduate applied cryptogrphy course.
+
+<font size="4">
+<ul>
+
+<li> <a href="">Quick Analysis & Topology review for Functional Analysis</a>: This is the compilation of the notes I made in Winter 2020 to prepare myself for Math 725 in Fall 2020.</li>
+
+<li> <a href="">Lemmas from Undergraduate Abstract Algebra</a>: A small list of the lemmas in undergrad algebra that I found useful for graduate algebra.</li>
+
+<li> <a href="">Summary of Undergraduate Level Cryptography</a>: Some notes I took in undergraduate applied cryptogrphy course.</li>
+
+</ul>
+</font>
 
