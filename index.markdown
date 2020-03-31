@@ -22,6 +22,6 @@ I was also a student of Professor <a href="https://www.math.umass.edu/directory/
 </p>
 
 <p>
-I do not have a solid area of interest yet. As of right now, I am mainly interested in differential geometry, nonlinear dynamics, and theoretical computer science. Please see my <a href="/research/">research page</a> for details.
+I do not have a solid area of interest yet. As of right now, I am interested in differential geometry, nonlinear dynamics, and theoretical computer science. Please see my <a href="/research/">research page</a> for details.
 </p>
 </font>
