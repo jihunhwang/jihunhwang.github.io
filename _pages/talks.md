@@ -2,7 +2,11 @@
 title: Talks
 permalink: /talks/
 ---
-
+<font size="4">
+<p>
+On this page, you will find the notes I made for the talks I presented, and the notes I took after the talk I attended.
+</p>
+</font>
 
 ###### Talks I Presented (In class)
 <font size="4">
@@ -25,7 +29,7 @@ permalink: /talks/
 
 ###### Notes from the Talks I Attended 
 
-<font size = "4">(Not the talks I presented!)
+<font size = "4"> <p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. They are all reproduced after the talks are ended using my understandings.</p> 
 
 <ul>
 
