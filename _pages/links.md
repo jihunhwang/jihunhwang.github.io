@@ -10,6 +10,7 @@ permalink: /links/
 <li><a href="https://people.umass.edu/plei/"> Patrick Lei</a></li>
 <li>Wenbo Xie</li>
 <li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
+<li><a href="https://www.math.umass.edu/directory/graduate-students/abdolvahab-khademi-shamami">Vahab Khademi</a></li>
 <li>Victoria Kraj</li>
 <li>Joshua Gordon</li>
 <li>Ashok Raja</li>
@@ -25,8 +26,9 @@ permalink: /links/
 
 <li><a href="http://people.math.umass.edu/~tevelev/grad_advice.html">Advice for pure math undergraduates in UMass Amherst</a> by Professor <a href="http://people.math.umass.edu/~tevelev/index.html">Jenia Tevelev</a>. I strongly believe that his advice is still valid for applied/computational math students. </li>
 
+<li><a href="https://www.mathcha.io/">Mathcha</a> makes tikz easier. Also, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> and <a href="http://detexify.kirelabs.org/classify.html">detexify</a> are very useful.</li>
+
 <li><a href="https://mathscinet.ams.org/mathscinet/freeTools.html?version=2">AMS Collaboration Distance</a> and <a href="https://www.genealogy.math.ndsu.nodak.edu/">Mathematics Genealogy</a>.</li>
 
-<li><a href="https://www.mathcha.io/">Mathcha</a>. Make tikz easier. Also, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> is useful.</li>
 </ul>
 </font>

@@ -54,6 +54,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jihunhwang"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ji-hun-jimmy-hwang-70a362102/"
 
 author:
   name: "Jimmy Hwang"
@@ -61,9 +64,19 @@ author:
   bio: Anything related to Math/Compsci/Physics # Note: Markdown is allowed
   location: "Amherst, MA"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jihunok9608@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jihunhwang"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ji-hun-jimmy-hwang-70a362102/"
+    - label: "Picture"
+      icon: ""
+      url: "/image/Jimmy_pic.jpg"
+
 
 defaults:
   # _posts

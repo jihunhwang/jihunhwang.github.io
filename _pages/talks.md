@@ -12,8 +12,10 @@ On this page, you will find the notes I made for the talks I presented, and the 
 <font size="4">
 <ul>
 
-<li><a href="https://drive.google.com/open?id=1qC8w4TC-Urbf_Y6wJeoca7Sna0u1P76u">Complexity of Numerical Analysis with BSS Machine</a>. Reading project for CS 601 Computation Theory with Professor <a href="https://people.cs.umass.edu/~immerman/">Neil Immerman</a> (<a href="https://en.wikipedia.org/wiki/Neil_Immerman">Wiki</a>)
+<li><a href="https://drive.google.com/open?id=1WoqGJrSrRFGIz13BWrOsqS5sIbSfi4Ds">Optimization of Non-Smooth Functions</a>. Reading project for CS 690OP Optimization in Computer Science with Professor <a href="https://www.cics.umass.edu/people/fiterau-brostean-madalina">Ina Fiterau</a> (Prepared/Presented with Wenbo Xie)
+</li>
 
+<li><a href="https://drive.google.com/open?id=1qC8w4TC-Urbf_Y6wJeoca7Sna0u1P76u">Complexity of Numerical Analysis with BSS Machine</a>. Reading project for CS 601 Computation Theory with Professor <a href="https://people.cs.umass.edu/~immerman/">Neil Immerman</a> (<a href="https://en.wikipedia.org/wiki/Neil_Immerman">Wiki</a>)
 </li>
 
 <li><a href="https://drive.google.com/open?id=1eft8KB049S9JKEC7CHc_XhjSPHZuDi7_">Fundamental Group of 3-Manifold</a> (<a href="https://drive.google.com/open?id=14wPGpRbFJ4Rn44hYd-C_uyVLLQeVqbPB">Slides</a>). Junior-year writing course with Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>
@@ -29,7 +31,7 @@ On this page, you will find the notes I made for the talks I presented, and the 
 
 ###### Notes from the Talks I Attended 
 
-<font size = "4"> <p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. They are all reproduced after the talks are ended using my understandings.</p> 
+<font size = "4"> <p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. They are all reproduced after the talks using my own understandings.</p> 
 
 <ul>
 

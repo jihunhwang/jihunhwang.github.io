@@ -8,12 +8,12 @@ permalink: /timeline/
 <font size="4">
 <ul>
 <li>
-	<div><b>March 2020</b></div>
-		<div>I will be speaking in the <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">UMass Geometric Analysis Seminar</a> in early April 2020 on recent contribution of Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> to the embedded Calabi-Yau conjecture!</div>
+	<div><b>May 2020</b></div>
+		<div>I will be speaking in the <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">UMass Geometric Analysis Seminar</a> in early May 2020 on recent contribution of Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> to the embedded Calabi-Yau conjecture!</div>
 </li>
 
 <li>
-	<div><b>February 2020</b></div>
+	<div><b>April 2020</b></div>
 		<div>In April 29th, 2020, I will be speaking in the <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> with a colleague of mine (Wenbo Xie) on parallel algorithm-based differential equation solver! <a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Here</a> is the abstract of the talk. </div>
 </li>
 
