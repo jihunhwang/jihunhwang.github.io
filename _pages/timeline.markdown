@@ -20,7 +20,7 @@ permalink: /timeline/
 <li>
 	<div><b>January 2020</b></div>
 		<div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergraduate student.</div>
-		<div>I will be spending another 1.5 years around Amherst, MA, in M.S. program in computer science.</div>
+		<div>I will be spending another 1.5 years around Amherst, MA, working on my M.S. in computer science!</div>
 </li>
 </ul>
 </font>
