@@ -31,7 +31,7 @@ On this page, you will find the notes I made for the talks I presented, and the 
 
 ###### Notes from the Talks I Attended 
 
-<font size = "4"> <p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. They are all reproduced after the talks using my own understandings.</p> 
+<font size = "4"> <p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. These were all reproduced after the talks, using my own understandings.</p> 
 
 <ul>
 

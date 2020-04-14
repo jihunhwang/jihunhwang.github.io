@@ -7,7 +7,7 @@ permalink: /links/
 <font size="4">
 <ul>
 
-<li><a href="https://people.umass.edu/plei/"> Patrick Lei</a></li>
+<li><a href="https://people.umass.edu/plei/">Patrick Lei</a> (and his blog <a href="https://personaljournal.ca/abstract-nonsense/">abstract-nonsense</a>)</li>
 <li>Wenbo Xie</li>
 <li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
 <li><a href="https://www.math.umass.edu/directory/graduate-students/abdolvahab-khademi-shamami">Vahab Khademi</a></li>
@@ -29,6 +29,8 @@ permalink: /links/
 <li><a href="https://www.mathcha.io/">Mathcha</a> makes tikz easier. Also, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> and <a href="http://detexify.kirelabs.org/classify.html">detexify</a> are very useful.</li>
 
 <li><a href="https://mathscinet.ams.org/mathscinet/freeTools.html?version=2">AMS Collaboration Distance</a> and <a href="https://www.genealogy.math.ndsu.nodak.edu/">Mathematics Genealogy</a>.</li>
+
+<li><a href="https://personaljournal.ca/abstract-nonsense/my-time-at-umass-part-1">My time at UMass</a> (as an undergraduate pure math/computer science major) by <a href="https://people.umass.edu/plei/">Patrick Lei</a>.</li>
 
 </ul>
 </font>
