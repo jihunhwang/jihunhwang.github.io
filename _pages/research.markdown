@@ -14,6 +14,6 @@ I am interested in studying differential geometry, mainly in <b>geometric analys
 The true beauty of differential geometry, in my opinion, (quite) often appears in its applications. Information and <a href="https://www.youtube.com/watch?v=Mcal5Cy7r4E">discrete differential geometry</a> are great examples, but I also find its links with other distinct fields fascinating, such as nonlinear dynamics (perturbation theory, <a href="https://www.youtube.com/watch?v=byEo9PpHE8Y">Ergodic theory</a>, etc.) and theoretical computer science (<a href="https://www.youtube.com/watch?v=hJdcd1SR_tA">convex optimization</a>, <a href="https://www.youtube.com/watch?v=j8080l9Pvic">dimensionality reduction</a> etc.). I hope to narrow down my area of interest in or after graduate school.
 </p>
 <p>
-Most importantly, I am always open to learn new fields! A colleague of mine (<a href="https://people.umass.edu/plei/">Patrick Lei</a>) had recently introduced me to the world of geometric representation theory and algebraic geometry.
+Most importantly, I am always open to learn new fields! A colleague of mine (<a href="https://people.umass.edu/plei/">Patrick Lei</a>) had recently introduced me to the world of geometric representation theory and <a href="https://www.youtube.com/watch?v=S02ghGCdNDo">algebraic geometry</a>.
 </p>
 </font>
