@@ -9,8 +9,7 @@ permalink:
 
 <font size="4">
 <p>
-My name is Jihun Hwang, but I go by Jimmy. I am a recent graduate of the
-<a href="https://www.umass.edu/">University of Massachusetts Amherst</a>, where I double majored in <a href="https://www.math.umass.edu/">Mathematics</a> and <a href="https://www.cics.umass.edu/">Computer Science</a>, with a minor in <a href="https://www.physics.umass.edu/">Physics</a>.
+My name is Jimmy Hwang. I am currently studying for a master's degree in <a href="https://www.cics.umass.edu/">Computer Science</a> at <a href="https://www.umass.edu/">UMass Amherst</a>. Before that, I was an undergraduate student majoring <a href="https://www.math.umass.edu/">Mathematics</a> and <a href="https://www.cics.umass.edu/">Computer Science</a>, and minoring in <a href="https://www.physics.umass.edu/">Physics</a>.
 </p>
 
 <p>
@@ -22,6 +21,6 @@ I was also a student of Professor <a href="https://www.math.umass.edu/directory/
 </p>
 
 <p>
-I do not have a solid area of interest yet. As of right now, I am interested in differential geometry and its related fields. Please see my <a href="/research/">research page</a> for details.
+I do not have a solid area of interest yet. As of right now, I am interested in theoretical computer science.
 </p>
 </font>

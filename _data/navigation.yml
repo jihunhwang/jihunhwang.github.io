@@ -5,8 +5,6 @@ main:
     url: /notes/
   - title: "Talks"
     url: /talks/
-  - title: "Research"
-    url: /research/
   - title: "Links"
     url: /links/
 
