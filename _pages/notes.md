@@ -14,7 +14,20 @@ Please do not reproduce or distribute without permission.
 </p>
 </font>
 
-###### Courses I Taught/TAed
+###### Independent Studies and Surveys
+
+<font size="4">
+<ul>
+
+<li> Enhanced Differential Equation Solvers Using Parallel Algorithms. Self-studied with a colleague of mine (Wenbo Xie) and presented in UMass CS Theory Seminar in Apr 2020.</li>
+
+<li> Reading Course in Minimal Surface Theory. Independent study supervised by Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> in Spring 2018.</li>
+
+</ul>
+</font>
+
+
+###### Courses I Taught or TAed
 <font size="4">
 <ul>
 
@@ -29,15 +42,6 @@ Please do not reproduce or distribute without permission.
 </ul>
 </font>
 
-###### Independent Study
-
-<font size="4">
-<ul>
-
-<li> Spring 2018, (Not updated yet) <a href="">Reading Course in Minimal Surface Theory</a> supervised by Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a>.</li>
-
-</ul>
-</font>
 
 
 ###### Courses I Took

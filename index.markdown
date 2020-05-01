@@ -9,7 +9,7 @@ permalink:
 
 <font size="4">
 <p>
-My name is Jimmy Hwang. I am currently studying for a master's degree in <a href="https://www.cics.umass.edu/">Computer Science</a> at <a href="https://www.umass.edu/">UMass Amherst</a>. Before that, I was an undergraduate student majoring <a href="https://www.math.umass.edu/">Mathematics</a> and <a href="https://www.cics.umass.edu/">Computer Science</a>, and minoring in <a href="https://www.physics.umass.edu/">Physics</a>.
+My name is Jimmy Hwang. I am currently studying for a master's degree in <a href="https://www.cics.umass.edu/">Computer Science</a> at <a href="https://www.umass.edu/">UMass Amherst</a>. Before that, I was an undergraduate student majoring <a href="https://www.math.umass.edu/">Mathematics</a> and <a href="https://www.cics.umass.edu/">Computer Science</a>, with a minor in <a href="https://www.physics.umass.edu/">Physics</a>.
 </p>
 
 <p>
@@ -21,6 +21,6 @@ I was also a student of Professor <a href="https://www.math.umass.edu/directory/
 </p>
 
 <p>
-I do not have a solid area of interest yet. As of right now, I am interested in theoretical computer science.
+I am interested in <a href="https://groups.cs.umass.edu/theory/">theoretical computer science</a>, in particular convex/numerical optimization and cryptography. I also like reading textbooks in differential geometry and mathematical physics. Most importantly, I am always open to learn new fields!
 </p>
 </font>

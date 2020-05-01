@@ -7,7 +7,7 @@ permalink: /links/
 <font size="4">
 <ul>
 
-<li><a href="https://people.umass.edu/plei/">Patrick Lei</a> (and his blog <a href="https://personaljournal.ca/abstract-nonsense/">abstract-nonsense</a>)</li>
+<li><a href="https://people.umass.edu/plei/">Patrick Lei</a></li>
 <li>Wenbo Xie</li>
 <li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
 <li><a href="https://www.math.umass.edu/directory/graduate-students/abdolvahab-khademi-shamami">Vahab Khademi</a></li>
