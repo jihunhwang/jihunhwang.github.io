@@ -7,9 +7,9 @@ permalink: /misc/
 <font size="4">
 <ul>
 
-<li>I am a proud <a href="https://en.wikipedia.org/wiki/Immigrant_generations#First_generation">first generation American</a> (<a href="https://www.uscis.gov/us-citizenship/naturalization-test/naturalization-oath-allegiance-united-states-america">Oath</a>)</li>
+<li>I am a proud <a href="https://en.wikipedia.org/wiki/Immigrant_generations#First_generation">naturalized first-generation American</a> (<a href="https://www.uscis.gov/us-citizenship/naturalization-test/naturalization-oath-allegiance-united-states-america">Oath of Allegiance</a>)</li>
 
-<li>Another <a href="/image/Jimmy_pic2.png">picture</a> of mine.</li>
+<li>Another <a href="/image/Jimmy_pic2.png">picture</a> of me.</li>
 
 <li>A college of mine (<a href="https://people.umass.edu/plei/">Patrick Lei</a>)'s personal blog <a href="https://personaljournal.ca/abstract-nonsense/">abstract-nonsense</a></li>
 

@@ -2,6 +2,7 @@
 title: Notes
 author_profile: true
 permalink: /notes/
+toc: true
 ---
 
 

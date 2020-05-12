@@ -1,26 +1,36 @@
 ---
 title: Timeline
 permalink: /timeline/
+toc: true
 ---
 
 ###### 2020
 
 <font size="4">
 <ul>
+
 <li>
-	<div><b>May 2020</b></div>
-		<div>I will be speaking in the <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">UMass Geometric Analysis Seminar</a> in May 7th on recent contribution of Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (and his collaborators) to <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>!</div>
+<div><b>June 2020</b></div>
+		<div>I will be giving a brief lecture series at the UMass Geometric Analysis Reading Seminar on introduction to minimal surface theory!</div>
+</li>
+
+<li>
+<div><b>May 2020</b></div>
+		<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in the embedded <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>!</div>
 </li>
 
 <li>
 	<div><b>April 2020</b></div>
-		<div>I spoked at the <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in April 29th with a colleague of mine (Wenbo Xie) on parallel algorithm-based differential equation solver! <a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Here</a> is the abstract of the talk and <a href="https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m">Here</a> is the slides. The survey/notes will be posted here soon.</div>
+		<div>I spoked at the <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in April 29th with a colleague of mine (Wenbo Xie) on parallel algorithm-based differential equation solvers! <a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Here</a> is the abstract of the talk and <a href="https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m">Here</a> are the lecture slides. The survey/notes will be posted here soon.</div>
 </li>
 
 <li>
 	<div><b>January 2020</b></div>
-		<div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergraduate student.</div>
-		<div>I will be spending another 1.5 years around Amherst, MA, working on my M.S. in computer science!</div>
+	<ul>
+		<li><div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad.</div>
+		</li>
+		<li><div>I will be spending another 1.5 years around Amherst, working on my M.S. in computer science!</div></li>
+	</ul>
 </li>
 </ul>
 </font>
@@ -39,7 +49,8 @@ permalink: /timeline/
 
 <li> 
 	<div><b>January 2019</b></div>
-		<div>I started my senior research/thesis under Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a></div> and <a href="https://web.calpoly.edu/~echarala/">Stathis Charalampidis</a> on nonlinear waves, motivated by the results in <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.80.5329">this paper</a> written by <a href="https://physics.berkeley.edu/people/faculty/edgar-knobloch">Edgar Knobloch</a> and <a href="https://sites.me.ucsb.edu/~moehlis/">Jeff Moehlis</a>.
+		<div>I started my senior research/thesis under Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> and <a href="https://web.calpoly.edu/~echarala/">Stathis Charalampidis</a> on nonlinear waves, motivated by the results in <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.80.5329">this paper</a> written by <a href="https://physics.berkeley.edu/people/faculty/edgar-knobloch">Edgar Knobloch</a> and <a href="https://sites.me.ucsb.edu/~moehlis/">Jeff Moehlis</a>.
+		</div>
 </li>
 
 </ul>
@@ -58,8 +69,15 @@ permalink: /timeline/
 </li>
 
 <li>
+	<div><b>May 2018</b></div>
+		<div>I was selected for Math 300 UGTA by the math department with a colleague of mine <a href="https://people.umass.edu/plei/">Patrick Lei</a>!
+		</div>
+</li>
+
+<li>
 	<div><b>April 2018</b></div>
-		<div>I was selected for Math 300 UGTA by the math department with a colleague of mine <a href="https://people.umass.edu/plei/">Patrick Lei</a>.</div>
+		<div>I was invited to give a talk about <a href="https://en.wikipedia.org/wiki/Weierstrass_factorization_theorem">Weierstrass product</a> in Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a>'s Math 421 (Undergrad) Complex analysis class!
+		</div>
 </li>
 
 <li>
@@ -77,7 +95,20 @@ permalink: /timeline/
 
 <li>
 	<div><b>Summer 2017</b></div> 
-	<div>I was again around Amherst, MA for <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a>. I studied Ergodic theory and statistical physics under Professor <a href="https://www.math.umass.edu/directory/faculty/yao-li">Yao Li</a>!</div>
+	<div>I was again around Amherst, MA for <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a>. I studied Ergodic theory and statistical physics under Professor <a href="https://www.math.umass.edu/directory/faculty/yao-li">Yao Li</a>!
+	</div>
+</li>
+
+<li>
+	<div><b>May 2016</b></div>
+	<div>After taking Math 563H Differential Geometry and Math 523 Real Analysis, I decided to study pure mathematics. However, I does not mean I am no longer interested in applied mathematics!
+	</div>
+</li>
+
+<li>
+	<div><b>January 2017</b></div>
+	<div>I am now also a part of <a href="https://www.cics.umass.edu/">CICS</a>! I was admitted to the computer science major with a colleague of mine, Ronny Huang. I plan to double major (or dual degree) math and computer science.
+	</div>
 </li>
 
 </ul>
@@ -88,13 +119,37 @@ permalink: /timeline/
 <font size="4"> 
 <ul>
 
+
 <li>
 	<div><b>Summer 2016</b></div>
-	<div>I was lucky enough be a REU participant in my freshman year. I was at <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a> over the summer studying combinatorial representation theory under Professor <a href="https://www.math.umass.edu/directory/faculty/alexei-oblomkov">Alexei Oblomkov</a>!</div>
+	<div>I was lucky enough be a REU participant in my freshman year. I was at <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a> over the summer studying combinatorial representation theory under Professor <a href="https://www.math.umass.edu/directory/faculty/alexei-oblomkov">Alexei Oblomkov</a>!
+	</div>
+</li>
+
+<li>
+	<div><b>January 2016</b></div>
+	<div>I had decided to start taking upper-level math major courses. I am the only freshman in those classes. Let's see how it goes. 
+	</div>
+</li>
+
+
+</ul>
+</font>
+
+
+###### 2015
+<font size="4"> 
+<ul>
+
+<li>
+	<div><b>September 2015</b></div>
+	<div>Here I go, I am now an adult - a college student! I plan to study applied/computational mathematics, and possibly physics, at UMass Amherst. I don't think I will continue pre-med. 
+	</div>
 </li>
 
 </ul>
 </font>
+
 
 ###### 2014
 <font size="4"> 
