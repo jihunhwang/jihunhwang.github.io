@@ -45,7 +45,7 @@ Please do not reproduce or distribute without permission.
 
 
 
-###### Courses I Took
+###### Courses I Took (Drafts)
 
 <font size="4">
 <ul>
@@ -56,7 +56,7 @@ Please do not reproduce or distribute without permission.
 
 <li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a> taught by Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a> </li>
 
-<li>Fall 2019, <a href="">MATH 611 Abstract Algebra I</a> taught by Professor <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
+<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I</a> taught by Professor <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
 
 <li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology</a> taught by Professor <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li>
 
