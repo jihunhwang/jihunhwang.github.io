@@ -16,7 +16,7 @@ toc: true
 
 <li>
 <div><b>May 2020</b></div>
-		<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in the embedded <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>!</div>
+		<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>!</div>
 </li>
 
 <li>
@@ -101,7 +101,7 @@ toc: true
 
 <li>
 	<div><b>May 2016</b></div>
-	<div>After taking Math 563H Differential Geometry and Math 523 Real Analysis, I decided to study pure mathematics. However, I does not mean I am no longer interested in applied mathematics!
+	<div>After taking Math 563H Differential Geometry and Math 523 Real Analysis, I decided to study pure mathematics. However, it doesn't mean I am no longer interested in applied mathematics and computer science!
 	</div>
 </li>
 

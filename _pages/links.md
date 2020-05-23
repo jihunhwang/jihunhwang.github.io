@@ -7,11 +7,12 @@ permalink: /links/
 <font size="4">
 <ul>
 
-<li><a href="https://people.umass.edu/plei/">Patrick Lei</a></li>
+<li><a href="https://people.umass.edu/plei/">Patrick Lei</a> (<a href="https://personaljournal.ca/abstract-nonsense/">blog</a>)</li>
 <li>Wenbo Xie</li>
 <li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
 <li><a href="https://www.math.umass.edu/directory/graduate-students/abdolvahab-khademi-shamami">Vahab Khademi</a></li>
 <li>Ronny Huang</li>
+<li>Nicolas Dumont</li>
 <li>Victoria Kraj</li>
 <li>Joshua Gordon</li>
 <li>Ashok Raja</li>
@@ -22,6 +23,8 @@ permalink: /links/
 ###### Resources
 <font size="4">
 <ul>
+
+<li><a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone.</li>
 
 <li><a href="https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/">Does one have to be a genius to do maths?</a> By <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a> (<a href="https://en.wikipedia.org/wiki/Terence_Tao">Wiki</a>), one of the greatest mathematicians today. </li>
 
