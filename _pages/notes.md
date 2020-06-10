@@ -9,7 +9,7 @@ toc: true
 
 <font size="4">
 <p>
-Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended. Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, 500-699 Master's, and 600-899 Doctoral. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
+Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended (not I presented!). Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, 500-699 Master's, and 600-899 Doctoral. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
 
 Please do not reproduce or distribute without permission.
 </p>

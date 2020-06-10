@@ -21,6 +21,6 @@ I was also a student of Professor <a href="https://www.math.umass.edu/directory/
 </p>
 
 <p>
-I am interested in <a href="https://groups.cs.umass.edu/theory/">theoretical computer science</a>, in particular cryptography and convex/numerical optimization. I also like reading books and papers in differential geometry and mathematical physics. Most importantly, I am always open to learn new fields!
+I am interested in <a href="https://groups.cs.umass.edu/theory/">theoretical computer science</a>, in particular cryptography and convex/numerical optimization. I also like reading books and papers in geometric analysis and mathematical physics. Most importantly, I am always open to learn new fields!
 </p>
 </font>

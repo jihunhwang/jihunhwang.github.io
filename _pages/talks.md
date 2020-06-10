@@ -4,7 +4,7 @@ permalink: /talks/
 ---
 <font size="4">
 <p>
-On this page, you will find the notes I made for the talks I presented, and the notes I took after the talk I attended.
+On this page, you will find the notes I made for the talks I presented.
 </p>
 </font>
 

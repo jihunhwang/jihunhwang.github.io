@@ -7,7 +7,7 @@ permalink: /links/
 <font size="4">
 <ul>
 
-<li><a href="https://people.umass.edu/plei/">Patrick Lei</a> (<a href="https://personaljournal.ca/abstract-nonsense/">blog</a>)</li>
+<li><a href="https://people.umass.edu/plei/">Patrick Lei</a></li>
 <li>Wenbo Xie</li>
 <li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
 <li><a href="https://www.math.umass.edu/directory/graduate-students/abdolvahab-khademi-shamami">Vahab Khademi</a></li>
@@ -31,8 +31,6 @@ permalink: /links/
 <li><a href="http://people.math.umass.edu/~tevelev/grad_advice.html">(Personal) Advice for pure math undergraduates in UMass Amherst</a> by Professor <a href="http://people.math.umass.edu/~tevelev/index.html">Jenia Tevelev</a>. I strongly believe that his opinions are still valid for applied/computational math students (maybe his opinions <i>plus</i> a few courses in physics/engineering/computer science).</li>
 
 <li><a href="https://people.math.umass.edu/~hacking/gradstudents/">Resources for graduate students</a> and suggested reading in algebraic geometry by <a href="https://people.math.umass.edu/~hacking">Paul Hacking</a>.</li>
-
-<li><a href="https://personaljournal.ca/abstract-nonsense/applying-to-grad-school">Applying to grad school</a> (pure mathematics) by <a href="https://people.umass.edu/plei/">Patrick Lei</a>.</li>
 
 <li><a href="https://artofproblemsolving.com/news/articles/how-to-write-a-solution">How to write a solution</a>. From math olympiad perspective, but still valid in professional mathematics/physics/computer science.</li>
 
