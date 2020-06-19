@@ -46,11 +46,10 @@ Please do not reproduce or distribute without permission.
 
 <li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
 
-<li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology</a> taught by Professor <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li>
+<li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology (Draft)</a> taught by Professor <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li>
 
-<li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
-<li>Spring 2017, <a href="">MATH 621 Complex Analysis</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/tom-weston">Tom Weston</a>. </li>
 
 
 </ul>

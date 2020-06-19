@@ -9,6 +9,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.0.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem "activesupport", ">= 6.0.3.1"
+
 
 # gem "minima", "~> 2.5"
 gem "minimal-mistakes-jekyll"
