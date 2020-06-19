@@ -49,6 +49,8 @@ include:
 
 #logo: "/image/Jimmy_pic.png"
 
+google_analytics_key: UA-157894909-1
+
 footer:
   links:
     - label: "GitHub"
