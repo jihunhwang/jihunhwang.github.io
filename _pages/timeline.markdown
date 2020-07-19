@@ -10,13 +10,18 @@ toc: true
 <ul>
 
 <li>
+<div><b>July 2020</b></div>
+		<div>I will be giving a talk at the UMass Geometric Analysis Reading Seminar about the <a href="https://www.intlpress.com/site/pub/files/_fulltext/journals/cag/1998/0006/0004/CAG-1998-0006-0004-a001.pdf">Dorfmeister-Pedit-Wu</a> (DPW) construction of minimal surfaces!</div>
+</li>
+
+<li>
 <div><b>June 2020</b></div>
-		<div>I will be giving a brief lecture series at the UMass Geometric Analysis Reading Seminar on introduction to minimal surface theory!</div>
+		<div>I have started working with Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a> on Multi-Input <a href="https://eprint.iacr.org/2010/556.pdf">Functional Encryption</a> (MIFE) based privacy-preserving contact tracing.</div>
 </li>
 
 <li>
 <div><b>May 2020</b></div>
-		<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>!</div>
+		<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>, by Colding-Minicozzi and Meeks-Perez-Ros!</div>
 </li>
 
 <li>
@@ -26,11 +31,8 @@ toc: true
 
 <li>
 	<div><b>January 2020</b></div>
-	<ul>
-		<li><div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad.</div>
-		</li>
-		<li><div>I will be spending another 1.5 years around Amherst, working on my M.S. in computer science!</div></li>
-	</ul>
+		<div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad.</div>
+		<div>I will be spending another 1.5 years around Amherst, working on my M.S. in computer science!</div>
 </li>
 </ul>
 </font>

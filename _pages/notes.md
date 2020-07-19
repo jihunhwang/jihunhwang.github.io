@@ -40,7 +40,7 @@ Please do not reproduce or distribute without permission.
 
 <li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis (Draft)</a> taught by Professor <a href="http://people.math.umass.edu/~nahmod/">Andrea Nahmod</a>. </li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis</a> taught by Professor <a href="http://people.math.umass.edu/~nahmod/">Andrea Nahmod</a>. </li>
 
 <li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a> taught by Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. </li>
 
@@ -64,16 +64,13 @@ Please do not reproduce or distribute without permission.
 
 <ul>
 
-<li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional (Draft)</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst in Feb 5th, 12th, 20th, and Mar 11th, 2020.
+<li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst in Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>
 
 <li><a href="https://drive.google.com/open?id=12qsoHC7BUEqZLEjgDOsgUoGx5MgfDRbA">Integrable systems via antidominantly shifted quantum groups (Draft)</a> by <a href="https://users.math.yale.edu/~ot45/">Oleksandr Tsymbaliuk</a> from Yale at <a href="https://www.math.umass.edu/seminars/representation-theory-seminar">Representation Theory Seminar</a> at UMass Amherst in Mar 9th, 2020.
 </li>
 
 <li><a href="https://drive.google.com/open?id=11tl7jYPDhBmSP6B3hZ49snNr8OZ-hAd6">Geography of surface bundles over surfaces (Draft)</a> by <a href="https://people.math.umass.edu/~baykur/">R. İnanç Baykur</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Mar 6th, 2020.
-</li>
-
-<li><a href="">Algorithmic Challenges of Modern Distributed Data (Draft)</a> by <a href="https://onak.pl/">Krzysztof Onak</a> from IBM T. J. Watson Research Center at <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> at UMass Amherst in Mar 2nd, 2020
 </li>
 
 <li><a href="https://drive.google.com/open?id=1G1_7gSlUzcnvNq_t1KiNnP8QQUTryeX_">Computing Higher Symplectic Capacities (Draft)</a> by <a href="http://math.columbia.edu/~kyler/">Kyler Siegel</a> from Columbia at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 19th, 2020.
