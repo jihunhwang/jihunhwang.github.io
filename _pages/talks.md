@@ -11,6 +11,11 @@ On this page, you will find the notes and slides I made for the talks I presente
 ###### Invited/Professional Talks (Seminars, etc.)
 <font size="4">
 <ul>
+
+<li><a href="https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing">Recent Progress in the embedded Calabi-Yau conjecture</a>. UMass Geometric Analysis Reading Seminar in May 7th, 2020.
+	
+</li>
+
 <li><a href="https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m">Enhanced Differential Equation Solvers Using Parallel Algorithms</a> (<a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Abstract</a>). <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in Apr 29th, 2020.
 </li>
 

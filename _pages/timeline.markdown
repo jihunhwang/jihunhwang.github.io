@@ -10,7 +10,7 @@ toc: true
 <ul>
 
 <li>
-<div><b>July 2020</b></div>
+<div><b>August 2020</b></div>
 		<div>I will be giving a talk at the UMass Geometric Analysis Reading Seminar about the <a href="https://www.intlpress.com/site/pub/files/_fulltext/journals/cag/1998/0006/0004/CAG-1998-0006-0004-a001.pdf">Dorfmeister-Pedit-Wu</a> (DPW) construction of minimal surfaces!</div>
 </li>
 
@@ -21,7 +21,7 @@ toc: true
 
 <li>
 <div><b>May 2020</b></div>
-		<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>, by Colding-Minicozzi and Meeks-Perez-Ros!</div>
+		<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>, by Colding-Minicozzi and Meeks-Perez-Ros! <a href="https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing">Here</a> are my notes.</div>
 </li>
 
 <li>
@@ -51,7 +51,7 @@ toc: true
 
 <li> 
 	<div><b>January 2019</b></div>
-		<div>I started my senior research/thesis under Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> and <a href="https://web.calpoly.edu/~echarala/">Stathis Charalampidis</a> on nonlinear waves, motivated by the results in <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.80.5329">this paper</a> written by <a href="https://physics.berkeley.edu/people/faculty/edgar-knobloch">Edgar Knobloch</a> and <a href="https://sites.me.ucsb.edu/~moehlis/">Jeff Moehlis</a>.
+		<div>I started my senior research/thesis under Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> and <a href="https://web.calpoly.edu/~echarala/">Stathis Charalampidis</a> on generating extreme waves from the irregular burstings in superfluid 3-He/4-HE, motivated by the results in <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.80.5329">this paper</a> written by <a href="https://physics.berkeley.edu/people/faculty/edgar-knobloch">Edgar Knobloch</a> and <a href="https://sites.me.ucsb.edu/~moehlis/">Jeff Moehlis</a>.
 		</div>
 </li>
 
