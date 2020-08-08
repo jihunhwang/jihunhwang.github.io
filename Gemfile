@@ -12,6 +12,7 @@ gem "jekyll", "~> 4.0.0"
 gem "activesupport", ">= 6.0.3.1"
 
 gem "kramdown", ">= 2.3.0"
+gem 'jekyll-analytics'
 
 
 # gem "minima", "~> 2.5"
