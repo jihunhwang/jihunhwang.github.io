@@ -4,6 +4,14 @@ permalink: /timeline/
 toc: true
 ---
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157894909-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-157894909-1');
+</script>
+
 ###### 2020
 
 <font size="4">

@@ -3,6 +3,14 @@ title: External Links
 permalink: /links/
 ---
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157894909-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-157894909-1');
+</script>
+
 ###### My Colleagues/Collaborators
 <font size="4">
 <ul>
