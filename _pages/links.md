@@ -18,7 +18,6 @@ permalink: /links/
 <li><a href="https://people.umass.edu/plei/">Patrick Lei</a></li>
 <li>Wenbo Xie</li>
 <li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
-<li><a href="https://www.math.umass.edu/directory/graduate-students/abdolvahab-khademi-shamami">Vahab Khademi</a></li>
 <li>Ronny Huang</li>
 <li>Nicolas Dumont</li>
 <li>Victoria Kraj</li>

@@ -44,6 +44,10 @@ Please do not reproduce or distribute without permission.
 <font size="4">
 <ul>
 
+<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
+
+<li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+
 <li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
 <li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis</a> taught by Professor <a href="http://people.math.umass.edu/~nahmod/">Andrea Nahmod</a>. </li>
