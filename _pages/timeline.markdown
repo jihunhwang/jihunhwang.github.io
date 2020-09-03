@@ -19,12 +19,12 @@ toc: true
 
 <li>
 <div><b>August 2020</b></div>
-		<div>I will be giving a talk at the UMass Geometric Analysis Reading Seminar about the <a href="https://www.intlpress.com/site/pub/files/_fulltext/journals/cag/1998/0006/0004/CAG-1998-0006-0004-a001.pdf">Dorfmeister-Pedit-Wu</a> (DPW) construction of minimal surfaces!</div>
+		<div>I gave a talk at the UMass Geometric Analysis Reading Seminar about the <a href="https://www.intlpress.com/site/pub/files/_fulltext/journals/cag/1998/0006/0004/CAG-1998-0006-0004-a001.pdf">Dorfmeister-Pedit-Wu</a> (DPW) construction of minimal surfaces!</div>
 </li>
 
 <li>
 <div><b>June 2020</b></div>
-		<div>I have started working with Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a> on Multi-Input <a href="https://eprint.iacr.org/2010/556.pdf">Functional Encryption</a> (MIFE) based privacy-preserving contact tracing.</div>
+		<div>I started working with Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a> on Multi-Input <a href="https://eprint.iacr.org/2010/556.pdf">Functional Encryption</a> (MIFE) based privacy-preserving contact tracing.</div>
 </li>
 
 <li>

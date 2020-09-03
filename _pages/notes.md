@@ -42,23 +42,26 @@ Please do not reproduce or distribute without permission.
 ###### Courses I Took
 
 <font size="4">
+
 <ul>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Prof. <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Prof. <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a> taught by Prof. <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis</a> taught by Professor <a href="http://people.math.umass.edu/~nahmod/">Andrea Nahmod</a>. </li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis</a> taught by Prof. <a href="http://people.math.umass.edu/~nahmod/">Andrea Nahmod</a>. </li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a> taught by Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. </li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a> taught by Prof. <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. </li>
 
-<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
+<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I (Draft)</a> taught by Prof. <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
 
-<li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology (Draft)</a> taught by Professor <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li>
+<!--
+<li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology (Draft)</a> taught by Prof. <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li> 
+-->
 
-<li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Prof. <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
 
 
@@ -77,8 +80,9 @@ Please do not reproduce or distribute without permission.
 <li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst in Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>
 
+<!-- 
 <li><a href="https://drive.google.com/open?id=12qsoHC7BUEqZLEjgDOsgUoGx5MgfDRbA">Integrable systems via antidominantly shifted quantum groups (Draft)</a> by <a href="https://users.math.yale.edu/~ot45/">Oleksandr Tsymbaliuk</a> from Yale at <a href="https://www.math.umass.edu/seminars/representation-theory-seminar">Representation Theory Seminar</a> at UMass Amherst in Mar 9th, 2020.
-</li>
+</li>-->
 
 <li><a href="https://drive.google.com/open?id=11tl7jYPDhBmSP6B3hZ49snNr8OZ-hAd6">Geography of surface bundles over surfaces (Draft)</a> by <a href="https://people.math.umass.edu/~baykur/">R. İnanç Baykur</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Mar 6th, 2020.
 </li>
@@ -86,6 +90,7 @@ Please do not reproduce or distribute without permission.
 <li><a href="https://drive.google.com/open?id=1G1_7gSlUzcnvNq_t1KiNnP8QQUTryeX_">Computing Higher Symplectic Capacities (Draft)</a> by <a href="http://math.columbia.edu/~kyler/">Kyler Siegel</a> from Columbia at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 19th, 2020.
 </li>
 
+<!-- 
 <li><a href="https://drive.google.com/open?id=1aVo0zL1BxBFzzwaRNIm8NFRJ5wlsLf1g">The K-theoretic Hall Algebra of a Surface and the Feigin-Odesskii Wheel Conditions (Draft)</a> by <a href="https://math.mit.edu/directory/profile.php?pid=1736">Yu Zhao</a> from MIT at <a href="https://www.math.umass.edu/seminars/representation-theory-seminar">Representation Theory Seminar</a> at UMass Amherst in Feb 18th, 2020.
 </li>
 
@@ -94,6 +99,7 @@ Please do not reproduce or distribute without permission.
 
 <li><a href="https://drive.google.com/open?id=1c_dd1yJWKzdi560e7_5BwIG1uoxHMKOu">The Multiplicative Hitchin System (Draft)</a> by <a href="https://people.math.umass.edu/~celliott/">Chris Elliott</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 7th, 2020.
 </li>
+-->
 
 <li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
 </li>
