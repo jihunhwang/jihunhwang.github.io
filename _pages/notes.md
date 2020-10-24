@@ -87,7 +87,10 @@ Please do not reproduce or distribute without permission.
 <li><a href="https://drive.google.com/open?id=11tl7jYPDhBmSP6B3hZ49snNr8OZ-hAd6">Geography of surface bundles over surfaces (Draft)</a> by <a href="https://people.math.umass.edu/~baykur/">R. İnanç Baykur</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Mar 6th, 2020.
 </li>
 
-<li><a href="https://drive.google.com/open?id=1G1_7gSlUzcnvNq_t1KiNnP8QQUTryeX_">Computing Higher Symplectic Capacities (Draft)</a> by <a href="http://math.columbia.edu/~kyler/">Kyler Siegel</a> from Columbia at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 19th, 2020.
+<li><a href="https://drive.google.com/open?id=1G1_7gSlUzcnvNq_t1KiNnP8QQUTryeX_">Computing Higher Symplectic Capacities</a> by <a href="http://math.columbia.edu/~kyler/">Kyler Siegel</a> from Columbia at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 19th, 2020.
+</li>
+
+<li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
 </li>
 
 <!-- 
@@ -99,13 +102,12 @@ Please do not reproduce or distribute without permission.
 
 <li><a href="https://drive.google.com/open?id=1c_dd1yJWKzdi560e7_5BwIG1uoxHMKOu">The Multiplicative Hitchin System (Draft)</a> by <a href="https://people.math.umass.edu/~celliott/">Chris Elliott</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 7th, 2020.
 </li>
--->
 
-<li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
-</li>
+
 
 <li><a href="https://drive.google.com/open?id=1K6ZjMRAy9Psq5M9Nw3rq2H9YqQeM9IMG">Okounkov-Vershik Approach to Representation Theory of the Symmetric Group (Draft)</a> by <a href="https://www.math.umass.edu/directory/graduate-students/arthur-wang">Arthur Wang</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/graduate-student-seminar">GRASS</a> at UMass Amherst in Jan 29st, 2020. (I was not planning on writing/posting this, but I thought it is worth going over it again as the material covered in this talk was basically the theoretical background of what my first REU project was about.)
 </li>
+-->
 
 </ul>
 </font>
