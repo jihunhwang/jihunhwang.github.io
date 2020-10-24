@@ -21,8 +21,10 @@ On this page, you will find the notes and slides I made for the talks I presente
 <font size="4">
 <ul>
 
+<li><a href="https://drive.google.com/file/d/1lV1dFz7yEn25Me7VfZX0FGK-kZaVPwrG/view?usp=sharing">Constructing Indistinguishability Obfuscation for Polynomial-Sized Circuits</a> (<a href="https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing">Abstract</a>). <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in Oct 20th, 2020.
+</li>
+
 <li><a href="https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing">Recent Progress in the embedded Calabi-Yau conjecture</a>. UMass Geometric Analysis Reading Seminar in May 7th, 2020.
-	
 </li>
 
 <li><a href="https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m">Enhanced Differential Equation Solvers Using Parallel Algorithms</a> (<a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Abstract</a>). <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in Apr 29th, 2020.
@@ -37,6 +39,9 @@ On this page, you will find the notes and slides I made for the talks I presente
 ###### In-class Talks
 <font size="4">
 <ul>
+
+<li><a href="https://drive.google.com/file/d/1SacTAMHzDb384SvHG7GO3Hev_FFCxYIV/view?usp=sharing">Circuit Alternation Theorems</a>. For the independent study with Professor <a href="https://people.cs.umass.edu/~barring/index.html">David Mix Barrington</a> in Sep 25th, 2020.
+</li>
 
 <li><a href="https://drive.google.com/open?id=1WoqGJrSrRFGIz13BWrOsqS5sIbSfi4Ds">Optimization of Non-Smooth Functions</a>. Reading project for CS 690OP Convex Optimization with Professor <a href="https://www.cics.umass.edu/people/fiterau-brostean-madalina">Ina Fiterau</a> in Apr 8th, 2020.
 </li>

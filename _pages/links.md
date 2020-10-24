@@ -15,7 +15,7 @@ permalink: /links/
 <font size="4">
 <ul>
 
-<li><a href="https://people.umass.edu/plei/">Patrick Lei</a></li>
+<li><a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a></li>
 <li>Wenbo Xie</li>
 <li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
 <li>Ronny Huang</li>

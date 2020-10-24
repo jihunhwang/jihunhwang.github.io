@@ -15,7 +15,15 @@ toc: true
 ###### 2020
 
 <font size="4">
+
 <ul>
+
+<li>
+<div><b>October 2020</b></div>
+		<div>I gave a talk at the <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> with a colleague of mine (Kyle Doney) about <a href="https://eprint.iacr.org/2013/451">candidate indistinguishability obfuscators</a>. <a href="https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing">Here</a> is the abstract of the talk.
+		</div>	
+</li>
+
 
 <li>
 <div><b>August 2020</b></div>
