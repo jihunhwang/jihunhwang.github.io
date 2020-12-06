@@ -26,13 +26,13 @@ Please do not reproduce or distribute without permission.
 <font size="4">
 <ul>
 
-<li><a href="https://drive.google.com/open?id=1MRi9y5U_S1zxE9bras8s1L7Ml9Von02N">Fall 2019, MATH 300 Fundamental Concepts of Mathematics</a>: Materials (problems) were selected and created jointly with Professor <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> and <a href="https://people.umass.edu/plei/">Patrick Lei</a>. (<a href="https://drive.google.com/open?id=1EGCkVuPYk9FzxrCJzTzTBwbOexJaygI2">partial solutions</a>) 
+<li><a href="https://drive.google.com/open?id=1MRi9y5U_S1zxE9bras8s1L7Ml9Von02N">Fall 2019, MATH 300 Fundamental Concepts of Mathematics</a>: Materials (problems) were selected and created jointly with Professor <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> and <a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>. (<a href="https://drive.google.com/open?id=1EGCkVuPYk9FzxrCJzTzTBwbOexJaygI2">partial solutions</a>) 
 (<a href="/Downloads/M300_grade.html">grade analytics</a>)
 </li>
 
 <li><a href="https://drive.google.com/file/d/1NBkeN5T1ts7zAJt0A2E7UsKM6R6ORE-b/view?usp=sharing">Spring 2019, MATH 300 Fundamental Concepts of Mathematics</a></li>
 
-<li>Spring 2018, <a href="https://drive.google.com/file/d/1kPq84MlS1eCzRC-WBtKCgWoWHFrlzqps/view?usp=sharing">MATH 421 Undergraduate Complex Analysis</a> created jointly with Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (typed, selected materials, wrote new problems, etc.).</li>
+<li>Spring 2018, <a href="https://drive.google.com/file/d/1kPq84MlS1eCzRC-WBtKCgWoWHFrlzqps/view?usp=sharing">MATH 421 Undergraduate Complex Analysis</a> created jointly with Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (typed, selected materials, wrote homework problems, etc.).</li>
 
 </ul>
 </font>
@@ -45,28 +45,39 @@ Please do not reproduce or distribute without permission.
 
 <ul>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Prof. <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Prof. <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a> taught by Prof. <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/1Tih1yZ9tFDyCFJxoyYe2bejTXbQzBuqJ/view?usp=sharing">CS 796 Independent Study: Complexity Theory (Draft)</a> taught by Professor <a href="https://people.cs.umass.edu/~barring/index.html">David Mix Barrington</a>.</li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis</a> taught by Prof. <a href="http://people.math.umass.edu/~nahmod/">Andrea Nahmod</a>. </li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a> taught by Prof. <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. </li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis</a> taught by Professor <a href="http://people.math.umass.edu/~nahmod/">Andrea Nahmod</a>. </li>
 
-<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I (Draft)</a> taught by Prof. <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a> taught by Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. </li>
+
+<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
 
 <!--
 <li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology (Draft)</a> taught by Prof. <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li> 
 -->
 
-<li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Prof. <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
-
+<li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
 
 </ul>
 </font>
+
+###### Courses I Audited
+<font size = "4"> 
+<ul>
+	<li>Fall 2020 (UC Berkeley), <a href="https://drive.google.com/file/d/17LJ-kPr3HLF9jOvbPEmiM0yUSnNfInd0/view?usp=sharing">MATH 277 Topics Class on Ricci flow</a> taught by Professor <a href="https://math.berkeley.edu/~rbamler/">Richard Bamler</a>.</li>
+
+	<li>Fall 2020 (Boston University), <a href="">CS 548 Advanced Cryptography</a> taught by Professor <a href="https://www.bu.edu/cs/profiles/ran-canetti/">Ran Canetti</a>.</li>
+</ul>
+</font>
+
 
 
 ###### Notes from the Talks I Attended 
@@ -76,6 +87,17 @@ Please do not reproduce or distribute without permission.
 	</p> 
 
 <ul>
+
+<!-- Template
+<li><a href=""></a> by <a href=""></a> from at <a href=""> Seminar</a> at in , 2020.
+</li>	
+-->
+
+<li><a href="">Mean curvature flow in high codimension</a> by <a href="https://math.mit.edu/directory/profile.php?pid=1464">William Minicozzi</a> from MIT at <a href="https://geometricinequalities.com/">Geometric and Functional Inequalities and Applications Seminar</a> (Online) in Oct 26th, 2020.
+</li>
+
+<li><a href="">Lifting with Simple Gadgets and Applications to Circuit and Proof Complexity</a> by <a href="">Susanna F. de Rezende</a> from Czech Academy of Sciences at <a href="https://sites.google.com/site/plustcs/">TCS+</a> (Online) in Oct 7th, 2020.
+</li>
 
 <li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst in Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>

@@ -88,7 +88,7 @@ toc: true
 
 <li>
 	<div><b>May 2018</b></div>
-		<div>I was selected for Math 300 UGTA by the math department with a colleague of mine <a href="https://people.umass.edu/plei/">Patrick Lei</a>!
+		<div>I was selected for Math 300 UGTA by the math department with a colleague of mine <a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>!
 		</div>
 </li>
 
