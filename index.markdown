@@ -29,9 +29,11 @@ I finished my senior thesis under the supervision of Professor <a href="https://
 I was also a student of Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (<a href="https://en.wikipedia.org/wiki/William_Hamilton_Meeks,_III">Wiki</a>) in his reading course in minimal surface theory.
 </p>
 
+<!--
 <p>
 I am interested in <a href="https://groups.cs.umass.edu/theory/">theoretical computer science</a>, in particular cryptography and computational complexity theory. I also like reading books and papers in geometric analysis and partial differential equations. 
 </p>
+-->
 </font>
 
 <br />
