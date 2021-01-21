@@ -20,6 +20,7 @@ permalink: /links/
 <li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
 <li>Ronny Huang</li>
 <li>Nicolas Dumont</li>
+<li>Anastasia Ellison</li>
 <li>Victoria Kraj</li>
 <li>Joshua Gordon</li>
 <li>Ashok Raja</li>

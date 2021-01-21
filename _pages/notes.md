@@ -93,18 +93,20 @@ Please do not reproduce or distribute without permission.
 </li>	
 -->
 
-<!--
-<li><a href="">Mean curvature flow in high codimension</a> by <a href="https://math.mit.edu/directory/profile.php?pid=1464">William Minicozzi</a> from MIT at <a href="https://geometricinequalities.com/">Geometric and Functional Inequalities and Applications Seminar</a> (Online) in Oct 26th, 2020.
-</li>
--->
 
-<li><a href="https://drive.google.com/file/d/1mj6w_cMLJeKtHHnJSlfKDOiSW3KCjM3x/view?usp=sharing">Optimal transport, Ricci curvature lower bounds and group actions (Draft)</a> by <a href="https://www.maths.ox.ac.uk/people/andrea.mondino">Andrea Mondino</a> from Oxford Mathematical Institute at <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Geometry and Analysis Seminar</a> Online in Oct 26th, 2020.
+<li><a href="">Lojasiewicz Inequalities and the Zero Sets of Harmonic Functions</a> by <a href="http://www-users.math.umn.edu/~mengelst/">Max Engelstein</a> from University of Minnesota Twin Cities at the <a href="https://sites.google.com/view/hagmtpdeseminar">HA-GMT-PDE Seminar</a> (Online) on Jan 19th, 2021.
 </li>
 
-<li><a href="">Lifting with Simple Gadgets and Applications to Circuit and Proof Complexity (Draft)</a> by <a href="">Susanna F. de Rezende</a> from Czech Academy of Sciences at <a href="https://sites.google.com/site/plustcs/">TCS+</a> (Online) in Oct 7th, 2020.
+<li><a href="">Representation theory in geometric complexity theory</a> by <a href="http://www-users.math.umn.edu/~mengelst/">Christian Ikenmeyer</a> from University of Liverpool at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> (Online) on Jan 18th, 2021.
 </li>
 
-<li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst in Feb 5th, 12th, 20th, and Mar 11th, 2020.
+<li><a href="https://drive.google.com/file/d/1mj6w_cMLJeKtHHnJSlfKDOiSW3KCjM3x/view?usp=sharing">Optimal transport, Ricci curvature lower bounds and group actions (Draft)</a> by <a href="https://www.maths.ox.ac.uk/people/andrea.mondino">Andrea Mondino</a> from Oxford Mathematical Institute at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> Online on Oct 26th, 2020.
+</li>
+
+<li><a href="">Lifting with Simple Gadgets and Applications to Circuit and Proof Complexity (Draft)</a> by <a href="">Susanna F. de Rezende</a> from Czech Academy of Sciences at <a href="https://sites.google.com/site/plustcs/">TCS+</a> (Online) on Oct 7th, 2020.
+</li>
+
+<li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst on Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>
 
 <!-- 
@@ -118,11 +120,11 @@ Please do not reproduce or distribute without permission.
 <li><a href="https://drive.google.com/open?id=1G1_7gSlUzcnvNq_t1KiNnP8QQUTryeX_">Computing Higher Symplectic Capacities</a> by <a href="http://math.columbia.edu/~kyler/">Kyler Siegel</a> from Columbia at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 19th, 2020.
 </li>
 
-<li><a href="https://drive.google.com/open?id=1c_dd1yJWKzdi560e7_5BwIG1uoxHMKOu">The Multiplicative Hitchin System</a> by <a href="https://people.math.umass.edu/~celliott/">Chris Elliott</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 7th, 2020.
+<li><a href="https://drive.google.com/open?id=1c_dd1yJWKzdi560e7_5BwIG1uoxHMKOu">The Multiplicative Hitchin System</a> by <a href="https://people.math.umass.edu/~celliott/">Chris Elliott</a> from UMass Amherst at the <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">UMass Geometry and Topology Seminar</a> at UMass Amherst in Feb 7th, 2020.
 </li>
 
 
-<li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
+<li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> from UMass Amherst at the <a href="https://www.math.umass.edu/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
 </li>
 
 <!-- 
