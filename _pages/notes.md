@@ -15,7 +15,7 @@ toc: true
 
 <font size="4">
 <p>
-Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended (not I presented!). Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, 500-699 Master's, and 600-899 Doctoral. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
+Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended (not I presented!). Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, <b>500-699 Master's</b>, and <b>600-899 Doctoral</b>. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
 
 Please do not reproduce or distribute without permission.
 </p>
@@ -45,6 +45,8 @@ Please do not reproduce or distribute without permission.
 
 <ul>
 
+<li>Spring 2021, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 797W Algebraic Geometry (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~markman/">Eyal Markman</a>.</li>
+
 <li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
 
 <li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
@@ -62,6 +64,7 @@ Please do not reproduce or distribute without permission.
 <!--
 <li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology (Draft)</a> taught by Prof. <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li> 
 -->
+<li>Spring 2017, <a href="">MATH 621 Graduate Complex Analysis (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~weston/">Tom Weston</a></li>
 
 <li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
@@ -69,12 +72,21 @@ Please do not reproduce or distribute without permission.
 </ul>
 </font>
 
+
 ###### Courses I Audited
+
 <font size = "4"> 
 <ul>
-	<li>Fall 2020 (UC Berkeley), <a href="https://drive.google.com/file/d/17LJ-kPr3HLF9jOvbPEmiM0yUSnNfInd0/view?usp=sharing">MATH 277 Topics Class on Ricci flow</a> taught by Professor <a href="https://math.berkeley.edu/~rbamler/">Richard Bamler</a>.</li>
+	
+<li>Fall 2020 (UC Berkeley), <a href="https://drive.google.com/file/d/17LJ-kPr3HLF9jOvbPEmiM0yUSnNfInd0/view?usp=sharing">MATH 277 Topics Class on Ricci flow</a> taught by Professor <a href="https://math.berkeley.edu/~rbamler/">Richard Bamler</a>.
+</li> 
 
-	<li>Fall 2020 (Boston University), <a href="">CS 548 Advanced Cryptography</a> taught by Professor <a href="https://www.bu.edu/cs/profiles/ran-canetti/">Ran Canetti</a>.</li>
+<li>Fall 2020 (Boston University), <a href="">CS 548 Advanced Cryptography</a> taught by Professor <a href="https://www.bu.edu/cs/profiles/ran-canetti/">Ran Canetti</a>.
+</li>
+
+<li>Spring 2021 (UMass Amherst), <a href="https://drive.google.com/file/d/1YZfK5-VTTKzUXZtRsFSu1-QNDiS9DIN6/view?usp=sharing">MATH 621 Graduate Complex Analysis</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.
+</li>
+
 </ul>
 </font>
 

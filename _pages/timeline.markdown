@@ -12,6 +12,18 @@ toc: true
   gtag('config', 'UA-157894909-1');
 </script>
 
+###### 2021
+<font size="4"> 
+<ul>
+
+<li>
+	<div><b>February 2021</b></div>
+	<div>Along with my regular classes at UMass, I will concurrently be taking <a href="https://www.bsmath.hu/CURRENT/NUTsyllabus.html">Topics in Analytic number theory</a> course offered at <a href="https://www.budapestsemesters.com/spring-2021-distance-learning-opportunity/">Budapest Semester in Mathematics</a> (BSM)! I am quite excited, as UMass had never offered any graduate-level courses in analytic number theory.</div>
+</li>
+
+</ul>
+</font>
+
 ###### 2020
 
 <font size="4">
