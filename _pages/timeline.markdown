@@ -79,7 +79,7 @@ toc: true
 
 <li> 
 	<div><b>January 2019</b></div>
-		<div>I started my senior research/thesis under Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> and <a href="https://web.calpoly.edu/~echarala/">Stathis Charalampidis</a> on generating extreme waves from the irregular burstings in superfluid 3-He/4-HE, motivated by the results in <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.80.5329">this paper</a> written by <a href="https://physics.berkeley.edu/people/faculty/edgar-knobloch">Edgar Knobloch</a> and <a href="https://sites.me.ucsb.edu/~moehlis/">Jeff Moehlis</a>.
+		<div>I started my senior research/thesis under Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> and <a href="https://web.calpoly.edu/~echarala/">Stathis Charalampidis</a> on extreme waves from the irregular burstings in superfluid 3-He/4-HE!
 		</div>
 </li>
 
@@ -95,7 +95,7 @@ toc: true
 
 <li>
 	<div><b>September 27th, 2018</b></div>
-		<div>Effective immediately (from 10 A.M.), Jimmy is now a proud citizen of the United States of America! <a href="https://www.uscis.gov/us-citizenship/naturalization-test/naturalization-oath-allegiance-united-states-america">Oath of Allegiance</a> </div>
+		<div>Effective immediately (from 10 A.M.), Jimmy is now a proud citizen of the United States of America! (<a href="https://www.uscis.gov/us-citizenship/naturalization-test/naturalization-oath-allegiance-united-states-america">Oath of Allegiance</a>)</div>
 </li>
 
 <li>
@@ -124,14 +124,14 @@ toc: true
 <ul>
 
 <li>
-	<div><b>Summer 2017</b></div> 
-	<div>I was again around Amherst, MA for <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a>. I studied Ergodic theory and statistical physics under Professor <a href="https://www.math.umass.edu/directory/faculty/yao-li">Yao Li</a>!
+	<div><b>August 2017</b></div>
+	<div>After taking Math 563H Differential Geometry and studying Ergodic theory during my REU with Professor <a href="https://www.math.umass.edu/directory/faculty/yao-li">Yao Li</a>, I decided to study pure mathematics. However, it doesn't mean I am no longer interested in applied mathematics and computer science!
 	</div>
 </li>
 
 <li>
-	<div><b>May 2016</b></div>
-	<div>After taking Math 563H Differential Geometry and Math 523 Real Analysis, I decided to study pure mathematics. However, it doesn't mean I am no longer interested in applied mathematics and computer science!
+	<div><b>Summer 2017</b></div> 
+	<div>I was again around Amherst, MA for <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a>. I studied Ergodic theory and statistical physics under Professor <a href="https://www.math.umass.edu/directory/faculty/yao-li">Yao Li</a>!
 	</div>
 </li>
 

@@ -26,7 +26,7 @@ Please do not reproduce or distribute without permission.
 <font size="4">
 <ul>
 
-<li><a href="https://drive.google.com/open?id=1MRi9y5U_S1zxE9bras8s1L7Ml9Von02N">Fall 2019, MATH 300 Fundamental Concepts of Mathematics</a>: Materials (problems) were selected and created jointly with Professor <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> and <a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>. (<a href="https://drive.google.com/open?id=1EGCkVuPYk9FzxrCJzTzTBwbOexJaygI2">partial solutions</a>) 
+<li><a href="https://drive.google.com/open?id=1MRi9y5U_S1zxE9bras8s1L7Ml9Von02N">Fall 2019, MATH 300 Fundamental Concepts of Mathematics</a>: Materials and problems were selected and created jointly with Professor <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> and <a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>. (<a href="https://drive.google.com/open?id=1EGCkVuPYk9FzxrCJzTzTBwbOexJaygI2">partial solutions</a>) 
 (<a href="/Downloads/M300_grade.html">grade analytics</a>)
 </li>
 
@@ -45,7 +45,7 @@ Please do not reproduce or distribute without permission.
 
 <ul>
 
-<li>Spring 2021, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 797W Algebraic Geometry (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~markman/">Eyal Markman</a>.</li>
+<li>Spring 2021, <a href="">MATH 797W Algebraic Geometry (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~markman/">Eyal Markman</a>.</li>
 
 <li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
 
@@ -59,14 +59,15 @@ Please do not reproduce or distribute without permission.
 
 <li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a> taught by Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. </li>
 
-<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
+<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I</a> taught by Professor <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
 
 <!--
 <li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology (Draft)</a> taught by Prof. <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li> 
 -->
-<li>Spring 2017, <a href="">MATH 621 Graduate Complex Analysis (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~weston/">Tom Weston</a></li>
 
 <li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+
+<li>Spring 2017, <a href="">MATH 621 Graduate Complex Analysis (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~weston/">Tom Weston</a></li>
 
 
 </ul>
