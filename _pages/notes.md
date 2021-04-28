@@ -45,8 +45,6 @@ Please do not reproduce or distribute without permission.
 
 <ul>
 
-<li>Spring 2021, <a href="">MATH 797W Algebraic Geometry (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~markman/">Eyal Markman</a>.</li>
-
 <li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
 
 <li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
@@ -78,6 +76,11 @@ Please do not reproduce or distribute without permission.
 
 <font size = "4"> 
 <ul>
+
+<li>Spring 2021 (UMass Amherst), <a href="">MATH 797W Algebraic Geometry (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~markman/">Eyal Markman</a>.</li>
+
+<li>Spring 2021 (UMass Amherst), <a href="https://drive.google.com/file/d/1YZfK5-VTTKzUXZtRsFSu1-QNDiS9DIN6/view?usp=sharing">MATH 621 Graduate Complex Analysis</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.
+</li>
 	
 <li>Fall 2020 (UC Berkeley), <a href="https://drive.google.com/file/d/17LJ-kPr3HLF9jOvbPEmiM0yUSnNfInd0/view?usp=sharing">MATH 277 Topics Class on Ricci flow</a> taught by Professor <a href="https://math.berkeley.edu/~rbamler/">Richard Bamler</a>.
 </li> 
@@ -85,8 +88,6 @@ Please do not reproduce or distribute without permission.
 <li>Fall 2020 (Boston University), <a href="">CS 548 Advanced Cryptography</a> taught by Professor <a href="https://www.bu.edu/cs/profiles/ran-canetti/">Ran Canetti</a>.
 </li>
 
-<li>Spring 2021 (UMass Amherst), <a href="https://drive.google.com/file/d/1YZfK5-VTTKzUXZtRsFSu1-QNDiS9DIN6/view?usp=sharing">MATH 621 Graduate Complex Analysis</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.
-</li>
 
 </ul>
 </font>

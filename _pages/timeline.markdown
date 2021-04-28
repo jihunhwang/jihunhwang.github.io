@@ -17,8 +17,19 @@ toc: true
 <ul>
 
 <li>
+	<div><b>April 2021</b></div>
+	<div>Excited to announce that I accepted my offer to the Computer Science Ph.D. program at <a href="https://www.cs.purdue.edu/">Purdue</a>!</div>
+
+</li>	
+
+<li>
 	<div><b>February 2021</b></div>
 	<div>Along with my regular classes at UMass, I will concurrently be taking <a href="https://www.bsmath.hu/CURRENT/NUTsyllabus.html">Topics in Analytic number theory</a> course offered at <a href="https://www.budapestsemesters.com/spring-2021-distance-learning-opportunity/">Budapest Semester in Mathematics</a> (BSM)! I am quite excited, as UMass had never offered any graduate-level courses in analytic number theory.</div>
+</li>
+
+<li>
+	<div><b>January 2021</b></div>
+	<div>UMass Cryptography Group led by Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a> is now running a seminar series, <a href="https://sites.google.com/view/umasscryptosem/">UMass Cryptography Seminar</a>. I will be one of the co-organizers!</div>
 </li>
 
 </ul>
