@@ -18,7 +18,7 @@ permalink:
 
 <font size="4">
 <p>
-My name is Jimmy Hwang. I am an incoming Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>. I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a>.
+I am an incoming Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a>.
 </p>
 
 <p>
@@ -26,11 +26,11 @@ Before Purdue, I was an M.S. student in <a href="https://www.cics.umass.edu/">Co
 </p>
 
 <p>
-Even before that, I did my undergrad in <a href="https://www.math.umass.edu/">Mathematics</a> at the same institution, where I finished my senior thesis under the supervision of Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> (<a href="https://en.wikipedia.org/wiki/Panayotis_G._Kevrekidis">Wiki</a>) on extreme wave events (<a href="/Downloads/Hwang_Abstract.pdf">Abstract here</a>), and my academic advisor was Professor <a href="https://people.math.umass.edu/~nahmod/">Andrea Nahmod</a> (<a href="https://en.wikipedia.org/wiki/Andrea_R._Nahmod">Wiki</a>). It was an honor to be a student of two <a href="http://www.ams.org/profession/ams-fellows/ams-fellows">AMS Fellows</a>!
+Even before that, I did my undergrad in <a href="https://www.math.umass.edu/">Mathematics</a> at the same institution. I finished my senior thesis under the supervision of Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> (<a href="https://en.wikipedia.org/wiki/Panayotis_G._Kevrekidis">Wiki</a>) on extreme wave events (<a href="/Downloads/Hwang_Abstract.pdf">Abstract here</a>), and my academic advisor was Professor <a href="https://people.math.umass.edu/~nahmod/">Andrea Nahmod</a> (<a href="https://en.wikipedia.org/wiki/Andrea_R._Nahmod">Wiki</a>). It was an honor to be a student of two <a href="http://www.ams.org/profession/ams-fellows/ams-fellows">AMS Fellows</a>!
 </p>
 
 <p>
-I am interested in <b>theoretical cryptography</b> and its connections with other fields such as <b>computational complexity</b>, applied analysis, and algebraic/differential geometry. I also like to talk about convex optimization, topological data analysis, and cybersecurity, but not as much as I like cryptography. 
+I am interested in <b>theoretical cryptography</b> and its connections with other fields such as complexity theory, applied analysis, and algebraic/differential geometry. I also like to talk about convex optimization, topological data analysis, and cybersecurity, but not as much as I like cryptography. 
 </p>
 
 

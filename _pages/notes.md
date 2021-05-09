@@ -15,14 +15,12 @@ toc: true
 
 <font size="4">
 <p>
-Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended (not I presented!). Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, <b>500-699 Master's</b>, and <b>600-899 Doctoral</b>. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
-
-Please do not reproduce or distribute without permission.
+Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended (not I presented!). Please do not reproduce or distribute these without permission.
 </p>
 </font>
 
 
-###### Courses I Taught or TAed
+###### Courses I TAed at UMass
 <font size="4">
 <ul>
 
@@ -39,9 +37,12 @@ Please do not reproduce or distribute without permission.
 
 
 
-###### Courses I Took
+###### Courses I Took at UMass
 
 <font size="4">
+	<p>
+Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, <b>500-699 Master's</b>, and <b>600-899 Doctoral</b>. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
+	</p>
 
 <ul>
 
@@ -107,9 +108,10 @@ Please do not reproduce or distribute without permission.
 </li>	
 -->
 
-
+<!--
 <li><a href="">Lojasiewicz Inequalities and the Zero Sets of Harmonic Functions</a> by <a href="http://www-users.math.umn.edu/~mengelst/">Max Engelstein</a> from University of Minnesota Twin Cities at the <a href="https://sites.google.com/view/hagmtpdeseminar">HA-GMT-PDE Seminar</a> (Online) on Jan 19th, 2021.
 </li>
+-->
 
 <li><a href="">Representation theory in geometric complexity theory</a> by <a href="http://www-users.math.umn.edu/~mengelst/">Christian Ikenmeyer</a> from University of Liverpool at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> (Online) on Jan 18th, 2021.
 </li>

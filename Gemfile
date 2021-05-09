@@ -11,8 +11,9 @@ gem "jekyll", "~> 4.0.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "activesupport", ">= 6.0.3.1"
 
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.3.1"
 gem 'jekyll-analytics'
+gem "rexml", ">= 3.2.5"
 
 
 # gem "minima", "~> 2.5"

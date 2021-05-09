@@ -13,19 +13,7 @@ permalink: /links/
 
 ###### My Colleagues/Collaborators
 <font size="4">
-<ul>
-
-<li><a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a></li>
-<li>Wenbo Xie</li>
-<li><a href="https://github.com/sharath">Sharath Ramkumar</a></li>
-<li>Ronny Huang</li>
-<li>Nicolas Dumont</li>
-<li>Anastasia Ellison</li>
-<li>Victoria Kraj</li>
-<li>Joshua Gordon</li>
-<li>Ashok Raja</li>
-
-</ul>
+	<a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>, Wenbo Xie, <a href="https://github.com/sharath">Sharath Ramkumar</a>, Ronny Huang, Nicolas Dumont, Anastasia Ellison, Victoria Kraj, Joshua Gordon, Ashok Raja
 </font>
 
 ###### Resources
@@ -33,6 +21,8 @@ permalink: /links/
 <ul>
 
 <li><a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone.</li>
+
+<li><a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>. A comprehensive list of seminars and conferences in cryptography and cyber security.</li>
 
 <li><a href="https://people.math.umass.edu/~hacking/gradstudents/">Resources for graduate students</a> and suggested reading in algebraic geometry by <a href="https://people.math.umass.edu/~hacking">Paul Hacking</a>.</li>
 
