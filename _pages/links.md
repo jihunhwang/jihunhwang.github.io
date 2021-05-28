@@ -34,5 +34,7 @@ permalink: /links/
 
 <li><a href="https://mathscinet.ams.org/mathscinet/freeTools.html?version=2">AMS Collaboration Distance</a> and <a href="https://www.genealogy.math.ndsu.nodak.edu/">Mathematics Genealogy</a>.</li>
 
+<li><a href="https://is.gd/ourfa2m2">OURFA²M²</a> provides helpful information for undergrad math majors. A bit combinatorics-heavy (in my opinion) but still provides valuable resources.</li>
+
 </ul>
 </font>
