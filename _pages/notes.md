@@ -20,7 +20,16 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 </font>
 
 
+###### Courses I Took at Purdue
+<details>
+	<summary><font size="4">Coming Soon!</font></summary>
+</details>
+	
+
 ###### Courses I TAed at UMass
+<details>
+	<summary><font size="4">Click to expand</font></summary>
+
 <font size="4">
 <ul>
 
@@ -34,11 +43,12 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 
 </ul>
 </font>
-
+</details>
 
 
 ###### Courses I Took at UMass
-
+<details>
+		<summary><font size="4">Click to expand</font></summary>
 <font size="4">
 	<p>
 Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, <b>500-699 Master's</b>, and <b>600-899 Doctoral</b>. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
@@ -66,15 +76,19 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 
 <li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
+<!--
 <li>Spring 2017, <a href="">MATH 621 Graduate Complex Analysis (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~weston/">Tom Weston</a></li>
-
+-->
 
 </ul>
 </font>
+</details>
 
 
 ###### Courses I Audited
 
+<details>
+		<summary><font size="4">Click to expand</font></summary>
 <font size = "4"> 
 <ul>
 
@@ -93,13 +107,15 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </li>
 -->
 
-
 </ul>
 </font>
-
+</details>
 
 
 ###### Notes from the Talks I Attended 
+
+<details>
+		<summary><font size="4">Click to expand</font></summary>
 
 <font size = "4"> 
 	<p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. These were all reproduced after the talks, using my own understandings.
@@ -123,13 +139,15 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 <li><a href="https://drive.google.com/file/d/1mj6w_cMLJeKtHHnJSlfKDOiSW3KCjM3x/view?usp=sharing">Optimal transport, Ricci curvature lower bounds and group actions (Draft)</a> by <a href="https://www.maths.ox.ac.uk/people/andrea.mondino">Andrea Mondino</a> from Oxford Mathematical Institute at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> Online on Oct 26th, 2020.
 </li>
 
+<!-- 
+
 <li><a href="">Lifting with Simple Gadgets and Applications to Circuit and Proof Complexity (Draft)</a> by <a href="">Susanna F. de Rezende</a> from Czech Academy of Sciences at <a href="https://sites.google.com/site/plustcs/">TCS+</a> (Online) on Oct 7th, 2020.
 </li>
 
 <li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst on Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>
 
-<!-- 
+
 <li><a href="https://drive.google.com/open?id=12qsoHC7BUEqZLEjgDOsgUoGx5MgfDRbA">Integrable systems via antidominantly shifted quantum groups (Draft)</a> by <a href="https://users.math.yale.edu/~ot45/">Oleksandr Tsymbaliuk</a> from Yale at <a href="https://www.math.umass.edu/seminars/representation-theory-seminar">Representation Theory Seminar</a> at UMass Amherst in Mar 9th, 2020.
 </li>-->
 
@@ -162,3 +180,4 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 
 </ul>
 </font>
+</details>

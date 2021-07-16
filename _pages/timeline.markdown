@@ -13,13 +13,19 @@ toc: true
 </script>
 
 ###### 2021
+
 <font size="4"> 
 <ul>
 
 <li>
+	<div><b>July 2021</b></div>
+	<div>Received an official notification that I am clear to leave UMass CICS. I am now a proud <a href="https://www.umassalumni.com/s/1640/rd17/home.aspx?gid=2&pgid=61">UMass alumna</a>!</div>
+</li>	
+
+
+<li>
 	<div><b>April 2021</b></div>
 	<div>Excited to announce that I accepted my offer to the Computer Science Ph.D. program at <a href="https://www.cs.purdue.edu/">Purdue</a>!</div>
-
 </li>	
 
 <li>
@@ -35,8 +41,10 @@ toc: true
 </ul>
 </font>
 
-###### 2020
 
+###### 2020
+<details>
+	<summary><font size="4">Click to expand</font></summary>
 <font size="4">
 
 <ul>
@@ -75,11 +83,12 @@ toc: true
 </li>
 </ul>
 </font>
-
+</details>
 
 
 ###### 2019
-
+<details>
+	<summary><font size="4">Click to expand</font></summary>
 <font size="4"> 
 <ul>
 
@@ -96,11 +105,14 @@ toc: true
 
 </ul>
 </font>
+</details>
 
 
 
 ###### 2018
 
+<details>
+	<summary><font size="4">Click to expand</font></summary>
 <font size="4"> 
 <ul>
 
@@ -128,9 +140,12 @@ toc: true
 
 </ul>
 </font>
+</details>
 
 
 ###### 2017
+<details>
+	<summary><font size="4">Click to expand</font></summary>
 <font size="4"> 
 <ul>
 
@@ -154,9 +169,12 @@ toc: true
 
 </ul>
 </font>
+</details>
 
 
 ###### 2016
+<details>
+	<summary><font size="4">Click to expand</font></summary>
 <font size="4"> 
 <ul>
 
@@ -176,9 +194,12 @@ toc: true
 
 </ul>
 </font>
+</details>
 
 
 ###### 2015
+<details>
+	<summary><font size="4">Click to expand</font></summary>
 <font size="4"> 
 <ul>
 
@@ -190,9 +211,12 @@ toc: true
 
 </ul>
 </font>
+</details>
 
 
 ###### 2014
+<details>
+	<summary><font size="4">Click to expand</font></summary>
 <font size="4"> 
 <ul>
 
@@ -203,6 +227,7 @@ toc: true
 
 </ul>
 </font>
+</details>
 
 
 
