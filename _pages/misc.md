@@ -41,7 +41,7 @@ permalink: /misc/
 <ul>
 
 <li>
-	Why do I love and choose to do mathematics (⊃ theoretical computer science)? Watch this TED Talk <a href="https://youtu.be/Kc0Kthyo0hU"><i>What's so sexy about math?</i></a> by <a href="https://cedricvillani.org/">Cédric Villani</a> (<a href="https://en.wikipedia.org/wiki/C%C3%A9dric_Villani">Wiki</a>), 2010 Fields Medalist.
+	Why do I love mathematics (⊃ theoretical computer science)? Watch this TED Talk <a href="https://youtu.be/Kc0Kthyo0hU"><i>What's so sexy about math?</i></a> by <a href="https://cedricvillani.org/">Cédric Villani</a> (<a href="https://en.wikipedia.org/wiki/C%C3%A9dric_Villani">Wiki</a>), 2010 Fields Medalist.
 </li>
 
 <li>
@@ -50,6 +50,10 @@ permalink: /misc/
 
 <li>
 	I was a huge fan of <a href="https://www.youtube.com/channel/UClmcETd3c872BSbH9KVSwwA">her</a> (<a href="https://en.wikipedia.org/wiki/Miryo">Wiki</a>) and her music when I was in high school.
+</li>
+
+<li>
+	<a href="https://youtu.be/4Xp4F1h0YZM">How to pronounce German Mathematician's Names</a> (cw: swearing and memes). I am still struggling but I have gotten way better though.
 </li>
 </ul>
 </font>

@@ -18,7 +18,7 @@ permalink:
 
 <font size="4">
 <p>
-I am an incoming Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a>.
+I am a first year Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a>.
 </p>
 
 <p>
@@ -30,7 +30,7 @@ Even before that, I did my undergrad in <a href="https://www.math.umass.edu/">Ma
 </p>
 
 <p>
-I am interested in <b>theoretical cryptography</b> and its connections with other fields such as complexity theory, applied analysis, and algebraic/differential geometry. I also like to talk about convex optimization, topological data analysis, and cybersecurity, but not as much as I like cryptography. 
+I am interested in <b>theoretical cryptography</b> and its connections with other fields such as complexity theory, fourier analysis, and algebraic geometry. I also like to talk about optimization, TDA, and cybersecurity, but not as much as I like cryptography. 
 </p>
 
 

@@ -17,12 +17,18 @@ toc: true
 <p>
 Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended (not I presented!). Please do not reproduce or distribute these without permission.
 </p>
+
 </font>
 
 
 ###### Courses I Took at Purdue
 <details>
 	<summary><font size="4">Coming Soon!</font></summary>
+<font size="4">
+<p>
+Roughly, Purdue adopts the following course numbering system: 100-499 Undergraduate and <b>500-699 Graduate</b>. See <a href="https://www.purdue.edu/registrar/documents/currentStudents/students/preBannerTranscriptKey.pdf">this</a> for more details.
+</p>
+</font>
 </details>
 	
 
@@ -50,13 +56,14 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 <details>
 		<summary><font size="4">Click to expand</font></summary>
 <font size="4">
-	<p>
+
+<p>
 Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, <b>500-699 Master's</b>, and <b>600-899 Doctoral</b>. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
-	</p>
+</p>
 
 <ul>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
 
 <li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
 
@@ -94,13 +101,14 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 
 <!--
 <li>Spring 2021 (UMass Amherst), <a href="">MATH 797W Algebraic Geometry (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~markman/">Eyal Markman</a>.</li>
--->
+
 
 <li>Spring 2021 (UMass Amherst), <a href="https://drive.google.com/file/d/1YZfK5-VTTKzUXZtRsFSu1-QNDiS9DIN6/view?usp=sharing">MATH 621 Graduate Complex Analysis (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.
 </li>
 	
 <li>Fall 2020 (UC Berkeley), <a href="https://drive.google.com/file/d/17LJ-kPr3HLF9jOvbPEmiM0yUSnNfInd0/view?usp=sharing">MATH 277 Topics Class on Ricci flow (Draft)</a> taught by Professor <a href="https://math.berkeley.edu/~rbamler/">Richard Bamler</a>.
 </li> 
+-->
 
 <!--
 <li>Fall 2020 (Boston University), <a href="">CS 548 Advanced Cryptography (Draft)</a> taught by Professor <a href="https://www.bu.edu/cs/profiles/ran-canetti/">Ran Canetti</a>.
@@ -128,28 +136,20 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </li>	
 -->
 
-<!--
-<li><a href="">Lojasiewicz Inequalities and the Zero Sets of Harmonic Functions</a> by <a href="http://www-users.math.umn.edu/~mengelst/">Max Engelstein</a> from University of Minnesota Twin Cities at the <a href="https://sites.google.com/view/hagmtpdeseminar">HA-GMT-PDE Seminar</a> (Online) on Jan 19th, 2021.
+<!-- 
+<li><a href="">Representation theory in geometric complexity theory</a> by <a href="http://www-users.math.umn.edu/~mengelst/">Christian Ikenmeyer</a> from University of Liverpool at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> (Online) on Jan 18th, 2021.
 </li>
 -->
 
-<li><a href="">Representation theory in geometric complexity theory</a> by <a href="http://www-users.math.umn.edu/~mengelst/">Christian Ikenmeyer</a> from University of Liverpool at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> (Online) on Jan 18th, 2021.
-</li>
-
+<!-- 
 <li><a href="https://drive.google.com/file/d/1mj6w_cMLJeKtHHnJSlfKDOiSW3KCjM3x/view?usp=sharing">Optimal transport, Ricci curvature lower bounds and group actions (Draft)</a> by <a href="https://www.maths.ox.ac.uk/people/andrea.mondino">Andrea Mondino</a> from Oxford Mathematical Institute at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> Online on Oct 26th, 2020.
 </li>
+-->
 
-<!-- 
-
-<li><a href="">Lifting with Simple Gadgets and Applications to Circuit and Proof Complexity (Draft)</a> by <a href="">Susanna F. de Rezende</a> from Czech Academy of Sciences at <a href="https://sites.google.com/site/plustcs/">TCS+</a> (Online) on Oct 7th, 2020.
-</li>
+ 
 
 <li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst on Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>
-
-
-<li><a href="https://drive.google.com/open?id=12qsoHC7BUEqZLEjgDOsgUoGx5MgfDRbA">Integrable systems via antidominantly shifted quantum groups (Draft)</a> by <a href="https://users.math.yale.edu/~ot45/">Oleksandr Tsymbaliuk</a> from Yale at <a href="https://www.math.umass.edu/seminars/representation-theory-seminar">Representation Theory Seminar</a> at UMass Amherst in Mar 9th, 2020.
-</li>-->
 
 <!-- 
 <li><a href="https://drive.google.com/open?id=11tl7jYPDhBmSP6B3hZ49snNr8OZ-hAd6">Geography of surface bundles over surfaces (Draft)</a> by <a href="https://people.math.umass.edu/~baykur/">R. İnanç Baykur</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Mar 6th, 2020.
@@ -166,16 +166,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </li>
 
 <!-- 
-<li><a href="https://drive.google.com/open?id=1aVo0zL1BxBFzzwaRNIm8NFRJ5wlsLf1g">The K-theoretic Hall Algebra of a Surface and the Feigin-Odesskii Wheel Conditions (Draft)</a> by <a href="https://math.mit.edu/directory/profile.php?pid=1736">Yu Zhao</a> from MIT at <a href="https://www.math.umass.edu/seminars/representation-theory-seminar">Representation Theory Seminar</a> at UMass Amherst in Feb 18th, 2020.
-</li>
 
-<li><a href="https://drive.google.com/open?id=1MPKSr22Itkg5hcthl8pngxCQnMhtKzbh">Hyperbolic Geometry in Machine Learning (Draft)</a> by <a href="https://people.csail.mit.edu/oct/">Octavian-Eugen Ganea</a> from MIT/ETH Zurich at <a href="https://ds.cs.umass.edu/mlfl">MLFL</a> at UMass Amherst in Feb. 13th, 2020.
-</li>
-
-
-
-<li><a href="https://drive.google.com/open?id=1K6ZjMRAy9Psq5M9Nw3rq2H9YqQeM9IMG">Okounkov-Vershik Approach to Representation Theory of the Symmetric Group (Draft)</a> by <a href="https://www.math.umass.edu/directory/graduate-students/arthur-wang">Arthur Wang</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/graduate-student-seminar">GRASS</a> at UMass Amherst in Jan 29st, 2020. (I was not planning on writing/posting this, but I thought it is worth going over it again as the material covered in this talk was basically the theoretical background of what my first REU project was about.)
-</li>
 -->
 
 </ul>

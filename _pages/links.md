@@ -24,7 +24,7 @@ permalink: /links/
 
 <li><a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>. A comprehensive list of seminars and conferences in cryptography and cyber security.</li>
 
-<li><a href="https://projecteuler.net/">Project Euler</a>, basically a more math-y version of <a href="https://leetcode.com/">LeetCode</a>.</li>
+<li><a href="https://projecteuler.net/">Project Euler</a>, basically a math-y version of <a href="https://leetcode.com/">LeetCode</a>.</li>
 
 <li><a href="https://people.math.umass.edu/~hacking/gradstudents/">Resources for graduate students</a> and suggested reading in algebraic geometry by <a href="https://people.math.umass.edu/~hacking">Paul Hacking</a>.</li>
 

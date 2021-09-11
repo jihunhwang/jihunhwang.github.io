@@ -40,13 +40,11 @@ On this page, you will find the notes and slides I made for the talks I presente
 <font size="4">
 <ul>
 
-<li><a href="https://drive.google.com/file/d/1SacTAMHzDb384SvHG7GO3Hev_FFCxYIV/view?usp=sharing">Circuit Alternation Theorems</a>. For the independent study with Professor <a href="https://people.cs.umass.edu/~barring/index.html">David Mix Barrington</a> in Sep 25th, 2020.
-</li>
 
 <li><a href="https://drive.google.com/open?id=1WoqGJrSrRFGIz13BWrOsqS5sIbSfi4Ds">Optimization of Non-Smooth Functions</a> and <a href="https://drive.google.com/file/d/1V0-tLMkKijvZEi46CJ4H040T3DRaBMjr/view?usp=sharing">Convergence Along ULA Under Isoperimetric Assumptions</a>. Reading projects for CS 690OP Convex Optimization with Professor <a href="https://www.cics.umass.edu/people/fiterau-brostean-madalina">Ina Fiterau</a> in Apr 8th and 29th, 2020 respectively.
 </li>
 
-<li><a href="https://drive.google.com/file/d/1xN1JNhN7NQHwCpbjEuje0WM4pJqjAoB5/view?usp=sharing">Adjoints of Unbounded Linear Operators</a> and <a href="https://drive.google.com/file/d/1vaLFJkxKwcpFv8D9rwJaSCXwFLrsiPpk/view?usp=sharing">Sobolev Spaces W_0^{1,p}</a>. In-class presentation for <a href="https://people.math.umass.edu/~nahmod/M725_S20.html">MATH 725 Functional Analysis</a> with Professor <a href="https://people.math.umass.edu/~nahmod/">Andrea Nahmod</a> in Mar 3rd and Apr 28th, 2020.
+<li><a href="https://drive.google.com/file/d/1xN1JNhN7NQHwCpbjEuje0WM4pJqjAoB5/view?usp=sharing">Adjoints of Unbounded Linear Operators</a> and <a href="https://drive.google.com/file/d/1vaLFJkxKwcpFv8D9rwJaSCXwFLrsiPpk/view?usp=sharing">Sobolev Spaces W_0^{1,p}</a>. In-class presentation for <a href="https://people.math.umass.edu/~nahmod/M725_S20.html">MATH 725 Functional Analysis</a> with Professor <a href="https://people.math.umass.edu/~nahmod/">Andrea Nahmod</a> (<a href="https://en.wikipedia.org/wiki/Andrea_R._Nahmod">Wiki</a>) in Mar 3rd and Apr 28th, 2020 respectively.
 </li>
 
 <li><a href="https://drive.google.com/open?id=1eft8KB049S9JKEC7CHc_XhjSPHZuDi7_">Fundamental Group of 3-Manifold</a> (<a href="https://drive.google.com/open?id=14wPGpRbFJ4Rn44hYd-C_uyVLLQeVqbPB">Slides</a>). Junior-year writing course with Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a> in Dec 6th, 2018.
