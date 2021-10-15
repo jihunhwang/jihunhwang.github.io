@@ -2,6 +2,7 @@
 title: Miscellaneous
 author_profile: true
 permalink: /misc/
+toc: true
 ---
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157894909-1"></script>
@@ -30,6 +31,12 @@ permalink: /misc/
 	<li>
 		<a href="https://terrytao.wordpress.com/2019/06/27/living-proof-stories-of-resilience-along-the-mathematical-journey/">Living Proof: Stories of Resilience Along the Mathematical Journey</a>. Please read this if you feel incompetent or powerless after an exam (or a semester).
 	</li>
+	<li>
+		<a href="https://www.theatlantic.com/education/archive/2021/09/bias-math-sexism-racism/620207/">Math is Personal</a>. In case you do not understand why teachers are often called the engineers of human soul. I believe every student is more valuable than the numerical or letter outputs they make in class.
+	</li>
+	<li>
+  	<a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. 
+	</li>
 	
 </ul>
 
@@ -51,9 +58,9 @@ permalink: /misc/
 <li>
 	I was a huge fan of <a href="https://www.youtube.com/channel/UClmcETd3c872BSbH9KVSwwA">her</a> (<a href="https://en.wikipedia.org/wiki/Miryo">Wiki</a>) and her music when I was in high school.
 </li>
-
 <li>
-	<a href="https://youtu.be/4Xp4F1h0YZM">How to pronounce German Mathematician's Names</a> (cw: swearing and memes). I am still struggling but I have gotten way better though.
+	I have been practicing this: <a href="https://youtu.be/4Xp4F1h0YZM">How to pronounce German Mathematician's Names</a> (cw: swearing and memes). I am still struggling but I have gotten way better though.
 </li>
+
 </ul>
 </font>

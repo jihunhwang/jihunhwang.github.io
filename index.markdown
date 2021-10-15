@@ -30,7 +30,7 @@ Even before that, I did my undergrad in <a href="https://www.math.umass.edu/">Ma
 </p>
 
 <p>
-I am interested in <b>theoretical cryptography</b> and its connections with other fields such as complexity theory, fourier analysis, and algebraic geometry. I also like to talk about optimization, TDA, and cybersecurity, but not as much as I like cryptography. 
+I am broadly interested in studying <b>cryptography</b> and coding theory using tools from <b>complexity theory</b>, harmonic analysis, and algebraic geometry. I also like to talk about optimization, TDA, quantum computing, and cybersecurity, but not as much as I like cryptography. 
 </p>
 
 

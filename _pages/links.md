@@ -36,5 +36,11 @@ permalink: /links/
 
 <li><a href="https://is.gd/ourfa2m2">OURFA²M²</a> provides helpful information for undergrad math majors. A bit combinatorics-heavy (in my opinion) but still contains valuable resources.</li>
 
+<li>
+  <a href="https://glebbahmutov.com/blog/dont-help-me-say-no/">Don't help me say no</a>. A great list of mistakes that you should avoid at all costs in your job applications written by a Purdue CS Ph.D. alum. Also, see <a href="https://glebbahmutov.com/blog/help-me-say-yes/">Help me say yes</a>.
+</li>
+
+
+
 </ul>
 </font>
