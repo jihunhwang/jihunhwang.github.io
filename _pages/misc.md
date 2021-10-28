@@ -13,7 +13,7 @@ toc: true
   gtag('config', 'UA-157894909-1');
 </script>
 
-###### Some Thoughts
+###### Some Thoughts or Pedagogies
 <font size="4">
 <ul>
 	<li>
@@ -36,6 +36,9 @@ toc: true
 	</li>
 	<li>
   	<a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. 
+	</li>
+	<li>
+		<a href="https://artofproblemsolving.com/community/c5h1147943p5421541">Having Time for Math</a>. If you don't have time, then maybe you should make some time!
 	</li>
 	
 </ul>

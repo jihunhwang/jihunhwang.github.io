@@ -18,6 +18,16 @@ toc: true
 <ul>
 
 <li>
+	<div><b>October 2021</b></div>
+	<div>Started attending the virtual sections of the <a href="https://gct2022.sciencesconf.org/">GCT 2022</a>, School and Conference on Geometric Complexity Theory 2021-2022! Joined a bit late, so I hope I can catch up.</div>
+</li>
+
+<li>
+	<div><b>September 2021</b></div>
+	<div>Became a member of <a href="https://www.iqparc.com/events/quantum-game-club-1">Quantum Game Club</a> hosted by <a href="https://www.iqparc.com/">Purdue IQ-PARC</a>! I hope I can learn some more quantum computing outside the classroom there.</div>
+</li>
+
+<li>
 	<div><b>August 2021</b></div>
 	<div>Started my Ph.D. at <a href="https://www.cs.purdue.edu/">Purdue CS</a>. Things just got real!</div>
 </li>	
