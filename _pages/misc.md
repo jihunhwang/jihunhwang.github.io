@@ -29,7 +29,7 @@ toc: true
 		<a href="https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/">Does one have to be a genius to do maths?</a> by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a> (<a href="https://en.wikipedia.org/wiki/Terence_Tao">Wiki</a>), 2006 Fields Medalist. <i>"The objective in mathematics is not to obtain the highest ranking, the highest “score”, or the highest number of prizes and awards"</i>. Regarding this, if you speak Korean read <a href="https://comic.naver.com/webtoon/detail.nhn?titleId=703853&no=5&weekday=sun">this episode</a> of a web comic about solving the Navier-Stokes existence/smoothness problem. 
 	</li>
 	<li>
-		<a href="https://terrytao.wordpress.com/2019/06/27/living-proof-stories-of-resilience-along-the-mathematical-journey/">Living Proof: Stories of Resilience Along the Mathematical Journey</a>. Please read this if you feel incompetent or powerless after an exam (or a semester).
+		<a href="https://terrytao.wordpress.com/2019/06/27/living-proof-stories-of-resilience-along-the-mathematical-journey/">Living Proof: Stories of Resilience Along the Mathematical Journey</a>. Please read this if you feel incompetent or powerless after an exam (or a semester). Don't be discouraged! <a href="https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-grades-and-exams-and-methods/">There's more to mathematics than grades and exams and methods</a>.
 	</li>
 	<li>
 		<a href="https://www.theatlantic.com/education/archive/2021/09/bias-math-sexism-racism/620207/">Math is Personal</a>. In case you do not understand why teachers are often called the engineers of human soul. I believe every student is more valuable than the numerical or letter outputs they make in class.

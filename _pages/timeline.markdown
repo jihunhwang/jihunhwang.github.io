@@ -34,7 +34,12 @@ toc: true
 
 <li>
 	<div><b>July 2021</b></div>
-	<div>Received an official notification that I am clear to leave UMass CICS. I am now a proud <a href="https://www.umassalumni.com/s/1640/rd17/home.aspx?gid=2&pgid=61">UMass alumna</a>!</div>
+	<div>Received an official notification that I am clear to leave UMass CICS. I am now a proud <a href="https://www.umassalumni.com/s/1640/rd17/home.aspx?gid=2&pgid=61">UMass alum</a>!</div>
+</li>	
+
+<li>
+	<div><b>June 2021</b></div>
+	<div>Check out my final project <a href="https://github.com/jihunhwang/Dangerous_WiFi">Why is WiFi dangerous?</a> for CS 590J Cyber Effects :)</div>
 </li>	
 
 
