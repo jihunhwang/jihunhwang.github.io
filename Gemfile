@@ -11,19 +11,13 @@ gem "jekyll", "~> 4.2.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 
 gem "activesupport", ">= 6.0.3.1"
-
 gem "kramdown", ">= 2.3.1"
 gem 'jekyll-analytics'
 gem "rexml", ">= 3.2.5"
 gem "nokogiri", ">= 1.12.5"
-
 gem 'jekyll-paginate'
-
-
-# gem "minima", "~> 2.5"
 gem "minimal-mistakes-jekyll", "~> 4.24.0"
 
-# gem "academic"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -32,6 +26,8 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-data'
   gem "jekyll-remote-theme"
+  # Github no longer supports minimal-mistakes-jekyll directly, so remote theme is now required.
+  # https://batsov.com/articles/2021/12/19/changes-to-github-pages/
   gem "jekyll-compose"
   gem 'jekyll-redirect-from'
 end

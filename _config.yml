@@ -19,10 +19,16 @@
 # in the templates via {{ site.myvariable }}.
 
 # Build settings
+
+# Github no longer supports minimal-mistakes-jekyll directly, so remote theme is now required.
+# https://batsov.com/articles/2021/12/19/changes-to-github-pages/
 # theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
+
+
+
 minimal_mistakes_skin    : "default"
-# theme: academic
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
