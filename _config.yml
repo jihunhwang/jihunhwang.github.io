@@ -20,7 +20,7 @@
 
 # Build settings
 theme: minimal-mistakes-jekyll
-#theme: minima
+# theme: academic
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

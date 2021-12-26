@@ -16,10 +16,14 @@ gem 'jekyll-analytics'
 gem "rexml", ">= 3.2.5"
 gem "nokogiri", ">= 1.12.5"
 
-
+gem 'jekyll-paginate'
+group :jekyll_plugins do
+  gem 'jekyll-data'
+end
 
 # gem "minima", "~> 2.5"
-gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes"
+gem "minimal-mistakes-jekyll"
+# gem "academic"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
