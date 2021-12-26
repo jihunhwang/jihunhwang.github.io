@@ -32,7 +32,7 @@ plugins:
 
 #plugins:
 #  - jekyll-feed
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes"
 permalink: /:categories/:title/
 
 # Site settings
