@@ -17,12 +17,10 @@ gem "rexml", ">= 3.2.5"
 gem "nokogiri", ">= 1.12.5"
 
 gem 'jekyll-paginate'
-group :jekyll_plugins do
-  gem 'jekyll-data'
-end
+
 
 # gem "minima", "~> 2.5"
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", "~> 4.24.0"
 # gem "academic"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -30,6 +28,10 @@ gem "minimal-mistakes-jekyll"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+end
+
+group :jekyll_plugins do
+  gem 'jekyll-data'
 end
 
 gem 'jemoji'
