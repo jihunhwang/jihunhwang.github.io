@@ -32,7 +32,7 @@ toc: true
 </li>
 
 <li>
-  <a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>, a comprehensive list of seminars and conferences in cryptography and cyber security.
+  <a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>, a comprehensive list of seminars and conferences in cryptography and cybersecurity.
 </li>
 
 <li>
@@ -45,12 +45,16 @@ toc: true
 
 
 <li>
-  <a href="https://github.com/afshinea/stanford-cs-229-machine-learning">ML Cheatsheet</a> including refreshers, tips and tricks.
+  <a href="https://stanford.edu/~shervine/teaching/">AI/ML/DL/DS Cheatsheets</a>, and <a href="https://github.com/afshinea/stanford-cs-229-machine-learning">ML Cheatsheet</a> including refreshers, tips and tricks.
 </li>
 
 
 <li>
   <a href="https://github.com/microsoft/QuantumKatas">QuantumKatas</a>: Microsoft Quantum training materials.
+</li>
+
+<li>
+  <a href="https://googleprojectzero.blogspot.com/">Google Project Zero</a>. Stay up-to-date with recent cybersecurity issues in detail!
 </li>
 
 
@@ -68,6 +72,8 @@ toc: true
   <a href="https://stacks.math.columbia.edu/">The Stacks project</a>: an online extensive open-source algebraic geometry textbook (it's super long, so don't bother printing <a href="https://stacks.math.columbia.edu/download/book.pdf">the entire book</a> out).
 </li>
 
+
+
 <li>
   <a href="https://artofproblemsolving.com/news/articles/how-to-write-a-solution">How to write a solution</a>. From math olympiad perspective, but still valid for professional mathematics/physics/computer science.
 </li>
@@ -82,7 +88,7 @@ toc: true
 ###### Lecture Videos
 
 <font size="4">
-Please don't forget to thank all those people who generously made their lectures and seminars open to public for us. 
+Let us not forget to thank all those people who generously made their lectures and seminars open to public for us.
 <ul>
 
 <li>
@@ -94,12 +100,20 @@ Please don't forget to thank all those people who generously made their lectures
 </li>
 
 <li>
+  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://geometrygunheecho.com/test/">Gunhee Cho</a> at UCSB actively uploads a wide range of rigorous lecture series in mathematics, starting from undergraduate courses to recent research topics. Lectures are mostly in Korean but the notes are in English except very few.
+</li>
+
+<li>
   <a href="http://www-net.cs.umass.edu/kurose_ross/index.php">Computer Networks (UMass CS 453)</a> pre-recorded lectures and interactive exercises, following Kurose-Ross 8th Edition, created by <a href="https://www-net.cs.umass.edu/personnel/kurose.html">Jim Kurose</a> (<a href="https://en.wikipedia.org/wiki/Jim_Kurose">Wiki</a>) at UMass Amherst, one of the the <a href="http://www-net.cs.umass.edu/kurose_ross/authors.php">authors</a> themselves.
 </li>
 
 <li>
-  A year-long course in <a href="https://youtube.com/playlist?list=PL3940DD956CDF0622">Convex Optimization</a> at Stanford following <a href="https://web.stanford.edu/~boyd/cvxbook/">Boyd-Vandenberghe</a> offered by <a href="https://stanford.edu/~boyd/">Stephen Boyd</a>, one of the authors themselves.
+  Similarly, the <a href="https://www.youtube.com/user/UMassOS/videos">OS group</a> at UMass CICS uploads their OS-related course and seminar videos. For example, <a href="http://lass.cs.umass.edu/~shenoy/courses/677/">Distributed and Operating Systems (UMass CS 677)</a> by <a href="http://lass.cs.umass.edu/~shenoy/">Prashant Shenoy</a> is great.
 </li>
+
+<!-- <li>
+  A year-long course in <a href="https://youtube.com/playlist?list=PL3940DD956CDF0622">Convex Optimization</a> at Stanford following <a href="https://web.stanford.edu/~boyd/cvxbook/">Boyd-Vandenberghe</a> offered by <a href="https://stanford.edu/~boyd/">Stephen Boyd</a>, one of the authors themselves.
+</li> -->
 
 <li>
   <a href="https://youtube.com/playlist?list=PLLasX02E8BPBNNE8C5TbRvUMUGP0-0-XU">MS Azure QC Workshop video playlist</a>. If you want something more theoretical, <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI4PB63hH_RnfnJSfNK1OojC">Quantum Computation</a> and <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI7Yqwbwp-lsf1tTPyvkQG6h">Quantum Complexity Theory</a> course videos provided by <a href="http://groups.uni-paderborn.de/fg-qi/">Sevag Gharibian</a> at Paderborn University.
