@@ -14,7 +14,7 @@ toc: true
 
 ###### 2021
 
-<font size="4"> 
+<font size="4">
 <ul>
 
 <li>
@@ -27,26 +27,28 @@ toc: true
 	<div>Became a member of <a href="https://www.iqparc.com/events/quantum-game-club-1">Quantum Game Club</a> hosted by <a href="https://www.iqparc.com/">Purdue IQ-PARC</a>! I hope I can learn some more quantum computing outside the classroom there.</div>
 </li>
 
+<!--
 <li>
 	<div><b>August 2021</b></div>
 	<div>Started my Ph.D. at <a href="https://www.cs.purdue.edu/">Purdue CS</a>. Things just got real!</div>
-</li>	
+</li>
 
 <li>
 	<div><b>July 2021</b></div>
 	<div>Received an official notification that I am clear to leave UMass CICS. I am now a proud <a href="https://www.umassalumni.com/s/1640/rd17/home.aspx?gid=2&pgid=61">UMass alum</a>!</div>
-</li>	
+</li>
+-->
 
 <li>
 	<div><b>June 2021</b></div>
 	<div>Check out my final project <a href="https://github.com/jihunhwang/Dangerous_WiFi">Why is WiFi dangerous?</a> for CS 590J Cyber Effects :)</div>
-</li>	
+</li>
 
 
 <li>
 	<div><b>April 2021</b></div>
 	<div>Excited to announce that I accepted my offer to the Computer Science Ph.D. program at <a href="https://www.cs.purdue.edu/">Purdue</a>!</div>
-</li>	
+</li>
 
 <li>
 	<div><b>February 2021</b></div>
@@ -72,7 +74,7 @@ toc: true
 <li>
 <div><b>October 2020</b></div>
 		<div>I gave a talk at the <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> with a colleague of mine (Kyle Doney) about <a href="https://eprint.iacr.org/2013/451">candidate indistinguishability obfuscators</a>. <a href="https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing">Here</a> is the abstract of the talk.
-		</div>	
+		</div>
 </li>
 
 
@@ -109,15 +111,15 @@ toc: true
 ###### 2019
 <details>
 	<summary><font size="4">Click to expand</font></summary>
-<font size="4"> 
+<font size="4">
 <ul>
 
-<li> 
+<li>
 	<div><b>Summer 2019</b></div>
 		<div>I spent my whole summer at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a></div> with a group of amazing people doing <a href="https://sites.google.com/view/nsf-reu-erau/">NSF-REU@ERAU</a>! My advisor was Dr. <a href="https://sites.google.com/view/yuanj/">Jiawei Yuan</a>
 </li>
 
-<li> 
+<li>
 	<div><b>January 2019</b></div>
 		<div>I started my senior research/thesis under Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> and <a href="https://web.calpoly.edu/~echarala/">Stathis Charalampidis</a> on extreme waves from the irregular burstings in superfluid 3-He/4-HE!
 		</div>
@@ -133,7 +135,7 @@ toc: true
 
 <details>
 	<summary><font size="4">Click to expand</font></summary>
-<font size="4"> 
+<font size="4">
 <ul>
 
 <li>
@@ -166,7 +168,7 @@ toc: true
 ###### 2017
 <details>
 	<summary><font size="4">Click to expand</font></summary>
-<font size="4"> 
+<font size="4">
 <ul>
 
 <li>
@@ -176,7 +178,7 @@ toc: true
 </li>
 
 <li>
-	<div><b>Summer 2017</b></div> 
+	<div><b>Summer 2017</b></div>
 	<div>I was again around Amherst, MA for <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a>. I studied Ergodic theory and statistical physics under Professor <a href="https://www.math.umass.edu/directory/faculty/yao-li">Yao Li</a>!
 	</div>
 </li>
@@ -195,7 +197,7 @@ toc: true
 ###### 2016
 <details>
 	<summary><font size="4">Click to expand</font></summary>
-<font size="4"> 
+<font size="4">
 <ul>
 
 
@@ -207,7 +209,7 @@ toc: true
 
 <li>
 	<div><b>January 2016</b></div>
-	<div>I had decided to start taking upper-level math major courses. I am the only freshman in those classes. Let's see how it goes. 
+	<div>I had decided to start taking upper-level math major courses. I am the only freshman in those classes. Let's see how it goes.
 	</div>
 </li>
 
@@ -220,12 +222,12 @@ toc: true
 ###### 2015
 <details>
 	<summary><font size="4">Click to expand</font></summary>
-<font size="4"> 
+<font size="4">
 <ul>
 
 <li>
 	<div><b>September 2015</b></div>
-	<div>Here I go, I am now an adult - a college student! I plan to study applied/computational mathematics, and possibly physics, at UMass Amherst. I don't think I will continue pre-med. 
+	<div>Here I go, I am now an adult - a college student! I plan to study applied/computational mathematics, and possibly physics, at UMass Amherst. I don't think I will continue pre-med.
 	</div>
 </li>
 
@@ -237,7 +239,7 @@ toc: true
 ###### 2014
 <details>
 	<summary><font size="4">Click to expand</font></summary>
-<font size="4"> 
+<font size="4">
 <ul>
 
 <li>
@@ -248,6 +250,3 @@ toc: true
 </ul>
 </font>
 </details>
-
-
-
