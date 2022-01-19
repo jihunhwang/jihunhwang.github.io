@@ -92,7 +92,7 @@ Let us not forget to thank all those people who generously made their lectures a
 <ul>
 
 <li>
-  <a href="https://ocw.mit.edu/index.htm">MIT OCW</a> (<a href = "https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw">Youtube</a>). It's MIT OCW, so I assume I don't need to put any explanations here. Anyway, I particularly recommend: <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63d33STUUBfZUpzFCVR5-PV">6.890</a> (<a href="http://courses.csail.mit.edu/6.892/spring19/lectures/">Newer version</a>), <a href="https://youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY">18.404J</a>, <a href="https://youtube.com/playlist?list=PLUl4u3cNGP62qauV_CpT1zKaGG_Vj5igX">18.217</a>, <a href="https://youtube.com/playlist?list=PLhgq-BqyZ7i5lOqOqqRiS0U5SwTmPpHQ5">18.S097</a>, <a href="https://youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB">6.824</a>, and <a href="https://youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">6.858</a>.
+  <a href="https://ocw.mit.edu/index.htm">MIT OCW</a> (<a href = "https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw">Youtube</a>). It's MIT OCW, so I assume I don't need to put any explanations here. I particularly recommend: <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63d33STUUBfZUpzFCVR5-PV">6.890</a> (<a href="http://courses.csail.mit.edu/6.892/spring19/lectures/">Newer version</a>), <a href="https://youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY">18.404J</a>, <a href="https://youtube.com/playlist?list=PLUl4u3cNGP62qauV_CpT1zKaGG_Vj5igX">18.217</a>, <a href="https://youtube.com/playlist?list=PLhgq-BqyZ7i5lOqOqqRiS0U5SwTmPpHQ5">18.S097</a>, <a href="https://youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB">6.824</a>, and <a href="https://youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">6.858</a>.
 </li>
 
 <li>
@@ -100,7 +100,11 @@ Let us not forget to thank all those people who generously made their lectures a
 </li>
 
 <li>
-  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://geometrygunheecho.com/test/">Gunhee Cho</a> at UCSB actively uploads a wide range of rigorous lecture series in mathematics, starting from undergraduate courses to recent research topics. Lectures are mostly in Korean but the notes are in English except very few.
+  <a href="https://www.ictp.it/">ICTP</a> (<a href="https://www.youtube.com/channel/UC-akozxNLMPcMcs0qVvS1VQ/featured">Youtube</a>) and their <a href="https://www.youtube.com/channel/UCBlqfZZYQWKyr6qLAB7LINw">Diploma Programme</a> upload the recordings of their lectures which are rougly equivalent to the MS/PhD level math courses in the US.  
+</li>
+
+<li>
+  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://geometrygunheecho.com/test/">Gunhee Cho</a> at UCSB actively uploads a wide range of rigorous lecture series in mathematics, from undergraduate courses to recent research topics. Lectures are mostly in Korean but the notes are in English except very few.
 </li>
 
 <li>

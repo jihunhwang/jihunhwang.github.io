@@ -30,7 +30,7 @@ Even prior to that, I did my undergrad in <a href="https://www.math.umass.edu/">
 </p>
 
 <p>
-I am broadly interested in studying <b>cryptography</b> and coding theory using tools from <b>complexity theory</b>, Fourier analysis, and algebraic geometry. I also like to talk about optimizations, quantum computing, and cybersecurity, but not as much as I like cryptography.
+My interests lie in theoretical computer science in general. In particular, I am interested in studying <b>cryptography</b> and coding theory using tools from <b>complexity theory</b>, Fourier analysis, and algebraic geometry. I also like to talk about optimizations, quantum computing, and cybersecurity, but not as much as I like cryptography.
 </p>
 
 
