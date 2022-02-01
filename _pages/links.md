@@ -100,11 +100,15 @@ Let us not forget to thank all those people who generously made their lectures a
 </li>
 
 <li>
-  <a href="https://www.ictp.it/">ICTP</a> (<a href="https://www.youtube.com/channel/UC-akozxNLMPcMcs0qVvS1VQ/featured">Youtube</a>) and their <a href="https://www.youtube.com/channel/UCBlqfZZYQWKyr6qLAB7LINw">Diploma Programme</a> upload the recordings of their lectures which are rougly equivalent to the MS/PhD level math courses in the US.  
+  <a href="https://www.ictp.it/">ICTP</a> (<a href="https://www.youtube.com/channel/UC-akozxNLMPcMcs0qVvS1VQ/featured">Youtube</a>) and their <a href="https://www.youtube.com/channel/UCBlqfZZYQWKyr6qLAB7LINw">Diploma Programme</a> upload the recordings of their lectures which are rougly equivalent to the MS/PhD level math courses in the US.
 </li>
 
 <li>
   <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://geometrygunheecho.com/test/">Gunhee Cho</a> at UCSB actively uploads a wide range of rigorous lecture series in mathematics, from undergraduate courses to recent research topics. Lectures are mostly in Korean but the notes are in English except very few.
+</li>
+
+<li>
+<a href="https://b01lers.com/gettingstarted.html">CTF Bootcamp</a> (<a href="https://www.youtube.com/playlist?list=PLdGU-K4Khkr8iqzOdjKKj1QLmJJnks5fO">Youtube</a>) hosted in 2020 by <a href="https://b01lers.com/">b01lers</a>, Purdue CTF Team. 
 </li>
 
 <li>
@@ -114,10 +118,6 @@ Let us not forget to thank all those people who generously made their lectures a
 <li>
   Similarly, the <a href="https://www.youtube.com/user/UMassOS/videos">OS group</a> at UMass CICS uploads their OS-related course and seminar videos. For example, <a href="http://lass.cs.umass.edu/~shenoy/courses/677/">Distributed and Operating Systems (UMass CS 677)</a> by <a href="http://lass.cs.umass.edu/~shenoy/">Prashant Shenoy</a> is great.
 </li>
-
-<!-- <li>
-  A year-long course in <a href="https://youtube.com/playlist?list=PL3940DD956CDF0622">Convex Optimization</a> at Stanford following <a href="https://web.stanford.edu/~boyd/cvxbook/">Boyd-Vandenberghe</a> offered by <a href="https://stanford.edu/~boyd/">Stephen Boyd</a>, one of the authors themselves.
-</li> -->
 
 <li>
   <a href="https://youtube.com/playlist?list=PLLasX02E8BPBNNE8C5TbRvUMUGP0-0-XU">MS Azure QC Workshop video playlist</a>. If you want something more theoretical, <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI4PB63hH_RnfnJSfNK1OojC">Quantum Computation</a> and <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI7Yqwbwp-lsf1tTPyvkQG6h">Quantum Complexity Theory</a> course videos provided by <a href="http://groups.uni-paderborn.de/fg-qi/">Sevag Gharibian</a> at Paderborn University.
