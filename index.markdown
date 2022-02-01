@@ -22,23 +22,13 @@ I am a first year Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer
 </p>
 
 <p>
-Before Purdue, I was an M.S. student in <a href="https://www.cics.umass.edu/">Computer Science</a> at <a href="https://www.umass.edu/">UMass Amherst</a> where I briefly worked with Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. I was a co-organizer of <a href="https://sites.google.com/view/umasscryptosem/">UMass Crypto Seminar</a>.
+Before Purdue, I was an M.S. student in <a href="https://www.cics.umass.edu/">Computer Science</a> at <a href="https://www.umass.edu/">UMass Amherst</a> where I briefly worked with Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. Even prior to that, I did my undergrad in <a href="https://www.math.umass.edu/">Mathematics</a> at the same institution. I finished my senior thesis under the supervision of Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> (<a href="https://en.wikipedia.org/wiki/Panayotis_G._Kevrekidis">Wiki</a>) on extreme wave events (<a href="/Downloads/Hwang_Abstract.pdf">Abstract here</a>), and my academic advisor was Professor <a href="https://people.math.umass.edu/~nahmod/">Andrea Nahmod</a> (<a href="https://en.wikipedia.org/wiki/Andrea_R._Nahmod">Wiki</a>). It was an honor to be a student of two <a href="http://www.ams.org/profession/ams-fellows/ams-fellows">AMS Fellows</a>!
 </p>
 
 <p>
-Even prior to that, I did my undergrad in <a href="https://www.math.umass.edu/">Mathematics</a> at the same institution. I finished my senior thesis under the supervision of Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> (<a href="https://en.wikipedia.org/wiki/Panayotis_G._Kevrekidis">Wiki</a>) on extreme wave events (<a href="/Downloads/Hwang_Abstract.pdf">Abstract here</a>), and my academic advisor was Professor <a href="https://people.math.umass.edu/~nahmod/">Andrea Nahmod</a> (<a href="https://en.wikipedia.org/wiki/Andrea_R._Nahmod">Wiki</a>). It was an honor to be a student of two <a href="http://www.ams.org/profession/ams-fellows/ams-fellows">AMS Fellows</a>!
+My interest lies in theoretical computer science in general. Let's say I am currently interested in studying <b>cryptography</b> and coding theory using tools from <b>complexity theory</b>, Fourier analysis, and algebraic geometry. I also like to talk about optimizations, quantum computing, and cybersecurity, but not as much as I like cryptography.
 </p>
 
-<p>
-My interests lie in theoretical computer science in general. In particular, I am interested in studying <b>cryptography</b> and coding theory using tools from <b>complexity theory</b>, Fourier analysis, and algebraic geometry. I also like to talk about optimizations, quantum computing, and cybersecurity, but not as much as I like cryptography.
-</p>
-
-
-<!--
-<p>
-I am interested in <a href="https://groups.cs.umass.edu/theory/">theoretical computer science</a>, in particular cryptography and computational complexity theory. I also like reading books and papers in geometric analysis and partial differential equations.
-</p>
--->
 </font>
 
 <br />
