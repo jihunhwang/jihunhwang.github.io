@@ -128,7 +128,7 @@ Let us not forget to thank all those people who generously made their lectures a
 </li>
 
 <li>
-  If Arora-Barak's Ch 11 and 22 does not suffice you (too difficult, want to learn more, or etc.), see this: <a href="http://people.eecs.berkeley.edu/~alexch/classes/CS294-S2019.html">Probabilistically Checkable Proof</a> by <a href="https://people.eecs.berkeley.edu/~alexch/">Alessandro Chiesa</a> at Berkeley.
+  If Arora-Barak's Ch 11 and 22 does not suffice you (too difficult, want to learn more, or etc.), see this: <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html">Foundations of Probabilistic Proofs</a> by <a href="https://people.eecs.berkeley.edu/~alexch/">Alessandro Chiesa</a> at Berkeley.
 </li>
 
 <li>
