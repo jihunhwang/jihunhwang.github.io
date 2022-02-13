@@ -40,6 +40,9 @@ On this page, you will find the notes and slides I made for the talks I presente
 <font size="4">
 <ul>
 
+<li>
+<a href="https://github.com/jihunhwang/Dangerous_WiFi">Why is WiFi dangerous?</a> My Capstone project for CS 590J Cyber Effects. Links to the recorded presentations are in this link as well.
+</li>
 
 <li><a href="https://drive.google.com/open?id=1WoqGJrSrRFGIz13BWrOsqS5sIbSfi4Ds">Optimization of Non-Smooth Functions</a> and <a href="https://drive.google.com/file/d/1V0-tLMkKijvZEi46CJ4H040T3DRaBMjr/view?usp=sharing">Convergence Along ULA Under Isoperimetric Assumptions</a>. Reading projects for CS 690OP Convex Optimization with Professor <a href="https://www.cics.umass.edu/people/fiterau-brostean-madalina">Ina Fiterau</a> in Apr 8th and 29th, 2020 respectively.
 </li>

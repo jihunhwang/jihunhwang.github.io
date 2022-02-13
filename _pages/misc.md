@@ -33,7 +33,7 @@ toc: true
 	</li>
 	
 	<li>
-	<a href="https://terrytao.wordpress.com/2019/06/27/living-proof-stories-of-resilience-along-the-mathematical-journey/">Living Proof: Stories of Resilience Along the Mathematical Journey</a>. Please read this if you feel incompetent or powerless after an exam (or a semester). Don't be discouraged! <a href="https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-grades-and-exams-and-methods/">There's more to mathematics than grades and exams and methods</a>.
+	<a href="https://terrytao.wordpress.com/2019/06/27/living-proof-stories-of-resilience-along-the-mathematical-journey/">Living Proof: Stories of Resilience Along the Mathematical Journey</a> again by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a>. Please read this if you feel incompetent or powerless after an exam (or a semester). Don't be discouraged! <a href="https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-grades-and-exams-and-methods/">There's more to mathematics than grades and exams and methods</a>.
 	</li>
 	
 	<li>
@@ -41,11 +41,15 @@ toc: true
 	</li>
 	
 	<li>
-  	<a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> is also very inspiring.
+	<a href="https://www.dailyprincetonian.com/article/2022/02/stem-intro-courses-humanites-exploration">Why won’t anyone teach me math?</a> I agree that a certain level of difficulty must be maintained in curriculums. However, systemically refusing to help or educate students is not a reasonable method of keeping that standard. 
 	</li>
 	
 	<li>
-	<a href="https://artofproblemsolving.com/community/c5h1147943p5421541">Having Time for Math</a>. If you don't have time, then maybe you should make some time!
+  	<a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> was also very fun and inspiring.
+	</li>
+	
+	<li>
+	<a href="https://artofproblemsolving.com/community/c5h1147943p5421541">Having Time for Math</a> by <a href="https://web.evanchen.cc/">Evan Chen</a>. If you don't have time, then maybe you should make some time!
 	</li>
 	
   	<li>
