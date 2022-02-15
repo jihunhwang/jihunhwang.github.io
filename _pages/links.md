@@ -108,6 +108,10 @@ Let us not forget to thank all those people who generously made their lectures a
 </li>
 
 <li>
+  A course on topological quantum computing <a href="https://smprtn.pages.math.illinois.edu/QCaT/">QCAT</a> was once offered at UIUC by <a href="https://smprtn.pages.math.illinois.edu/">Eric G. Samperton</a> at UIUC.
+</li>
+
+<li>
 <a href="https://b01lers.com/gettingstarted.html">CTF Bootcamp</a> (<a href="https://www.youtube.com/playlist?list=PLdGU-K4Khkr8iqzOdjKKj1QLmJJnks5fO">Youtube</a>) hosted in 2020 by <a href="https://b01lers.com/">b01lers</a>, Purdue CTF Team. 
 </li>
 
