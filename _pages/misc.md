@@ -45,10 +45,6 @@ toc: true
 	</li>
 	
 	<li>
-  	<a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> was also very fun and inspiring.
-	</li>
-	
-	<li>
 	<a href="https://artofproblemsolving.com/community/c5h1147943p5421541">Having Time for Math</a> by <a href="https://web.evanchen.cc/">Evan Chen</a>. If you don't have time, then maybe you should make some time!
 	</li>
 	
@@ -79,6 +75,10 @@ toc: true
 <li>
 	I have been practicing this: <a href="https://youtu.be/4Xp4F1h0YZM">How to pronounce German Mathematician's Names</a> (cw: swearing and memes). I am still struggling but I have gotten way better though.
 </li>
+
+<li>
+  	<a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> was also very fun and inspiring.
+	</li>
 
 </ul>
 </font>
