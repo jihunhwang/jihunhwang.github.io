@@ -21,17 +21,25 @@ On this page, you will find the notes and slides I made for the talks I presente
 <font size="4">
 <ul>
 
-<li><a href="https://drive.google.com/file/d/1lV1dFz7yEn25Me7VfZX0FGK-kZaVPwrG/view?usp=sharing">Constructing Indistinguishability Obfuscation for Polynomial-Sized Circuits</a> (<a href="https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing">Abstract</a>). <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in Oct 20th, 2020.
+<li>
+<a href="https://drive.google.com/file/d/16skP4qoTWEzEi2Yq1kYVx1eRxyNaB5Li/view?usp=sharing">Determinantal Complexity and Matrix Multiplication</a>. <a href="https://theory.cs.purdue.edu/spring2022.html">Purdue CS Theory Reading Seminar</a> in Feb 24th, 2022.
 </li>
 
-<li><a href="https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing">Recent Progress in the embedded Calabi-Yau conjecture</a>. UMass Geometric Analysis Reading Seminar in May 7th, 2020.
+<li>
+<a href="https://drive.google.com/file/d/1lV1dFz7yEn25Me7VfZX0FGK-kZaVPwrG/view?usp=sharing">Constructing Indistinguishability Obfuscation for Polynomial-Sized Circuits</a> (<a href="https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing">Abstract</a>). <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in Oct 20th, 2020.
 </li>
 
-<li><a href="https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m">Enhanced Differential Equation Solvers Using Parallel Algorithms</a> (<a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Abstract</a>). <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in Apr 29th, 2020.
+<li>
+<a href="https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing">Recent Progress in the embedded Calabi-Yau conjecture</a>. UMass Geometric Analysis Reading Seminar in May 7th, 2020.
+</li>
+
+<li>
+<a href="https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m">Enhanced Differential Equation Solvers Using Parallel Algorithms</a> (<a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Abstract</a>). <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in Apr 29th, 2020.
 </li>
 
 
-<li><a href="https://drive.google.com/open?id=1cCTnSr_cReJvLxLMmprTFKUYuvExqVbs">Weierstrass Product and Sum of Reciprocals of Squares</a>. Guest lecture in MATH 421 Undergraduate Complex Analysis, taught by Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (<a href="https://en.wikipedia.org/wiki/William_Hamilton_Meeks,_III">Wiki</a>) in Apr 30th, 2018. </li>
+<li>
+<a href="https://drive.google.com/open?id=1cCTnSr_cReJvLxLMmprTFKUYuvExqVbs">Weierstrass Product and Sum of Reciprocals of Squares</a>. Guest lecture in MATH 421 Undergraduate Complex Analysis, taught by Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (<a href="https://en.wikipedia.org/wiki/William_Hamilton_Meeks,_III">Wiki</a>) in Apr 30th, 2018. </li>
 </ul>
 </font>
 

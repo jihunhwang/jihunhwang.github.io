@@ -54,6 +54,10 @@ toc: true
 </li>
 
 <li>
+Constantly evolving <a href="https://homepages.cwi.nl/~rdewolf/qcnotes.pdf">Quantum computing lecture notes</a> by <a href="https://homepages.cwi.nl/~rdewolf/">Ronald de Wolf</a>.
+</li>
+
+<li>
   <a href="https://googleprojectzero.blogspot.com/">Google Project Zero</a>. Stay up-to-date with recent cybersecurity issues in detail!
 </li>
 
@@ -80,6 +84,10 @@ toc: true
 
 <li>
   <a href="https://mathscinet.ams.org/mathscinet/freeTools.html?version=2">AMS Collaboration Distance</a> and <a href="https://www.genealogy.math.ndsu.nodak.edu/">Mathematics Genealogy</a>.
+</li>
+
+<li>
+Very extensive list of advices and <a href="https://www.vanessasun.com/questions-to-ask-when-considering-a-graduate-school-program/">Questions to ask when considering a graduate school program</a> written and compiled by <a href="https://www.vanessasun.com/">Vanessa Sun</a> at MIT. 
 </li>
 
 </ul>
