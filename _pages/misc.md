@@ -3,6 +3,7 @@ title: Miscellaneous
 author_profile: true
 permalink: /misc/
 toc: true
+search: exclude
 ---
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157894909-1"></script>

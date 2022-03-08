@@ -3,6 +3,7 @@ title: External Links
 permalink: /links/
 author_profile: true
 toc: true
+search: exclude
 ---
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157894909-1"></script>
@@ -46,6 +47,10 @@ toc: true
 
 <li>
   <a href="https://stanford.edu/~shervine/teaching/">AI/ML/DL/DS Cheatsheets</a>, and <a href="https://github.com/afshinea/stanford-cs-229-machine-learning">ML Cheatsheet</a> including refreshers, tips and tricks.
+</li>
+
+<li>
+  <a href="https://www.datasciencepreparation.com/">Data Science Interview Preparation</a>: A list of common interview questions in data science. 
 </li>
 
 
@@ -93,10 +98,10 @@ Very extensive list of advices and <a href="https://www.vanessasun.com/questions
 </ul>
 </font>
 
-###### Lecture Videos
+###### Online Lectures
 
 <font size="4">
-Let us not forget to thank all those people who generously made their lectures and seminars open to public for us.
+Let us not forget to thank all those people who generously made their courses and seminars open to public for us.
 <ul>
 
 <li>
