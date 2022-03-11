@@ -13,6 +13,25 @@ search: exclude
   gtag('config', 'UA-157894909-1');
 </script>
 
+
+###### 2022
+
+<font size="4">
+<ul>
+
+<li>
+	<div><b>February 2022</b></div>
+	<div>Based on one of the topics I learned in <a href="https://gct2022.sciencesconf.org/">GCT 2022</a>, I gave a talk about introductory algebraic complexity theory and exponent of matrix multiplication at Purdue CS reading seminar!</div>
+</li>
+
+<li>
+	<div><b>January 2022</b></div>
+	<div>I attended <a href="https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/">The 12th BIU Winter School on Cryptography</a>. This year's topic was in Secure Computation. </div>
+</li>
+
+</ul>
+</font>
+
 ###### 2021
 
 <font size="4">
@@ -69,28 +88,27 @@ search: exclude
 
 <li>
 <div><b>August 2020</b></div>
-		<div>I gave a talk at the UMass Geometric Analysis Reading Seminar about the <a href="https://www.intlpress.com/site/pub/files/_fulltext/journals/cag/1998/0006/0004/CAG-1998-0006-0004-a001.pdf">Dorfmeister-Pedit-Wu</a> (DPW) construction of minimal surfaces!</div>
+	<div>I gave a talk at the UMass Geometric Analysis Reading Seminar about the <a href="https://www.intlpress.com/site/pub/files/_fulltext/journals/cag/1998/0006/0004/CAG-1998-0006-0004-a001.pdf">Dorfmeister-Pedit-Wu</a> (DPW) construction of minimal surfaces!</div>
 </li>
 
 <li>
 <div><b>June 2020</b></div>
-		<div>I started working with Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a> on Multi-Input <a href="https://eprint.iacr.org/2010/556.pdf">Functional Encryption</a> (MIFE) based privacy-preserving contact tracing.</div>
+	<div>I started working with Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a> on Multi-Input <a href="https://eprint.iacr.org/2010/556.pdf">Functional Encryption</a> (MIFE) based privacy-preserving contact tracing.</div>
 </li>
 
 <li>
 <div><b>May 2020</b></div>
-		<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>, by Colding-Minicozzi and Meeks-Perez-Ros! <a href="https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing">Here</a> are my notes.</div>
+	<div>I gave a short talk at the UMass Geometric Analysis Reading Seminar in May 7th on the recent progress in <a href="https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces">the embedded Calabi-Yau conjecture</a>, by Colding-Minicozzi and Meeks-Perez-Ros! <a href="https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing">Here</a> are my notes.</div>
 </li>
 
 <li>
-	<div><b>April 2020</b></div>
-		<div>I spoked at the <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in April 29th with a colleague of mine (Wenbo Xie) on parallel algorithm-based differential equation solvers! <a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Here</a> is the abstract of the talk and <a href="https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m">Here</a> are the lecture slides. The survey/notes will be posted here soon.</div>
+<div><b>April 2020</b></div>
+	<div>Based on what I learned during my senior research, I spoked at the <a href="https://groups.cs.umass.edu/theory/">UMass CS Theory Seminar</a> in April 29th with a colleague of mine (Wenbo Xie) on parallel algorithm-based differential equation solvers! <a href="https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw">Here</a> is the abstract of the talk and <a href="https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m">Here</a> are the lecture slides.</div>
 </li>
 
 <li>
-	<div><b>January 2020</b></div>
-		<div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad.</div>
-		<div>I will be spending another 1.5 years around Amherst, working on my M.S. in computer science!</div>
+<div><b>January 2020</b></div>
+	<div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad. I will be spending another 1.5 years around Amherst, working on my M.S. in computer science!</div>
 </li>
 </ul>
 </font>
