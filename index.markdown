@@ -26,7 +26,7 @@ Before Purdue, I was an M.S. student in <a href="https://www.cics.umass.edu/">Co
 </p>
 
 <p>
-My interest lies in theoretical computer science in general. Let's say I am currently interested in studying <b>cryptography</b> and coding theory using tools from <b>complexity theory</b>, Fourier analysis, and algebraic geometry. I also like to talk about optimizations, quantum computing, and cybersecurity, but not as much as I like cryptography.
+My interest lies in theoretical computer science in general. Let's say I am currently interested in studying <b>cryptography</b> and coding theory using tools from <b>complexity theory</b>, analysis of boolean functions, and algebraic geometry. I also like to talk about optimizations, high-performance computing, and cybersecurity, but not as much as I like cryptography.
 </p>
 
 </font>
