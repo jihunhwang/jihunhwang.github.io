@@ -76,6 +76,9 @@ Constantly evolving <a href="https://homepages.cwi.nl/~rdewolf/qcnotes.pdf">Quan
   <a href="https://www.mathcha.io/">Mathcha</a> makes tikz easier. Also, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> and <a href="http://detexify.kirelabs.org/classify.html">detexify</a> are very useful.
 </li>
 
+<li>
+  <a href="https://www.graphclasses.org/index.html">ISGCI</a>, an encyclopaedia of graph classes.
+</li>
 
 <li>
   <a href="https://stacks.math.columbia.edu/">The Stacks project</a>: an online extensive open-source algebraic geometry textbook (it's super long, so don't bother printing <a href="https://stacks.math.columbia.edu/download/book.pdf">the entire book</a> out).
@@ -121,7 +124,11 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  A course on topological quantum computing <a href="https://smprtn.pages.math.illinois.edu/QCaT/">QCAT</a> was once offered at UIUC by <a href="https://smprtn.pages.math.illinois.edu/">Eric G. Samperton</a> at UIUC.
+  <a href="https://twitter.com/viditnanda/status/1485633735919902726?s=21">Computational Algebraic Topology</a> (<a href="https://people.maths.ox.ac.uk/nanda/cat/">Course Webpage</a>), basically the fundamentals of TDA, by <a href="https://people.maths.ox.ac.uk/nanda/">Vidit Nanda</a> at Oxford.
+</li>
+
+<li>
+  A course on topological quantum computing <a href="https://smprtn.pages.math.illinois.edu/QCaT/">QCAT</a> was once offered at UIUC by <a href="https://smprtn.pages.math.illinois.edu/">Eric G. Samperton</a>.
 </li>
 
 <li>
