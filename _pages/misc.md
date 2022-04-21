@@ -49,6 +49,10 @@ search: exclude
 	<a href="https://artofproblemsolving.com/community/c5h1147943p5421541">Having Time for Math</a> by <a href="https://web.evanchen.cc/">Evan Chen</a>. If you don't have time, then maybe you should make some time!
 	</li>
 	
+	<li>
+	<a href="https://www.cs.cmu.edu/~mblum/research/pdf/grad.html">The 4 R's of Graduate School</a> by <a href="https://www.cs.cmu.edu/~mblum/">Manuel Blum</a> (<a href="https://en.wikipedia.org/wiki/Manuel_Blum">Wiki</a>), 1995 Turing Award winner. <i>"Without writing, you are reduced to a finite automaton. With writing you have the extraordinary power of a Turing machine."</i>
+	</li>
+	
   	<li>
 	<a href="https://www.edupristine.com/blog/11-facts-about-data-science">The Inconvenient Truth About Data Science</a>. "<i>Some models are more wrong than others, but all are wrong.</i>"
 	</li>
