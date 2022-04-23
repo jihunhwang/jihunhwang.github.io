@@ -26,7 +26,7 @@ search: exclude
 	</li>
 	
 	<li>
-	<a href="http://people.math.umass.edu/~tevelev/grad_advice.html">Advice for pure math undergraduates in UMass Amherst</a> by Professor <a href="http://people.math.umass.edu/~tevelev/index.html">Jenia Tevelev</a>. I strongly believe that his opinions are still valid for applied math students.
+	<a href="http://people.math.umass.edu/~tevelev/grad_advice.html">Advice for pure math undergraduates in UMass Amherst</a> (<a href="https://web.archive.org/web/20210126014044/https://people.math.umass.edu/~tevelev/grad_advice.html">Archive</a>) by Professor <a href="http://people.math.umass.edu/~tevelev/index.html">Jenia Tevelev</a>. I strongly believe that his opinions are still valid for applied math students.
 	</li>
 	
 	<li>
