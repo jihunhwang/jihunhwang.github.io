@@ -45,7 +45,7 @@ permalink: /:categories/:title/
 
 # Site settings
 title: Jimmy Hwang
-email: jihunhwang@umass.edu
+email: hwang102@purdue.edu
 # description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -84,7 +84,7 @@ author:
       url: "https://github.com/jihunhwang"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ji-hun-jimmy-hwang-70a362102/"
+      url: "https://www.linkedin.com/in/jihun-hwang/"
     - label: "Picture"
       icon: ""
       url: "/image/Jimmy_pic.jpg"

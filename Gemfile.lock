@@ -145,7 +145,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (>= 6.0.3.1)
-  jekyll (~> 4.2.0)
+  jekyll (>= 4.2.0)
   jekyll-analytics
   jekyll-compose
   jekyll-data
