@@ -29,11 +29,7 @@ search: exclude
 </li>
 
 <li>
-  <a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone.
-</li>
-
-<li>
-  <a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>, a comprehensive list of seminars and conferences in cryptography and cybersecurity.
+  <a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone. For cryptography specifically, see <a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>.
 </li>
 
 <li>
@@ -46,31 +42,15 @@ search: exclude
 
 
 <li>
-  <a href="https://stanford.edu/~shervine/teaching/">AI/ML/DL/DS Cheatsheets</a>, and <a href="https://github.com/afshinea/stanford-cs-229-machine-learning">ML Cheatsheet</a> including refreshers, tips and tricks.
-</li>
-
-<li>
-  <a href="https://www.datasciencepreparation.com/">Data Science Interview Preparation</a>: A list of common interview questions in data science. 
+  <a href="https://stanford.edu/~shervine/teaching/">AI/ML/DL/DS Cheatsheets</a>, and <a href="https://github.com/afshinea/stanford-cs-229-machine-learning">ML Cheatsheet</a> including refreshers, tips and tricks. For interviews, <a href="https://www.datasciencepreparation.com/">Data Science Interview Preparation</a> has a list of common interview questions in data science. 
 </li>
 
 
 <li>
-  <a href="https://github.com/microsoft/QuantumKatas">QuantumKatas</a>: Microsoft Quantum training materials.
-</li>
-
-<li>
-Constantly evolving <a href="https://homepages.cwi.nl/~rdewolf/qcnotes.pdf">Quantum computing lecture notes</a> by <a href="https://homepages.cwi.nl/~rdewolf/">Ronald de Wolf</a>.
-</li>
-
-<li>
-  <a href="https://googleprojectzero.blogspot.com/">Google Project Zero</a>. Stay up-to-date with recent cybersecurity issues in detail!
+  <a href="https://github.com/microsoft/QuantumKatas">QuantumKatas</a>: Microsoft Quantum training materials. For more theoretical background, see this constantly evolving <a href="https://homepages.cwi.nl/~rdewolf/qcnotes.pdf">Quantum computing lecture notes</a> by <a href="https://homepages.cwi.nl/~rdewolf/">Ronald de Wolf</a>.
 </li>
 
 
-
-<li>
-  <a href="https://projecteuler.net/">Project Euler</a>, basically a math-y version of <a href="https://leetcode.com/">LeetCode</a>.
-</li>
 
 <li>
   <a href="https://www.mathcha.io/">Mathcha</a> makes tikz easier. Also, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> and <a href="http://detexify.kirelabs.org/classify.html">detexify</a> are very useful.
@@ -80,11 +60,11 @@ Constantly evolving <a href="https://homepages.cwi.nl/~rdewolf/qcnotes.pdf">Quan
   <a href="https://www.graphclasses.org/index.html">ISGCI</a>, an encyclopaedia of graph classes.
 </li>
 
+<!--
 <li>
   <a href="https://stacks.math.columbia.edu/">The Stacks project</a>: an online extensive open-source algebraic geometry textbook (it's super long, so don't bother printing <a href="https://stacks.math.columbia.edu/download/book.pdf">the entire book</a> out).
 </li>
-
-
+-->
 
 <li>
   <a href="https://artofproblemsolving.com/news/articles/how-to-write-a-solution">How to write a solution</a>. From math olympiad perspective, but still valid for professional mathematics/physics/computer science.
@@ -96,6 +76,19 @@ Constantly evolving <a href="https://homepages.cwi.nl/~rdewolf/qcnotes.pdf">Quan
 
 <li>
 Very extensive list of advices and <a href="https://www.vanessasun.com/questions-to-ask-when-considering-a-graduate-school-program/">Questions to ask when considering a graduate school program</a> written and compiled by <a href="https://www.vanessasun.com/">Vanessa Sun</a> at MIT. 
+</li>
+
+
+<li>
+  <a href="https://projecteuler.net/">Project Euler</a>, basically a math-y version of <a href="https://leetcode.com/">LeetCode</a>.
+</li>
+
+<li>
+  <a href="https://googleprojectzero.blogspot.com/">Google Project Zero</a>. Stay up-to-date with recent cybersecurity issues in detail!
+</li>
+
+<li>
+<a href="https://www.wechall.net/about_wechall">WeChall</a>, <a href="https://overthewire.org/wargames/">OverTheWire</a>, <a href="https://picoctf.org/">picoCTF</a>, and <a href="https://cryptohack.org/">Cryptohack</a> have interesting CTF-like cybersecurity challenges. Very fun!
 </li>
 
 </ul>
@@ -132,7 +125,7 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-<a href="https://b01lers.com/gettingstarted.html">CTF Bootcamp</a> (<a href="https://www.youtube.com/playlist?list=PLdGU-K4Khkr8iqzOdjKKj1QLmJJnks5fO">Youtube</a>) hosted in 2020 by <a href="https://b01lers.com/">b01lers</a>, Purdue CTF Team. 
+<a href="https://b01lers.com/gettingstarted.html">CTF b00tc4mp</a> (<a href="https://www.youtube.com/playlist?list=PLdGU-K4Khkr8iqzOdjKKj1QLmJJnks5fO">Youtube</a>) hosted in 2020 by <a href="https://b01lers.com/">b01lers</a>, Purdue CTF Team. Here is an <a href="https://github.com/b01lers/welcome-to-ctf">outline</a> of introduction to CTF written by b01lers.
 </li>
 
 <li>
