@@ -21,7 +21,7 @@ search: exclude
 
 <li>
 	<div><b>February 2022</b></div>
-	<div>Based on one of the topics I learned in <a href="https://gct2022.sciencesconf.org/">GCT 2022</a>, I gave a talk about introductory algebraic complexity theory and exponent of matrix multiplication at Purdue CS reading seminar!</div>
+	<div>Based on one of the topics I learned in <a href="https://gct2022.sciencesconf.org/">GCT 2022</a>, I gave a talk about introductory algebraic complexity theory and exponent of matrix multiplication at Purdue CS reading seminar! Here are <a href="https://drive.google.com/file/d/16skP4qoTWEzEi2Yq1kYVx1eRxyNaB5Li/view?usp=sharing">my slides</a>.</div>
 </li>
 
 <li>
