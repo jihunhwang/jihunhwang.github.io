@@ -14,11 +14,11 @@ permalink:
 </script>
 
 
-<h5>You Have Reached Jimmy's Webpage!</h5>
+<h6>You Have Reached Jimmy's Webpage!</h6>
 
 <font size="4">
 <p>
-I am a first year Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a> and also work under Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>.
+I am a first year Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a> and also work under Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>. This summer, I will be working at <a href="https://www.nasa.gov/goddard">NASA GSFC</a> as a research intern.
 </p>
 
 <p>
@@ -27,14 +27,14 @@ Before Purdue, I finished my Master's degree in <a href="https://www.cics.umass.
 </p>
 
 <p>
-My research interests lie broadly in theoretical computer science. But for now, let's say I am particularly interested in studying <a href="https://itcrypto.github.io/"><b>information-theoretic cryptography</b></a> using tools from <b>complexity theory</b>, analysis of boolean functions, and algebraic geometry. I also like to talk about optimizations, high-performance computing, and cybersecurity, but not as much as I like cryptography. 
+My research interests lie broadly in theoretical computer science. But for now, let's say I am particularly interested in studying <a href="https://itcrypto.github.io/"><b>information-theoretic cryptography</b></a> using tools from analysis of boolean functions and computational algebraic geometry. I also like to talk about other fields such as optimizations, high-performance computing, and cybersecurity, but not as much as I like cryptography. 
 </p>
 
 </font>
 
 <br />
 
-<font size="2.5">
+<font size="2">
 <p>
 Disclaimer: This site uses Google Analytics and may collect the cookies of the visitors. The collected data will not be used for commercial or malicious purposes.
 </p>

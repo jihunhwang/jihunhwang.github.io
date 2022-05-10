@@ -14,6 +14,7 @@ search: exclude
   gtag('config', 'UA-157894909-1');
 </script>
 
+
 ###### My Colleagues/Collaborators
 <font size="4">
 	<a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>, <a href="https://www.cs.purdue.edu/people/graduate-students/xie401.html">Wenbo Xie</a>, <a href="https://github.com/sharath">Sharath Ramkumar</a>, Ronny Huang, Nicolas Dumont, Anastasia Ellison, Victoria Kraj, Joshua Gordon, Ashok Raja
@@ -117,6 +118,10 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
+  <a href="https://www.youtube.com/playlist?list=PL0YFU3y0Z_gb6P9jG0-40AgZapdGGXPTD">Fundamental Algorithms</a> (<a href="https://fas22.s3.amazonaws.com/fas22-book.pdf">Course page/notes</a>). Pretty intensive undergrad level algorithms course taught by <a href="https://kentquanrud.com/">Kent Quanrud</a> in Spring 2022 at Purdue. 
+</li>
+
+<li>
   <a href="https://twitter.com/viditnanda/status/1485633735919902726?s=21">Computational Algebraic Topology</a> (<a href="https://people.maths.ox.ac.uk/nanda/cat/">Course Webpage</a>), basically the fundamentals of TDA, by <a href="https://people.maths.ox.ac.uk/nanda/">Vidit Nanda</a> at Oxford.
 </li>
 
@@ -132,9 +137,11 @@ Let us not forget to thank all those people who generously made their courses an
   <a href="http://www-net.cs.umass.edu/kurose_ross/index.php">Computer Networks (UMass CS 453)</a> pre-recorded lectures and interactive exercises, following Kurose-Ross 8th Edition, created by <a href="https://www-net.cs.umass.edu/personnel/kurose.html">Jim Kurose</a> (<a href="https://en.wikipedia.org/wiki/Jim_Kurose">Wiki</a>) at UMass Amherst, one of the the <a href="http://www-net.cs.umass.edu/kurose_ross/authors.php">authors</a> themselves.
 </li>
 
+<!--
 <li>
-  Similarly, the <a href="https://www.youtube.com/user/UMassOS/videos">OS group</a> at UMass CICS uploads their OS-related course and seminar videos. For example, <a href="http://lass.cs.umass.edu/~shenoy/courses/677/">Distributed and Operating Systems (UMass CS 677)</a> by <a href="http://lass.cs.umass.edu/~shenoy/">Prashant Shenoy</a> is great.
+  Similarly, the <a href="https://www.youtube.com/user/UMassOS/videos">OS group</a> at UMass CICS uploads their OS-related course and seminar videos. For example, <a href="http://lass.cs.umass.edu/~shenoy/courses/677/">Distributed and Operating Systems</a> by <a href="http://lass.cs.umass.edu/~shenoy/">Prashant Shenoy</a> is great.
 </li>
+-->
 
 <li>
   <a href="https://youtube.com/playlist?list=PLLasX02E8BPBNNE8C5TbRvUMUGP0-0-XU">MS Azure QC Workshop video playlist</a>. If you want something more theoretical, <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI4PB63hH_RnfnJSfNK1OojC">Quantum Computation</a> and <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI7Yqwbwp-lsf1tTPyvkQG6h">Quantum Complexity Theory</a> course videos provided by <a href="http://groups.uni-paderborn.de/fg-qi/">Sevag Gharibian</a> at Paderborn University.
