@@ -22,7 +22,7 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 </font>
 
 
-###### Courses I Took at Purdue
+###### Courses Took at Purdue
 <details>
 	<summary><font size="4">Coming Soon!</font></summary>
 <font size="4">
@@ -33,12 +33,15 @@ Roughly, Purdue adopts the following course numbering system: 100-499 Undergradu
 </details>
 	
 
-###### Courses I TAed at UMass
+###### Courses TAed at UMass
 <details>
 	<summary><font size="4">Click to expand</font></summary>
 
 <font size="4">
 <ul>
+
+<li>Spring 2021, <a href="https://drive.google.com/file/d/19mo8aIlcgKCk8apulDjb9nG9XjZWvyoy/view?usp=sharing">MATH 523H Undergraduate Real Analysis</a>: Problems selected by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a> and solutions created/gathered and typed by myself.
+</li>
 
 <li><a href="https://drive.google.com/open?id=1MRi9y5U_S1zxE9bras8s1L7Ml9Von02N">Fall 2019, MATH 300 Fundamental Concepts of Mathematics</a>: Materials and problems were selected and created jointly with Professor <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> and <a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>. (<a href="https://drive.google.com/open?id=1EGCkVuPYk9FzxrCJzTzTBwbOexJaygI2">partial solutions</a>) 
 (<a href="/Downloads/M300_grade.html">grade analytics</a>)
@@ -46,14 +49,14 @@ Roughly, Purdue adopts the following course numbering system: 100-499 Undergradu
 
 <li><a href="https://drive.google.com/file/d/1NBkeN5T1ts7zAJt0A2E7UsKM6R6ORE-b/view?usp=sharing">Spring 2019, MATH 300 Fundamental Concepts of Mathematics</a></li>
 
-<li>Spring 2018, <a href="https://drive.google.com/file/d/1kPq84MlS1eCzRC-WBtKCgWoWHFrlzqps/view?usp=sharing">MATH 421 Undergraduate Complex Analysis</a> created jointly with Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (typed, selected materials, wrote homework problems, etc.).</li>
+<li>Spring 2018, <a href="https://drive.google.com/file/d/1kPq84MlS1eCzRC-WBtKCgWoWHFrlzqps/view?usp=sharing">MATH 421 Undergraduate Complex Analysis</a>: Created jointly with Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (typed, selected materials, wrote homework problems, etc.).</li>
 
 </ul>
 </font>
 </details>
 
 
-###### Courses I Took at UMass
+###### Courses Took at UMass
 <details>
 		<summary><font size="4">Click to expand</font></summary>
 <font size="4">
@@ -93,7 +96,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </details>
 
 
-###### Courses I Audited
+###### Courses Audited
 
 <details>
 		<summary><font size="4">Click to expand</font></summary>
@@ -121,7 +124,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </details>
 
 
-###### Notes from the Talks I Attended 
+###### Talks Attended 
 
 <details>
 		<summary><font size="4">Click to expand</font></summary>

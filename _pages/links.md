@@ -14,11 +14,12 @@ search: exclude
   gtag('config', 'UA-157894909-1');
 </script>
 
-
+<!---
 ###### My Colleagues/Collaborators
 <font size="4">
 	<a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>, <a href="https://www.cs.purdue.edu/people/graduate-students/xie401.html">Wenbo Xie</a>, <a href="https://github.com/sharath">Sharath Ramkumar</a>, Ronny Huang, Nicolas Dumont, Anastasia Ellison, Victoria Kraj, Joshua Gordon, Ashok Raja
 </font>
+-->
 
 ###### Resources
 
