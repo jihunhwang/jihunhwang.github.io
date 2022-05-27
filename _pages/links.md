@@ -138,6 +138,10 @@ Let us not forget to thank all those people who generously made their courses an
   <a href="http://www-net.cs.umass.edu/kurose_ross/index.php">Computer Networks (UMass CS 453)</a> pre-recorded lectures and interactive exercises, following Kurose-Ross 8th Edition, created by <a href="https://www-net.cs.umass.edu/personnel/kurose.html">Jim Kurose</a> (<a href="https://en.wikipedia.org/wiki/Jim_Kurose">Wiki</a>) at UMass Amherst, one of the the <a href="http://www-net.cs.umass.edu/kurose_ross/authors.php">authors</a> themselves.
 </li>
 
+<li>
+  Indexed list of lecture videos on <a href="http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/12/book.htm">Mathematical Foundations of Computer Networking</a>, by <a href="http://blizzard.cs.uwaterloo.ca/keshav/wiki/index.php/Main_Page">Srinivasan Keshav</a> at Waterloo, directly following <a href="https://www.informit.com/store/mathematical-foundations-of-computer-networking-9780321792105">his book</a> with the same title. 
+</li>
+
 <!--
 <li>
   Similarly, the <a href="https://www.youtube.com/user/UMassOS/videos">OS group</a> at UMass CICS uploads their OS-related course and seminar videos. For example, <a href="http://lass.cs.umass.edu/~shenoy/courses/677/">Distributed and Operating Systems</a> by <a href="http://lass.cs.umass.edu/~shenoy/">Prashant Shenoy</a> is great.
