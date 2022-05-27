@@ -20,6 +20,11 @@ search: exclude
 <ul>
 
 <li>
+	<div><b>May 2022</b></div>
+	<div>I feel too thankful and excited to find a way to precisely describe my feeling about this opportunity in words. I am instead leaving the hieroglypic representation of my summer plan <a href="/Downloads/I'm_a_NASA_Intern.png">here</a> provided by them. </div>
+</li>
+
+<li>
 	<div><b>February 2022</b></div>
 	<div>Based on one of the topics I learned in <a href="https://gct2022.sciencesconf.org/">GCT 2022</a>, I gave a talk about introductory algebraic complexity theory and exponent of matrix multiplication at Purdue CS reading seminar! Here are <a href="https://drive.google.com/file/d/16skP4qoTWEzEi2Yq1kYVx1eRxyNaB5Li/view?usp=sharing">my slides</a>.</div>
 </li>
