@@ -67,25 +67,25 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 
 <ul>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/15dhUvPdnvcEJ_jKidc7m1kh8gyXe20s7/view?usp=sharing">MATH 731 Partial Differential Equations</a></li>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a></li>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/1Tih1yZ9tFDyCFJxoyYe2bejTXbQzBuqJ/view?usp=sharing">CS 796 Independent Study: Complexity Theory (Draft)</a> taught by Professor <a href="https://people.cs.umass.edu/~barring/index.html">David Mix Barrington</a>.</li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/1Tih1yZ9tFDyCFJxoyYe2bejTXbQzBuqJ/view?usp=sharing">CS 796 Independent Study: Complexity Theory (Draft)</a></li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a></li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis</a> taught by Professor <a href="http://people.math.umass.edu/~nahmod/">Andrea Nahmod</a>. </li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=10tkiO7u4TOf0Bihj2RZWVBnSl5N4l5WU">MATH 725 Functional Analysis</a></li>
 
-<li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a> taught by Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a>. </li>
+<li>Spring 2020, <a href="https://drive.google.com/open?id=1VzT0Y2UqQVLd6UlJzMhSWXNooXAmDZNm">CS 690J Advanced Cryptography</a></li>
 
-<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I</a> taught by Professor <a href="https://people.math.umass.edu/~hacking/">Paul Hacking</a>.</li>
+<li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I</a></li>
 
 <!--
 <li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology (Draft)</a> taught by Prof. <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li> 
 -->
 
-<li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a> taught by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a>.</li>
+<li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a></li>
 
 <!--
 <li>Spring 2017, <a href="">MATH 621 Graduate Complex Analysis (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~weston/">Tom Weston</a></li>
