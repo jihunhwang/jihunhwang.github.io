@@ -86,7 +86,7 @@ Very extensive list of advices and <a href="https://www.vanessasun.com/questions
 </li>
 
 <li>
-  <a href="https://googleprojectzero.blogspot.com/">Google Project Zero</a>. Stay up-to-date with recent cybersecurity issues in detail!
+  <a href="https://googleprojectzero.blogspot.com/">Google Project Zero</a>. Stay up-to-date with recent cybersecurity issues in detail! There is also <a href="https://www.willsroot.io/">Will's Root</a> focusing on CTF Writeups and Pentestings. 
 </li>
 
 <li>
