@@ -20,6 +20,22 @@ search: exclude
 <ul>
 
 <li>
+	<div><b>September 2022</b></div>
+	<div>I joined <a href="https://b01lers.com/">b01lers</a>, Purdue's <a href="https://ctftime.org/team/11464">CTF team</a>! Technically, I become a member last year but I have not been active at all. I hope to learn more about how crytographical concepts are used in practice.</div>
+</li>
+
+<li>
+	<div><b>August 2022</b></div>
+	<div>I started working on <a href="https://nsa-codebreaker.org/home">NSA Codebreaker Challenge</a>! Please feel free to reach out to me if you would like to talk anything about it. But of course, no spoliers/answers (read the term again if you don't know what I mean here).</div>
+</li>
+
+<li>
+<div><b>July 2022</b></div>
+	<div>Two abstracts are accepted to <a href="https://www.aeroconf.org/">IEEE Aeroconf 2023</a>. More details to follow; but still, thank you, my mentor and collaborators!
+	</div>
+</li>
+
+<li>
 	<div><b>May 2022</b></div>
 	<div>I feel too thankful and excited to find a way to precisely describe my feeling about this opportunity in words. I am instead leaving the hieroglypic representation of my summer plan <a href="/Downloads/I'm_a_NASA_Intern.png">here</a> provided by them. </div>
 </li>

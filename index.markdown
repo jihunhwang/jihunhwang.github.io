@@ -26,7 +26,7 @@ Before Purdue, I finished my Master's degree in <a href="https://www.cics.umass.
 </p>
 
 <p>
-I am interested in any topics in or related to theoretical computer science. For now, let's say my biggest interest has been in studying <a href="https://itcrypto.github.io/">information-theoretic cryptography</a> using tools from analysis of boolean functions and computational geometry. I also like to talk about other fields such as high-performance computing, optimizations, and cybersecurity, but not as much as I like cryptography. 
+I am interested in any topics in or related to theoretical computer science. For now, let's say my biggest interest has been in studying <a href="https://itcrypto.github.io/">information-theoretic cryptography</a> using tools from analysis of boolean functions and computational geometry. I also like to talk about other fields such as network algorithms, high-performance computing, and computer security, but not as much as I like cryptography. 
 </p>
 
 </font>
