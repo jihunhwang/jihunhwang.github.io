@@ -127,7 +127,7 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  A course on topological quantum computing <a href="https://smprtn.pages.math.illinois.edu/QCaT/">QCAT</a> was once offered at UIUC by <a href="https://smprtn.pages.math.illinois.edu/">Eric G. Samperton</a>.
+  A course on topological quantum computing <a href="https://www.math.purdue.edu/~esampert/QCaT/">QCAT</a> was once offered at UIUC by <a href="https://www.math.purdue.edu/~esampert/">Eric G. Samperton</a>.
 </li>
 
 <li>
