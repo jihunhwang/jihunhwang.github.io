@@ -23,6 +23,10 @@ On this page, you will find the notes and slides I made for the talks I presente
 <ul>
 
 <li>
+<a href="https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link">Pre-Processing and Leakage-Resilience Secure Computation</a>. Purdue CS Theory Reading Seminar in Nov 3rd, 2022.
+</li>
+
+<li>
 <a href="https://drive.google.com/file/d/16skP4qoTWEzEi2Yq1kYVx1eRxyNaB5Li/view?usp=sharing">Determinantal Complexity and Matrix Multiplication</a>. <a href="https://theory.cs.purdue.edu/spring2022.html">Purdue CS Theory Reading Seminar</a> in Feb 24th, 2022.
 </li>
 

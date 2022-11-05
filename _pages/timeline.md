@@ -20,6 +20,11 @@ search: exclude
 <ul>
 
 <li>
+	<div><b>November 2022</b></div>
+	<div>I gave a short talk at our Theory reading seminar about (computational) leakage-resilience cryptography, based on the papers I read last semester with my advisor. <a href="https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link">Here</a> are my slides.</div>
+</li>
+
+<li>
 	<div><b>September 2022</b></div>
 	<div>I joined <a href="https://b01lers.com/">b01lers</a>, Purdue's <a href="https://ctftime.org/team/11464">CTF team</a>! Technically, I become a member last year but I have not been active at all. I hope to learn more about how crytographical concepts are used in practice.</div>
 </li>
@@ -144,7 +149,7 @@ search: exclude
 
 <li>
 	<div><b>Summer 2019</b></div>
-		<div>I spent my whole summer at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a></div> with a group of amazing people doing <a href="https://sites.google.com/view/nsf-reu-erau/">NSF-REU@ERAU</a>! My advisor was Dr. <a href="https://sites.google.com/view/yuanj/">Jiawei Yuan</a>
+		<div>I spent my whole summer at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a></div> with a group of amazing people doing <a href="https://sites.google.com/view/nsf-reu-erau/">NSF-REU@ERAU</a>! My advisor was Professor <a href="https://sites.google.com/view/yuanj/">Jiawei Yuan</a>
 </li>
 
 <li>
@@ -213,7 +218,7 @@ search: exclude
 
 <li>
 	<div><b>January 2017</b></div>
-	<div>I am now also a part of <a href="https://www.cics.umass.edu/">CICS</a>! I was admitted to the computer science major with a colleague of mine, Ronny Huang. I plan to double major (or dual degree) math and computer science.
+	<div>I am now also a part of <a href="https://www.cics.umass.edu/">CICS</a>! I was admitted to the computer science major. I plan to double major (or dual degree) math and computer science.
 	</div>
 </li>
 
