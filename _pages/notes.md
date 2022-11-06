@@ -24,7 +24,7 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 
 ###### Courses Took at Purdue
 <details>
-	<summary><font size="4">Coming Soon!</font></summary>
+	<summary><font size="4">Coming soon!</font></summary>
 <font size="4">
 <p>
 Roughly, Purdue adopts the following course numbering system: 100-499 Undergraduate and <b>500-699 Graduate</b>. See <a href="https://www.purdue.edu/registrar/documents/currentStudents/students/preBannerTranscriptKey.pdf">this</a> for more details.
@@ -99,7 +99,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 ###### Courses Audited
 
 <details>
-		<summary><font size="4">Click to expand</font></summary>
+		<summary><font size="4">Coming soon!</font></summary>
 <font size = "4"> 
 <ul>
 

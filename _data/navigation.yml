@@ -1,6 +1,8 @@
 main:
   - title: "Timeline"
     url: /timeline/
+  - title: "Blog"
+    url: /blog/
   - title: "Notes"
     url: /notes/
   - title: "Talks"
