@@ -8,6 +8,7 @@ permalink:
 #   overlay_filter: "0.47"
 #     overlay_image: /assets/images/cover.jpg
 # excerpt: "Read. Write. Teach. Repeat."
+# Taken from https://github.com/chribben/chribben.github.io
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
