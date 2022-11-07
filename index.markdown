@@ -1,9 +1,13 @@
 ---
-layout: single
+layout: single # Important -- otherwise the posts will show up
 author_profile: true
-title: About Me
-layout: home
 permalink: 
+# title: About Me
+# header:
+#   overlay_color: "#000"
+#   overlay_filter: "0.47"
+#     overlay_image: /assets/images/cover.jpg
+# excerpt: "Read. Write. Teach. Repeat."
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -16,11 +20,11 @@ permalink:
 </script>
 
 
-<h6>You Have Reached Jimmy's Webpage!</h6>
+<h5>You have finally reached the end of the internet!</h5>
 
 <font size="4">
 <p>
-I am a second year Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>. Last summer, I worked at <a href="https://www.nasa.gov/goddard">NASA GSFC</a> as a research intern. 
+Just kidding. My name is Jimmy. I am a second year Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>. Last summer, I worked at <a href="https://www.nasa.gov/goddard">NASA GSFC</a> as a research intern. 
 </p>
 
 <p>
@@ -28,7 +32,7 @@ Before Purdue, I finished my Master's degree in <a href="https://www.cics.umass.
 </p>
 
 <p>
-I am interested in any topics in or related to theoretical computer science. For now, let's say my biggest interest has been in studying <a href="https://itcrypto.github.io/">information-theoretic cryptography</a> using tools from analysis of boolean functions and computational geometry. I also like to talk about other fields such as network algorithms, high-performance computing, and computer security, but not as much as I like cryptography. 
+I am interested in any topics in or related to theoretical computer science. For now, let's say my biggest interest has been in studying <a href="https://itcrypto.github.io/">information-theoretic cryptography</a> using tools from analysis of boolean functions and computational geometry. I also like to talk about network algorithms, high-performance computing, and computer security, but not as much as I like cryptography. 
 </p>
 
 </font>
