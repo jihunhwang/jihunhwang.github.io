@@ -39,6 +39,11 @@ search: exclude
 </li>
 
 <li>
+  For Purdue students: You can look up the previous grade distributions of courses/professors at Purdue in
+  <a href="https://www.boilergrades.com/">Boiler Grades</a>.
+</li>
+
+<li>
   <a href="https://glebbahmutov.com/blog/dont-help-me-say-no/">Don't help me say no</a>. A great list of mistakes that you should avoid at all costs in your job applications written by a Purdue CS Ph.D. alum. Also, see <a href="https://glebbahmutov.com/blog/help-me-say-yes/">Help me say yes</a>.
 </li>
 
@@ -61,12 +66,6 @@ search: exclude
 <li>
   <a href="https://www.graphclasses.org/index.html">ISGCI</a>, an encyclopaedia of graph classes.
 </li>
-
-<!--
-<li>
-  <a href="https://stacks.math.columbia.edu/">The Stacks project</a>: an online extensive open-source algebraic geometry textbook (it's super long, so don't bother printing <a href="https://stacks.math.columbia.edu/download/book.pdf">the entire book</a> out).
-</li>
--->
 
 <li>
   <a href="https://artofproblemsolving.com/news/articles/how-to-write-a-solution">How to write a solution</a>. From math olympiad perspective, but still valid for professional mathematics/physics/computer science.

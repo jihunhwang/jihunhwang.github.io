@@ -14,7 +14,7 @@ gem "activesupport", ">= 6.0.3.1"
 gem "kramdown", ">= 2.3.1"
 gem 'jekyll-analytics'
 gem "rexml", ">= 3.2.5"
-gem "nokogiri", ">= 1.13.9"
+gem "nokogiri", ">= 1.13.10"
 gem 'jekyll-paginate'
 gem "minimal-mistakes-jekyll", "~> 4.24.0"
 
