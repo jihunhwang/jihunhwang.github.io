@@ -21,6 +21,11 @@ search: exclude
 
 <li>
 	<div><b>November 2022</b></div>
+	<div>Happy to announce that both papers submitted to <a href="https://www.aeroconf.org/">IEEE Aeroconf 2023</a> are accepted, all thanks to my intern mentor and my teammates!</div>
+</li>
+
+<li>
+	<div><b>November 2022</b></div>
 	<div>I gave a short talk at our Theory reading seminar about (computational) leakage-resilience cryptography, based on the papers I read last semester with my advisor. <a href="https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link">Here</a> are my slides.</div>
 </li>
 
