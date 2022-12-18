@@ -153,8 +153,13 @@ search: exclude
 <ul>
 
 <li>
+	<div><b>September 2019</b></div>
+	<div>Happy to announce that I just made my very first publication, with the people I met in ERAU REU! Our paper is accepted to <a href="http://www.ieee-icii.org/">2019 IEEE ICII</a>, all thanks to my amazing collaborators!</div>
+</li>
+
+<li>
 	<div><b>Summer 2019</b></div>
-		<div>I spent my whole summer at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a></div> with a group of amazing people doing <a href="https://sites.google.com/view/nsf-reu-erau/">NSF-REU@ERAU</a>! My advisor was Professor <a href="https://sites.google.com/view/yuanj/">Jiawei Yuan</a>
+		<div>I spent my whole summer at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a></div> with a group of awesome people doing <a href="https://sites.google.com/view/nsf-reu-erau/">NSF-REU@ERAU</a>! My advisor was Professor <a href="https://sites.google.com/view/yuanj/">Jiawei Yuan</a>
 </li>
 
 <li>
