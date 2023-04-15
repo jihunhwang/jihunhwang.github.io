@@ -118,7 +118,7 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  <a href="https://www.youtube.com/playlist?list=PL0YFU3y0Z_gb6P9jG0-40AgZapdGGXPTD">Fundamental Algorithms</a> (<a href="https://fas22.s3.amazonaws.com/fas22-book.pdf">Course page/notes</a>). Pretty intensive undergrad level algorithms course taught by <a href="https://kentquanrud.com/">Kent Quanrud</a> in Spring 2022 at Purdue. 
+  Pretty intensive algorithms lecture series (course notes and videos) by <a href="https://kentquanrud.com/">Kent Quanrud</a> at Purdue: <a href="https://fas22.s3.amazonaws.com/fas22-book.pdf">Undergrad algorithms</a> (S22), <a href="https://fas23.s3.amazonaws.com/fas23.pdf">Graduate algorithms</a> (S23), and <a href="https://raf22.s3.amazonaws.com/raf22.pdf">Randomized algorithms</a> (F22).
 </li>
 
 <li>
@@ -140,12 +140,6 @@ Let us not forget to thank all those people who generously made their courses an
 <li>
   Indexed list of lecture videos on <a href="http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/12/book.htm">Mathematical Foundations of Computer Networking</a>, by <a href="http://blizzard.cs.uwaterloo.ca/keshav/wiki/index.php/Main_Page">Srinivasan Keshav</a> at Waterloo, directly following <a href="https://www.informit.com/store/mathematical-foundations-of-computer-networking-9780321792105">his book</a> with the same title. 
 </li>
-
-<!--
-<li>
-  Similarly, the <a href="https://www.youtube.com/user/UMassOS/videos">OS group</a> at UMass CICS uploads their OS-related course and seminar videos. For example, <a href="http://lass.cs.umass.edu/~shenoy/courses/677/">Distributed and Operating Systems</a> by <a href="http://lass.cs.umass.edu/~shenoy/">Prashant Shenoy</a> is great.
-</li>
--->
 
 <li>
   <a href="https://youtube.com/playlist?list=PLLasX02E8BPBNNE8C5TbRvUMUGP0-0-XU">MS Azure QC Workshop video playlist</a>. If you want something more theoretical, <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI4PB63hH_RnfnJSfNK1OojC">Quantum Computation</a> and <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI7Yqwbwp-lsf1tTPyvkQG6h">Quantum Complexity Theory</a> course videos provided by <a href="http://groups.uni-paderborn.de/fg-qi/">Sevag Gharibian</a> at Paderborn University.

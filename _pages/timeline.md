@@ -13,6 +13,18 @@ search: exclude
   gtag('config', 'UA-157894909-1');
 </script>
 
+###### 2023
+
+<font size="4">
+<ul>
+
+<li>
+	<div><b>March 2023</b></div>
+	<div>Received the return offer from previous year's internship! I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again this summer working on space communications!</div>
+</li>
+
+</ul>
+</font>
 
 ###### 2022
 
