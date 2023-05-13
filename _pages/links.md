@@ -121,9 +121,7 @@ Let us not forget to thank all those people who generously made their courses an
   Pretty intensive algorithms lecture series (course notes and videos) by <a href="https://kentquanrud.com/">Kent Quanrud</a> at Purdue: <a href="https://fas22.s3.amazonaws.com/fas22-book.pdf">Undergrad algorithms</a> (S22), <a href="https://fas23.s3.amazonaws.com/fas23.pdf">Graduate algorithms</a> (S23), and <a href="https://raf22.s3.amazonaws.com/raf22.pdf">Randomized algorithms</a> (F22).
 </li>
 
-<li>
-  <a href="https://twitter.com/viditnanda/status/1485633735919902726?s=21">Computational Algebraic Topology</a> (<a href="https://people.maths.ox.ac.uk/nanda/cat/">Course Webpage</a>), basically the fundamentals of TDA, by <a href="https://people.maths.ox.ac.uk/nanda/">Vidit Nanda</a> at Oxford.
-</li>
+
 
 <li>
   A course on topological quantum computing <a href="https://www.math.purdue.edu/~esampert/QCaT/">QCAT</a> was once offered at UIUC by <a href="https://www.math.purdue.edu/~esampert/">Eric G. Samperton</a>.
@@ -133,24 +131,34 @@ Let us not forget to thank all those people who generously made their courses an
 <a href="https://b01lers.com/gettingstarted.html">CTF b00tc4mp</a> (<a href="https://www.youtube.com/playlist?list=PLdGU-K4Khkr8iqzOdjKKj1QLmJJnks5fO">Youtube</a>) hosted in 2020 by <a href="https://b01lers.com/">b01lers</a>, Purdue CTF Team. Here is an <a href="https://github.com/b01lers/welcome-to-ctf">outline</a> of introduction to CTF written by b01lers.
 </li>
 
-<li>
-  <a href="http://www-net.cs.umass.edu/kurose_ross/index.php">Computer Networks (UMass CS 453)</a> pre-recorded lectures and interactive exercises, following Kurose-Ross 8th Edition, created by <a href="https://www-net.cs.umass.edu/personnel/kurose.html">Jim Kurose</a> (<a href="https://en.wikipedia.org/wiki/Jim_Kurose">Wiki</a>) at UMass Amherst, one of the the <a href="http://www-net.cs.umass.edu/kurose_ross/authors.php">authors</a> themselves.
-</li>
-
-<li>
-  Indexed list of lecture videos on <a href="http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/12/book.htm">Mathematical Foundations of Computer Networking</a>, by <a href="http://blizzard.cs.uwaterloo.ca/keshav/wiki/index.php/Main_Page">Srinivasan Keshav</a> at Waterloo, directly following <a href="https://www.informit.com/store/mathematical-foundations-of-computer-networking-9780321792105">his book</a> with the same title. 
-</li>
-
+<!--
 <li>
   <a href="https://youtube.com/playlist?list=PLLasX02E8BPBNNE8C5TbRvUMUGP0-0-XU">MS Azure QC Workshop video playlist</a>. If you want something more theoretical, <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI4PB63hH_RnfnJSfNK1OojC">Quantum Computation</a> and <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI7Yqwbwp-lsf1tTPyvkQG6h">Quantum Complexity Theory</a> course videos provided by <a href="http://groups.uni-paderborn.de/fg-qi/">Sevag Gharibian</a> at Paderborn University.
 </li>
+-->
 
 <li>
   <a href="https://sites.google.com/site/marywootters/home?authuser=0">Mary Wootters</a> at Stanford made great introductory courses in <a href="https://youtube.com/playlist?list=PLkvhuSoxwjI_UudECvFYArvG0cLbFlzSr">Coding Theory</a> and <a href="https://sites.google.com/site/marywootters/teaching?authuser=0">Randomized Algorithms</a>.
 </li>
 
 <li>
-  If Arora-Barak's Ch 11 and 22 does not suffice you (too difficult, want to learn more, or etc.), see this: <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html">Foundations of Probabilistic Proofs</a> by <a href="https://people.eecs.berkeley.edu/~alexch/">Alessandro Chiesa</a> at Berkeley.
+  Online lecture series on introductory and recent progress in zero knowledge proof <a href="https://zk-learning.org/">ZKP MOOC</a> at UC Berkeley. 
+</li>
+
+<li>
+  If Arora-Barak's Ch 11 and 22 does not suffice you (too difficult, want to learn more, or etc.), see this: <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html">Foundations of Probabilistic Proofs</a> by <a href="https://people.eecs.berkeley.edu/~alexch/">Alessandro Chiesa</a> at UC Berkeley.
+</li>
+
+<li>
+  <a href="https://twitter.com/viditnanda/status/1485633735919902726?s=21">Computational Algebraic Topology</a> (<a href="https://people.maths.ox.ac.uk/nanda/cat/">Course Webpage</a>), basically the fundamentals of TDA, by <a href="https://people.maths.ox.ac.uk/nanda/">Vidit Nanda</a> at Oxford.
+</li>
+
+<li>
+  <a href="http://www-net.cs.umass.edu/kurose_ross/index.php">Computer Networks (UMass CS 453)</a> pre-recorded lectures and interactive exercises, following Kurose-Ross 8th Edition, created by <a href="https://www-net.cs.umass.edu/personnel/kurose.html">Jim Kurose</a> (<a href="https://en.wikipedia.org/wiki/Jim_Kurose">Wiki</a>) at UMass Amherst, one of the the <a href="http://www-net.cs.umass.edu/kurose_ross/authors.php">authors</a> themselves.
+</li>
+
+<li>
+  Indexed list of lecture videos on <a href="http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/12/book.htm">Mathematical Foundations of Computer Networking</a>, by <a href="https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page">Srinivasan Keshav</a> at Waterloo, directly following <a href="https://www.informit.com/store/mathematical-foundations-of-computer-networking-9780321792105">his book</a> with the same title. 
 </li>
 
 <li>
