@@ -64,6 +64,10 @@ search: exclude
 </li>
 
 <li>
+  <a href="https://www.iacr.org/authors/tikz/">TikZ for Cryptographers</a>: a goldmine of cryptography related figures, ranging from hash functions to garbled circuts.
+  </li>
+
+<li>
   <a href="https://www.graphclasses.org/index.html">ISGCI</a>, an encyclopaedia of graph classes.
 </li>
 
@@ -81,7 +85,7 @@ Very extensive list of advices and <a href="https://www.vanessasun.com/questions
 
 
 <li>
-  <a href="https://projecteuler.net/">Project Euler</a>, basically a math-y version of <a href="https://leetcode.com/">LeetCode</a>.
+  <a href="https://projecteuler.net/">Project Euler</a>, basically a math-y version of <a href="https://leetcode.com/">LeetCode</a> and <a href="https://codeforces.com/">Codeforces</a>.
 </li>
 
 <li>
