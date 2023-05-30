@@ -6,12 +6,12 @@ search: exclude
 toc: true
 ---
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157894909-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=362935606"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-157894909-1');
+  gtag('config', '362935606');
 </script>
 
 Some of my write-ups will appear here!

@@ -55,7 +55,7 @@ include:
 
 #logo: "/image/Jimmy_pic.png"
 
-google_analytics_key: UA-157894909-1
+google_analytics_key: G-30GFV5VTPS
 
 footer:
   links:
@@ -109,11 +109,19 @@ defaults:
       layout: single
       author_profile: true
 
+# google_analytics: G-30GFV5VTPS
 
-jekyll_analytics:
-  GoogleAnalytics:          
-    id: UA-157894909-1         
-    anonymizeIp: false
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-30GFV5VTPS"
+    anonymize_ip: false # default
+
+# jekyll_analytics:
+#   GoogleAnalytics:          
+#     id: G-30GFV5VTPS         
+#     anonymizeIp: false
+    # id: UA-157894909-1 
 #category_archive:
 #  type: liquid
 #  path: /categories/

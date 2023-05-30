@@ -13,6 +13,7 @@ gem "jekyll", ">= 4.2.0"
 gem "activesupport", ">= 6.1.7.3"
 gem "kramdown", ">= 2.3.1"
 gem 'jekyll-analytics'
+gem 'jekyll-sitemap'
 gem "rexml", ">= 3.2.5"
 gem "nokogiri", ">= 1.14.3"
 gem 'jekyll-paginate'

@@ -4,6 +4,7 @@ permalink: /links/
 author_profile: true
 toc: true
 search: exclude
+sitemap: false
 ---
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157894909-1"></script>
