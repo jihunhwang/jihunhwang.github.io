@@ -49,14 +49,14 @@ sitemap: false
 </li>
 
 
-<li>
+<!-- <li>
   <a href="https://stanford.edu/~shervine/teaching/">AI/ML/DL/DS Cheatsheets</a>, and <a href="https://github.com/afshinea/stanford-cs-229-machine-learning">ML Cheatsheet</a> including refreshers, tips and tricks. For interviews, <a href="https://www.datasciencepreparation.com/">Data Science Interview Preparation</a> has a list of common interview questions in data science. 
-</li>
+</li> -->
 
 
-<li>
+<!-- <li>
   <a href="https://github.com/microsoft/QuantumKatas">QuantumKatas</a>: Microsoft Quantum training materials. For more theoretical background, see this constantly evolving <a href="https://homepages.cwi.nl/~rdewolf/qcnotes.pdf">Quantum computing lecture notes</a> by <a href="https://homepages.cwi.nl/~rdewolf/">Ronald de Wolf</a>.
-</li>
+</li> -->
 
 
 
@@ -86,7 +86,7 @@ Very extensive list of advices and <a href="https://www.vanessasun.com/questions
 
 
 <li>
-  <a href="https://projecteuler.net/">Project Euler</a>, basically a math-y version of <a href="https://leetcode.com/">LeetCode</a> and <a href="https://codeforces.com/">Codeforces</a>.
+  <a href="https://projecteuler.net/">Project Euler</a>, basically a math-y version of <a href="https://leetcode.com/">LeetCode</a> and <a href="https://codeforces.com/">Codeforces</a>. See also <a href="https://codingchallenges.fyi/">Coding Challenges</a> if you are an aspiring SWE and want to do something more 'realistic' and practical.
 </li>
 
 <li>
@@ -95,6 +95,10 @@ Very extensive list of advices and <a href="https://www.vanessasun.com/questions
 
 <li>
 <a href="https://www.wechall.net/about_wechall">WeChall</a>, <a href="https://overthewire.org/wargames/">OverTheWire</a>, <a href="https://picoctf.org/">picoCTF</a>, and <a href="https://cryptohack.org/">Cryptohack</a> have interesting CTF-like cybersecurity challenges. Very fun!
+</li>
+
+<li>
+<a href="https://www.redblobgames.com/">Red Blob Games</a>: Interactive (and cute!) tutorials for math and algorithms. See also <a href="https://www.complexity-explorables.org/">Complexity Explorables</a> for complex systems.
 </li>
 
 </ul>
@@ -107,7 +111,7 @@ Let us not forget to thank all those people who generously made their courses an
 <ul>
 
 <li>
-  <a href="https://ocw.mit.edu/index.htm">MIT OCW</a> (<a href = "https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw">Youtube</a>). It's MIT OCW, so I assume I don't need to put any explanations here. I particularly recommend: <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63d33STUUBfZUpzFCVR5-PV">6.890</a> (<a href="http://courses.csail.mit.edu/6.892/spring19/lectures/">Newer version</a>), <a href="https://youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY">18.404J</a>, <a href="https://youtube.com/playlist?list=PLUl4u3cNGP62qauV_CpT1zKaGG_Vj5igX">18.217</a>, <a href="https://youtube.com/playlist?list=PLhgq-BqyZ7i5lOqOqqRiS0U5SwTmPpHQ5">18.S097</a>, <a href="https://youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB">6.824</a>, and <a href="https://youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">6.858</a>.
+  <a href="https://ocw.mit.edu/index.htm">MIT OCW</a> (<a href = "https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw">Youtube</a>). It's MIT OCW, so I assume I don't need to put any explanations here. I particularly recommend: <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63d33STUUBfZUpzFCVR5-PV">6.890</a> (<a href="http://courses.csail.mit.edu/6.892/spring19/lectures/">6.892</a>), <a href="https://www.youtube.com/playlist?list=PLhgq-BqyZ7i5lOqOqqRiS0U5SwTmPpHQ5">18.S097</a>, and <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP62qauV_CpT1zKaGG_Vj5igX">18.217</a> (<a href="https://yufeizhao.com/gtac/">18.225</a>).
 </li>
 
 <li>
@@ -164,6 +168,14 @@ Let us not forget to thank all those people who generously made their courses an
 
 <li>
   Indexed list of lecture videos on <a href="http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/12/book.htm">Mathematical Foundations of Computer Networking</a>, by <a href="https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page">Srinivasan Keshav</a> at Waterloo, directly following <a href="https://www.informit.com/store/mathematical-foundations-of-computer-networking-9780321792105">his book</a> with the same title. 
+</li>
+
+<li>
+  <a href="https://amosunov.wordpress.com/">Anton Mosunov</a>'s Youtube channel (<a href="https://www.youtube.com/@AntonMosunov/videos">here</a>) has a series of recordings of UWaterloo's algebraic geometry (sheaves and schemes) reading seminar, which I found pretty straight-forward to follow. 
+</li>
+
+<li>
+  <a href="https://people.math.harvard.edu/~knill/graphgeometry/">Differential Geometry in Graphs!</a> Though it does not seem like it covers Ollivier-Ricci curvatures, unfortunately. 
 </li>
 
 <li>

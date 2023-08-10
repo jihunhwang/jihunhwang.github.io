@@ -70,15 +70,15 @@ sitemap: false
 <ul>
 
 <li>
-	Why do I love mathematics (⊃ theoretical computer science)? Watch this TED Talk <a href="https://youtu.be/Kc0Kthyo0hU"><i>What's so sexy about math?</i></a> by <a href="https://cedricvillani.org/">Cédric Villani</a> (<a href="https://en.wikipedia.org/wiki/C%C3%A9dric_Villani">Wiki</a>), 2010 Fields Medalist.
-</li>
-
-<li>
 	I am a proud <a href="https://en.wikipedia.org/wiki/Immigrant_generations#First_generation">naturalized first-generation American</a> (<a href="https://www.uscis.gov/us-citizenship/naturalization-test/naturalization-oath-allegiance-united-states-america">Oath of Allegiance</a>)
 </li>
 
 <li>
-	I was a huge fan of <a href="https://www.youtube.com/channel/UClmcETd3c872BSbH9KVSwwA">her</a> (<a href="https://en.wikipedia.org/wiki/Miryo">Wiki</a>) and her music when I was in high school.
+	Why do I love mathematics (⊃ theoretical computer science)? Watch this TED Talk <a href="https://youtu.be/Kc0Kthyo0hU"><i>What's so sexy about math?</i></a> by <a href="https://cedricvillani.org/">Cédric Villani</a> (<a href="https://en.wikipedia.org/wiki/C%C3%A9dric_Villani">Wiki</a>), 2010 Fields Medalist.
+</li>
+
+<li>
+	I was a huge fan of <a href="https://en.wikipedia.org/wiki/Miryo">her</a> and <a href="https://en.wikipedia.org/wiki/CL_(rapper)">her</a> music when I was in middle/high school.
 </li>
 <li>
 	I have been practicing this: <a href="https://youtu.be/4Xp4F1h0YZM">How to pronounce German Mathematician's Names</a> (cw: swearing and memes). I am still struggling but I have gotten way better though.

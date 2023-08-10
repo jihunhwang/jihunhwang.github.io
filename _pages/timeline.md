@@ -21,6 +21,16 @@ search: exclude
 <ul>
 
 <li>
+	<div><b>July 2023</b></div>
+	<div><b>I have been selected as a <a href="https://spacegrant.org/programs/john-mather/john-mather-2023/">2023 John Mather Nobel Scholar</a></b>, all thanks to my powerful leader of my intern group!</div>
+</li>
+
+<li>
+	<div><b>July 2023</b></div>
+	<div>The BPv7 paper I wrote with my CS 536 classmates has been accepted for presentation at <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a>. Thank you guys!</div>
+</li>
+
+<li>
 	<div><b>March 2023</b></div>
 	<div>Received the return offer from previous year's internship! I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again this summer working on space communications!</div>
 </li>
@@ -35,7 +45,7 @@ search: exclude
 
 <li>
 	<div><b>November 2022</b></div>
-	<div>Happy to announce that both papers submitted to <a href="https://www.aeroconf.org/">IEEE Aeroconf 2023</a> are accepted, all thanks to my intern mentor and my teammates!</div>
+	<div>Happy to announce that both papers submitted to <a href="https://www.aeroconf.org/">AeroConf 2023</a> are accepted, all thanks to my intern mentor and my colleagues I met at GSFC!</div>
 </li>
 
 <li>
@@ -54,14 +64,8 @@ search: exclude
 </li>
 
 <li>
-<div><b>July 2022</b></div>
-	<div>Two abstracts are accepted to <a href="https://www.aeroconf.org/">IEEE Aeroconf 2023</a>. More details to follow; but still, thank you, my mentor and collaborators!
-	</div>
-</li>
-
-<li>
 	<div><b>May 2022</b></div>
-	<div>I feel too thankful and excited to find a way to precisely describe my feeling about this opportunity in words. I am instead leaving the hieroglypic representation of my summer plan <a href="/Downloads/I'm_a_NASA_Intern.png">here</a> provided by them. </div>
+	<div>I feel too thankful and excited to find a way to precisely describe my feeling about this opportunity in words. I am instead leaving the hieroglypic representation of my summer plan <a href="/Downloads/I'm_a_NASA_Intern.png">here</a> provided by them.</div>
 </li>
 
 <li>
@@ -168,7 +172,7 @@ search: exclude
 
 <li>
 	<div><b>September 2019</b></div>
-	<div>Happy to announce that I just made my very first publication, with the people I met in ERAU REU! Our paper is accepted to <a href="http://www.ieee-icii.org/">2019 IEEE ICII</a>, all thanks to my amazing collaborators!</div>
+	<div>Happy to announce that I just made my very first publication, with the people I met in ERAU REU! Our paper is accepted to <a href="https://ieeexplore.ieee.org/xpl/conhome/9048088/proceeding">2019 ICII</a>, all thanks to my amazing collaborators!</div>
 </li>
 
 <li>
