@@ -20,10 +20,6 @@ search: exclude
 <font size="4">
 <ul>
 
-<li>
-	<div><b>July 2023</b></div>
-	<div><b>I have been selected as a <a href="https://spacegrant.org/programs/john-mather/john-mather-2023/">2023 John Mather Nobel Scholar</a></b>, all thanks to my powerful leader of my intern group!</div>
-</li>
 
 <li>
 	<div><b>July 2023</b></div>
