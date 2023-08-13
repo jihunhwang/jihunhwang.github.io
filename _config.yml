@@ -47,7 +47,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  jihunhwang
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "default"
 search: true
 
 include:
@@ -71,6 +71,7 @@ author:
   avatar: "/image/Jimmy_pic.jpg"
   bio: Anything related to Math/Compsci/Physics # Note: Markdown is allowed
   location: "West Lafayette, IN"
+  orcid: 0000-0002-3695-3706
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -84,8 +85,11 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=9Y3aSPgAAAAJ&hl=en"
+    - label: "ORCiD"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-3695-3706"
     - label: "Picture"
-      icon: ""
+      icon: "fas fa-fw fa-image"
       url: "/image/Jimmy_pic.jpg"
 
 
