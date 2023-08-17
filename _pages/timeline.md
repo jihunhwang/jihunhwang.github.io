@@ -23,12 +23,12 @@ search: exclude
 
 <li>
 	<div><b>July 2023</b></div>
-	<div>The BPv7 paper I wrote with my CS 536 classmates has been accepted for presentation at <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a>. Thank you guys!</div>
+	<div>The BPv7 paper I wrote with my CS 536 classmates has been accepted for presentation at <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a>. Thank you, everyone!</div>
 </li>
 
 <li>
 	<div><b>March 2023</b></div>
-	<div>Received the return offer from previous year's internship! I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again this summer working on space communications!</div>
+	<div>I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again this summer working on network information theory for Near Space Network (NSN)!</div>
 </li>
 
 </ul>
