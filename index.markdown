@@ -35,11 +35,11 @@ Before Purdue, I finished my Master's degree in <a href="https://www.cics.umass.
 </p>
 
 <p>
-I am interested in any topics in or related to theoretical computer science. For now, let's say my biggest interest has been in studying <a href="https://itcrypto.github.io/">information-theoretic cryptography</a> using tools from communication complexity and computational geometry. I also like to talk about network algorithms, high-performance computing, and computer security, but not as much as I like cryptography. 
+I am interested in any topics in or related to theoretical computer science. For now, let's say my biggest interest has been in studying <a href="https://itcrypto.github.io/">information-theoretic cryptography</a> using tools from communication complexity and computational geometry. I also like to talk about network algorithms/modeling, high-performance computing, and computer security, but not as much as I like cryptography. 
 </p>
 
 <p>
-I also play <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)">CTF</a>s sometimes as a member of <a href="https://b01lers.com/">b0llers</a>, Purdue's CTF club. If you are a Purdue student interested in offensive security, please consider joining us!
+I also play <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)">CTFs</a> sometimes as a member of <a href="https://b01lers.com/">b0llers</a>, Purdue's CTF club. If you are a Purdue student interested in ethical hacking and offensive security, please consider joining us!
 </p>
 
 </font>
