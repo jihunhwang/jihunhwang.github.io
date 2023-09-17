@@ -39,7 +39,7 @@ I am interested in any topics in or related to theoretical computer science. For
 </p>
 
 <p>
-I also play <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)">CTFs</a> sometimes as a member of <a href="https://b01lers.com/">b0llers</a>, Purdue's CTF club. If you are a Purdue student interested in ethical hacking and offensive security, please consider joining us!
+I also play <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)">CTFs</a> sometimes as a member of <a href="https://b01lers.com/">b0llers</a>. If you are a student at Purdue interested in ethical hacking and offensive security, please consider joining us!
 </p>
 
 </font>
