@@ -15,24 +15,18 @@ sitemap: false
   gtag('config', 'UA-157894909-1');
 </script>
 
-<!---
-###### My Colleagues/Collaborators
-<font size="4">
-	<a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>, <a href="https://www.cs.purdue.edu/people/graduate-students/xie401.html">Wenbo Xie</a>, <a href="https://github.com/sharath">Sharath Ramkumar</a>, Ronny Huang, Nicolas Dumont, Anastasia Ellison, Victoria Kraj, Joshua Gordon, Ashok Raja
-</font>
--->
 
 ###### Resources
 
 <font size="4">
 <ul>
-
+	
 <li>
-  <a href="https://is.gd/ourfa2m2">OURFA²M²</a> organized by great people provides helpful information for undergraduate math majors.
+  <a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone. For cryptography specifically, see <a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>.
 </li>
 
 <li>
-  <a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone. For cryptography specifically, see <a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>.
+  <a href="https://is.gd/ourfa2m2">OURFA²M²</a> organized by great people provides helpful information for undergraduate math majors.
 </li>
 
 <li>
@@ -40,12 +34,11 @@ sitemap: false
 </li>
 
 <li>
-  For Purdue students: You can look up the previous grade distributions of courses/professors at Purdue in
-  <a href="https://www.boilergrades.com/">Boiler Grades</a>.
+  For Purdue students: You can look up the previous grade distributions of courses/professors at Purdue in <a href="https://www.boilergrades.com/">Boiler Grades</a>. Also <a href="https://purdue.io/">Purdue.io</a> makes your life so much easier when looking up course descriptions. 
 </li>
 
 <li>
-  <a href="https://glebbahmutov.com/blog/dont-help-me-say-no/">Don't help me say no</a>. A great list of mistakes that you should avoid at all costs in your job applications written by a Purdue CS Ph.D. alum. Also, see <a href="https://glebbahmutov.com/blog/help-me-say-yes/">Help me say yes</a>.
+  <a href="https://glebbahmutov.com/blog/dont-help-me-say-no/">Don't help me say no</a>. A great list of mistakes that you should avoid at all costs in your job applications, written by a Purdue CS Ph.D. alum. Also, see <a href="https://glebbahmutov.com/blog/help-me-say-yes/">Help me say yes</a>.
 </li>
 
 
@@ -61,11 +54,11 @@ sitemap: false
 
 
 <li>
-  <a href="https://www.mathcha.io/">Mathcha</a> makes tikz easier. Also, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> and <a href="http://detexify.kirelabs.org/classify.html">detexify</a> are very useful.
+  <a href="https://www.mathcha.io/">Mathcha</a> makes tikz easier. Also, <a href="https://q.uiver.app/">quiver</a> (<a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a>), <a href="https://madebyevan.com/fsm/">FSM Designer</a>, and <a href="http://detexify.kirelabs.org/classify.html">detexify</a> are very useful.
 </li>
 
 <li>
-  <a href="https://www.iacr.org/authors/tikz/">TikZ for Cryptographers</a>: a goldmine of cryptography related figures, ranging from hash functions to garbled circuts.
+  <a href="https://www.iacr.org/authors/tikz/">TikZ for Cryptographers</a>: a goldmine of cryptography-related figures, ranging from hash functions to garbled circuits.
   </li>
 
 <li>
@@ -73,7 +66,7 @@ sitemap: false
 </li>
 
 <li>
-  <a href="https://artofproblemsolving.com/news/articles/how-to-write-a-solution">How to write a solution</a>. From math olympiad perspective, but still valid for professional mathematics/physics/computer science.
+  <a href="https://artofproblemsolving.com/news/articles/how-to-write-a-solution">How to write a solution</a>. Written from math olympiad perspectives, but still valid for professional mathematics/physics/computer science.
 </li>
 
 <li>
@@ -119,11 +112,11 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  <a href="https://www.ictp.it/">ICTP</a> (<a href="https://www.youtube.com/channel/UC-akozxNLMPcMcs0qVvS1VQ/featured">Youtube</a>) and their <a href="https://www.youtube.com/channel/UCBlqfZZYQWKyr6qLAB7LINw">Diploma Programme</a> upload the recordings of their lectures which are rougly equivalent to the MS/PhD level math courses in the US.
+  <a href="https://www.ictp.it/">ICTP</a> (<a href="https://www.youtube.com/channel/UC-akozxNLMPcMcs0qVvS1VQ/featured">Youtube</a>) and their <a href="https://www.youtube.com/channel/UCBlqfZZYQWKyr6qLAB7LINw">Diploma Programme</a> upload the recordings of their lectures which are roughly equivalent to the MS/PhD level math courses in the US.
 </li>
 
 <li>
-  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://geometrygunheecho.com/test/">Gunhee Cho</a> at UCSB actively uploads a wide range of rigorous lecture series in mathematics, from undergraduate courses to recent research topics. Lectures are mostly in Korean but the notes are in English except very few.
+  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://geometrygunheecho.com/test/">Gunhee Cho</a> at UCSB actively uploads a wide range of rigorous lecture series in mathematics, from undergraduate courses to recent research topics. Lectures are mostly in Korean, but the notes are in English except very few.
 </li>
 
 <li>
@@ -137,25 +130,20 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-<a href="https://b01lers.com/gettingstarted.html">CTF b00tc4mp</a> (<a href="https://www.youtube.com/playlist?list=PLdGU-K4Khkr8iqzOdjKKj1QLmJJnks5fO">Youtube</a>) hosted in 2020 by <a href="https://b01lers.com/">b01lers</a>, Purdue CTF Team. Here is an <a href="https://github.com/b01lers/welcome-to-ctf">outline</a> of introduction to CTF written by b01lers.
+<a href="https://b01lers.com/gettingstarted.html">CTF b00tc4mp</a> (<a href="https://www.youtube.com/playlist?list=PLdGU-K4Khkr8iqzOdjKKj1QLmJJnks5fO">Youtube</a>) hosted in 2020 by <a href="https://b01lers.com/">b01lers</a>, Purdue CTF Team. Here is an <a href="https://github.com/b01lers/welcome-to-ctf">outline</a> of an introduction to CTF written by b01lers.
 </li>
 
-<!--
-<li>
-  <a href="https://youtube.com/playlist?list=PLLasX02E8BPBNNE8C5TbRvUMUGP0-0-XU">MS Azure QC Workshop video playlist</a>. If you want something more theoretical, <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI4PB63hH_RnfnJSfNK1OojC">Quantum Computation</a> and <a href="https://youtube.com/playlist?list=PLZGjbQcY0aI7Yqwbwp-lsf1tTPyvkQG6h">Quantum Complexity Theory</a> course videos provided by <a href="http://groups.uni-paderborn.de/fg-qi/">Sevag Gharibian</a> at Paderborn University.
-</li>
--->
 
 <li>
   <a href="https://sites.google.com/site/marywootters/home?authuser=0">Mary Wootters</a> at Stanford made great introductory courses in <a href="https://youtube.com/playlist?list=PLkvhuSoxwjI_UudECvFYArvG0cLbFlzSr">Coding Theory</a> and <a href="https://sites.google.com/site/marywootters/teaching?authuser=0">Randomized Algorithms</a>.
 </li>
 
 <li>
-  Online lecture series on introductory and recent progress in zero knowledge proof <a href="https://zk-learning.org/">ZKP MOOC</a> at UC Berkeley. 
+  Online lecture series on introductory and recent progress in zero-knowledge proof <a href="https://zk-learning.org/">ZKP MOOC</a> at UC Berkeley. 
 </li>
 
 <li>
-  If Arora-Barak's Ch 11 and 22 does not suffice you (too difficult, want to learn more, or etc.), see this: <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html">Foundations of Probabilistic Proofs</a> by <a href="https://people.eecs.berkeley.edu/~alexch/">Alessandro Chiesa</a> at UC Berkeley.
+  If Arora-Barak's Ch 11 and 22 do not suffice you (too difficult, want to learn more, etc.), see this: <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html">Foundations of Probabilistic Proofs</a> by <a href="https://people.eecs.berkeley.edu/~alexch/">Alessandro Chiesa</a> at UC Berkeley.
 </li>
 
 <li>
@@ -171,7 +159,7 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  <a href="https://amosunov.wordpress.com/">Anton Mosunov</a>'s Youtube channel (<a href="https://www.youtube.com/@AntonMosunov/videos">here</a>) has a series of recordings of UWaterloo's algebraic geometry (sheaves and schemes) reading seminar, which I found pretty straight-forward to follow. 
+  <a href="https://amosunov.wordpress.com/">Anton Mosunov</a>'s Youtube channel (<a href="https://www.youtube.com/@AntonMosunov/videos">here</a>) has a series of recordings of UWaterloo's algebraic geometry (sheaves and schemes) reading seminar, which I found pretty straightforward to follow. 
 </li>
 
 <li>
