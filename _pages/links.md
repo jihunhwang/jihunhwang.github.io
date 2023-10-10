@@ -159,7 +159,7 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  <a href="https://amosunov.wordpress.com/">Anton Mosunov</a>'s Youtube channel (<a href="https://www.youtube.com/@AntonMosunov/videos">here</a>) has a series of recordings of UWaterloo's algebraic geometry (sheaves and schemes) reading seminar, which I found pretty straightforward to follow. 
+  <a href="https://www.youtube.com/@KurtMahler1903/videos">This Youtube channel</a> has recordings of UWaterloo's algebraic geometry (sheaves and schemes) reading seminar, which I found pretty straightforward to follow. 
 </li>
 
 <li>
