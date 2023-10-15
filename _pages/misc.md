@@ -33,7 +33,7 @@ sitemap: false
 	</li>
 
  	<li>
-	<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">Applying to Ph.D. Programs in Computer Science</a> by Professor <a href="https://www.cs.cmu.edu/~harchol/">Mor Harchol-Balter</a> at CMU. Basically a CS version of Tevelev's post above. If you are thinking of applying to Ph.D. programs in CS, please, do read this first (in fact, multiple times). 
+	<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">Applying to Ph.D. Programs in Computer Science</a> by Professor <a href="https://www.cs.cmu.edu/~harchol/">Mor Harchol-Balter</a> at CMU. Basically a CS version of Tevelev's post above. If you are thinking of applying to Ph.D. programs in CS, please, do read this first (in fact, multiple times, especially Sections 3.5 and 5). 
 	</li>
 	
 	<li>
