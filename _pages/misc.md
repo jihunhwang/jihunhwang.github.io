@@ -29,11 +29,15 @@ sitemap: false
 	</li>
 	
 	<li>
-	<a href="http://people.math.umass.edu/~tevelev/grad_advice.html">Advice for pure math undergraduates in UMass Amherst</a> (<a href="https://web.archive.org/web/20210126014044/https://people.math.umass.edu/~tevelev/grad_advice.html">Archive</a>) by Professor <a href="http://people.math.umass.edu/~tevelev/index.html">Jenia Tevelev</a>. I strongly believe that his opinions are still valid for applied math students.
+	<a href="http://people.math.umass.edu/~tevelev/grad_advice.html">Advice for pure math undergraduates in UMass Amherst</a> (<a href="https://web.archive.org/web/20210126014044/https://people.math.umass.edu/~tevelev/grad_advice.html">Archive</a>) by Professor <a href="http://people.math.umass.edu/~tevelev/index.html">Jenia Tevelev</a>. I believe that his opinions are still valid for applied math students.
+	</li>
+
+ 	<li>
+	<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">Applying to Ph.D. Programs in Computer Science</a> by Professor <a href="https://www.cs.cmu.edu/~harchol/">Mor Harchol-Balter</a> at CMU. Basically a CS version of Tevelev's post above. If you are thinking of applying to Ph.D. programs in CS, please, do read this first (in fact, multiple times). 
 	</li>
 	
 	<li>
-	<a href="https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/">Does one have to be a genius to do maths?</a> by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a> (<a href="https://en.wikipedia.org/wiki/Terence_Tao">Wiki</a>), 2006 Fields Medalist. <i>"The objective in mathematics is not to obtain the highest ranking, the highest “score”, or the highest number of prizes and awards"</i>. Regarding this, if you can read Korean, read <a href="https://comic.naver.com/webtoon/detail.nhn?titleId=703853&no=5&weekday=sun">this episode</a> of a web comic about the true meaning of doing mathematics.
+	<a href="https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/">Does one have to be a genius to do maths?</a> by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a> (<a href="https://en.wikipedia.org/wiki/Terence_Tao">Wiki</a>), 2006 Fields Medalist. <i>"The objective in mathematics is not to obtain the highest ranking, the highest “score”, or the highest number of prizes and awards"</i>. Regarding this, if you can read Korean, read <a href="https://comic.naver.com/webtoon/detail.nhn?titleId=703853&no=5&weekday=sun">this episode</a> of a webcomic about the true meaning of doing mathematics.
 	</li>
 	
 	<li>
