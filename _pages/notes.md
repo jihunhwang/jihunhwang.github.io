@@ -35,6 +35,9 @@ Roughly, Purdue adopts the following course numbering system: 100-499 Undergradu
 
 <ul>
 
+<li>Fall 2023, <a href="https://drive.google.com/file/d/1MRDJ8MaT6X19yFlRMX_zXaHr7oUyeiH9/view?usp=sharing">CS 593MLT Machine Learning Theory</a>
+</li>
+
 <li>Fall 2022, <a href="https://drive.google.com/file/d/12Vjjmb4PkbQjROhwtfUV-9OefPRgz6eo/view?usp=share_link">STAT 598DP Differential Privacy</a>
 </li>
 
@@ -91,15 +94,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 
 <li>Fall 2019, <a href="https://drive.google.com/open?id=1_byr727IPVjI0A8EUIjhWfgtSrG2ub1E">MATH 611 Abstract Algebra I</a></li>
 
-<!--
-<li>Fall 2019, <a href="">PHYS 586/821 General Relativity and Cosmology (Draft)</a> taught by Prof. <a href="https://www.physics.umass.edu/people/jennie-traschen">Jennie Traschen</a>.</li> 
--->
-
 <li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a></li>
-
-<!--
-<li>Spring 2017, <a href="">MATH 621 Graduate Complex Analysis (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~weston/">Tom Weston</a></li>
--->
 
 </ul>
 </font>
@@ -112,22 +107,6 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 		<summary><font size="4">Coming soon!</font></summary>
 <font size = "4"> 
 <ul>
-
-<!--
-<li>Spring 2021 (UMass Amherst), <a href="">MATH 797W Algebraic Geometry (Draft)</a> taught by Professor <a href="https://people.math.umass.edu/~markman/">Eyal Markman</a>.</li>
-
-
-<li>Spring 2021 (UMass Amherst), <a href="https://drive.google.com/file/d/1YZfK5-VTTKzUXZtRsFSu1-QNDiS9DIN6/view?usp=sharing">MATH 621 Graduate Complex Analysis (Draft)</a> taught by Professor <a href="https://blogs.umass.edu/sshahshahani/">Sohrab Shahshahani</a>.
-</li>
-	
-<li>Fall 2020 (UC Berkeley), <a href="https://drive.google.com/file/d/17LJ-kPr3HLF9jOvbPEmiM0yUSnNfInd0/view?usp=sharing">MATH 277 Topics Class on Ricci flow (Draft)</a> taught by Professor <a href="https://math.berkeley.edu/~rbamler/">Richard Bamler</a>.
-</li> 
--->
-
-<!--
-<li>Fall 2020 (Boston University), <a href="">CS 548 Advanced Cryptography (Draft)</a> taught by Professor <a href="https://www.bu.edu/cs/profiles/ran-canetti/">Ran Canetti</a>.
-</li>
--->
 
 </ul>
 </font>
@@ -144,22 +123,6 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 	</p> 
 
 <ul>
-
-<!-- Template
-<li><a href=""></a> by <a href=""></a> from at <a href=""> Seminar</a> at in , 2020.
-</li>	
--->
-
-<!-- 
-<li><a href="">Representation theory in geometric complexity theory</a> by <a href="http://www-users.math.umn.edu/~mengelst/">Christian Ikenmeyer</a> from University of Liverpool at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> (Online) on Jan 18th, 2021.
-</li>
--->
-
-<!-- 
-<li><a href="https://drive.google.com/file/d/1mj6w_cMLJeKtHHnJSlfKDOiSW3KCjM3x/view?usp=sharing">Optimal transport, Ricci curvature lower bounds and group actions (Draft)</a> by <a href="https://www.maths.ox.ac.uk/people/andrea.mondino">Andrea Mondino</a> from Oxford Mathematical Institute at the <a href="https://www.maths.ox.ac.uk/events/list/641/all"> Oxford Geometry and Analysis Seminar</a> Online on Oct 26th, 2020.
-</li>
--->
-
  
 
 <li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst on Feb 5th, 12th, 20th, and Mar 11th, 2020.
