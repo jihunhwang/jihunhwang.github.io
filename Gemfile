@@ -31,6 +31,7 @@ group :jekyll_plugins do
   # https://batsov.com/articles/2021/12/19/changes-to-github-pages/
   gem "jekyll-compose"
   gem 'jekyll-redirect-from'
+  gem 'jekyll-spaceship'
 end
 
 
@@ -50,3 +51,4 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 
 gem "webrick", "~> 1.7"
+
