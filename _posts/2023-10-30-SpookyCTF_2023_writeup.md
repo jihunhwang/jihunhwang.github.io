@@ -521,6 +521,9 @@ All spaces are underscores</code></p>
 </center>
 
 <font size="4">
+
+<p></p>
+
 <p>Google image search returned LOTS of websites, each with a photo of the same graffiti but different addresses. For example, the first website that we stumbled on was <a href="https://theclio.com/entry/144943">https://theclio.com/entry/144943</a>, which gave us the address: 938 24th St NW, Washington, DC. </p>
 
 </font>
