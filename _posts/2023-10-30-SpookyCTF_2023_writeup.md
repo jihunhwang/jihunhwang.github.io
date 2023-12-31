@@ -13,7 +13,7 @@ last_modified_at: 2023-12-30
 
 <font size="4">
 
-<p>A Halloween-themed CTF! I again participated as a part of <a href="https://b01lers.com/">b01lers</a>, but in particular I worked with A1y mostly. </p>
+<p>A Halloween-themed CTF! I again participated as a part of <a href="https://b01lers.com/">b01lers</a>, but in particular I worked with A1y mostly. I also worked with VinhChilling and King Fish.</p>
 
 </font>
 
@@ -29,6 +29,8 @@ last_modified_at: 2023-12-30
 <p>My task was to decipher it, to unlock its hidden meaning. The characters appeared to be encoded in a complex language, something that I cannot seem to figure out. The key to understanding lay within those symbols, like a cosmic puzzle waiting to be solved.</p>
 
 <p>As I gazed up at the starry night sky, seeing the Leo Minor constellation in the sky, I knew that the fate of humanity rested on my ability to decode this enigmatic message, to uncover the truth hidden within the stars.</p>
+
+<p><code><a href="https://spooky.ctfd.io/files/3acbaa7cd6d613e29cf9e18bab0d6249/found_notes.txt?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTF9.ZZC8yw.0bTvsKXmomHb_hjiz4h2FOWgGU0">found_notes.txt</a></code></p>
 </font></blockquote>
 </details>
 
@@ -41,6 +43,8 @@ last_modified_at: 2023-12-30
 <img src="/image/spctf_found_notes.png">
 </center>
 <font size="4">
+
+<p></p>
 
 <p>It looks like a base64-encoded string, which we can try base64-decoding it with Python.</p>
 
@@ -120,6 +124,9 @@ f.close()
 </font>
 
 <font size="4">
+
+<p></p>
+
 <p>So this file was encrypted using AES (the file extension checks out already), in particular using the program called <code>aescrypt</code> (on Windows).</p>
 
 <p>The problem prompt has also given <code>MWwwdjM1eW1tM3RyMWNrM3Q1ISEh</code> as a hint, and says <i>I am trying to escape this <b>64</b>-story horror house</i>. From this, one could guess that this random string is a base64 string,</p>
@@ -224,7 +231,9 @@ print(len(arr_dirs))
 
 <font size="4">
 
-<p>I am sure nobody here would like to check 207 files all manually unless they are trying to procrastinate or stay away from something desperately. Just as the challenge description suggests, my direction was to see if there are any log files. Checking in the first folder <code>nuk3town</code> briefly tells us that the machine was running Windows OS. The third and fourth folders (<code>nuketown_84</code> and <code>nuketown_island</code>) look nearly useless for this challenge upon checking in.</p>
+<p></p>
+
+<p>I am very sure nobody would be gladly willing to check 207 files all manually unless they are trying to procrastinate or stay away from something desperately. Just as the challenge description suggests, my direction was to see if there are any log files. Checking in the first folder <code>nuk3town</code> briefly tells us that the machine was running Windows OS. The third and fourth folders (<code>nuketown_84</code> and <code>nuketown_island</code>) look nearly useless for this challenge upon checking in.</p>
 
 <p>The second folder <code>nuketown2025</code> also looks useless at first sight; it looks more like a folder for background musics, but your opinion might change once you read the file names carefully </p>
 
@@ -377,7 +386,7 @@ jimmy@jimmy-G5-5587:~/nuketown/nuketown/nuketown2025$ cat MicrosoftUpdateTaskFor
 
 <p>It was <code>bomb.py</code> that was executed at 14:55. Hence, <b>flag: <code>NICC{bomb.py_14:55}</code></b> as desired.</p>
 
-<p>As author kind of admitted in the Discord server, I think this challenge could be guessy for those who have never heard of fork bomb before (or never played COD before---there is no such thing called fork bomb in COD).</p>
+<p>As the author of this chall kind of admitted in the Discord server, I think this challenge could be guessy for those who have never heard of fork bomb before (or never played COD before---there is no such thing called fork bomb in COD).</p>
 
 </font>
 
@@ -483,7 +492,62 @@ NICC{TH3-UF0S-4R3-UP-N0T-D0WN-50-WHY-4R3-Y0U-D0WN-H3R3}
 <img src="/image/spctf_barehands.png" width="60%" height="60%">
 </center>
 
+###### The Wizard (OSINT)
+
 <font size="4">
+
+<blockquote><font size="3">
+<p>We intercepted a photo intended to be received by a suspected agent working with the Zorglaxians - or so it seems.</p>
+
+<p>Can you find the location of the photo while our team works on decrypting the accompanying message?</p>
+
+<p>We need the entire street address, city and abbreviated state or district of where it was taken to send our agents to investigate with the local authorities.</p>
+
+<p><code># = Number <br>
+XX = State abbreviation <br>
+All spaces are underscores</code></p>
+
+<p>flag format: NICC{#_Street_Address_City_XX}</p>
+
+<p><code><a href="https://spooky.ctfd.io/files/6584eb767cd6d35f6e06b825f6f6f4c1/the-wizard.png?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTR9.ZZHMFg.d_qS7ocYT7Z0iHtz1JRsoNDeZJc">the-wizard.png</a></code></p>
+</font></blockquote>
+
+<p>First things first. I downloaded <code><a href="https://spooky.ctfd.io/files/6584eb767cd6d35f6e06b825f6f6f4c1/the-wizard.png?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTR9.ZZHMFg.d_qS7ocYT7Z0iHtz1JRsoNDeZJc">the-wizard.png</a></code>.</p>
+
+</font>
+
+<center>
+<img src="/image/spctf_the-wizard.png" width="70%" height="70%">
+</center>
+
+<font size="4">
+<p>Google image search returned LOTS of websites, each with a photo of the same graffiti but different addresses. For example, the first website that we stumbled on was <a href="https://theclio.com/entry/144943">https://theclio.com/entry/144943</a>, which gave us the address: 938 24th St NW, Washington, DC. </p>
+
+</font>
+
+<p></p>
+
+<center>
+<img src="/image/spctf_thewizard_1.png">
+</center>
+
+<font size="4">
+
+<p></p>
+
+<p>But allegedly, this was not the correct answer. After a few more wrong answers, we found the official website of Washington DC government that has the picture of this graffiti. <a href="https://washington.org/es/visit-dc/where-to-find-street-murals-washington-dc">https://washington.org/es/visit-dc/where-to-find-street-murals-washington-dc</a>.</p>
+
+</font>
+
+<center>
+<img src="/image/spctf_thewizard_sol.png" width="60%" height="60%">
+</center>
+
+<font size="4">
+
+<p>This must be the correct answer, and it indeed was. </p>
+
+<p><b>Flag: <code>NICC{950_24th_St_NW_Washington_DC}</code></b></p>
 
 </font>
 
