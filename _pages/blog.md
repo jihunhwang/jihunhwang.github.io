@@ -14,4 +14,10 @@ toc: true
   gtag('config', '362935606');
 </script>
 
-Some of my write-ups will appear here!
+
+<!---
+{% assign posts = site.posts | sort: 'date' %}
+{% for post in posts %}
+  <p><a href="{{ post.url }}">{{ post.title }}</a>
+{% endfor %}
+--->
