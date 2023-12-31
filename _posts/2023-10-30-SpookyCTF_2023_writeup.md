@@ -9,6 +9,8 @@ mathjax: yes
 last_modified_at: 2023-12-30
 ---
 
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 <font size="4">
 
 <p>A Halloween-themed CTF! I again participated as a part of <a href="https://b01lers.com/">b01lers</a>, but in particular I worked with A1y mostly. </p>
@@ -473,8 +475,15 @@ NICC{TH3-UF0S-4R3-UP-N0T-D0WN-50-WHY-4R3-Y0U-D0WN-H3R3}
 
 <p><b>Flag: <code>NICC{TH3-UF0S-4R3-UP-N0T-D0WN-50-WHY-4R3-Y0U-D0WN-H3R3}</code></b></p>
 
-<p>I strongly recommend that you automate the recursive unzipping step, instead of clicking it 655*3 times like I did. I don't remember why I had chosen to do it manually, I think it was because I thought it'll stop at <code>secrets600</code> or around that point so clicking it very fast could be faster than coding it up.</p>
+<p>I <b>strongly recommend that you automate the recursive unzipping step</b>, instead of clicking it 655*3 times like I did. I don't remember why I had chosen to do it manually, IIRC it was because I initially thought it'll stop at <code>secrets600</code> or around that point, (then <code>secrets550</code>, and then so on...) so clicking it very fast could be faster than coding it up.</p>
 
+</font>
+
+<center>
+<img src="/image/spctf_barehands.png" width="60%" height="60%">
+</center>
+
+<font size="4">
 
 </font>
 
