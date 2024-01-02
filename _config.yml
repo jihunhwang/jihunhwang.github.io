@@ -33,6 +33,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-analytics
+  - jekyll-archives
 
 #plugins:
 #  - jekyll-feed
@@ -88,6 +89,9 @@ author:
     - label: "ORCiD"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-3695-3706"
+    - label: "infosec.exchange"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://infosec.exchange/@FlaggnGoose"
     - label: "Picture"
       icon: "fas fa-fw fa-image"
       url: "/image/Jimmy_pic.jpg"
@@ -102,8 +106,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
@@ -186,15 +190,33 @@ jekyll-spaceship:
       class: emoji
     src: https://github.githubassets.com/images/icons/emoji/
 
+# category_archive:
+#   type: liquid
+#   path: /categories/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     # - categories
+#     - tags
+#   layouts:
+#     # category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     # category: /categories/:name/
+#     tag: /tags/:name/
+
 # jekyll_analytics:
 #   GoogleAnalytics:          
 #     id: G-30GFV5VTPS         
 #     anonymizeIp: false
     # id: UA-157894909-1 
-#category_archive:
+# category_archive:
 #  type: liquid
 #  path: /categories/
-#tag_archive:
+# tag_archive:
 #  type: liquid
 #  path: /tags/
 
