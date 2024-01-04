@@ -14,6 +14,8 @@ last_modified_at: 2023-12-30
 
 <p>A Halloween-themed CTF! I again participated as a part of <a href="https://b01lers.com/">b01lers</a>, but in particular I worked with A1y mostly. I also worked with VinhChilling and King Fish.</p>
 
+<p>Here is the link to the CTF website: <a href="https://spooky.ctfd.io/">https://spooky.ctfd.io/</a>, and the link to the CTFTime event page: <a href="https://ctftime.org/event/2137/">https://ctftime.org/event/2137/</a>.</p>
+
 </font>
 
 ###### What have we found here... (Crypto)
@@ -30,6 +32,7 @@ last_modified_at: 2023-12-30
 <p>As I gazed up at the starry night sky, seeing the Leo Minor constellation in the sky, I knew that the fate of humanity rested on my ability to decode this enigmatic message, to uncover the truth hidden within the stars.</p>
 
 <p><code><a href="https://spooky.ctfd.io/files/3acbaa7cd6d613e29cf9e18bab0d6249/found_notes.txt?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTF9.ZZC8yw.0bTvsKXmomHb_hjiz4h2FOWgGU0">found_notes.txt</a></code></p>
+
 </font></blockquote>
 </details>
 
@@ -112,6 +115,9 @@ f.close()
 <p>I am trying to escape this 64-story horror house and the only way to escape is by finding the flag in this text file! Can you help me crack into the file and get the flag? The only hint I get is this random phrase: MWwwdjM1eW1tM3RyMWNrM3Q1ISEh</p>
 
 <p><code><a href="https://spooky.ctfd.io/files/ef4a3a201da074874a6825fcf4af8bd7/flag.txt.aes?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTh9.ZZC82A.FkL50igZpxPbutlgf15byivEcn8">flag.txt.aes</a></code></p>
+
+<p><b>Developed by</b> <a href="https://github.com/theamazins17">theamazins17</a></p>
+
 </font></blockquote>
 
 <font size="4">
@@ -160,6 +166,9 @@ NICC{1-4m-k3yn0ugh!}
 <p>He follows the flow of the river from that monument and passes many others. However, he loses count due to some snakes that he had to run from! Indiana is now at the monument marked with the point (39234,12275) on his chart.</p>
 
 <p>How many monuments did Indiana pass in total?</p>
+
+<p><b>Developed by</b> <a href="https://github.com/thatLoganGuy">Logan DesRochers</a></p>
+
 </font></blockquote>
 
 <font size="4">
@@ -202,6 +211,9 @@ print(n-1)
 <p>Flag Format: NICC{nameOfFile.extension_00:00}</p>
 
 <p><code><a href="https://spooky.ctfd.io/files/b04fad9d5fd3eecd46136ba0ee0ed5ab/nuketown.zip?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MjB9.ZZC6BQ.zyS9viIscCL31utvKAf8Xn8yeO0">nuketown.zip</a></code></p>
+
+<p><b>Developed by</b> <a href="https://github.com/theamazins17">theamazins17</a></p>
+
 </font>
 </blockquote>
 
@@ -398,6 +410,10 @@ jimmy@jimmy-G5-5587:~/nuketown/nuketown/nuketown2025$ cat MicrosoftUpdateTaskFor
 <p>Make sure you have your bases covered before you head in and find the secrets hiding inside!</p>
 
 <p><a href="https://spooky.ctfd.io/files/6d539c02da776aedd9f92f315d81ef03/wormhole.jpg?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MjF9.ZZDQJA.JTepNHYHYORGnItyslgrs0O6O0Y"><code>wormhole.jpg</code></a></p>
+
+<p><b>Developed by</b> <a href="https://github.com/dmarriello">Daniel M.</a></p>
+
+
 </font>
 </blockquote>
 
@@ -509,6 +525,9 @@ All spaces are underscores</code></p>
 <p>flag format: NICC{#_Street_Address_City_XX}</p>
 
 <p><code><a href="https://spooky.ctfd.io/files/6584eb767cd6d35f6e06b825f6f6f4c1/the-wizard.png?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTR9.ZZHMFg.d_qS7ocYT7Z0iHtz1JRsoNDeZJc">the-wizard.png</a></code></p>
+
+<p><b>Developed by</b> <a href="https://github.com/AlfredSimpson">Cyb0rgSw0rd</a></p>
+
 </font></blockquote>
 
 <p>First things first. I downloaded <code><a href="https://spooky.ctfd.io/files/6584eb767cd6d35f6e06b825f6f6f4c1/the-wizard.png?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTR9.ZZHMFg.d_qS7ocYT7Z0iHtz1JRsoNDeZJc">the-wizard.png</a></code>.</p>
