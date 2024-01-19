@@ -42,7 +42,7 @@ last_modified_at: 2023-12-30
 <p>We are given a file <code><a href="https://spooky.ctfd.io/files/3acbaa7cd6d613e29cf9e18bab0d6249/found_notes.txt?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTF9.ZZC8yw.0bTvsKXmomHb_hjiz4h2FOWgGU0">found_notes.txt</a></code>, whose first few lines looks like this:</p>
 </font>
 <center>
-<img src="/image/spctf_found_notes.png">
+<img src="/image/spctf_2023/spctf_found_notes.png">
 </center>
 <font size="4">
 
@@ -64,7 +64,7 @@ print(lines)
 <p>The output string surprisingly includes a word that everyone is familiar with:</p>
 </font>
 <center>
-<img src="/image/spctf_found_notes_jfif.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_found_notes_jfif.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -79,7 +79,7 @@ f.close()
 <details>
 <summary><font size="4">Output file <code>found_notes_sol.jpg</code> (Click to expand)</font></summary>
 <center>
-<img src="/image/found_notes_sol.jpg" width="70%" height="70%">
+<img src="/image/spctf_2023/found_notes_sol.jpg" width="70%" height="70%">
 </center>
 </details>
 <p></p>
@@ -124,7 +124,7 @@ f.close()
 <p>As usual, we start by opening the given file: <code><a href="https://spooky.ctfd.io/files/ef4a3a201da074874a6825fcf4af8bd7/flag.txt.aes?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTh9.ZZC82A.FkL50igZpxPbutlgf15byivEcn8">flag.txt.aes</a></code>.</p>
 
 <center>
-<img src="/image/spctf_keyfits.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_keyfits.png" width="70%" height="70%">
 </center>
 </font>
 
@@ -237,7 +237,7 @@ print(len(arr_dirs))
 </font>
 
 <center>
-<img src="/image/spctf_nuketown.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_nuketown.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -435,7 +435,7 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_rabbit_hole.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_rabbit_hole.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -445,7 +445,7 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_dev_tool.png">
+<img src="/image/spctf_2023/spctf_dev_tool.png">
 </center>
 
 <font size="4">
@@ -454,7 +454,7 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_cyberchef.png">
+<img src="/image/spctf_2023/spctf_cyberchef.png">
 </center>
 
 <font size="4">
@@ -466,7 +466,7 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_dir1.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_dir1.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -476,15 +476,15 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_dir2.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_dir2.png" width="70%" height="70%">
 </center>
 <p></p>
 <center>
-<img src="/image/spctf_dir3.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_dir3.png" width="70%" height="70%">
 </center>
 <p></p>
 <center>
-<img src="/image/spctf_dir4.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_dir4.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -504,7 +504,7 @@ NICC{TH3-UF0S-4R3-UP-N0T-D0WN-50-WHY-4R3-Y0U-D0WN-H3R3}
 </font>
 
 <center>
-<img src="/image/spctf_barehands.png" width="60%" height="60%">
+<img src="/image/spctf_2023/spctf_barehands.png" width="60%" height="60%">
 </center>
 
 ###### The Wizard (OSINT)
@@ -535,7 +535,7 @@ All spaces are underscores</code></p>
 </font>
 
 <center>
-<img src="/image/spctf_the-wizard.png" width="70%" height="70%">
+<img src="/image/spctf_2023/spctf_the-wizard.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -549,7 +549,7 @@ All spaces are underscores</code></p>
 <p></p>
 
 <center>
-<img src="/image/spctf_thewizard_1.png">
+<img src="/image/spctf_2023/spctf_thewizard_1.png">
 </center>
 
 <font size="4">
@@ -561,7 +561,7 @@ All spaces are underscores</code></p>
 </font>
 
 <center>
-<img src="/image/spctf_thewizard_sol.png" width="60%" height="60%">
+<img src="/image/spctf_2023/spctf_thewizard_sol.png" width="60%" height="60%">
 </center>
 
 <font size="4">
