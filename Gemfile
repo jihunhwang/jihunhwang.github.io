@@ -15,7 +15,7 @@ gem "kramdown", ">= 2.3.1"
 gem 'jekyll-analytics'
 gem 'jekyll-sitemap'
 gem "rexml", ">= 3.2.5"
-gem "nokogiri", ">= 1.14.3"
+gem "nokogiri", ">= 1.16.2"
 gem 'jekyll-paginate'
 gem "minimal-mistakes-jekyll", "~> 4.24.0"
 gem 'jekyll-archives'
