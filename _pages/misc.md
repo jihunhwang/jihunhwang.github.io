@@ -23,44 +23,44 @@ sitemap: false
 	<li>
 	<a href="https://youtu.be/RIfgWZwtlO4">AI and Cryptography: Challenges and Opportunities</a>, by <a href="http://people.csail.mit.edu/shafi/">Shafi Goldwasser</a> (<a href="https://en.wikipedia.org/wiki/Shafi_Goldwasser">Wiki</a>), 2012 Turing Award winner. <i>"Ensure that the power of ML is not abused"</i>.
 	</li>
-	
-	<li>
+
+<li>
 	<a href="https://tonsky.me/blog/disenchantment/?fbclid=IwAR3xwKo5ZA5yhTXVtJT7mnptk5gN5GAJwXXIf1GKhqUPsauaIy1d0rgY4uc">Software disenchantment</a>. <i>"Windows 95 was 30MB. Today we have web pages heavier than that! Windows 10 is 4GB, which is 133 times as big. But is it 133 times as superior?"</i>
 	</li>
 	
-	<li>
+<li>
 	<a href="http://people.math.umass.edu/~tevelev/grad_advice.html">Advice for pure math undergraduates in UMass Amherst</a> (<a href="https://web.archive.org/web/20210126014044/https://people.math.umass.edu/~tevelev/grad_advice.html">Archive</a>) by Professor <a href="http://people.math.umass.edu/~tevelev/index.html">Jenia Tevelev</a>. I believe that his opinions are still valid for applied math students.
 	</li>
 
- 	<li>
+ <li>
 	<a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">Applying to Ph.D. Programs in Computer Science</a> by Professor <a href="https://www.cs.cmu.edu/~harchol/">Mor Harchol-Balter</a> at CMU. Basically a CS version of Tevelev's post above. If you are thinking of applying to Ph.D. programs in CS, please, do read this first (in fact, multiple times, especially Sections 3.5 and 5). 
 	</li>
 	
-	<li>
+<li>
 	<a href="https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/">Does one have to be a genius to do maths?</a> by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a> (<a href="https://en.wikipedia.org/wiki/Terence_Tao">Wiki</a>), 2006 Fields Medalist. <i>"The objective in mathematics is not to obtain the highest ranking, the highest “score”, or the highest number of prizes and awards"</i>. Regarding this, if you can read Korean, read <a href="https://comic.naver.com/webtoon/detail.nhn?titleId=703853&no=5&weekday=sun">this episode</a> of a webcomic about the true meaning of doing mathematics.
 	</li>
 	
-	<li>
+<li>
 	<a href="https://terrytao.wordpress.com/2019/06/27/living-proof-stories-of-resilience-along-the-mathematical-journey/">Living Proof: Stories of Resilience Along the Mathematical Journey</a> again by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a>. Please read this if you feel incompetent or powerless after an exam (or a semester). Don't be discouraged! <a href="https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-grades-and-exams-and-methods/">There's more to mathematics than grades and exams and methods</a>.
 	</li>
 	
-	<li>
+<li>
 	<a href="https://www.theatlantic.com/education/archive/2021/09/bias-math-sexism-racism/620207/">Math is Personal</a>. In case you do not understand why teachers are often called the engineers of human soul. I believe every student is more valuable than the numerical or letter outputs they make in class.
 	</li>
 	
-	<li>
+<li>
 	<a href="https://www.dailyprincetonian.com/article/2022/02/stem-intro-courses-humanites-exploration">Why won’t anyone teach me math?</a> I agree that a certain level of difficulty must be maintained in curriculums. However, systemically refusing to help or educate students is not a reasonable method of keeping that standard. 
 	</li>
 	
-	<li>
+<li>
 	<a href="https://artofproblemsolving.com/community/c5h1147943p5421541">Having Time for Math</a> by <a href="https://web.evanchen.cc/">Evan Chen</a>. If you don't have time, then maybe you should make some time!
 	</li>
 	
-	<li>
+<li>
 	<a href="https://www.cs.cmu.edu/~mblum/research/pdf/grad.html">The 4 R's of Graduate School</a> by <a href="https://www.cs.cmu.edu/~mblum/">Manuel Blum</a> (<a href="https://en.wikipedia.org/wiki/Manuel_Blum">Wiki</a>), 1995 Turing Award winner. <i>"Without writing, you are reduced to a finite automaton. With writing you have the extraordinary power of a Turing machine."</i>
 	</li>
 	
-  	<li>
+  <li>
 	<a href="https://www.edupristine.com/blog/11-facts-about-data-science">The Inconvenient Truth About Data Science</a>. "<i>Some models are more wrong than others, but all are wrong.</i>"
 	</li>
 
@@ -89,8 +89,8 @@ sitemap: false
 </li>
 
 <li>
-  	<a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> was also very fun and inspiring.
-	</li>
+  <a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> was also quite inspiring!
+</li>
 
 </ul>
 </font>
