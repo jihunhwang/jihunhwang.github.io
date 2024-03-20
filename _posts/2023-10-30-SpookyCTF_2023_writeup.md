@@ -18,7 +18,7 @@ last_modified_at: 2023-12-30
 
 </font>
 
-###### What have we found here... (Crypto)
+### What have we found here... (Crypto)
 
 <details>
 <summary><font size="4">Problem prompt (Click to expand)</font></summary>
@@ -109,7 +109,7 @@ f.close()
 </details>
 </font>
 
-###### If the key fits... (Crypto)
+### If the key fits... (Crypto)
 
 <blockquote><font size="3">
 <p>I am trying to escape this 64-story horror house and the only way to escape is by finding the flag in this text file! Can you help me crack into the file and get the flag? The only hint I get is this random phrase: MWwwdjM1eW1tM3RyMWNrM3Q1ISEh</p>
@@ -156,7 +156,7 @@ NICC{1-4m-k3yn0ugh!}
 
 </font>
 
-###### strange monuments (Crypto)
+### strange monuments (Crypto)
 
 <blockquote><font size="3">
 <p>Indiana is searching for alien artifacts deep in the jungle. He's following a winding river, and in order to not get lost he has charted its flow with the equation y^2 = x^3 + 7586x + 9001 (mod 46181).</p>
@@ -199,7 +199,7 @@ print(n-1)
 </font>
 
 
-###### I Have Become Death (Forensics)
+### I Have Become Death (Forensics)
 
 <blockquote><font size="3">
 <p>Oh boy... Things are becoming hectic and it is stressing me out.</p>
@@ -402,7 +402,7 @@ jimmy@jimmy-G5-5587:~/nuketown/nuketown/nuketown2025$ cat MicrosoftUpdateTaskFor
 </font>
 
 
-###### Down the Wormhole (Forensics)
+### Down the Wormhole (Forensics)
 
 <blockquote><font size="3">
 <p>An explosive chase with a UFO led us to a wormhole!</p>
@@ -507,7 +507,7 @@ NICC{TH3-UF0S-4R3-UP-N0T-D0WN-50-WHY-4R3-Y0U-D0WN-H3R3}
 <img src="/image/spctf_2023/spctf_barehands.png" width="60%" height="60%">
 </center>
 
-###### The Wizard (OSINT)
+### The Wizard (OSINT)
 
 <font size="4">
 
