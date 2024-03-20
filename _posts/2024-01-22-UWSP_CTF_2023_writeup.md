@@ -5,17 +5,17 @@ description: Pointer Overflow CTF 2023 Writeup
 tags: ['CTF']
 toc: true
 mathjax: yes
-last_modified_at: 2024-03-16
+last_modified_at: 2024-03-20
 ---
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 <font size="4">
 <p> 
-I found this CTF in <a href="https://en.wikipedia.org/wiki/Pepero_Day">Nov 11th</a>, 2023. My original plan was to play <a href="https://ctftime.org/event/2073">0CTF/TCTF</a> with b01lers that day (and weekend), but it got postponed to some other time apparently because the organizers wanted to have their CTF serve as a DEFCON qualifier (I do not know the details unfortunately, so don't quote me on this because I could be wrong). 
+I found this CTF in <a href="https://en.wikipedia.org/wiki/Pepero_Day">Nov 11th</a>, 2023. My original plan for that day (and weekend) was to play <a href="https://ctftime.org/event/2073">0CTF/TCTF</a> with b01lers, but the organizers of that CTF postponed it to some other time because they wanted to have their CTF serve as a DEFCON qualifier (I do not know the details unfortunately, so don't quote me on this because I could be wrong). 
 </p>
 
-<p>So, I decided to find a CTF and play it myself, because, why not :) </p>
+<p>So, I instead found a CTF that I can play it myself, because, why not :) </p>
 
 <p>This CTF technically ended in Sep 21, 2023 (because they got a team that solved every challenge that day) but they decided to leave it open until Jan 21, 2024. I did a quick Google search and discovered that no writeup was posted online (at least on the day I looked up) except one OSINT problem (<a href="https://medium.com/@tahabashir733/a-great-interior-desert-writeup-poctf-73a324ee8c4d">A Great Interior Desert</a>).</p>
 
@@ -1460,9 +1460,9 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 <p></p>
 
 <font size="4">
-<p>In fact, a 8-digit binary number should not start with 1 if it was an encoding of a ASCII symbol, according to binary-to-ASCII conversion tables. That said, the binary number for curly bracket } is <code>01111101</code>. So <code>01111101</code> should be somewhere. The blue sequence ends with <code>11000001</code> and <code>11000001 XOR 01111101 = 10111100</code>. So maybe, <code>10111100</code> is the key? But then this will make some numbers in the sequence start with 1, which as said should not happen. Padding the beginning and end of the sequence with zeroes also did not help. Combining the red and blue sequence also did not work.</p>
+<p>In fact, a 8-digit binary number should not start with 1 if it was an encoding of a ASCII symbol, according to binary-to-ASCII conversion tables. That said, the binary number for curly bracket "}" is <code>01111101</code>. So <code>01111101</code> should be somewhere. The blue sequence ends with <code>11000001</code> and <code>11000001 XOR 01111101 = 10111100</code>. So maybe, <code>10111100</code> is the key? But then this will make some numbers in the sequence start with 1, which as said should not happen. Padding the beginning and end of the sequence with some zeroes also did not help, because there always will be a binary number that starts with 1. Combining the red and blue sequence (writing both red and blue as 1, and so on) also did not work.</p>
 
-<p>After wasting a week on this (of course, I did other things such as eating, sleeping, going to school, etc.), I found this stego tool <a href="https://wiki.bi0s.in/steganography/stegsolve/">Stegsolve</a> that I decided to try as a last resort (I was going to give up after this if this does not work). After some troubleshootings (I found <a href="https://stackoverflow.com/a/75232089/13362299">this stackoverflow post</a> helpful), I managed to get it run on my computer. Since the message was encoded using red pixels, I selected Red on the bit planes, then...</p>
+<p>After wasting a week on this, I found this stego tool called <a href="https://wiki.bi0s.in/steganography/stegsolve/">Stegsolve</a> that I decided to try as a last resort (I was going to give up after this if this does not work). After some troubleshootings (I found <a href="https://stackoverflow.com/a/75232089/13362299">this stackoverflow post</a> helpful), I managed to get it run on my machine. Then, since the message was encoded using red pixels, I selected the maximum possible "Red" on the bit planes, then...</p>
 </font>
 
 
@@ -1481,5 +1481,71 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 </font>
 
 <font size="4">
-    <p>Even till this date, I have no idea how we can solve this problem using <a href="https://wiki.bi0s.in/steganography/stegsolve/">Stegsolve</a>. Although I learned a lot about stego while working on this problem, I am not particularly happy (maybe I'm just salty) that a use of tool trivialized this problem. But I guess, stego is just mostly like that. Still, I enjoyed solving this challenge!</p>
+    <p>Even till this day, I have no idea how we can solve this problem using <a href="https://wiki.bi0s.in/steganography/stegsolve/">Stegsolve</a>. Although I learned a lot about stego while working on this problem, I am not particularly happy (maybe I'm just salty) that a use of tool trivialized this problem. But I suppose stego chals are just mostly like that, and still, I enjoyed working on this challenge!</p>
+</font>
+
+
+## Misc
+
+### Sight Without Vision 
+
+<center>
+<img src="/image/uwsp_2023/Sight_Without_Vision.png" width="70%" height="70%">
+</center>
+
+<font size="4">
+<p>Flag format is <code>poctf{uwsp_ _ _ }</code>---three underscores with three blanks. So probably the answer consists of three words.</p>
+
+<p>The sentence in the description "You have one, too. You carry it everywhere you go but it's not heavy" is a famous riddle with the answer "name."</p>
+
+<p>So maybe the 'name' of this problem, "Sight Without Vision" but with Leet Speak which is "519h7 w17h0u7 v1510n" (that was what that "this" in the challenge description was for). And that was indeed correct!</p>
+</font>
+
+<font size="4">
+<p><b>Flag: <code>poctf{uwsp_519h7_w17h0u7_v1510n}</code></b></p>
+</font>
+
+## Etc.
+
+<font size="4">
+<p>Other than these challenges that I described in this post, I solved two more challenges: one Misc (<i>Here You See A Passer By</i>) and one OSINT (<i>All is Green and Comfort</i>). </p>
+
+<p><i>Here You See A Passer By</i> was a typical 2D maze problem that you likely have done in elementary school. This challenge was worth more than <i>Sight Without Vision</i>, and had less solves than crypto problems (<i>Unquestioned and Unrestrained</i> and <i>Missing and Missed</i>), which I found quite surprising.</p>
+
+<p><i>All is Green and Comfort</i> was pretty simple. The challenge description said that somebody leaked a secret on their website, so Archive (wayback machine) is the most canonical approach and that indeed was the solution.</p>
+
+<p>I could not figure out one Crack challenge <i>We Mighty, We Meek</i>.</p>
+</font>
+
+<center>
+<img src="/image/uwsp_2023/We_mighty.png" width="70%" height="70%">
+</center>
+
+<p></p>
+
+<font size="4">
+<p>This definitely is a <a href="https://www.openwall.com/john/">John the Ripper</a> challenge (in particular, <a href="https://github.com/openwall/john/blob/bleeding-jumbo/run/office2john.py">office2john</a>). </p> 
+</font>
+
+<center>
+<img src="/image/uwsp_2023/wemighty-1.png">
+</center>
+
+<p></p>
+
+<center>
+<img src="/image/uwsp_2023/wemighty-2.png">
+</center>
+
+<p></p>
+
+<center>
+<img src="/image/uwsp_2023/wemighty-3.png">
+</center>
+
+<p></p>
+
+
+<font size="4">
+<p>But despite my best effort, I couldn't even get anywhere near the solution. I must have done something wrong, inefficient, and/or irrelevant, but I am not sure what I could've or should've done differently. Given that this challenge is worth less than the other two Crack challenges that I managed to solve, I guess I was in a completely wrong direction.</p>
 </font>
