@@ -15,11 +15,11 @@ last_modified_at: 2024-03-20
 I found this CTF in <a href="https://en.wikipedia.org/wiki/Pepero_Day">Nov 11th</a>, 2023. My original plan for that day (and weekend) was to play <a href="https://ctftime.org/event/2073">0CTF/TCTF</a> with b01lers, but the organizers of that CTF postponed it to some other time because they wanted to have their CTF serve as a DEFCON qualifier (I do not know the details unfortunately, so don't quote me on this because I could be wrong). 
 </p>
 
-<p>So, I instead found a CTF that I can play it myself, because, why not :) </p>
+<p>So, I instead found a CTF that I can play myself, because, why not :) </p>
 
-<p>This CTF technically ended in Sep 21, 2023 (because they got a team that solved every challenge that day) but they decided to leave it open until Jan 21, 2024. I did a quick Google search and discovered that no writeup was posted online (at least on the day I looked up) except one OSINT problem (<a href="https://medium.com/@tahabashir733/a-great-interior-desert-writeup-poctf-73a324ee8c4d">A Great Interior Desert</a>).</p>
+<p>This CTF technically ended on Sep 21, 2023 (because they got a team that solved every challenge that day), but they decided to leave it open until Jan 21, 2024. I did a quick Google search and discovered that no writeup was posted online (at least on the day I looked up) except one OSINT problem (<a href="https://medium.com/@tahabashir733/a-great-interior-desert-writeup-poctf-73a324ee8c4d">A Great Interior Desert</a>).</p>
 
-<p>They have nine category each with three challenges. They had me when I saw separate categories for steganography and password cracking. They also had a pretty good range of problems: some challenges were solvable within a few hours (or even minutes), but some took me almost a month.</p>
+<p>They have nine categories, each with three challenges. They had me when I saw separate categories for steganography and password cracking. They also had a pretty good range of problems: some challenges were solvable within a few hours (or even minutes), but some took me almost a month.</p>
 
 <p>The <a href="https://pointeroverflowctf.com/">competition website</a> is still online, but all the challenges are removed. Here is the CTFTime event page: <a href="https://ctftime.org/event/2026/">https://ctftime.org/event/2026/</a>.</p>
 
@@ -163,7 +163,7 @@ print(flag) # poctf{uwsp_533k_4nd_y3_5h411_f1nd}
 
 
 <font size="4">
-<p>After some searches, I discovered that value on the post-it note is a SHA-1 hash of some string "<b>zwischen</b>".</p>
+<p>After some searches, I discovered that the value on the post-it note is a SHA-1 hash of some string "<b>zwischen</b>".</p>
 </font>
 
 <center>
@@ -173,7 +173,7 @@ print(flag) # poctf{uwsp_533k_4nd_y3_5h411_f1nd}
 <p></p>
 
 <font size="4">
-<p><code>crack2.7z</code> is password protected, and typing in "<b>zwischen</b>" as password unlocked the folder that consists of another folder, and so on.</p>
+<p><code>crack2.7z</code> is password protected, and typing in "<b>zwischen</b>" as the password unlocked the folder that consists of another folder, and so on.</p>
 </font>
 
 <center>
@@ -314,7 +314,7 @@ print(root.replace("/", "").replace(".2023",""))
 <p></p>
 
 <font size="4">
-<p>Opening the link, we reach a very distracting looking website.</p>
+<p>Opening the link, we reach a very distracting-looking website.</p>
 </font>
 
 <center>
@@ -387,7 +387,7 @@ print(root.replace("/", "").replace(".2023",""))
 <p></p>
 
 <font size="4">
-<p>Opening the link, we again reach a very distracting looking website.</p>
+<p>Opening the link, we again reach a very distracting-looking website.</p>
 </font>
 
 <center>
@@ -479,7 +479,7 @@ print(root.replace("/", "").replace(".2023",""))
 
 <p></p>
 <font size="4">
-    <p>Although this picture seems normal (in the sense that it is not broken and cannot be openned), let's start by opening it with a text editor.</p>
+    <p>Although this picture seems normal (in the sense that it is not broken and cannot be opened), let's start by opening it with a text editor.</p>
 </font>
 <center>
 <img src="/image/uwsp_2023/A _Petty_Wage_in_Regret_sol2.png" width="95%" height="95%">
@@ -497,7 +497,7 @@ print(root.replace("/", "").replace(".2023",""))
 <font size="4">
 <p>So it looks like the second half of the flag is somewhere else. I don't see any other suspicious-yet-familiar strings in the text editor.</p>
 
-<p>It turns out the answer might be closer than we think/thought. The picture <code>DF2.jpg</code> looks 'funny' in the sense that some parts are clearer than the other. Drawing lines and dots along those parts gives us:</p>
+<p>It turns out the answer might be closer than we think/thought. The picture <code>DF2.jpg</code> looks 'funny' in the sense that some parts are clearer than others. Drawing lines and dots along those parts gives us:</p>
 </font>
 
 <center>
@@ -529,7 +529,7 @@ print(root.replace("/", "").replace(".2023",""))
 
 <p>Like I did for the two previous chals, I started by opening the <code>DF3.001</code> file with text editor. That evidently wasn't a good move, I was immediately greeted with a frozen screen asking me if I want to force quit the text editor. How fun.</p>
 
-<p>Some online searches told me that I can change the file extension from <code>.001</code> to <code>.7z</code>. That worked like a charm!</p>
+<p>Some online searches told me that I could change the file extension from <code>.001</code> to <code>.7z</code>. That worked like a charm!</p>
 </font>
 
 <center>
@@ -549,7 +549,7 @@ print(root.replace("/", "").replace(".2023",""))
 <p></p>
 
 <font size="4">
-<p>I (still) see so many files: some meme-y pictures and a bunch of broken files. Had no idea where to start from, I simply began with opening all these files with <a href="https://gchq.github.io/CyberChef/">CyberChef</a>.</p>
+<p>I (still) see so many files: some meme-y pictures and a bunch of broken files. Had no idea where to start, I simply began by opening all these files with <a href="https://gchq.github.io/CyberChef/">CyberChef</a>.</p>
 </font>
 
 <center>
@@ -573,7 +573,7 @@ print(root.replace("/", "").replace(".2023",""))
 <p></p>
 
 <font size="4">
-<p>That <code>$R4K6JU8.doc</code> file apparently was supposed to be a jpg file, or is a file that contains a jpg file. Luckily, our chef is versatile enough to extract a file from a bigger file.</p>
+<p>That <code>$R4K6JU8.doc</code> file apparently was supposed to be a jpg file or is a file that contains a jpg file. Luckily, our chef is versatile enough to extract a file from a bigger file.</p>
 </font>
 
 <center>
@@ -615,7 +615,7 @@ print(root.replace("/", "").replace(".2023",""))
 <p></p>
 
 <font size="4">
-<p>Gosh, another severely damaged flag part? On a fortunate side, this part looks like the first part (starts with "poctf{") and the other part that we found before must be the other part (ends with "}"). But they are just, too blurry to be legible, almost like some of my students' handwritings (just kidding).</p>
+<p>Gosh, another severely damaged flag part? On the fortunate side, this part looks like the first part (starts with "poctf{") and the other part that we found before must be the other part (ends with "}"). But they are just, too blurry to be legible, almost like some of my students' handwritings (just kidding).</p>
 
 <p>If you may recall, we had a weird-looking file (<code>$RLLD6JM.pdf</code>) that starts with a questionable string <code>--POCTF{0.5c} --</code>. Would that mean anything? </p>
 
@@ -665,7 +665,7 @@ print(root.replace("/", "").replace(".2023",""))
 <p></p>
 
 <font size="4">
-<p>I wasn't sure what this means, until I take a look at another jpg file.</p>
+<p>I wasn't sure what this meant until I took a look at another JPG file.</p>
 </font>
 
 <center>
@@ -675,7 +675,7 @@ print(root.replace("/", "").replace(".2023",""))
 <p></p>
 
 <font size="4">
-<p>Yes, when it said missing header, it really mean it. I copy pasted the missing part, and my life becomes good now.</p>
+<p>Yes, when it said missing header, it really meant it. I copy pasted the missing part, and my life is good now.</p>
 </font>
 
 <center>
@@ -819,7 +819,7 @@ nc_ed.interactive()
 </font>
 
 <font size="4">
-<p>This chal wasn't particularly difficult (was not easy either, though), but it took me a while to actually get my code working. It also took me a while to understand the problem, especially the format of input. I also forgot exactly how I end up using ROPgadget. I think the challenge description (which I clumsily did not save) said something about it, or that <code>/bin/sh</code> does not exist (or something along those lines).</p>
+<p>This chal wasn't particularly difficult (was not easy either, though), but it took me a while to actually get my code working. It also took me a while to understand the problem, especially the format of input. I also forgot exactly how I ended up using ROPgadget. I think the challenge description (which I clumsily did not save) said something about it, or that <code>/bin/sh</code> does not exist (or something along those lines).</p>
 </font>
 
 <font size="4">
@@ -867,7 +867,7 @@ void __fortify_fail(undefined8 param_1)
 </font>
 
 <font size="4">
-<p>It looks like a toy example of the infamous Heartbleed vulnerability. The program takes a string and its length as an input, and returns the string by reading the length-amount of its memory. Therefore, by giving the length that is actually longer than the input string, we have a chance of being able to read beyond the string, which could include the memory of machine running the program. </p>
+<p>It looks like a toy example of the infamous Heartbleed vulnerability. The program takes a string and its length as input, and returns the string by reading the length-amount of its memory. Therefore, by giving the length that is actually longer than the input string, we have a chance of being able to read beyond the string, which could include the memory of the machine running the program. </p>
 
 </font>
 
@@ -898,7 +898,7 @@ if (local_10 != *(long *)(in_FS_OFFSET + 0x28)) {
 <font size="4">
 <p>It appears that if <code>local_10</code> is different from what it is supposed to be, the program returns fail. Ah, so <code>local_10</code> is the stack canary!</p>
 
-<p>We can bypass the stack canary by figuring out its value, then overwrite it with its value when building our attack payload. We can have it print out <code>local_10</code>by filling up <code>local_418</code> with 1032 characters but giving it the length longer than 1032.</p>
+<p>We can bypass the stack canary by figuring out its value, then overwrite it with its value when building our attack payload. We can have it print out <code>local_10</code>by filling up <code>local_418</code> with 1032 characters but giving it a length longer than 1032.</p>
 
 {% highlight python %}
 nc_ed = pwn.remote('34.123.210.162', '20233')
@@ -936,10 +936,10 @@ nc_ed.interactive()
 {% endhighlight %}
 
 <p>
-I don't exactly know/remember what was happening, but it worked for the vast majority of times. Anyway, our hypotheses that <code>local_10</code> is indeed the stack canary and overwriting it with itself could allow us to bypass the stack smashing detection system. 
+I don't exactly know/remember what was happening, but it worked for the vast majority of the time. Anyway, our hypothesis that <code>local_10</code> is indeed the stack canary and overwriting it with itself could allow us to bypass the stack smashing detection system. 
 </p>
 
-<p>So, you'd probably think that we can put shellcode inside our buffer <code>local_418</code> and changing the return address to the address of buffer would work, like this code does:
+<p>So, you'd probably think that we can put shellcode inside our buffer <code>local_418</code> and changing the return address to the address of the buffer would work, like this code does:
 </p>
 {% highlight python %}
 new_payload = b'0:'
@@ -953,9 +953,9 @@ nc_ed.sendline(new_payload)
 nc_ed.interactive()
 {% endhighlight %}
 
-<p>Apparently it does not. I spent all they thinking the address <code>0x00401ec1</code> is wrong, but both Ghidra and GDB gave me the same address. While being very confused, I remembered the <a href="https://en.wikipedia.org/wiki/Return-oriented_programming">return-oriented programming</a> (ROP) that I taught in CS 426 that I TAed. </p>
+<p>Apparently it does not. I spent all they thinking the address <code>0x00401ec1</code> was wrong, but both Ghidra and GDB gave me the same address. While being very confused, I remembered the <a href="https://en.wikipedia.org/wiki/Return-oriented_programming">return-oriented programming</a> (ROP) that I taught in CS 426 that I TAed. </p>
 
-<p>I turned on ROPGadget and have it generate <code>execve</code> (ROP chain), set it as <code>shellcode</code>, and put it into where the return address is at:</p>
+<p>I turned on ROPGadget and had it generate <code>execve</code> (ROP chain), set it as <code>shellcode</code>, and put it into where the return address is at:</p>
 
 {% highlight python %}
 new_payload = b'0:'
@@ -1196,9 +1196,9 @@ void get_string(long param_1)
 
 
 <font size="4">
-<p>I think this chal is simpler than the previous one, we are even given a function that executes <code>/bin/bash</code> for you. But it turns out that that you have to pay attention to details.</p>
+<p>I think this chal is simpler than the previous one, we are even given a function that executes <code>/bin/bash</code> for you. But it turns out you have to pay attention to details.</p>
 
-<p><code>get_string()</code> function basically reads a string character-by-character until it reaches <code>\n</code>. One can infer that the size of the memory stack of <code>greet()</code> is 16 + 8 = 24 based on the length of name (stored as <code>local_18</code>) which is 16. </p>
+<p><code>get_string()</code> function basically reads a string character-by-character until it reaches <code>\n</code>. One can infer that the size of the memory stack of <code>greet()</code> is 16 + 8 = 24 based on the length of the name (stored as <code>local_18</code>) which is 16. </p>
 
 <p>void <code>win()</code> function executes <code>/bin/bash</code> and it comes right after <code>main()</code> function. So the goal is to overwrite the return address of <code>main()</code> to the address of <code>win()</code>. </p>
 </font>
@@ -1276,7 +1276,7 @@ nc_ed.interactive()
 ### An Invincible Summer
 
 <font size="4">
-<p>Evidently, exploit wasn't the only chal category that I forgot to save the challenge description. </p>
+<p>Evidently, Exploit wasn't the only chal category that I forgot to save the challenge description. </p>
 </font>
 
 <font size="4">
@@ -1424,7 +1424,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 <p></p>
 
 <font size="4">
-    <p>This is definitely something unusual. I think it is either a morse code or binary code. Also, at the end of this sequence of red pixels, there are some blue pixels as well.</p>
+    <p>This is definitely something unusual. I think it is either a Morse code or binary code. Also, at the end of this sequence of red pixels, there are some blue pixels as well.</p>
 </font>
 
 <center>
@@ -1440,7 +1440,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
     </p>
     <p>And the blue sequence at the end is</p>
     <p><code>11000101 01000110 11010000 01001001 01100111 11100100 01100100 01100111 11000001</code></p>
-    <p>So apparently the red sequence in fact was binary, except some data near the end was damaged.</p>
+    <p>So the red sequence in fact was a binary code, except some data near the end was damaged.</p>
 </font>
 
 <center>
@@ -1460,9 +1460,9 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 <p></p>
 
 <font size="4">
-<p>In fact, a 8-digit binary number should not start with 1 if it was an encoding of a ASCII symbol, according to binary-to-ASCII conversion tables. That said, the binary number for curly bracket "}" is <code>01111101</code>. So <code>01111101</code> should be somewhere. The blue sequence ends with <code>11000001</code> and <code>11000001 XOR 01111101 = 10111100</code>. So maybe, <code>10111100</code> is the key? But then this will make some numbers in the sequence start with 1, which as said should not happen. Padding the beginning and end of the sequence with some zeroes also did not help, because there always will be a binary number that starts with 1. Combining the red and blue sequence (writing both red and blue as 1, and so on) also did not work.</p>
+<p>In fact, an 8-digit binary number should not start with 1 if it is an encoding of an ASCII symbol, according to binary-to-ASCII conversion tables. That said, the binary number for curly bracket "}" is <code>01111101</code>. So <code>01111101</code> should be somewhere. The blue sequence ends with <code>11000001</code> and <code>11000001 XOR 01111101 = 10111100</code>. So maybe, <code>10111100</code> is the key? But then this will make some numbers in the sequence start with 1, which as said should not happen. Padding the beginning and end of the sequence with some zeroes also did not help, because there always will be a binary number that starts with 1. Combining the red and blue sequence (writing both red and blue as 1, and so on) also did not work.</p>
 
-<p>After wasting a week on this, I found this stego tool called <a href="https://wiki.bi0s.in/steganography/stegsolve/">Stegsolve</a> that I decided to try as a last resort (I was going to give up after this if this does not work). After some troubleshootings (I found <a href="https://stackoverflow.com/a/75232089/13362299">this stackoverflow post</a> helpful), I managed to get it run on my machine. Then, since the message was encoded using red pixels, I selected the maximum possible "Red" on the bit planes, then...</p>
+<p>After wasting a week on this, I found this stego tool called <a href="https://wiki.bi0s.in/steganography/stegsolve/">Stegsolve</a> that I decided to try as a last resort (I was going to give up after this if this does not work). After some troubleshooting (I found <a href="https://stackoverflow.com/a/75232089/13362299">this StackOverflow post</a> helpful), I managed to get it run on my machine. Then, since the message was encoded using red pixels, I selected the maximum possible "Red" on the bit planes, then...</p>
 </font>
 
 
@@ -1493,12 +1493,14 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 <img src="/image/uwsp_2023/Sight_Without_Vision.png" width="70%" height="70%">
 </center>
 
+<p></p>
+
 <font size="4">
 <p>Flag format is <code>poctf{uwsp_ _ _ }</code>---three underscores with three blanks. So probably the answer consists of three words.</p>
 
 <p>The sentence in the description "You have one, too. You carry it everywhere you go but it's not heavy" is a famous riddle with the answer "name."</p>
 
-<p>So maybe the 'name' of this problem, "Sight Without Vision" but with Leet Speak which is "519h7 w17h0u7 v1510n" (that was what that "this" in the challenge description was for). And that was indeed correct!</p>
+<p>So maybe the 'name' of this problem, "Sight Without Vision" but with Leet Speak which is "519h7 w17h0u7 v1510n" (that was what that "this" in the challenge description was for) is the answer. And that was indeed correct!</p>
 </font>
 
 <font size="4">
@@ -1547,5 +1549,5 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 
 
 <font size="4">
-<p>But despite my best effort, I couldn't even get anywhere near the solution. I must have done something wrong, inefficient, and/or irrelevant, but I am not sure what I could've or should've done differently. Given that this challenge is worth less than the other two Crack challenges that I managed to solve, I guess I was in a completely wrong direction.</p>
+<p>But despite my best efforts, I couldn't even get anywhere near the solution. I must have done something wrong, inefficient, and/or irrelevant, but I am not sure what I could've or should've done differently. Given that this challenge is worth less than the other two Crack challenges that I managed to solve, I guess I was in a completely wrong direction.</p>
 </font>
