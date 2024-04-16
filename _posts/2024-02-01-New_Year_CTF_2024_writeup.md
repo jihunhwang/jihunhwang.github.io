@@ -4,11 +4,18 @@ date: 2024-02-01
 description: New Year CTF 2024 Writeup (RSA Party!)
 tags: ['CTF']
 toc: true
-mathjax: yes
+mathjax: true
 last_modified_at: 2024-04-11
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [["$", "$"], ["\\(", "\\)"]],
+            processEscapes: true
+        }
+    });
+</script>
 
 <font size="4">
 
@@ -44,7 +51,7 @@ c = 9908255308151638808626355523286556242109836830117153917
 n = 245841236512478852752909734912575581815967630033049838269083
 {% endhighlight %}
 
-<p>As $e = 1$, the $c$ here actually is not a ciphertext but the plaintext itself.</p>
+<p>As \(e = 1\), the \(c\) here actually is not a ciphertext but the plaintext itself.</p>
 
 {% highlight python %}
 ## sol.py
@@ -139,7 +146,7 @@ def pow_m(base, degree, module):
         base = (base ** 2) % module
     return r
 {% endhighlight %}
-<p>So for example, <code>pow_m(5,7,100)</code> computes $5^7 \text{ mod } 100$ but it converts the power $7$ into its binary representation $111_{(2)}$ within the function, and then computes $5^{111_{(2)}} \text{ mod } 100$.</p>
+<p>So for example, <code>pow_m(5,7,100)</code> computes \(5^7 \text{ mod } 100\) but it converts the power $7$ into its binary representation $111_{(2)}$ within the function, and then computes $5^{111_{(2)}} \text{ mod } 100$.</p>
 
 <p>Hence, $s$ and $t$ are:</p>
 \begin{align*}
