@@ -810,14 +810,14 @@ n-1 = 2^2 \times 5 \times 47 \times 8274003953\dots 19
 
 <p>and hence we know $g := \gcd(e,n-1) = 20$. The good news here is that $\gcd(e, (n-1)/g)) = 1$ so $d' := e^{-1} \text{ mod } (n-1)/g$ exists, i.e. there exists $k \in \mathbb{Z}$ such that:</p>
 \begin{align*}
-d' = e^{-1} + \frac{n-1}{g} k 
-& \implies ed' = 1 + \frac{n-1}{g} e k = 1 + 2500k (n-1) \\
-& \implies ed' = 1 \mod (n-1) 
+ed' = \frac{n-1}{g} k + 1 \implies e gd' = (n-1)k + g
 \end{align*}
-<p>because $g$ divides $e$. Therefore, by Fermat's little theorem,</p>
+
+<p>and this implies</p>
 \begin{align*}
-c^{d'} = m^{ed'} = m^{ed' \text{ mod } n-1} = m \mod n
+& c^{gd'} = m^{e gd'} = m^{(n-1)k + g} = m^{g} \mod n
 \end{align*}
+<p>which means that $m$ would be a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. Interestingly enough, it turns out that $m = c^{d'} \text{ mod } n$ exactly.</p>
 
 {% highlight python %}
 n = ...
@@ -831,7 +831,7 @@ m_prime = pow(c, d_prime, n)
 assert pow(m_prime, e, n) == c # True
 {% endhighlight %}
 
-<p>But there is no guarantee that this $m$ (denoted as <code>m_prime</code> in the code above) is the $m$ that we are looking for. As $\mathbb{F}_n$ here is a field, there can be (up to) $e$ distinct solutions to the equation $c = m^e \text{ mod } n$. They can be found by multiplying $e$-th roots of unity to a $m$ that satisfies the equation. </p>
+<p>But there is no guarantee that this $m$ (denoted as <code>m_prime</code> in the code above) is the true $m$ that we are looking for. As $\mathbb{F}_n$ here is a field, there can be (up to) $e$ distinct solutions to the equation $c = m^e \text{ mod } n$. They can be found by multiplying $e$-th roots of unity to a $m$ that satisfies the equation. </p>
 
 <p>Let $x$ be a non-trivial $e$-th root of unity, that is, $x^e = 1 \text{ mod } n$ yet $x \neq 1$. Since $x \in \mathbb{F}_n$, its order should be divisible by $n-1$ by Lagrange theorem (notice that $\left< x \right>$ would be a subgroup of $\mathbb{F}_n^{\times}$). Hence, the order of $x$ should be divisible by both $e$ and $n-1$ and hence should be divisible by $\gcd(e, n-1) = g$. So finding a non-trivial $x$ such that $x^{g} = 1 \text{ mod } n$ is sufficient because we can use that to generate a subgroup $\left< x \right> = \{ x, x^2, \dots, x^{g-1}, x^{g} = 1 \}$ that consists of all $g$-th root of unity. Since $g < n$ yet $n$ is prime, every element of $\left< x \right>$ here should be unique (i.e., they are primitive roots of unity) and it contains all elements whose order is a factor of $g$, not just $g$. </p>
 
@@ -929,4 +929,9 @@ for i in range(0,g):
         ## power of encryption and secure our digital future."
 {% endhighlight %}
 </details>
+</font>
+
+<font size="4">
+    <p></p>
+  <p>A curious reader might wonder what would've happened if $c^{d'} \neq m \text{ mod } n$. The answer is: this solution still holds. Note that $m$ is still a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. If $c^{d'} \neq m \text{ mod } n$, it must be the case that $c^{d'} \rho = m \text{ mod } n$ where $\rho$ is a $g$-th root of unity. Since $\rho^i \cdot \left< \rho \right> = \left< \rho \right>$ because $\left< \rho \right>$ is a cyclic (sub)group and is the set of all $g$-th roots of unity, this solution should still work.</p>
 </font>
