@@ -458,7 +458,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <font size="4">
-<p><b>Flag: <code>poctf{w31c0m3_70_7h3_94m3}</code></b></p>
+<p><b>Flag: <code>poctf{uwsp_w31c0m3_70_7h3_94m3}</code></b></p>
 </font>
 
 ### A Petty Wage in Regret

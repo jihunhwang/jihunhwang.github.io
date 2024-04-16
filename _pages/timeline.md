@@ -15,10 +15,39 @@ search: exclude
   gtag('config', 'G-30GFV5VTPS');
 </script>
 
-###### 2023
+
+### 2024
 
 <font size="4">
 <ul>
+
+<li>
+	<div><b>Apr 2024</b></div>
+	<div>I was selected as a 2024 Raymond Boyce Graduate Teacher Award recipient by my department!</div>
+</li>
+
+<li>
+	<div><b>Mar 2024</b></div>
+	<div>I presented both papers at <a href="https://www.aeroconf.org/">AeroConf 2024</a> held at Big Sky, MT!</div>
+</li>
+
+</ul>
+</font>
+
+### 2023
+
+<font size="4">
+<ul>
+
+<li>
+	<div><b>November 2023</b></div>
+	<div>Both papers I wrote with my intern mentor and fellow interns are accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. Thank you all!</div>
+</li>
+
+<li>
+	<div><b>Oct 2023</b></div>
+	<div>I received <a href="https://www.cs.purdue.edu/graduate/gta-award-winners.html">Graduate Teaching Award</a> from my department, for my achievement as a CS 426 (Computer Security) TA in Spring 2022. Thank you, <a href="https://www.cs.purdue.edu/homes/clg/">Christina</a>, for the nomination and all your support!</div>
+</li>
 
 <li>
 	<div><b>July 2023</b></div>
@@ -32,13 +61,13 @@ search: exclude
 
 <li>
 	<div><b>March 2023</b></div>
-	<div>I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again this summer working on network information theory for Near Space Network (NSN)!</div>
+	<div>I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again this summer working on network information theory and modeling/algorithms for Near Space Network (NSN)!</div>
 </li>
 
 </ul>
 </font>
 
-###### 2022
+### 2022
 
 <font size="4">
 <ul>
@@ -75,13 +104,13 @@ search: exclude
 
 <li>
 	<div><b>January 2022</b></div>
-	<div>I attended <a href="https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/">The 12th BIU Winter School on Cryptography</a>. This year's topic was in Secure Computation. </div>
+	<div>I attended <a href="https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/">The 12th BIU Winter School on Cryptography</a> online. This year's topic was in Secure Computation. </div>
 </li>
 
 </ul>
 </font>
 
-###### 2021
+### 2021
 
 <font size="4">
 <ul>
@@ -121,7 +150,7 @@ search: exclude
 </font>
 
 
-###### 2020
+### 2020
 <details>
 	<summary><font size="4">Click to expand</font></summary>
 <font size="4">
@@ -164,7 +193,7 @@ search: exclude
 </details>
 
 
-###### 2019
+### 2019
 <details>
 	<summary><font size="4">Click to expand</font></summary>
 <font size="4">
@@ -192,7 +221,7 @@ search: exclude
 
 
 
-###### 2018
+### 2018
 
 <details>
 	<summary><font size="4">Click to expand</font></summary>
@@ -226,7 +255,7 @@ search: exclude
 </details>
 
 
-###### 2017
+### 2017
 <details>
 	<summary><font size="4">Click to expand</font></summary>
 <font size="4">
@@ -255,7 +284,7 @@ search: exclude
 </details>
 
 
-###### 2016
+### 2016
 <details>
 	<summary><font size="4">Click to expand</font></summary>
 <font size="4">
@@ -280,7 +309,7 @@ search: exclude
 </details>
 
 
-###### 2015
+### 2015
 <details>
 	<summary><font size="4">Click to expand</font></summary>
 <font size="4">
@@ -297,7 +326,7 @@ search: exclude
 </details>
 
 
-###### 2014
+### 2014
 <details>
 	<summary><font size="4">Click to expand</font></summary>
 <font size="4">

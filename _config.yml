@@ -92,6 +92,8 @@ author:
     - label: "infosec.exchange"
       icon: "fab fa-fw fa-mastodon"
       url: "https://infosec.exchange/@FlaggnGoose"
+    - label: "CTFTime"
+      url: "https://ctftime.org/user/153527"
     - label: "Picture"
       icon: "fas fa-fw fa-image"
       url: "/image/Jimmy_pic.jpg"
