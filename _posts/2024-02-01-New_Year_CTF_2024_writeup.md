@@ -20,12 +20,12 @@ last_modified_at: 2024-04-11
 <font size="4">
 
 <p> 
-b01lers did not play any CTF as a group over the winter break (we technically played one, but it was right before the New Year's eve and so almost no one played it) and until late January. I was looking for something that I can practice on my own, just as I did with UWSP CTF.
+b01lers did not play any CTF as a group over the winter break (we technically played one, but it was right before New Year's Eve, and so almost no one played it) until late January. I was looking for something that I could practice on my own, just as I did with UWSP CTF.
 </p>
 
 <p>I found this CTF in January 13th (maybe 12th? I don't recall). This apparently was a (few days less than) two-week-long event from Jan 3 to 14, and I happen to find it a day before the last day -- what a clutch.</p>
 
-<p>This CTF had a myriad of challenges. What was most interesting to me was that half of the crypto chals were on RSA. So, yes, my goal was to solve all RSA related chals, basically throwing a RSA party for myself. Long story short, I could not solve all of them before the deadline unfortunately because I got caught up with my research work, but I managed to solve them all later.</p>
+<p>This CTF had a myriad of challenges. What was most interesting to me was that half of the crypto chals were on RSA. So, yes, my goal was to solve all RSA-related chals, basically throwing an RSA party for myself. Long story short, I could not solve all of them before the deadline unfortunately because I got caught up with my research work, but I managed to solve them all later.</p>
 
 <p>It looks like the <a href="http://ctf-spcs.mf.grsu.by/">CTF website</a> is still alive. The description on its <a href="https://ctftime.org/event/2218/">CTFTime page</a> says this:</p>
 
@@ -169,7 +169,7 @@ p_cand = s
 q_cand = t
 print(p_cand * q_cand == n) # True
 {% endhighlight %}
-<p>So we are left with finding $d = e^{-1} \text{ mod } \phi(n)$, but such a $d$ apparently does not exist. But this is not a big deal. Since $e = 3$ is very small, we can just take the cube-root of $c$. </p>
+<p>So we are left with finding $d = e^{-1} \text{ mod } \phi(n)$, but such a $d$ apparently does not exist. But this is not a big deal. Since $e = 3$ is very small, we can just take the cube root of $c$. </p>
 {% highlight python %}
 phi_n = (p_cand - 1) * (q_cand - 1)
 # This one doesn't work. d doesn't exist!
@@ -236,7 +236,7 @@ print(long_to_bytes(int(m)))
 
 <font size="4">
 
-<p>I honestly have no idea what it is supposed to be about, because I managed to solve it without using that picture.</p>
+<p>I honestly have no idea what it is supposed to be about because I managed to solve it without using that picture.</p>
 
 {% highlight python %}
 ## sol.py
@@ -281,7 +281,7 @@ c = [pow(m, e, n[i]) for i in range(e)]
 open("all_letters.txt", 'w').write(f"e = {e}\nc = {c}\nn = {n}")
 {% endhighlight %}
 
-<p>The above code snippet is <code>39_letters.py</code>, and <code>all_letters.txt</code> is the output of it. So, there are 39 ciphertexts of the same plaintext and encryption key, but different modulus $n$.</p>
+<p>The above code snippet is <code>39_letters.py</code>, and <code>all_letters.txt</code> is the output of it. So, there are 39 ciphertexts of the same plaintext and encryption key but different modulus $n$.</p>
 
 <p>Looks like Hastad Broadcast attack could work. Let us first make sure that $n$'s are all coprime.</p>
 
@@ -296,7 +296,7 @@ for n1 in n:
                 break
 {% endhighlight %}
 
-<p>It looks like they all are -- good! Now using Chinese Remainder Theorem (CRT), we can compute $c' \mod n_1 n_2 \cdots n_{39}$ such that</p>
+<p>It looks like they all are -- good! Now using the Chinese Remainder Theorem (CRT), we can compute $c' \mod n_1 n_2 \cdots n_{39}$ such that</p>
 \begin{align*}
 c' & \equiv c_1 \quad (\text{mod } n_1) \\
 c' & \equiv c_2 \quad (\text{mod } n_2) \\
@@ -382,7 +382,7 @@ print(f"ciphertext = {ciphertext}")
 {% endhighlight %}
 
 
-<p>This is a python code, I don't know why it is saved as a txt file :/</p>
+<p>This is a Python code, I don't know why it is saved as a txt file :/</p>
 
 <p>Anyway, <code>FastRSA.txt</code> tells us that $p$ and $q$ are quite close, namely $p < q < p+100$, which we can solve as follows:</p>
 \begin{align*}
@@ -391,7 +391,7 @@ p < q < p + 100
 & \implies p < \sqrt{n} < \sqrt{n^2 + n}
 \end{align*}
 
-<p>So, we can first sample a prime less than $\sqrt{n}$, divide $n$ with it and test whether the result is also prime yet the difference is within $100$. Surprisingly, the largest prime less than $\sqrt{n}$ (which can be found as <code>previous_prime(floor(x))</code> in Python) turns out to be a divisor of $n$, kindly allowing us to not have to go through multiple rounds of trial-and-errors!</p>
+<p>So, we can first sample a prime less than $\sqrt{n}$, divide $n$ with it, and test whether the result is also prime, yet the difference is within $100$. Surprisingly, the largest prime less than $\sqrt{n}$ (which can be found as <code>previous_prime(floor(x))</code> in Python) turns out to be a divisor of $n$, kindly allowing us not to have to go through multiple rounds of trial-and-errors!</p>
 
 
 {% highlight python %}
@@ -442,9 +442,9 @@ c = 1461919925132463624695077040075836938780196684051125224349115162538972508635
 {% endhighlight %}
 
 
-<p>Running <code>print(len(bin(n)))</code> and <code>sp.isprime(n)</code>, we can find out that $n$ is a 8191-bit composite number. Wow! My computer won't stand a chance factoring it. </p>
+<p>Running <code>print(len(bin(n)))</code> and <code>sp.isprime(n)</code>, we can find out that $n$ is a 8191-bit composite number. Wow! My computer won't stand a chance of factoring it. </p>
 
-<p>So, yes, $n$ is massive and yes, trying to factor it yourself could melt your RAM (of your computer or your brain), but because $n$ is massive, $c$ seems very small compared to $n$. This means ther e is a possibility that $m$ is like, very, very small.</p>
+<p>So, yes, $n$ is massive, and yes, trying to factor it yourself could melt your RAM (of your computer or your brain), but because $n$ is massive, $c$ seems very small compared to $n$. This means there is a possibility that $m$ is, like, very, very small.</p>
 
 <p><a href="http://factordb.com/">Factordb</a> says $c$ is a power of $43$, <a href="http://factordb.com/index.php?query=146191992513246362469507704007583693878019668405112522434911516253897250863564984597502119212030542733240884634727607094051644988000371061167046076333035170258569378315089526140301960546749921731405886181318781589070874855288644318994081011862448500882176793820654331181792725059180024358540975190199239355030050554843485368434873252779289350203984223248843741661015758452258454711183342915926826470953793097295187270157574352590083347620756837006702652224468440461390408764820318857423862757287894502424794108994242765807437302875671703409225533491419983884889187539685536993337825182665553664889009910421535551727817328796926973615135952284983962338591255274394713205663577280389714423036732807416048296721177841516090446642609898509936030583184449262932434371025684043715748591270141139404342719082255845746904063234079151421242737516426820631107635564101471481703690740771977770299935664223033324972107308225574043263600523027644072208042951082226524195927434141678229967397193267969519691477229896804777542037308265803982451500287490173430299183788034036630885563720426543493038308837226297161620483490688118616912687406119854625466739572707081021141379403692566538617619349196628880991899189160253188197361086687625067108099589867715155511594230501980229866087983639664181917072288745344286526893180632809747290366617411413214567287911361246947758885723761297732171318229199138290975135908385825468275755860842078088991004706664332947073131545716673449119648202529785484100747417496022257588619870489887983811642162265016298539495576653063474402471625911423596708968640071272267843041692972557634311023902678207332392991620539330192731805730024190561956257671227971511704915376259931611983251839476812339073276851362557221748175411112090575001845291274436480893145416887304425699546900018980380483932834041147311814295978324353531302933018286315592594086089933639954151713470691045218438547455727127045177566679338154853805948333367100928698494950018394825821209720037145786375735666562089611447195387615418387417717680311902983589536196637143290373">in particular</a>:</p>
 \[
@@ -516,7 +516,7 @@ C =  450157781673601559606049785054620126092582161797170720015152268384934299422
 <p>I think <code>C</code> is a typo of <code>c</code> in <code>Asim_en_data.txt</code>.</p>
 
 
-<p>This problem was a bit tricky, in an inefficient sence. After opening the file <code>Asim_en.py</code>, you'd start panicking because $e$, $f$, $g$, and $h$ cannot be written in a simplified form; even worse, you don't even know what $a$, $b$, $c$, and $d$ are equal to!</p>
+<p>This problem was a bit tricky in an inefficient sense. After opening the file <code>Asim_en.py</code>, you'd start panicking because $e$, $f$, $g$, and $h$ cannot be written in a simplified form; even worse, you don't even know what $a$, $b$, $c$, and $d$ are equal to!</p>
 
 <p>But the thing is, $c = (m \cdot f) \mod h$ and we are given $f$ and $g$ in the <code>Asim_en_data.txt</code> file. Why is this "the thing"? Well, that's all you need!</p>
 
@@ -527,7 +527,7 @@ print(long_to_bytes(m))
 # b'}syek_owt_sesu_noitpyrcne_cirtemmysA{ondorg'
 {% endhighlight %}
 
-<p>At first sight, this looks like a gibberish, and you might think that this is not the answer and you did something wrong. But it actually is, you just have to flip it.</p>
+<p>At first sight, this looks like gibberish, and you might think that this is not the answer and you did something wrong. But it actually is, you just have to flip it.</p>
 
 {% highlight python %}
 m_bytes = long_to_bytes(m)
@@ -616,7 +616,7 @@ c = 6460989919360711656188551334673862140776927699524803077350595137553820011811
 
 <p>Now we are given a new value called <code>result</code>. Based on our analysis from <a href="#as-a-programmer-">As a programmer...</a>, given that $n$ is the same, we can guess that <code>result</code> now is $p+q$, its multiple, or $(p+q) + nk$, or some sort.</p>
 
-<p>Running <code>print(len(bin(result)))</code> tells us that <code>result</code> is a 513-bit integer, so it is a sum of two 512-bit integer. Given that it is much smaller than $n$ and its GCD with $n$ is $1$, we can guess confidentally (?) that <code>result</code> is actually equal to $p+q$. Let's try it.</p>
+<p>Running <code>print(len(bin(result)))</code> tells us that <code>result</code> is a 513-bit integer, so it is a sum of two 512-bit integers. Given that it is much smaller than $n$ and its GCD with $n$ is $1$, we can guess confidentially (?) that <code>result</code> is actually equal to $p+q$. Let's try it.</p>
 
 {% highlight python %}
 from Crypto.Util.number import bytes_to_long, long_to_bytes
@@ -719,7 +719,7 @@ a = K(c2_cube)
 c2_list = c2_cube.nth_root(3, all=True)
 {% endhighlight %}
 
-<p>BUT, then at that point, you'd realize that all three $n$'s here are small enough for Sagemath to compute the <code>nth_root</code> within a reasonable time. So, instead of going through all these math with our hands and brain, we can just let Sagemath do all the big brain stuffs for us. Like this:</p>
+<p>BUT, then at that point, you'd realize that all three $n$'s here are small enough for Sagemath to compute the <code>nth_root</code> within a reasonable time. So, instead of going through all these maths with our hands and brain, we can just let Sagemath do all the big brain stuff for us. Like this:</p>
 
 {% highlight python %}
 from Crypto.Util.number import long_to_bytes
@@ -774,7 +774,7 @@ for m in m_list:
 # b'grodno{This_1s_n0t_a_f@k3_fl@g}'
 {% endhighlight %}
 
-<p>I don't know if this was intended, but I like how they anticipated that there can be more than one solution (possible $m$) and marked the real solution as "not a fake flag."</p>
+<p>I don't know if this was intended, but I like how they anticipated that there could be more than one solution (possible $m$) and marked the real solution as "not a fake flag."</p>
 </font>
 
 <font size="4">
@@ -831,9 +831,9 @@ m_prime = pow(c, d_prime, n)
 assert pow(m_prime, e, n) == c # True
 {% endhighlight %}
 
-<p>But there is no guarantee that this $m$ (denoted as <code>m_prime</code> in the code above) is the $m$ that we are looking for. As $\mathbb{F}_n$ here is a field, there can be (up to) $e$ distinct solution to the equation $c = m^e \text{ mod } n$. They can be found by multiplying $e$-th roots of unity to a $m$ that satisfies the equation. </p>
+<p>But there is no guarantee that this $m$ (denoted as <code>m_prime</code> in the code above) is the $m$ that we are looking for. As $\mathbb{F}_n$ here is a field, there can be (up to) $e$ distinct solutions to the equation $c = m^e \text{ mod } n$. They can be found by multiplying $e$-th roots of unity to a $m$ that satisfies the equation. </p>
 
-<p>Let $x$ be a non-trivial $e$-th root of unity, that is, $x^e = 1 \text{ mod } n$ yet $x \neq 1$. Since $x \in \mathbb{F}_n$, its order should be divisible by $n-1$ by Lagrange theorem (notice that $\left< x \right>$ would be a subgroup of $\mathbb{F}_n^{\times}$). Hence, the order of $x$ should be divisible by both $e$ and $n-1$ and hence should be divisible by $\gcd(e, n-1) = g$. So finding a non-trivial $x$ such that $x^{g} = 1 \text{ mod } n$ is sufficient, because we can use that to generate a subgroup $\left< x \right> = \{ x, x^2, \dots, x^{g-1}, x^{g} = 1 \}$ that consists of all $g$-th root of unity. Since $g < n$ yet $n$ is prime, every element of $\left< x \right>$ here should be unique (i.e., they are primitive roots of unity) and contains all elements whose order is a factor of $g$, not just $g$. </p>
+<p>Let $x$ be a non-trivial $e$-th root of unity, that is, $x^e = 1 \text{ mod } n$ yet $x \neq 1$. Since $x \in \mathbb{F}_n$, its order should be divisible by $n-1$ by Lagrange theorem (notice that $\left< x \right>$ would be a subgroup of $\mathbb{F}_n^{\times}$). Hence, the order of $x$ should be divisible by both $e$ and $n-1$ and hence should be divisible by $\gcd(e, n-1) = g$. So finding a non-trivial $x$ such that $x^{g} = 1 \text{ mod } n$ is sufficient because we can use that to generate a subgroup $\left< x \right> = \{ x, x^2, \dots, x^{g-1}, x^{g} = 1 \}$ that consists of all $g$-th root of unity. Since $g < n$ yet $n$ is prime, every element of $\left< x \right>$ here should be unique (i.e., they are primitive roots of unity) and it contains all elements whose order is a factor of $g$, not just $g$. </p>
 
 <p>Let's change the notation slightly to avoid confusion: denote $\rho$ to be a (primitive) $g$-th root of unity and let $E := \left< \rho \right> = \{ \rho, \rho^2, \dots, \rho^{g-1}, \rho^{g} = 1 \}$. As defined, $E \subseteq \mathbb{F}_{n}^{\times}$ and it has exactly $g$ elements. Now the question is: how do we go about finding $\rho$?</p>
 
@@ -856,7 +856,7 @@ for i in range(0, 21):
 print("abs(<r_E>) =", len(gen_by_r_E)) # abs(<r_E>) = 20
 {% endhighlight %}
 
-<p>That very well was the case, and now we can set $\rho = r_E$. Now with one $m$ such that $m^g = c \text{ mod } n$ that we found already, we can multiply it with each elements of $\left< \rho \right>$ and it will be another solution to the equation $x^g = c \text{ mod } n$ because</p>
+<p>That very well was the case, and now we can set $\rho = r_E$. Now, with one $m$ such that $m^g = c \text{ mod } n$ that we found already, we can multiply it with each element of $\left< \rho \right>$ and it will be another solution to the equation $x^g = c \text{ mod } n$ because</p>
 \[
 (m \rho^i)^g = m^g (\rho^g)^i = m^g 1^i = m^g = c \mod n
 \]
