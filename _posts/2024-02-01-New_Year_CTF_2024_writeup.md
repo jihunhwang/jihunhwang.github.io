@@ -833,11 +833,11 @@ assert pow(m_prime, e, n) == c # True
 
 <p>But there is no guarantee that this $m$ (denoted as <code>m_prime</code> in the code above) is the true $m$ that we are looking for. As $\mathbb{F}_n$ here is a field, there can be (up to) $e$ distinct solutions to the equation $c = m^e \text{ mod } n$. They can be found by multiplying $e$-th roots of unity to a $m$ that satisfies the equation. </p>
 
-<p>Let $x$ be a non-trivial $e$-th root of unity, that is, $x^e = 1 \text{ mod } n$ yet $x \neq 1$. Since $x \in \mathbb{F}_n$, its order should be divisible by $n-1$ by Lagrange theorem (notice that $\left< x \right>$ would be a subgroup of $\mathbb{F}_n^{\times}$). Hence, the order of $x$ should be divisible by both $e$ and $n-1$ and hence should be divisible by $\gcd(e, n-1) = g$. So finding a non-trivial $x$ such that $x^{g} = 1 \text{ mod } n$ is sufficient because we can use that to generate a subgroup $\left< x \right> = \{ x, x^2, \dots, x^{g-1}, x^{g} = 1 \}$ that consists of all $g$-th root of unity. Since $g < n$ yet $n$ is prime, every element of $\left< x \right>$ here should be unique (i.e., they are primitive roots of unity) and it contains all elements whose order is a factor of $g$, not just $g$. </p>
+<p>Let $\rho$ be a non-trivial $e$-th root of unity, that is, $\rho^e = 1 \text{ mod } n$ yet $\rho \neq 1$. Since $\rho \in \mathbb{F}_n$, its order should be divisible by $n-1$ by Lagrange theorem (notice that $\left< \rho \right>$ would be a subgroup of $\mathbb{F}_n^{\times}$). Hence, the order of $\rho$ should be divisible by both $e$ and $n-1$ and hence should be divisible by $\gcd(e, n-1) = g$. So finding a non-trivial $\rho$ such that $\rho^{g} = 1 \text{ mod } n$ is sufficient because we can use that to generate subgroup $E := \left< \rho \right> = \{ \rho, \rho^2, \dots, \rho^{g-1}, \rho^{g} = 1 \} \subseteq \mathbb{F}_n^\times$ that consists of all $g$-th root of unity. Since $g < n$ yet $n$ is prime, every element of $E$ here should be unique (i.e., they are primitive roots of unity) and it contains all elements whose order is a factor of $g$, not just $g$. </p>
 
-<p>Let's change the notation slightly to avoid confusion: denote $\rho$ to be a (primitive) $g$-th root of unity and let $E := \left< \rho \right> = \{ \rho, \rho^2, \dots, \rho^{g-1}, \rho^{g} = 1 \}$. As defined, $E \subseteq \mathbb{F}_{n}^{\times}$ and it has exactly $g$ elements. Now the question is: how do we go about finding $\rho$?</p>
+<p>Now the question is: how do we go about finding $\rho$?</p>
 
-<p>Let $r \in \mathbb{F}_n^\times$ and $r_E := r^{(n-1)/g} \text{ mod } n$. Clearly $r_E^g = r^{n-1} = 1 \text{ mod } n$, and so $r_E$ is a candidate primitive $g$-th root of unity. And to test whether $r_E$ indeed is a primitive $g$-th root of unity, we can calculate the cardinality of $\left< r_E \right> = \{ r_E, r_E^2, \cdots, r_E^g = 1 \}$ and make sure it is $g$ indeed. Oh, and of course, both $r$ and $r_E$ should not be $1$ :sweat_smile:.</p>
+<p>Let $r \in \mathbb{F}_n^\times$ and $r_E := r^{(n-1)/g} \text{ mod } n$. Clearly $r_E^g = r^{n-1} = 1 \text{ mod } n$, and so $r_E$ is a candidate primitive $g$-th root of unity. And to test whether $r_E$ indeed is a primitive $g$-th root of unity, we can calculate the cardinality of $\left< r_E \right> = \{ r_E, r_E^2, \cdots, r_E^g = 1 \}$ and make sure it is $g$ indeed. Oh, and of course, both $r$ and $r_E$ should not be $1$, you know what I meant :sweat_smile:</p>
 
 {% highlight python %}
 r = 1
@@ -932,6 +932,42 @@ for i in range(0,g):
 </font>
 
 <font size="4">
-    <p></p>
-  <p>A curious reader might wonder what would've happened if $c^{d'} \neq m \text{ mod } n$. The answer is: this solution still holds. Note that $m$ is still a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. If $c^{d'} \neq m \text{ mod } n$, it must be the case that $c^{d'} \rho = m \text{ mod } n$ where $\rho$ is a $g$-th root of unity. Since $\rho^i \cdot \left< \rho \right> = \left< \rho \right>$ because $\left< \rho \right>$ is a cyclic (sub)group and is the set of all $g$-th roots of unity, this solution should still work.</p>
+<p></p>
+<p>A curious reader might wonder what would've happened if $c^{d'} \neq m \text{ mod } n$. This definitely is plausible! For example, when $n = 101$, $m = 7$ and $e = 36$, $c^{d'} = 31 \text{ mod } n$ which is not $m$, as the code below shows.</p>
+
+{% highlight python %}
+## example.py
+n = 101
+e = 36
+m = 7
+c = pow(m, e, n)
+
+g = gcd(n-1,e) ## 4
+d_prime = e.inverse_mod((n-1)//g) ## 16
+m_prime = pow(c,d_prime,n)
+print(m_prime) ## 31
+print(m_prime == m) ## False
+{% endhighlight %}
+
+<p>The answer is: this solution still holds. Note that $m$ is still a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. If $c^{d'} \neq m \text{ mod } n$, it must be the case that $c^{d'} \rho = m \text{ mod } n$ where $\rho$ is a $g$-th root of unity. Since $\rho^i \cdot \left< \rho \right> = \left< \rho \right>$ because $\left< \rho \right>$ is a cyclic (sub)group and is the set of all $g$-th roots of unity, this solution should still work.</p>
+
+{% highlight python %}
+## example.py continued
+r = 1
+r_E = 1
+while r_E == 1:
+    r += 1
+    r_E = pow(r, (n-1) // g, n)
+
+gen_by_r_E = []
+for i in range(0, g):
+    r_E_i = pow(r_E, i, n)
+    if r_E_i not in gen_by_r_E:
+        gen_by_r_E.append(r_E_i)
+
+for i in range(0,g):
+    m = Mod(m_prime * pow(r_E, i, n), n)
+    print(m) 
+    ## 31, 7, 70, 94
+{% endhighlight %}
 </font>
