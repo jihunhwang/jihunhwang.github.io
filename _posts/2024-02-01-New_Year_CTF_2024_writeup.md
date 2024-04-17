@@ -813,11 +813,19 @@ n-1 = 2^2 \times 5 \times 47 \times 8274003953\dots 19
 ed' = \frac{n-1}{g} k + 1 \implies e gd' = (n-1)k + g
 \end{align*}
 
-<p>and this implies</p>
+<p>and this implies, by Fermat's little theorem,</p>
 \begin{align*}
 & c^{gd'} = m^{e gd'} = m^{(n-1)k + g} = m^{g} \mod n
 \end{align*}
-<p>which means that $m$ would be a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. Interestingly enough, it turns out that $m = c^{d'} \text{ mod } n$ exactly.</p>
+<p>which means that $m$ would be a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. Let $\rho$ be a nontrivial $g$-th root of unity over $\mathbb{F}_n$ (i.e., $\rho^g = 1 \text{ mod } n$ where $\rho \neq 1 \text{ mod } n$). Then for some integer $k$,</p>
+\begin{align*}
+m' := c^{d'} = m \rho^k \mod n 
+\end{align*}
+<p>It is easy to see that $m'$ is a "candidate" $m$:</p>
+\begin{align*}
+(m')^e = m^e \rho^{ek} = m^e = c \mod n
+\end{align*}
+<p>because $\rho^{ek} = 1 \text{ mod } n$ since $g \mid e$.</p>
 
 {% highlight python %}
 n = ...
@@ -831,11 +839,13 @@ m_prime = pow(c, d_prime, n)
 assert pow(m_prime, e, n) == c # True
 {% endhighlight %}
 
-<p>But there is no guarantee that this $m$ (denoted as <code>m_prime</code> in the code above) is the true $m$ that we are looking for. As $\mathbb{F}_n$ here is a field, there can be (up to) $e$ distinct solutions to the equation $c = m^e \text{ mod } n$. They can be found by multiplying $e$-th roots of unity to a $m$ that satisfies the equation. </p>
+<p>But there is no guarantee that this $m'$ (denoted as <code>m_prime</code> in the code above) is the true $m$ that we are looking for. As $\mathbb{F}_n$ here is a field, there can be (up to) $e$ distinct solutions to the equation $c = m^e \text{ mod } n$. They can be found by multiplying $e$-th roots of unity to a $m$ that satisfies the equation. </p>
 
-<p>Let $\rho$ be a non-trivial $e$-th root of unity, that is, $\rho^e = 1 \text{ mod } n$ yet $\rho \neq 1$. Since $\rho \in \mathbb{F}_n$, its order should be divisible by $n-1$ by Lagrange theorem (notice that $\left< \rho \right>$ would be a subgroup of $\mathbb{F}_n^{\times}$). Hence, the order of $\rho$ should be divisible by both $e$ and $n-1$ and hence should be divisible by $\gcd(e, n-1) = g$. So finding a non-trivial $\rho$ such that $\rho^{g} = 1 \text{ mod } n$ is sufficient because we can use that to generate subgroup $E := \left< \rho \right> = \{ \rho, \rho^2, \dots, \rho^{g-1}, \rho^{g} = 1 \} \subseteq \mathbb{F}_n^\times$ that consists of all $g$-th root of unity. Since $g < n$ yet $n$ is prime, every element of $E$ here should be unique (i.e., they are primitive roots of unity) and it contains all elements whose order is a factor of $g$, not just $g$. </p>
+<p>Let $\zeta$ be a non-trivial $e$-th root of unity over $\mathbb{F}_n$. Since $\zeta \in \mathbb{F}_n$, its order should be divisible by $n-1$ by Lagrange theorem (because $\left< \zeta \right>$ would be a subgroup of $\mathbb{F}_n^{\times}$). Hence, the order of $\zeta$ should be divisible by both $e$ and $n-1$ and hence should be divisible by $\gcd(e, n-1) = g$. So finding a non-trivial $\zeta$ such that $\zeta^{g} = 1 \text{ mod } n$ is sufficient because we can use that to generate subgroup $E := \left< \zeta \right> \subseteq \mathbb{F}_n^\times$ that consists of all $g$-th root of unity. </p>
 
-<p>Now the question is: how do we go about finding $\rho$?</p>
+<p>And because of this, we actually do not need to introduce and use this new variable $\zeta$, because it is exactly $\rho$ in the end. Also, since $g < n$ yet $n$ is prime, every element of $E$ here should be unique (i.e., they are primitive roots of unity) and it contains all elements whose order is a factor of $g$, not just $g$. </p>
+
+<p>However, now the question is: how do we go about finding $\rho$?</p>
 
 <p>Let $r \in \mathbb{F}_n^\times$ and $r_E := r^{(n-1)/g} \text{ mod } n$. Clearly $r_E^g = r^{n-1} = 1 \text{ mod } n$, and so $r_E$ is a candidate primitive $g$-th root of unity. And to test whether $r_E$ indeed is a primitive $g$-th root of unity, we can calculate the cardinality of $\left< r_E \right> = \{ r_E, r_E^2, \cdots, r_E^g = 1 \}$ and make sure it is $g$ indeed. Oh, and of course, both $r$ and $r_E$ should not be $1$, you know what I meant :sweat_smile:</p>
 
@@ -891,9 +901,9 @@ for i in range(0,g):
 ## sol.py
 from Crypto.Util.number import long_to_bytes
 
-n = 777756371658356441826729228653092499434631035305172509880322655002004039008045720787492699292349816956024214162682281707332483772214797314033060613323980372951195774893061735986175142948571861677456340554882793376078703872291302030430567132018088785535855408409110377327189973952601340410943042788508253813758310797413184518506957817440212935348105193856735320286761202181863843014473637156803666187315158578927428069529022109186345431842082598475904461332010274125796234390386163234411794022829179847776668959528434596799883850787931364114410352436664187913625065855379249496132986517948363694832630053643957898814106766253069509185062057819464868740755645906236165905410302944050073667197489707292827557882235469313758585436824941776058737561207593994338597243557274586583779294003573579715956405551983309527717168010308210474073655763532261396593836782340235001459323323874331108443898602886777412635264588171440447380273250599296164420162936894801775967062285275415331174008098445058416170315779898002726099868162629427919982038415596943715271451944958290466107472382220610122455028556516287294530657864511238573735141255147514127113474557825358554738290595478206958791661391715249798229726238533489373041633676785713548604217861
+n = ...
 e = 50000
-c = 277359187737258362457534632897090609560275835679907190105508305441781088814950381016117048539810699066668346328707239514247747907024858310042465519804872870468645205535199652666860215144396517509831499728224333577993959380695379150844556883688676144218513768298762581885211876375391342455796156456940548741775950266259611168974452206230570494668698573109274627591842683500384555496015872119947324253901120166868283565117432214783776347994180900043829861747583679841893145482535708198926172748189296275575298131314037764131458195690034230771810286866816955794935414105559326348029049747362599528397557590649155979645823782983966182573456965073532051120287778829594508586835614410719154415803215604015687922794249575275088281033853893589312980289714947975117796646193511911511459440764242386211925662924184898808246988788167092186489240112034940356104882149267058764103175974317576790173813320755017793253366071995395701277842820830242038217541557382036257895686016950644008318986563083604553889153070592017254562516835720872613177777139282977415232050406102429719686895830799282348962471590476649961821249207276558353697914498653389130863975927905580766179709281500497070076138657086424222192427642911863924117001924531455220929197873
+c = ...
 
 g = gcd(e, n-1) # 20
 
@@ -949,7 +959,7 @@ print(m_prime) ## 31
 print(m_prime == m) ## False
 {% endhighlight %}
 
-<p>The answer is: this solution still holds. Note that $m$ is still a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. If $c^{d'} \neq m \text{ mod } n$, it must be the case that $c^{d'} \rho = m \text{ mod } n$ where $\rho$ is a $g$-th root of unity. Since $\rho^i \cdot \left< \rho \right> = \left< \rho \right>$ because $\left< \rho \right>$ is a cyclic (sub)group and is the set of all $g$-th roots of unity, this solution should still work.</p>
+<p>Anyway, the answer to that curiosity is: it should not matter. Note that $m$ is still a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. If $c^{d'} \neq m \text{ mod } n$, it must be the case that $c^{d'} \rho^i = m \text{ mod } n$ where $\rho$ is a $g$-th root of unity and for some $i$. </p>
 
 {% highlight python %}
 ## example.py continued
