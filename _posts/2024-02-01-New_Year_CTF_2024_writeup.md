@@ -943,7 +943,14 @@ for i in range(0,g):
 
 <font size="4">
 <p></p>
-<p>A curious reader might wonder what would've happened if $c^{d'} \neq m \text{ mod } n$. This definitely is plausible! For example, when $n = 101$, $m = 7$ and $e = 36$, $c^{d'} = 31 \text{ mod } n$ which is not $m$, as the code below shows.</p>
+<p>After talking to some of my colleagues a bit about this problem and solution, I noticed that the fact that $c^{d'} = m'$ may not be the "true" $m$ could be a bit counter-intuitive to some people, because, as we computed somewhere above</p>
+    \[ (m')^e = c^{ed'} = c = m^e \mod n \] 
+
+<p>which certainly gives a "vibe" that $m' = m \;\text{ mod } n$, kind of.</p>
+
+<p>I think this misconception comes from the fact that textbook RSA (more accurately, its encryption function) is bijective, which is attributed to the Chinese Remainder theorem. However, this problem was not quite an instance of (textbook) RSA because $e$ was chosen incorrectly; instead of taking modulo inverse, we had to compute $e$-th root (more accurately, $g$-th root), which is not unique.</p>
+
+<p>Here is a concrete example, for those who still remain unconvinced.</p>
 
 {% highlight python %}
 ## example.py
@@ -959,7 +966,7 @@ print(m_prime) ## 31
 print(m_prime == m) ## False
 {% endhighlight %}
 
-<p>Anyway, the answer to that curiosity is: it should not matter. Note that $m$ is still a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. If $c^{d'} \neq m \text{ mod } n$, it must be the case that $c^{d'} \rho^i = m \text{ mod } n$ where $\rho$ is a $g$-th root of unity and for some $i$. </p>
+<p>However, as we did in the solution, if we compute and multiply roots of unity, we can recover the true $m$.</p>
 
 {% highlight python %}
 ## example.py continued
