@@ -943,12 +943,12 @@ for i in range(0,g):
 
 <font size="4">
 <p></p>
-<p>After talking to some of my colleagues a bit about this problem and solution, I noticed that the fact that $c^{d'} = m'$ may not be the "true" $m$ could be a bit counter-intuitive to some people, because, as we computed somewhere above</p>
+<p>One of my colleagues pointed out that the fact that $c^{d'} = m'$ might not be the same as "true" $m$ could be a bit counter-intuitive to some people, because, as we computed somewhere above</p>
     \[ (m')^e = c^{ed'} = c = m^e \mod n \] 
 
-<p>which certainly gives a "vibe" that $m' = m \;\text{ mod } n$, kind of.</p>
+<p>which understandingly gives a "vibe" that $m' = m \;\text{ mod } n$ must be the case.</p>
 
-<p>I think this misconception comes from the fact that textbook RSA (more accurately, its encryption function) is bijective, which is attributed to the Chinese Remainder theorem. However, this problem was not quite an instance of (textbook) RSA because $e$ was chosen incorrectly; instead of taking modulo inverse, we had to compute $e$-th root (more accurately, $g$-th root), which is not unique.</p>
+<p>I think this misconception comes from the fact that textbook RSA (more accurately, its encryption function) is bijective, which is attributed to the Chinese Remainder theorem. However, this problem was not quite an instance of (textbook) RSA because $e$ was chosen incorrectly (and $n$ is prime!); instead of taking modulo inverse, we had to compute $e$-th root (more accurately, $g$-th root), which is not unique.</p>
 
 <p>Here is a concrete example, for those who still remain unconvinced.</p>
 
