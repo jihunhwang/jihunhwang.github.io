@@ -49,7 +49,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  jihunhwang
 minimal_mistakes_skin: "default"
-search: true
+minimal_mistakes_skin2: "dark"
+search: false
 
 include:
   - _pages
@@ -93,6 +94,7 @@ author:
       icon: "fab fa-fw fa-mastodon"
       url: "https://infosec.exchange/@FlaggnGoose"
     - label: "CTFTime"
+      icon: "fab fa-fw fa-font-awesome"
       url: "https://ctftime.org/user/153527"
     - label: "Picture"
       icon: "fas fa-fw fa-image"
