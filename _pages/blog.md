@@ -22,3 +22,5 @@ toc: true
   <p><a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
 --->
+
+<a href="/tags/" style="color: gray; text-decoration: underline;text-decoration-style: dotted; text-decoration-thickness: 1px;">Click here to sort posts by tag.</a>

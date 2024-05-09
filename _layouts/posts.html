@@ -24,7 +24,7 @@ layout: archive
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ entries_layout }}">
       {% for post in year.items %}
-        <font size="3.5">{{ post.date | date: "%b. %d"}}</font>
+        <font size="3.5">{{ post.date | date: "%Y %b. %d"}}</font>
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
     </div>

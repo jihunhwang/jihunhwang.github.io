@@ -5,3 +5,4 @@ Disallow: /timeline/
 Disallow: /notes/
 Disallow: /talks/
 Disallow: /misc/
+Disallow: /tags/
