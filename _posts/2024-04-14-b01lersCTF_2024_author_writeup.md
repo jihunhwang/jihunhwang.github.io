@@ -19,11 +19,11 @@ last_modified_at: 2024-04-24
 
 
 <font size="4">
-<p>This weekend (Apr 12-14, 2024), I was honored to work with such great people as a b01lers CTF challenge author. It was my first time writing CTF challenges. I learned a lot, arguably even more than I usually do as a CTF participant, not only through the process of making the challenges but also as an organizer and from some rookie mistakes that I made (will elaborate later). It was an interesting and invaluable experience, and I am looking forward to the next year's b01lers CTF already. </p>
+<p>This weekend (Apr 12-14, 2024), I was honored to work with such great people as a b01lers CTF challenge author. It was my first time writing CTF challenges. I learned a lot, arguably even more than I usually do as a CTF participant, not only through the process of making the challenges but also as an organizer and from some rookie mistakes that I made (I will elaborate later). It was an interesting and invaluable experience, and I am looking forward to next year's b01lers CTF already. </p>
 
-<p>As a challenge author, I suppose I am semi-obligated to release the intented solutions to my challenges. This writeup exists to fulfill that responsibility. I will describe each challenge and my solution in detail, as well as some selected solutions by participants that I find beautiful (I mean solution, not participants).</p>
+<p>As a challenge author, I suppose I am semi-obligated to release the intended solutions to my challenges. This writeup exists to fulfill that responsibility. I will describe each challenge and my solution in detail, as well as some selected solutions by participants that I find beautiful (I mean solutions, not participants, kek).</p>
 
-<p>Before I start, I want to give a huge thanks to the b01lers president (<a href="https://github.com/CaptainNapkins">CaptainNapkins</a>), team officers and fellow challenge authors for this opportunity and making b01lers CTF go smooth!</p>
+<p>Before I start, I want to give a huge thanks to the b01lers president (<a href="https://github.com/CaptainNapkins">CaptainNapkins</a>), team officers and fellow challenge authors for this opportunity and for making b01lers CTF go smoothly!</p>
 </font>
 
 ## Crypto

@@ -12,16 +12,16 @@ last_modified_at: 2024-03-20
 
 <font size="4">
 <p> 
-I found this CTF in <a href="https://en.wikipedia.org/wiki/Pepero_Day">Nov 11th</a>, 2023. My original plan for that day (and weekend) was to play <a href="https://ctftime.org/event/2073">0CTF/TCTF</a> with b01lers, but the organizers of that CTF postponed it to some other time because they wanted to have their CTF serve as a DEFCON qualifier (I do not know the details unfortunately, so don't quote me on this because I could be wrong). 
+I found this CTF in <a href="https://en.wikipedia.org/wiki/Pepero_Day">Nov 11th</a>, 2023. My original plan for that day (and weekend) was to play <a href="https://ctftime.org/event/2073">0CTF/TCTF</a> with b01lers, but the organizers of that CTF postponed it to some other date because they wanted to have their CTF serve as a DEFCON qualifier (I do not know the details unfortunately, so don't quote me on this because I could be wrong). 
 </p>
 
-<p>So, I instead found a CTF that I can play myself, because, why not :) </p>
+<p>So, I instead found a CTF that I can play by myself, because, why not :) </p>
 
-<p>This CTF technically ended on Sep 21, 2023 (because they got a team that solved every challenge that day), but they decided to leave it open until Jan 21, 2024. I did a quick Google search and discovered that no writeup was posted online (at least on the day I looked up) except one OSINT problem (<a href="https://medium.com/@tahabashir733/a-great-interior-desert-writeup-poctf-73a324ee8c4d">A Great Interior Desert</a>).</p>
+<p>This CTF technically ended on Sep 21, 2023 (because they got a team that solved every challenge that day), but they decided to leave it open until Jan 21, 2024. I did a quick Google search and discovered that no writeup was posted online (at least on the day I looked up) except for one OSINT problem (<a href="https://medium.com/@tahabashir733/a-great-interior-desert-writeup-poctf-73a324ee8c4d">A Great Interior Desert</a>).</p>
 
 <p>They have nine categories, each with three challenges. They had me when I saw separate categories for steganography and password cracking. They also had a pretty good range of problems: some challenges were solvable within a few hours (or even minutes), but some took me almost a month.</p>
 
-<p>The <a href="https://pointeroverflowctf.com/">competition website</a> is still online, but all the challenges are removed. Here is the CTFTime event page: <a href="https://ctftime.org/event/2026/">https://ctftime.org/event/2026/</a>.</p>
+<p>The <a href="https://pointeroverflowctf.com/">competition website</a> is still online, but the challenges are not anymore. Here is the CTFTime event page: <a href="https://ctftime.org/event/2026/">https://ctftime.org/event/2026/</a>.</p>
 
 </font>
 
