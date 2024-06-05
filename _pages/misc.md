@@ -45,8 +45,8 @@ sitemap: false
 	</li>
 	
 <li>
-	<a href="https://www.theatlantic.com/education/archive/2021/09/bias-math-sexism-racism/620207/">Math is Personal</a>. In case you do not understand why teachers are often called the engineers of human soul. I believe every student is more valuable than the numerical or letter outputs they make in class.
-	</li>
+	<a href="https://www.theatlantic.com/education/archive/2021/09/bias-math-sexism-racism/620207/">Math is Personal</a>. In case you do not understand why teachers are often called the engineers of human soul. Learning is very deep and students are too valuable to be just classified using some letters and numerics. 
+</li>
 	
 <li>
 	<a href="https://www.dailyprincetonian.com/article/2022/02/stem-intro-courses-humanites-exploration">Why won’t anyone teach me math?</a> I agree that a certain level of difficulty must be maintained in curriculums. However, systemically refusing to help or educate students is not a reasonable method of keeping that standard. 
@@ -64,6 +64,8 @@ sitemap: false
 	<a href="https://www.edupristine.com/blog/11-facts-about-data-science">The Inconvenient Truth About Data Science</a>. "<i>Some models are more wrong than others, but all are wrong.</i>"
 	</li>
 
+
+
 </ul>
 
 </font>
@@ -78,19 +80,25 @@ sitemap: false
 </li>
 
 <li>
+	I was a huge fan of <a href="https://en.wikipedia.org/wiki/Miryo">her</a> and <a href="https://en.wikipedia.org/wiki/CL_(rapper)">her</a> music when I was in middle/high school.
+</li>
+
+
+<li>
 	Why do I love mathematics (⊃ theoretical computer science)? Watch this TED Talk <a href="https://youtu.be/Kc0Kthyo0hU"><i>What's so sexy about math?</i></a> by <a href="https://cedricvillani.org/">Cédric Villani</a> (<a href="https://en.wikipedia.org/wiki/C%C3%A9dric_Villani">Wiki</a>), 2010 Fields Medalist.
 </li>
 
 <li>
-	I was a huge fan of <a href="https://en.wikipedia.org/wiki/Miryo">her</a> and <a href="https://en.wikipedia.org/wiki/CL_(rapper)">her</a> music when I was in middle/high school.
+  <a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. I wish I can be knowledgeable and versatile enough to give a talk like this one day. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> was also quite inspiring!
 </li>
+
+<!---
 <li>
 	I have been practicing this: <a href="https://youtu.be/4Xp4F1h0YZM">How to pronounce German Mathematician's Names</a> (cw: swearing and memes). I am still struggling but I have gotten way better though.
 </li>
+--->
 
-<li>
-  <a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> was also quite inspiring!
-</li>
+
 
 </ul>
 </font>

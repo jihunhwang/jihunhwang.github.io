@@ -23,8 +23,9 @@ permalink:
 </script>
 
 
-
-<h4>You have finally reached the end of the internet!</h4>
+<font size="5">
+<p><i>You have finally reached the end of the internet!</i></p>
+</font>
 
 <font size="4">
 <p>
@@ -40,7 +41,7 @@ I am interested in any topics in or related to theoretical computer science. For
 </p>
 
 <p>
-I also play <a href="https://ctftime.org/ctf-wtf/">CTFs</a> sometimes as a member of <a href="https://b01lers.com/">b01lers</a>. If you are a student at Purdue interested in ethical hacking and offensive security, please consider joining us!
+I play <a href="https://ctftime.org/ctf-wtf/">CTFs</a> sometimes as a member of <a href="https://b01lers.com/">b01lers</a>. If you are a student at Purdue interested in ethical hacking and offensive security, please consider joining us!
 </p>
 
 </font>

@@ -22,12 +22,22 @@ search: exclude
 <ul>
 
 <li>
-	<div><b>Apr 2024</b></div>
-	<div>I was selected as a 2024 Raymond Boyce Graduate Teacher Award recipient by my department!</div>
+	<div><b>May 2024</b></div>
+	<div>I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> as a research intern again this summer!</div>
 </li>
 
 <li>
-	<div><b>Mar 2024</b></div>
+	<div><b>April 2024</b></div>
+	<div>We placed 3rd and won the best poster award in this year's <a href="https://mitre-engenuity.org/growing-impact/ectf-embedded-capture-the-flag/">MITRE eCTF</a>. Thank you b01lers for this opportunity and the great collaboration!</div>
+</li>
+
+<li>
+	<div><b>April 2024</b></div>
+	<div>I was selected as a <a href="https://www.cs.purdue.edu/news/articles/2024/2024_purdue_cs_awards.html">2024 Raymond Boyce Graduate Teacher Award</a> recipient by my department!</div>
+</li>
+
+<li>
+	<div><b>March 2024</b></div>
 	<div>I presented both papers at <a href="https://www.aeroconf.org/">AeroConf 2024</a> held at Big Sky, MT!</div>
 </li>
 
@@ -45,7 +55,7 @@ search: exclude
 </li>
 
 <li>
-	<div><b>Oct 2023</b></div>
+	<div><b>October 2023</b></div>
 	<div>I received <a href="https://www.cs.purdue.edu/graduate/gta-award-winners.html">Graduate Teaching Award</a> from my department, for my achievement as a CS 426 (Computer Security) TA in Spring 2022. Thank you, <a href="https://www.cs.purdue.edu/homes/clg/">Christina</a>, for the nomination and all your support!</div>
 </li>
 
@@ -56,7 +66,7 @@ search: exclude
 
 <li>
 	<div><b>July 2023</b></div>
-	<div>The BPv7 paper I wrote with my CS 536 classmates has been accepted for presentation at <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a>. Thank you, everyone!</div>
+	<div>The BPv7 paper I wrote with my CS 536 classmates based on our course project has been accepted to <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a> conference!</div>
 </li>
 
 <li>
@@ -84,13 +94,15 @@ search: exclude
 
 <li>
 	<div><b>September 2022</b></div>
-	<div>I joined <a href="https://b01lers.com/">b01lers</a>, Purdue's <a href="https://ctftime.org/team/11464">CTF team</a>! Technically, I become a member last year but I have not been active at all. I hope to learn more about how crytographical concepts are used in practice.</div>
+	<div>I became a member of <a href="https://b01lers.com/">b01lers</a> (Purdue's <a href="https://ctftime.org/team/11464">CTF team</a>)! Technically, I joined last year but I have not been active at all. I hope to learn more about how crytographical concepts are used in practice.</div>
 </li>
 
+<!---
 <li>
 	<div><b>August 2022</b></div>
 	<div>I started working on <a href="https://nsa-codebreaker.org/home">NSA Codebreaker Challenge</a>! Please feel free to reach out to me if you would like to talk anything about it. But of course, no spoliers/answers (read the term again if you don't know what I mean here).</div>
 </li>
+--->
 
 <li>
 	<div><b>May 2022</b></div>
@@ -120,10 +132,12 @@ search: exclude
 	<div>Started attending the virtual sections of the <a href="https://gct2022.sciencesconf.org/">GCT 2022</a>, School and Conference on Geometric Complexity Theory 2021-2022! Joined a bit late, so I hope I can catch up.</div>
 </li>
 
+<!---
 <li>
 	<div><b>September 2021</b></div>
 	<div>Became a member of <a href="https://www.iqparc.com/events/quantum-game-club-1">Quantum Game Club</a> hosted by <a href="https://www.iqparc.com/">Purdue IQ-PARC</a>! I hope I can learn some more quantum computing outside the classroom there.</div>
 </li>
+--->
 
 <li>
 	<div><b>June 2021</b></div>
@@ -133,7 +147,7 @@ search: exclude
 
 <li>
 	<div><b>April 2021</b></div>
-	<div>Excited to announce that I accepted my offer to the Computer Science Ph.D. program at <a href="https://www.cs.purdue.edu/">Purdue</a>!</div>
+	<div><b>Excited to announce that I accepted my offer to the Computer Science Ph.D. program at <a href="https://www.cs.purdue.edu/">Purdue University</a>!</b></div>
 </li>
 
 <li>
