@@ -2,7 +2,7 @@
 layout: single # Important -- otherwise the posts will show up
 author_profile: true
 permalink: 
-# title: About Me
+title: 
 # header:
 #   overlay_color: "#000"
 #   overlay_filter: "0.47"
@@ -23,11 +23,9 @@ permalink:
 </script>
 
 
-<font size="5">
-<p><i>You have finally reached the end of the internet!</i></p>
-</font>
-
 <font size="4">
+<p><i><b>You have finally reached the end of the internet!</b></i></p>
+
 <p>
 Just kidding. My name is Jihun (I go by Jimmy). I am a third year Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>. This summer, I am visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again as a research intern. 
 </p>

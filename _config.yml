@@ -41,7 +41,7 @@ plugins:
 permalink: /:categories/:title/
 
 # Site settings
-title: Jimmy Hwang
+title: Jihun Hwang (Jimmy)
 email: hwang102@purdue.edu
 # description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
