@@ -21,9 +21,17 @@ On this page, you will find the notes and slides I made for the talks I presente
 </p>
 </font>
 
-###### Invited/Professional Talks (Seminars, etc.)
+###### Informal Talks (Reading Seminar, etc.)
 <font size="4">
 <ul>
+
+<li>
+<a href="https://drive.google.com/file/d/1rrHeaktlrlYfgyS7u2aHzzK_VKhe_lwA/view?usp=sharing">Towards Topos of Graphs</a>. Topos Reading Seminar at NASA GSFC (Division 450.0) in July 29th, 2024.
+</li>
+
+<li>
+<a href="https://drive.google.com/file/d/1xZLxRlWb2wJf_mzjy_nVtnMrcs035zlJ/view?usp=sharing">Hasty Introduction to Software-Defined Networks</a>. NASA GRC HDTN Clock Synchronization Meeting. July 12th, 2024. 
+</li>
 
 <li>
 <a href="https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link">Pre-Processing and Leakage-Resilience Secure Computation</a>. Purdue CS Theory Reading Seminar in Nov 3rd, 2022.
