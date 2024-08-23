@@ -37,8 +37,8 @@ sitemap: false
 	</li>
 	
 <li>
-	<a href="https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/">Does one have to be a genius to do maths?</a> by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a> (<a href="https://en.wikipedia.org/wiki/Terence_Tao">Wiki</a>), 2006 Fields Medalist. <i>"The objective in mathematics is not to obtain the highest ranking, the highest “score”, or the highest number of prizes and awards"</i>. Regarding this, if you can read Korean, read <a href="https://comic.naver.com/webtoon/detail.nhn?titleId=703853&no=5&weekday=sun">this episode</a> of a webcomic about the true meaning of doing mathematics.
-	</li>
+	<a href="https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/">Does one have to be a genius to do maths?</a> by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a> (<a href="https://en.wikipedia.org/wiki/Terence_Tao">Wiki</a>), 2006 Fields Medalist. <i>"The objective in mathematics is not to obtain the highest ranking, the highest “score”, or the highest number of prizes and awards"</i>. If you are a Korean speaker, read also <a href="https://comic.naver.com/webtoon/detail.nhn?titleId=703853&no=5&weekday=sun">this episode</a> of a webcomic about it.
+</li>
 	
 <li>
 	<a href="https://terrytao.wordpress.com/2019/06/27/living-proof-stories-of-resilience-along-the-mathematical-journey/">Living Proof: Stories of Resilience Along the Mathematical Journey</a> again by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a>. Please read this if you feel incompetent or powerless after an exam (or a semester). Don't be discouraged! <a href="https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-grades-and-exams-and-methods/">There's more to mathematics than grades and exams and methods</a>.
@@ -80,7 +80,7 @@ sitemap: false
 </li>
 
 <li>
-	I was a huge fan of <a href="https://en.wikipedia.org/wiki/Miryo">her</a> and <a href="https://en.wikipedia.org/wiki/CL_(rapper)">her</a> music when I was in middle/high school.
+	I was a huge fan of <a href="https://en.wikipedia.org/wiki/Miryo">her</a> and <a href="https://en.wikipedia.org/wiki/CL_(rapper)">her</a> music when I was in middle/high school. Also, of course, <a href="https://en.wikipedia.org/wiki/IU_(singer)">hers</a> too. 
 </li>
 
 
@@ -89,7 +89,7 @@ sitemap: false
 </li>
 
 <li>
-  <a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. I wish I can be knowledgeable and versatile enough to give a talk like this one day. Her <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">AMA</a> was also quite inspiring!
+  <a href="https://youtu.be/0wv0gmmNl04">The Adventure of Alice and the Encrypted Message</a> by <a href="https://www.thecomputersciencecomedian.com/">Allison Bishop</a>. The best introduction to modern cryptography for general audiences I have watched so far. Take a look at <a href="https://www.reddit.com/r/IAmA/comments/7j2qfr/growing_up_i_dreamed_of_being_a_writer_and_hated/">her AMA</a> as well!
 </li>
 
 <!---

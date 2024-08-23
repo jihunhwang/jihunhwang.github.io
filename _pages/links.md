@@ -34,7 +34,7 @@ sitemap: false
 </li>
 
 <li>
-  For Purdue students: You can look up the previous grade distributions of courses/professors at Purdue in <a href="https://www.boilergrades.com/">Boiler Grades</a>. Also <a href="https://purdue.io/">Purdue.io</a> makes your life so much easier when looking up course descriptions. 
+  For Purdue students: You can look up the previous grade distributions of courses/professors at Purdue in <a href="https://www.boilergrades.com/">Boiler Grades</a>. Also <a href="https://purdue.io/">Purdue.io</a> and <a href="https://boilerclasses.com/">BoilerClasses</a> makes your life so much easier when looking up course descriptions. 
 </li>
 
 <li>
@@ -63,6 +63,10 @@ sitemap: false
 
 <li>
   <a href="https://www.graphclasses.org/index.html">ISGCI</a>, an encyclopaedia of graph classes.
+</li>
+
+<li>
+  <a href="https://pbelmans.ncag.info/topologies-comparison/">Topologies comparison</a>. Interact-able graph of Grothendieck topologies picturing their properties and relationships. Made by <a href="https://pbelmans.ncag.info/">Pieter Belmans</a>. 
 </li>
 
 <li>
