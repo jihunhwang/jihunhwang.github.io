@@ -27,7 +27,7 @@ title:
 <p><i><b>You have finally reached the end of the internet!</b></i></p>
 
 <p>
-Just kidding. My name is Jihun (I go by Jimmy). I am a third year Ph.D. student in <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>. This summer, I visited <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again as a research intern. 
+Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. student studying <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>. Last summer, I visited <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again as a research intern. 
 </p>
 
 <p>
