@@ -26,13 +26,13 @@ last_modified_at: 2024-08-22
 
 <font size="4">
 <p> 
-I found the picture of this problem and my solution while scrolling through Google Photos (I was bored at LAX waiting for my flight). I don't vividly remember when and what it was for, but it must have been a part of my math olympiad practice, given that it is a typical math olympiad-y number theory problem and the picture was taken and uploaded when I was in high school.
+I found the picture of this problem and my solution when I was scrolling through Google Photos at LAX waiting for my flight (yes, I was very bored). I don't vividly remember when and what this problem was for, but it must have been a part of my math olympiad practice, given that it is a typical math olympiad-y number theory problem and the picture was taken when I was in high school.
 </p>
 
 <p>I do remember, however, struggling and spending a lot of time on this problem. I think it is worth going over it again for fun.</p>
 </font>
 
-#### Problem Statement
+### Problem Statement
 
 <font size="4">
 <p> 
@@ -40,7 +40,7 @@ I found the picture of this problem and my solution while scrolling through Goog
 </p>
 </font>
 
-#### Lemma 1
+### Lemma 1
 
 <font size="4">
 <p> 
@@ -87,7 +87,7 @@ Hence, if $p \equiv 5$ or $7 \; (\textrm{mod } 8)$, the solution to $X^2 \equiv 
 </p>
 </font>
 
-#### Lemma 2
+### Lemma 2
 
 <font size="4">
 <p> 
@@ -106,7 +106,7 @@ Hence, if $p \equiv 5$ or $7 \; (\textrm{mod } 8)$, the solution to $X^2 \equiv 
 </p>
 </font>
 
-#### Lemma 3
+### Lemma 3
 
 <font size="4">
 <p> 
@@ -167,7 +167,7 @@ Hence, $p$ can be written in a form of $a^2 + 2b^2$.</li>
 Therefore, for all primes $p$ such that $p \equiv 1,2,3 \; (\textrm{mod } 8)$, there exist non-negative integers $a$ and $b$ such that $p = a^2 + 2b^2$. $\quad \square$
 </font>
 
-#### Solution
+### Solution
 
 <font size="4">
 <p> 

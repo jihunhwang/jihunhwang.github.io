@@ -30,7 +30,7 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 	<summary><font size="4">Click to expand</font></summary>
 <font size="4">
 <p>
-Roughly, Purdue adopts the following course numbering system: 100-499 Undergraduate and <b>500-699 Graduate</b>. See <a href="https://www.purdue.edu/registrar/documents/currentStudents/students/preBannerTranscriptKey.pdf">this</a> for more details.
+Roughly, Purdue adopts the following course numbering system: 100-499 Undergraduate and <b>500-699 Graduate</b>. Some 400-levels are often cross-listed and open to both undergrads and graduate students. See <a href="https://www.purdue.edu/registrar/documents/currentStudents/students/preBannerTranscriptKey.pdf">this</a> for more details.
 </p>
 
 <ul>
@@ -100,7 +100,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </font>
 </details>
 
-
+<!--
 ###### Courses Audited
 
 <details>
@@ -111,7 +111,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </ul>
 </font>
 </details>
-
+-->
 
 ###### Talks Attended 
 
@@ -128,9 +128,6 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 <li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst on Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>
 
-<!-- 
-<li><a href="https://drive.google.com/open?id=11tl7jYPDhBmSP6B3hZ49snNr8OZ-hAd6">Geography of surface bundles over surfaces (Draft)</a> by <a href="https://people.math.umass.edu/~baykur/">R. İnanç Baykur</a> from UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Mar 6th, 2020.
-</li>-->
 
 <li><a href="https://drive.google.com/open?id=1G1_7gSlUzcnvNq_t1KiNnP8QQUTryeX_">Computing Higher Symplectic Capacities</a> by <a href="http://math.columbia.edu/~kyler/">Kyler Siegel</a> from Columbia at <a href="https://www.math.umass.edu/seminars/geometry-and-topology-seminar">Geometry and Topology Seminar</a> at UMass Amherst in Feb 19th, 2020.
 </li>
