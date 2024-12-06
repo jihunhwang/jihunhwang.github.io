@@ -22,24 +22,15 @@ sitemap: false
 <ul>
 	
 <li>
-  <a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone. For cryptography specifically, see <a href="https://www.ccs.neu.edu/~rancohen/cryptotalks.html">Cryptography Online Talks</a>.
+  <a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone.
 </li>
 
 <li>
-  <a href="https://is.gd/ourfa2m2">OURFA²M²</a> organized by great people provides helpful information for undergraduate math majors.
+  For Purdue students: <a href="https://www.boilergrades.com/">Boiler Grades</a> has grade distributions of previous offerings of all courses and professors in Purdue. 
+
+  <a href="https://boilerclasses.com/">BoilerClasses</a> and <a href="https://purdue.io/">Purdue.io</a> should make your life easier by not having you to log into UniTime and interact with it.
 </li>
 
-<li>
-  <a href="https://mentor-crypto-2021.github.io/">Crypto Mentoring workshop</a>, generic yet extensive suggestions for junior cryptographers (e.g., Ph.D. students).
-</li>
-
-<li>
-  For Purdue students: You can look up the previous grade distributions of courses/professors at Purdue in <a href="https://www.boilergrades.com/">Boiler Grades</a>. Also <a href="https://purdue.io/">Purdue.io</a> and <a href="https://boilerclasses.com/">BoilerClasses</a> makes your life so much easier when looking up course descriptions. 
-</li>
-
-<li>
-  <a href="https://glebbahmutov.com/blog/dont-help-me-say-no/">Don't help me say no</a>. A great list of mistakes that you should avoid at all costs in your job applications, written by a Purdue CS Ph.D. alum. Also, see <a href="https://glebbahmutov.com/blog/help-me-say-yes/">Help me say yes</a>.
-</li>
 
 
 <!-- <li>
@@ -62,7 +53,7 @@ sitemap: false
   </li>
 
 <li>
-  <a href="https://www.graphclasses.org/index.html">ISGCI</a>, an encyclopaedia of graph classes.
+  <a href="https://www.graphclasses.org/index.html">ISGCI</a>, an encyclopaedia of graph classes. Then there are <a href="https://errorcorrectionzoo.org/">EC Zoo</a> for error correcting codes and <a href="https://complexityzoo.net/Complexity_Zoo">Complexity Zoo</a> for computational complexity classes.
 </li>
 
 <li>
@@ -71,14 +62,6 @@ sitemap: false
 
 <li>
   <a href="https://artofproblemsolving.com/news/articles/how-to-write-a-solution">How to write a solution</a>. Written from math olympiad perspectives, but still valid for professional mathematics/physics/computer science.
-</li>
-
-<li>
-  <a href="https://mathscinet.ams.org/mathscinet/freeTools.html?version=2">AMS Collaboration Distance</a> and <a href="https://www.genealogy.math.ndsu.nodak.edu/">Mathematics Genealogy</a>.
-</li>
-
-<li>
-Very extensive list of advices and <a href="https://www.vanessasun.com/questions-to-ask-when-considering-a-graduate-school-program/">Questions to ask when considering a graduate school program</a> written and compiled by <a href="https://www.vanessasun.com/">Vanessa Sun</a> at MIT. 
 </li>
 
 
@@ -91,11 +74,31 @@ Very extensive list of advices and <a href="https://www.vanessasun.com/questions
 </li>
 
 <li>
-<a href="https://www.wechall.net/about_wechall">WeChall</a>, <a href="https://overthewire.org/wargames/">OverTheWire</a>, <a href="https://picoctf.org/">picoCTF</a>, and <a href="https://cryptohack.org/">Cryptohack</a> have interesting CTF-like cybersecurity challenges. Very fun!
+  <a href="https://www.wechall.net/about_wechall">WeChall</a>, <a href="https://overthewire.org/wargames/">OverTheWire</a>, <a href="https://picoctf.org/">picoCTF</a>, and <a href="https://cryptohack.org/">Cryptohack</a> have interesting CTF-like cybersecurity challenges. Very fun! If you are a Purdue student, please also give our own <a href="https://internal.b01lersc.tf/">internal CTF</a> a shot too!
 </li>
 
 <li>
 <a href="https://www.redblobgames.com/">Red Blob Games</a>: Interactive (and cute!) tutorials for math and algorithms. See also <a href="https://www.complexity-explorables.org/">Complexity Explorables</a> for complex systems.
+</li>
+
+<li>
+  <a href="https://glebbahmutov.com/blog/dont-help-me-say-no/">Don't help me say no</a>. A great list of mistakes that you should avoid at all costs in your job applications, written by a Purdue CS Ph.D. alum. Also, see <a href="https://glebbahmutov.com/blog/help-me-say-yes/">Help me say yes</a>.
+</li>
+
+<li>
+  <a href="https://is.gd/ourfa2m2">OURFA²M²</a> organized by great people provides helpful information for undergraduate math majors.
+</li>
+
+<li>
+  Very extensive list of advices and <a href="https://www.vanessasun.com/questions-to-ask-when-considering-a-graduate-school-program/">Questions to ask when considering a graduate school program</a> written and compiled by <a href="https://www.vanessasun.com/">Vanessa Sun</a> at MIT. 
+</li>
+
+<li>
+  <a href="https://mentor-crypto-2021.github.io/">Crypto Mentoring workshop</a>, generic yet extensive suggestions for junior cryptographers (e.g., Ph.D. students).
+</li>
+
+<li>
+  <a href="https://mathscinet.ams.org/mathscinet/freeTools.html?version=2">AMS Collaboration Distance</a> and <a href="https://www.genealogy.math.ndsu.nodak.edu/">Mathematics Genealogy</a>.
 </li>
 
 </ul>
@@ -124,7 +127,7 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  Pretty intensive algorithms lecture series (course notes and videos) by <a href="https://kentquanrud.com/">Kent Quanrud</a> at Purdue: <a href="https://fas22.s3.amazonaws.com/fas22-book.pdf">Undergrad algorithms</a> (S22), <a href="https://fas23.s3.amazonaws.com/fas23.pdf">Graduate algorithms</a> (S23), and <a href="https://raf22.s3.amazonaws.com/raf22.pdf">Randomized algorithms</a> (F22).
+  Pretty intensive algorithms lecture series (course notes and videos) by <a href="https://kentquanrud.com/">Kent Quanrud</a> at Purdue: <a href="https://fas22.s3.amazonaws.com/fas22-book.pdf">Undergrad algorithms</a> (S22), <a href="https://fas24.s3.amazonaws.com/fas24.pdf">Graduate algorithms</a> (F24), and <a href="https://ras24.s3.amazonaws.com/ras24.pdf">Randomized algorithms</a> (S24).
 </li>
 
 
@@ -147,7 +150,7 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  If Arora-Barak's Ch 11 and 22 do not suffice you (too difficult, want to learn more, etc.), see this: <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html">Foundations of Probabilistic Proofs</a> by <a href="https://people.eecs.berkeley.edu/~alexch/">Alessandro Chiesa</a> at UC Berkeley.
+  <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html">Foundations of Probabilistic Proofs</a> by <a href="https://people.eecs.berkeley.edu/~alexch/">Alessandro Chiesa</a> at UC Berkeley.
 </li>
 
 <li>
@@ -167,11 +170,11 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  <a href="https://people.math.harvard.edu/~knill/graphgeometry/">Differential Geometry in Graphs!</a> Though it does not seem like it covers Ollivier-Ricci curvatures, unfortunately. 
+  <a href="https://people.math.harvard.edu/~knill/graphgeometry/">Differential Geometry in Graphs!</a> Though it does not seem like it covers Ollivier-Ricci curvatures for some reason, unfortunately. 
 </li>
 
 <li>
-  I faded almost completely away from geometric analysis, but this special topics course in <a href="https://math.berkeley.edu/~rbamler/rfclass.html">Ricci Flow</a> by <a href="https://math.berkeley.edu/~rbamler/">Richard Bamler</a> at Berkeley that he opened to public (with his permission) was undoubtedly a legend.
+  I faded completely away from geometric analysis, but this special topics course in <a href="https://math.berkeley.edu/~rbamler/rfclass.html">Ricci Flow</a> by <a href="https://math.berkeley.edu/~rbamler/">Richard Bamler</a> at Berkeley that he opened to public (with his permission) was undoubtedly a legend.
 </li>
 
 </ul>
