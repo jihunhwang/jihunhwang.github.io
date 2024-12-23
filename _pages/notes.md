@@ -35,6 +35,9 @@ Roughly, Purdue adopts the following course numbering system: 100-499 Undergradu
 
 <ul>
 
+<li>Fall 2024, <a href="https://drive.google.com/file/d/1GYO9-ZZowy_iI5M-YyyhFuD2dg9bMLNS/view?usp=sharing">MA 595SP Additive Combinatorics: Sum-Product Phenomenon</a>
+</li>
+
 <li>Fall 2023, <a href="https://drive.google.com/file/d/1MRDJ8MaT6X19yFlRMX_zXaHr7oUyeiH9/view?usp=sharing">CS 593MLT Machine Learning Theory</a>
 </li>
 
