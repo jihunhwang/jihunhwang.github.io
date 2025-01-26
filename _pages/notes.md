@@ -59,7 +59,7 @@ Roughly, Purdue adopts the following course numbering system: 100-499 Undergradu
 <li>Spring 2021, <a href="https://drive.google.com/file/d/19mo8aIlcgKCk8apulDjb9nG9XjZWvyoy/view?usp=sharing">MATH 523H Undergraduate Real Analysis</a>: Problems selected by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a> and solutions created/gathered and typed by myself.
 </li>
 
-<li><a href="https://drive.google.com/open?id=1MRi9y5U_S1zxE9bras8s1L7Ml9Von02N">Fall 2019, MATH 300 Fundamental Concepts of Mathematics</a>: Materials and problems were selected and created jointly with Professor <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> and <a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>. (<a href="https://drive.google.com/open?id=1EGCkVuPYk9FzxrCJzTzTBwbOexJaygI2">partial solutions</a>) 
+<li><a href="https://drive.google.com/open?id=1MRi9y5U_S1zxE9bras8s1L7Ml9Von02N">Fall 2019, MATH 300 Fundamental Concepts of Mathematics</a>: Materials and problems were selected and created jointly with Professor <a href="https://ricerca.mat.uniroma3.it/users/lschaffler/">Luca Schaffler</a> and <a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>. (<a href="https://drive.google.com/open?id=1EGCkVuPYk9FzxrCJzTzTBwbOexJaygI2">partial solutions</a>) 
 (<a href="/Downloads/M300_grade.html">grade analytics</a>)
 </li>
 
@@ -87,7 +87,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 
 <li>Fall 2020, <a href="https://drive.google.com/file/d/1gpmkZ9NzcZA5MtlsnCKrULIIYPXeHwxI/view?usp=sharing">MATH 697B Riemann Surfaces (Draft)</a></li>
 
-<li>Fall 2020, <a href="https://drive.google.com/file/d/1Tih1yZ9tFDyCFJxoyYe2bejTXbQzBuqJ/view?usp=sharing">CS 796 Independent Study: Complexity Theory (Draft)</a></li>
+<li>Fall 2020, <a href="https://drive.google.com/file/d/1Tih1yZ9tFDyCFJxoyYe2bejTXbQzBuqJ/view?usp=sharing">CS 796 Independent Study: Complexity Theory</a></li>
 
 <li>Spring 2020, <a href="https://drive.google.com/open?id=1F2Z_13OA36IHdf9Yw7UwOWnezptmHbN3">MATH 797DS Infinite Dimensional Integrable System (Draft)</a></li>
 
@@ -139,7 +139,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </li>
 
 
-<li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by <a href="http://people.math.umass.edu/~schaffler/">Luca Schaffler</a> from UMass Amherst at the <a href="https://www.math.umass.edu/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
+<li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by <a href="https://ricerca.mat.uniroma3.it/users/lschaffler/">Luca Schaffler</a> from UMass Amherst at the <a href="https://www.math.umass.edu/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
 </li>
 
 <!-- 

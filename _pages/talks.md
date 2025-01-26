@@ -26,7 +26,7 @@ On this page, you will find the notes and slides I made for the talks I presente
 <ul>
 
 <li>
-<a href="https://drive.google.com/file/d/1rrHeaktlrlYfgyS7u2aHzzK_VKhe_lwA/view?usp=sharing">Towards Topos of Graphs</a>. Topos Reading Seminar at NASA GSFC (Division 450.0) in July 29th, 2024.
+<a href="https://drive.google.com/file/d/1rrHeaktlrlYfgyS7u2aHzzK_VKhe_lwA/view?usp=sharing">Towards Topos of Graphs</a> (<a href="https://drive.google.com/file/d/1TlkjzeCYWtVlzxZt2K_TC0WHnwl58okn/view?usp=sharing">annotated slides</a>). Topos Reading Seminar at NASA GSFC in July 29th, 2024.
 </li>
 
 <li>
