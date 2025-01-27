@@ -144,36 +144,36 @@ with 100% accuracy and sends you back the answer.
 {% endhighlight %}
 
 <p>
-Let $f$ be a one-way function, which in this problem it is SHA1. You are given $f(s)$ for some secret bitstring $s$, which appears to be 256-bit long based on the code. When the user sends in a bitstring $x$, it takes a bit-wise inner product $\left<s,x\right>$ and returns it to the user. Based on $\left<s,x\right>$, we have to recover $s$ correctly. 
+Let $f$ be a one-way function, which in this problem it is SHA1. You are given $f(x)$ for some secret bitstring $x$, which appears to be 256-bit long based on the code. When the user sends in a bitstring $r$, it takes a bit-wise inner product $\left<r,x\right>$ and returns it to the user. Based on $\left<r,x\right>$, we have to recover $x$ correctly. 
 </p>
 
 <p>
-This is a typical cryptography problem (also appears in many research fields like MPC and differential privacy) and it should not be bad. If, for example, $s$'s least significant bit is $s_n = 1$, then by feeding $x = 0\dots 00$ and $x = 0\dots 01$:
+This is a pretty typical problem in security that appears in many research fields like MPC and differential privacy. If, for example, $x$'s least significant bit is $x_n = 1$, then by feeding $r = 0\dots 00$ and $r = 0\dots 01$:
 </p>
 \[
 \begin{align}
-\left< s,x \right> & = \left< s_1\dots s_{n-1} 1, \; 0\dots 00 \right> = 0 \\
-\left< s,x \right> & = \left< s_1\dots s_{n-1} 1, \; 0\dots 01 \right> = 1
+\left< r,x \right> & = \left< 0\dots 00, \; x_1\dots x_{n-1} 1 \right> = 0 \\
+\left< r,x \right> & = \left< 0\dots 01, \; x_1\dots x_{n-1} 1 \right> = 1
 \end{align}
 \]
 <p>
-we can retrieve the last bit $s_n = 1$; if $s_n = 0$ then they'd be both zeros. 
+we can retrieve the last bit $x_n = 1$; if $x_n = 0$ then they'd be both zeros. 
 </p>
 <p>
-We can make this more communication-efficient. Notice that, if $x = 1\dots 11$,
+We can make this more communication-efficient. Notice that, if $r = 1\dots 11$,
 </p>
 \[
-\left< s,x \right> = \left< s_1 \dots s_{n-1} s_n, \; 1\dots 11 \right> = \sum_{i=1}^n s_i
+\left< r,x \right> = \left< 1\dots 11, \; x_1 \dots x_{n-1} x_n \right> = \sum_{i=1}^n x_i
 \]
 <p>
-Say we flipped the $k$-th bit of $x$ from $1$ to $0$ (denoted $x_{\overline{k}}$). Then,
+Say we flipped the $k$-th bit of $r$ from $1$ to $0$ (denoted $r_{\neg k}$). Then,
 </p>
 \[
-\left< s,x_{\overline{k}} \right> = \left< s_1\dots s_k \dots s_n, \; 1\dots 0 \dots 1 \right> = \left( \sum_{i=1}^n s_i \right) - s_k
+\left< r_{\neg k},x \right> = \left< 1\dots 0 \dots 1, \; x_1\dots x_k \dots x_n \right> = \left( \sum_{i=1}^n x_i \right) - x_k
 \]
 
 <p>
-That is, we can determine $s_k$ by comparing $\left< s,x \right>$ and $\left< s,x_{\overline{k}} \right>$. If they are the same, then $s_k = 0$; otherwise, $s_k=1$. 
+That is, we can determine $x_k$ by comparing $\left< r,x \right>$ and $\left< r,x_{\neg k} \right>$. If they are the same, then $x_k = 0$; otherwise, $x_k=1$. 
 </p>
 
 {% highlight python %}
