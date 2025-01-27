@@ -19,7 +19,7 @@ last_modified_at: 2025-01-27
 
 <font size="4">
 <p> 
-<b>Q</b>. <i>Why am I making a writeup of a challenge that was from three years ago?</i>
+<b>Q</b>. <i>Why am I making a writeup of a challenge that was from three years ago now?</i>
 </p>
 
 <p>
