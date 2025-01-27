@@ -23,12 +23,12 @@ last_modified_at: 2025-01-27
 </p>
 
 <p>
-Annually, b01lers runs our own <a href="https://internal.b01lersc.tf/">internal CTF</a> for Purdue students who wants to practice their CTF skills. We meet every Friday and play live CTF together, but an asynchronous CTF that lasts for a year where enthusiasts can try out real CTF problems from previous b01lersCTFs without having to worry about the time limit and "spoiling" the answers (or getting spoiled) is certainly desirable. 
+Annually, <a href="https://b01lers.com/">b01lers</a> runs their own <a href="https://internal.b01lersc.tf/">internal CTF</a> for Purdue students who wants to practice their CTF skills. We meet every Friday and play live CTF together, but an asynchronous CTF that lasts for a year where enthusiasts can try out real CTF problems from previous b01lersCTFs without having to worry about the time limit and "spoiling" the answers (or getting spoiled) is certainly desirable. 
 </p>
 
-<p>I found this challenge while roaming around the internal CTF site sometime last year. At first, the challenge looked very easy, and the first part of it was indeed a piece of cake. The second part, however, was the actual roadblock. I had what-I-thought-was a perfectly working solution for almost five hours, wrongfully convinced that either something is wrong with Python or the challenge itself, until I figured out the solution using a famous result in my research area. </p>
+<p>I found this challenge while roaming around the internal CTF site sometime last year. At first, the challenge looked very easy, and the first part of it was indeed a piece of cake. The second part, however, was the actual roadblock. I had what-I-thought-was a perfectly working solution for almost five hours, wrongfully convinced that either something was wrong with Python or the challenge itself, until I figured out the solution using a famous result in my research area. </p>
 
-<p>I always wanted to write a writeup about this challenge. I procrastinated until I forgot about it, and until the said famous result was mentioned in one of the class I am auditing this semester.</p>
+<p>I always wanted to write a writeup about this challenge. I procrastinated until I forgot about it, and until the said famous result was mentioned in one of the classes I am auditing this semester.</p>
 
 <p>Without further ado, let's get started!</p>
 
@@ -251,7 +251,7 @@ with 90% accuracy and sends you back the answer.
 
 <font size="4">
 <p>
-One may naively think (like I did) that, since the accuracy is 90%, we can just send the same bitstring $x$ multiple times and take the majority; basically, we repeat the Part 1 multiple times.
+One may naively think (like I did) that, since the accuracy is 90%, we can just send the same bitstring $x$ multiple times and take the majority; basically, we repeat Part 1 multiple times.
 </p>
 
 {% highlight python %}
@@ -332,7 +332,7 @@ Note that <code>FLAG</code> is indeed fixed, so <code>x_r</code> is fixed as lon
 </p>
 
 <p>
-Since the randomness is, roughly speaking, based on the randomness of the inputs, the most natural thing is to randomize the input by XORing with random strings (because it is basically the one-time pad). For some people, this may seem like something that came out of the blue or rather ad-hoc at best, but it actually has a deep theoretical implication, called <a href="https://en.wikipedia.org/wiki/Hard-core_predicate">Goldreich-Levin hardcore predicate</a>, which I will outline briefly below (but please feel free to skip). 
+Since the randomness is, roughly speaking, based on the randomness of the inputs, the most natural thing is to randomize the input by XORing with random strings (because it is basically the one-time pad). For some people, this may seem like something that came out of the blue or rather ad-hoc at best, but it actually has a deep theoretical implication called <a href="https://en.wikipedia.org/wiki/Hard-core_predicate">Goldreich-Levin hardcore predicate</a>, which I will outline briefly below (but please feel free to skip). 
 </p>
 
 <p>
