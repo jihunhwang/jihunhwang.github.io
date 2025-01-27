@@ -1,7 +1,7 @@
 ---
-title: "SpookyCTF 2023 Writeup"
+title: "SpookyCTF 2023 Writeups"
 date: 2023-10-30
-description: SpookyCTF 2023 Writeup
+description: SpookyCTF 2023 Writeups
 tags: ['CTF']
 toc: true
 mathjax: yes

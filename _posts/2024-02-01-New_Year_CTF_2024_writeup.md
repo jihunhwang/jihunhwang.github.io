@@ -1,7 +1,7 @@
 ---
-title: "New Year CTF 2024 Writeup (RSA Party!)"
+title: "New Year CTF 2024 Writeups (RSA Party!)"
 date: 2024-02-01
-description: New Year CTF 2024 Writeup (RSA Party!)
+description: New Year CTF 2024 Writeups (RSA Party!)
 tags: ['CTF']
 toc: true
 mathjax: true

@@ -1,7 +1,7 @@
 ---
-title: "b01lersCTF 2024 Writeup"
+title: "b01lersCTF 2024 author's writeup"
 date: 2024-04-14
-description: b01lersCTF 2024 Writeup
+description: b01lersCTF 2024 author's official writeup
 tags: ['CTF']
 toc: true
 mathjax: true
