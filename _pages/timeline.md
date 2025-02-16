@@ -23,7 +23,7 @@ search: exclude
 
 <li>
 	<div><b>November 2024</b></div>
-	<div>The results from this summer are again accepted for publication at <a href="https://www.aeroconf.org/">AeroConf 2025</a>. Many thanks to my mentor and collaborators!</div>
+	<div>The results from this summer are again accepted for publication in <a href="https://www.aeroconf.org/">AeroConf 2025</a>. Many thanks to my mentor and collaborators!</div>
 </li>
 
 <li>
