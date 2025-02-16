@@ -22,13 +22,18 @@ search: exclude
 <ul>
 
 <li>
+	<div><b>November 2024</b></div>
+	<div>The results from this summer are again accepted for publication at <a href="https://www.aeroconf.org/">AeroConf 2025</a>. Many thanks to my mentor and collaborators!</div>
+</li>
+
+<li>
 	<div><b>May 2024</b></div>
 	<div>I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> as a research intern again this summer!</div>
 </li>
 
 <li>
 	<div><b>April 2024</b></div>
-	<div>We placed 3rd and won the best poster award in this year's <a href="https://mitre-engenuity.org/growing-impact/ectf-embedded-capture-the-flag/">MITRE eCTF</a>. Thank you b01lers for this opportunity and the great collaboration!</div>
+	<div>We placed 3rd and won the best poster award in this year's <a href="https://mitre-engenuity.org/growing-impact/ectf-embedded-capture-the-flag/">MITRE eCTF</a>. Thank you b01lers for this great opportunity, and most importantly: nice collaborative work everyone!</div>
 </li>
 
 <li>

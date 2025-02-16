@@ -65,7 +65,7 @@ Roughly, Purdue adopts the following course numbering system: 100-499 Undergradu
 
 <li><a href="https://drive.google.com/file/d/1NBkeN5T1ts7zAJt0A2E7UsKM6R6ORE-b/view?usp=sharing">Spring 2019, MATH 300 Fundamental Concepts of Mathematics</a></li>
 
-<li>Spring 2018, <a href="https://drive.google.com/file/d/1kPq84MlS1eCzRC-WBtKCgWoWHFrlzqps/view?usp=sharing">MATH 421 Undergraduate Complex Analysis</a>: Created jointly with Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a> (typed, selected materials, wrote homework problems, etc.).</li>
+<li>Spring 2018, <a href="https://drive.google.com/file/d/1kPq84MlS1eCzRC-WBtKCgWoWHFrlzqps/view?usp=sharing">MATH 421 Undergraduate Complex Analysis</a>: Created jointly with Professor <a href="https://www.umass.edu/mathematics-statistics/about/directory/william-meeks">William Meeks</a> (typed, selected materials, wrote homework problems, etc.).</li>
 
 </ul>
 </font>

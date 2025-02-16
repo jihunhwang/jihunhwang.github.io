@@ -49,7 +49,7 @@ sitemap: false
 </li>
 
 <li>
-  <a href="https://www.iacr.org/authors/tikz/">TikZ for Cryptographers</a>: a goldmine of cryptography-related figures, ranging from hash functions to garbled circuits.
+  <a href="https://www.iacr.org/authors/tikz/">TikZ for Cryptographers</a>: Goldmine of cryptography-related figures, ranging from hash functions to garbled circuits.
   </li>
 
 <li>
@@ -147,6 +147,10 @@ Let us not forget to thank all those people who generously made their courses an
 
 <li>
   Online lecture series on introductory and recent progress in zero-knowledge proof <a href="https://zk-learning.org/">ZKP MOOC</a> at UC Berkeley. 
+</li>
+
+<li>
+  For introduction to differential privacy, check out this course <a href="http://www.gautamkamath.com/courses/CS860-fa2022.html">Algorithms for Private Data Analysis</a> by <a href="http://www.gautamkamath.com/">Gautam Kamath</a> at Waterloo. 
 </li>
 
 <li>
