@@ -1,5 +1,5 @@
 ---
-title: "b01lersCTF 2022: Hardcore (predicate)"
+title: "[Draft] b01lersCTF 2022: Hardcore (predicate)"
 date: 2025-01-26
 description: b01lersCTF 2022 Hardcore Predicate
 tags: ['CTF']
@@ -17,16 +17,17 @@ last_modified_at: 2025-01-27
     });
 </script>
 
+
 <font size="4">
 <p> 
-<b>Q</b>. <i>Why am I making a writeup of a challenge that was from three years ago now?</i>
+<b>Q</b>. <i>Why am I making a writeup for a chal that was from three years ago?</i>
 </p>
 
 <p>
 Annually, <a href="https://b01lers.com/">b01lers</a> runs their own <a href="https://internal.b01lersc.tf/">internal CTF</a> for Purdue students who wants to practice their CTF skills. We meet every Friday and play live CTF together, but an asynchronous CTF that lasts for a year where enthusiasts can try out real CTF problems from previous b01lersCTFs without having to worry about the time limit and "spoiling" the answers (or getting spoiled) is certainly desirable. 
 </p>
 
-<p>I found this challenge while roaming around the internal CTF site sometime last year. At first, the challenge looked very easy, and the first part of it was indeed a piece of cake. The second part, however, was the actual roadblock. I had what-I-thought-was a perfectly working solution for almost five hours, wrongfully convinced that either something was wrong with Python or the challenge itself, until I figured out the solution using a famous result in my research area. </p>
+<p>I found this challenge while roaming around the internal CTF site sometime last year. At first, the challenge looked very easy, and the first part of it was indeed a piece of cake. The second part, however, was the actual roadblock. I had what-I-thought-was a perfectly working solution for almost five hours, wrongfully convinced that either something was wrong with Python or the challenge itself, until I figured it out using a result in my research area. </p>
 
 <p>I always wanted to write a writeup about this challenge. I procrastinated until I forgot about it, and until the said famous result was mentioned in one of the classes I am auditing this semester.</p>
 
@@ -38,7 +39,7 @@ Annually, <a href="https://b01lers.com/">b01lers</a> runs their own <a href="htt
 <!--<h5>crypto/Hardcore</h5> -->
 
 <font size="4">
-<p>Author: mtanghu</p>
+<p>Author: <a href="https://github.com/mtanghu">mtanghu</a></p>
 </font>
 
 <center>
@@ -310,7 +311,7 @@ But then you'd realize that this solution does not work at all. Why?!?
 
 <font size="4">
 <p>
-After inspecting the local variables in the code above, one should be able to realize that the outputs are deterministic as long as the input payload is fixed, the 'randomness' only comes from the input. For example, <code>count</code> is always 0 or equal to <code>trial</code>. This is due to how random variable <code>chance</code> is computed in the <code>predictor</code>.
+Upon inspecting the local variables in the code above, one should be able to realize that the outputs are deterministic as long as the input payload is fixed, the 'randomness' only comes from the input (and here, the input is the flag!). For example, <code>count</code> is always 0 or equal to <code>trial</code>. This is due to how random variable <code>chance</code> is computed in the <code>predictor</code>.
 </p>
 
 {% highlight python %}
@@ -344,9 +345,15 @@ But given that $f$ is still a one-way function, there must exist a bit (or some 
 </p>
 
 <p>
-In short, a hardcore predicate is a secret bit that is hard to compute. But, thinking ahead, this also means that, if there is an algorithm that predicts them efficiently, we may be able to use it to recover the secret $x$ efficiently. The server is running <code>Hardcore.py</code> which, upon input $r$, returns $b$ such that $b = \left<r,x\right>$ with probability $0.9$. So, our server is the oracle that predicts Goldreich-Levin hardcore predicate efficiently! And the algorithm that predicts $x$ based on $\left<r,x\right>$'s indeed exists already (by Goldreich and Levin, obviously, hence the name). As you would've guessed, the key is to feed ($e \oplus r$)'s where $e$'s are random strings, instead of $r$'s. This <a href="https://www3.cs.stonybrook.edu/~omkant/S06.pdf">lecture note</a> by <a href="https://www3.cs.stonybrook.edu/~omkant/">Prof. Omkant Pandey</a> at Stony Brook outlines the algorithm and proof very nicely.
+In short, a hardcore predicate is a secret bit that is hard to compute. But, thinking ahead, this also means that, if there is an algorithm that predicts them efficiently, we may be able to use it to recover the secret $x$ efficiently. The server is running <code>Hardcore.py</code> which, upon input $r$, returns $b$ such that $b = \left<r,x\right>$ with probability $0.9$. So, our server is the oracle that predicts Goldreich-Levin hardcore predicate efficiently! And the algorithm that predicts $x$ based on $\left<r,x\right>$'s indeed exists already (by Goldreich and Levin, obviously, and hence the name). As you would've guessed, the key is to feed ($e \oplus r$)'s where $e$'s are random strings, not just $r$'s! <a href="https://www3.cs.stonybrook.edu/~omkant/S06.pdf">This</a> and <a href="https://www3.cs.stonybrook.edu/~omkant/S05.pdf">this</a> lecture notes by <a href="https://www3.cs.stonybrook.edu/~omkant/">Prof. Omkant Pandey</a> at Stony Brook outlines the algorithm and proof very nicely.
 </p>
+</font>
 
+<font size="3">
+  <p>(Warning: In the code below, I messed up the notations and denoted $e$ as payload strings and $r$ as random strings. My apologies)</p>
+</font>
+
+<font size="4">
 {% highlight python %}
 """more_hardcore_sol.py"""
 import numpy as np
@@ -436,6 +443,8 @@ print(long_to_bytes(flag_binary))
 """bctf{goldreich-levin-theorem.:D}"""
 {% endhighlight %}
 </font>
+
+
 
 <font size="4">
   <p></p>

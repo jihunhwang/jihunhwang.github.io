@@ -16,6 +16,21 @@ search: exclude
 </script>
 
 
+### 2025
+
+<font size="4">
+<ul>
+
+
+<li>
+	<div><b>March 2025</b></div>
+	<div>I am (virtually) attending a workshop on <a href="https://www.slmath.org/workshops/1091">Algebraic and Analytic Methods in Combinatorics</a> held at SLMath (formerlly MSRI)!</div>
+</li>
+
+</ul>
+</font>
+
+
 ### 2024
 
 <font size="4">
@@ -27,8 +42,8 @@ search: exclude
 </li>
 
 <li>
-	<div><b>May 2024</b></div>
-	<div>I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> as a research intern again this summer!</div>
+	<div><b>Summer 2024</b></div>
+	<div>I am visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> as a research intern again this summer!</div>
 </li>
 
 <li>
