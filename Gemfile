@@ -19,6 +19,7 @@ gem "nokogiri", ">= 1.16.5"
 gem 'jekyll-paginate'
 gem "minimal-mistakes-jekyll", "~> 4.24.0"
 gem 'jekyll-archives'
+gem 'jekyll-latex'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

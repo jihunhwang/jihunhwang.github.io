@@ -1,11 +1,16 @@
 ---
-title: "[Draft] b01lersCTF 2022: Hardcore (predicate)"
+title: "b01lersCTF 2022: Hardcore (predicate)"
 date: 2025-01-26
 description: b01lersCTF 2022 Hardcore Predicate
 tags: ['CTF']
 mathjax: yes
 toc: yes
 last_modified_at: 2025-01-27
+header:
+    teaser: "https://s1.ax1x.com/2022/07/23/jXsiEF.png"
+    # overlay_image: "/image/etc/b01lersctf2022hardcore.png"
+    # overlay_color: "#333"
+    # overlay_filter: rgba(205, 239, 154, 0.30)
 ---
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">

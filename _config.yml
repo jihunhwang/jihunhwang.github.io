@@ -34,6 +34,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-analytics
   - jekyll-archives
+  - jekyll-latex
 
 #plugins:
 #  - jekyll-feed

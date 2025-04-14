@@ -6,6 +6,8 @@ tags: ['CTF']
 toc: true
 mathjax: yes
 last_modified_at: 2024-03-20
+header:
+    teaser: "image/uwsp_2023/TimeisbutaWindow-sol1.png"
 ---
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
