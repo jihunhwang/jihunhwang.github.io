@@ -27,7 +27,7 @@ output:
 
 
 <font size="4">
-  <p>I was once asked this question on the spot in a Discord server but I shamefully (I'll admit) gave a pretty bad answer to it. It was not a difficult or deep question, but think it is worth spanning (pun intended) a blogpost.</p> 
+  <p>I was once asked this question on the spot in a Discord server, but I shamefully (I'll admit) gave a pretty bad answer to it. It was not a difficult or deep question, but I think it is worth spanning (pun intended) a blogpost.</p> 
 
   <p>The primary reference for this post is <a href="https://bookstore.ams.org/view?ProductCode=GSM/36">Schechter</a> and <a href="https://link.springer.com/book/10.1007/978-0-387-70914-7">Brezis</a>. I also found <a href="https://link.springer.com/chapter/10.1007/0-8176-4504-7_9">this book chapter</a> by <a href="https://heil.math.gatech.edu/">Christopher Heil</a> helpful.</p>
 </font>
@@ -59,7 +59,7 @@ output:
 #### (Closed) Linear Span
 
 <font size="4">
-<p>What we need to keep in mind here is that $\ell_p$ is a vector space (again, Banach spaces are complete normed vector spaces). Bare with me and let us recite the axioms for vector spaces: $V$ is a (real) vector space if for all $f,g,h \in V$,</p>
+<p> We need to remember here that $\ell_p$ is a vector space (again, Banach spaces are complete normed vector spaces). Bear with me and let us recite the axioms for vector spaces: $V$ is a (real) vector space if for all $f,g,h \in V$,</p>
 <ol>
     <li>$f+g \in V$.</li>
     <li>$(f+g)+h = f+(g+h)$.</li>
@@ -79,20 +79,20 @@ output:
     <li>$\| h \| = 0$ iff $h = 0$.</li>
     <li>$\| f+g \| \leq \|f \| + \|g \|$ for all $f, g \in V$.</li>
 </ol>
-<p>It is an easy exercise to prove that the axioms 11-14 implies the axiom 10. Lastly, we say a normed vector space $(V, \| \cdot \|)$ is complete if every Cauchy sequence converges:</p>
+<p>It is an easy exercise to prove that the axioms 11-14 imply the axiom 10. Lastly, we say a normed vector space $(V, \| \cdot \|)$ is complete if every Cauchy sequence converges:</p>
 <ol start="15">
     <li>For all Cauchy sequence $\{h_n\}_{n \geq 1}$ (i.e. $\| h_n - h_m \| \to 0$ as $n,m \to \infty$), there exists $h \in V$ such that $\| h_n - h \| \to 0$ as $n \to \infty$. </li>
 </ol>
 <p>That is, we say $(V, \| \cdot \|)$ is a Banach space (complete normed vector space) if it satisfies all 15 axioms.</p>
 
-<p>These axioms coincides with everything we learned in our very average linear algebra course. However, it is also these axioms that is making our life hard here: <i>there is nothing in the 15 axioms that guarantees everything to be well-defined and behaved for infinite sums!</i></p>
+<p>These axioms coincide with everything we learned in our very average linear algebra course. However, it is also these axioms that is making our life hard here: <i>there is nothing in the 15 axioms that guarantees everything to be well-defined and behaved for infinite sums!</i></p>
 
-<p>This forces us to define only finite sums of vectors for defining spans, for arbitrary vector spaces. As we are not specifying any topology or norm, we cannot simply write an infinite sum and hope it is well-defined (converges and unique) axiomatically; even if they are, choosing a different norm or topology may bring a dratstically different notion of convergence. 
+<p>This forces us to define only finite sums of vectors for defining spans, for arbitrary vector spaces. As we are not specifying any topology or norm, we cannot simply write an infinite sum and hope it is well-defined (converges and is unique) axiomatically; even if they are, choosing a different norm or topology may bring a drastically different notion of convergence. 
 <br> 
 One immediate instance is the commutativity (axiom 5); we learned in undergrad real analysis that switching the order of summations in an infinite series can be problematic unless certain conditions are met (<a href="https://en.wikipedia.org/wiki/Riemann_series_theorem">Riemann rearrangement theorem</a>). 
 </p>
 
-<p>In any case, the key take-away here is that the basis might contain infinitely many elements, but only finite linear combinations should be considered: 
+<p>In any case, the key takeaway here is that the basis might contain infinitely many elements, but only finite linear combinations should be considered: 
 </p>
 
 <p style="border: 2px solid black; padding: 10px;">
@@ -104,7 +104,7 @@ where $I \subseteq \mathcal{I}$ is finite and $a_i \in \mathbb{F}$.
 </p>
 
 <p>
-Then, it is clear from the context that $\mathcal{E}$ does not span $\ell_p$, because any finite linear combination of elements of $\mathcal{E}$ will eventually be followed by infinitely long sequence of zeros.
+Then, it is clear from the context that $\mathcal{E}$ does not span $\ell_p$, because any finite linear combination of elements of $\mathcal{E}$ will eventually be followed by an infinitely long sequence of zeros.
 </p>
 <p>
 We do not have to lose our hope here though. Consider $x = (x_1, x_2, \dots) \in \ell_p$ and its 'projection' $x^{(N)} = (x_1, \dots, x_N, 0,0,\dots) \in \mathrm{Span}(\mathcal{E})$ (which clearly is a subset of $\ell_p$). Then, because $x \in \ell_p$,
@@ -133,11 +133,11 @@ This claim is actually not true! Roughly put, the closed linear span considers a
 </p>
 
 <p>
-This might not sound too much of a big deal for some people, understandably so. A little different way to put this is: the fact $\overline{\mathrm{Span}(\mathcal{E})} = X$ just tells us that one can approximation any element $x \in X$ using a finite linear combination of $\mathcal{E}$, without telling us how to approximate it and giving us any unique expansion of it. 
+This might not sound like too big of a deal for some people, understandably so. A little different way to put this is: the fact $\overline{\mathrm{Span}(\mathcal{E})} = X$ just tells us that one can approximation any element $x \in X$ using a finite linear combination of $\mathcal{E}$, without telling us how to approximate it and giving us any unique expansion of it. 
 </p>
 
 <p>
-Most crucially, dealing with Hamel basis turns out to be a headache in general; we can prove that there (arguably) cannot exist an explicit procedure for constructing Hamel basis for every Banach space:
+Most crucially, dealing with Hamel basis turns out to be a headache in general; we can prove that there (arguably) cannot exist an explicit procedure for constructing a Hamel basis for every Banach space:
 </p>
 
 <p style="border: 2px solid black; padding: 10px;">
@@ -145,14 +145,14 @@ Most crucially, dealing with Hamel basis turns out to be a headache in general; 
 </p>
 
 <p>
-In other words, infinite-dimensional Banach space has uncountable dimension (even separable ones!).
+In other words, an infinite-dimensional Banach space has uncountable dimension (even separable ones!).
 </p>
 <p>
-As one might have ansatz-ed already (because the statement that every vector space has a basis is equivalent to the axiom of choice), the proof of this theorem requires the use of axiom of choice (Zorn's lemma). 
+As one might have anticipated already (because the statement that every vector space has a basis is equivalent to the axiom of choice), the proof of this theorem requires the use of the axiom of choice (Zorn's lemma). 
 </p>
 
 <p>
-We shall also use Baire Category Theorem, because we want to express $X$ as a countable union of subspaces, after assuming for sake of contradiction that $\mathcal{E}$ is countable. 
+We shall also use the Baire Category Theorem, because we want to express $X$ as a countable union of subspaces, after assuming for the sake of contradiction that $\mathcal{E}$ is countable. 
 </p>
 
 <p style="border: 2px solid black; padding: 10px;">
@@ -163,7 +163,7 @@ X \neq \bigcup_{n \in \mathbb{N}} X_n \;\; \textsf{ but } \;\; \mathrm{Int}\left
 </p>
 
 <p>
-For self-containedness sake, let us formally define what nowhere dense means.
+For self-containedness' sake, let us formally define what nowhere dense means.
 </p>
 
 <p style="border: 2px solid black; padding: 10px;">
@@ -180,7 +180,7 @@ Now let us prove the uncountability of $\mathcal{E}$. Suppose for the sake of co
 <br>
 For $n\in \mathbb{N}$, consider $X_n$ that is a vector space spanned by $\{e_i \}_{1 \leq i \leq n}$. As $X_n$ is finite dimensional and is a subspace of $X$ a complete normed space, it is also complete and hence is <i>closed</i> as well. It is however <i>nowhere dense</i> in the sense that its interior is empty (intuitively: imagine a plane in $\mathbb{R}^3$, it is impossible to place a ball in that plane in a way that it is entirely in the plane because it is bound to have a 'direction' such as the normal vector that the plane does not extend to). 
 <br>
-But clearly, $X = \bigcup_{n\in \mathbb{N}} X_n$ (let $x \in X$ so $x = \sum_{i=1}^k x_i e_{n_i}$, then $x \in F_{N}$ where $N = \max_{1\leq i \leq k} n_i$), meaning that a complete metric space is a countable union of closed nowhere dense sets. This contradicts Baire category theorem. Hence, this proves the statement. $\blacksquare$
+But clearly, $X = \bigcup_{n\in \mathbb{N}} X_n$ (let $x \in X$ so $x = \sum_{i=1}^k x_i e_{n_i}$, then $x \in F_{N}$ where $N = \max_{1\leq i \leq k} n_i$), meaning that a complete metric space is a countable union of closed nowhere dense sets. This contradicts the Baire category theorem. Hence, this proves the statement. $\blacksquare$
 </p>
 
 <p>
@@ -197,7 +197,7 @@ Theorem 1 is basically telling us that we cannot write elements of $X$ as finite
 
 <font size="4">
 <p>
-For all these reasons, we introduce Schauder basis over just talking about closed linear span.
+For all these reasons, we introduce Schauder basis over just talking about the closed linear span.
 </p>
 </font>
 
@@ -223,7 +223,7 @@ It is clear from the definition that the standard basis $\mathcal{E} = (e_i)_{i 
 
 <font size="4">
 <p>
-From the example above, one may naively think that any basis that spans the space in closed linear sense is a Schuader basis. But the existence nor construction of Schauder basis is not as trivial.
+From the example above, one may naively think that any basis that spans the space in a closed linear sense is a Schauder basis. But the existence or construction of a Schauder basis is not as trivial.
 An immediate example is $\ell_\infty$. The basis $\mathcal{E} = (e_i)_{i \geq 1}$ discussed above for $\ell_p$ is not a Schauder basis when $p = \infty$ because $x = (1,1,\dots) \in \ell_\infty$ because $\| (1,1,\dots )\|_\infty = 1 < \infty$, but 
 \[
 \left\| x - \sum_{i=1}^N x_i e_i \right\|_\infty = \| (0,\dots, 0, 1,1,\dots) \|_\infty \to 1 \neq 0 \; \text{ as } \; N \to \infty
@@ -286,7 +286,7 @@ Interestingly, it turns out $\ell_\infty$ does not have a Schauder basis. Even m
 </p>
 
 <p style="border: 2px solid black; padding: 10px;">
-<b>Theorem 2.</b> Let $X$ be a Banach space with a Schauder basis is separable.
+<b>Theorem 2.</b> Let $X$ be a Banach space with a Schauder basis. Then $X$ is separable.
 </p>
 
 <p>
@@ -353,14 +353,14 @@ Then, $\| b - a^{(k)} \|_\infty \geq \lvert b_k - a_k^{(k)} \rvert \geq 1$ for a
 #### Approximation property
 
 <font size="4">
-<p>One natural follow-up question is this: <i>Does every separable Banach space has a Schauder basis?</i> The answer turns out to be <i>no</i>, and it was proven by <a href="https://en.wikipedia.org/wiki/Per_Enflo">Enflo</a> in 1973. This is where it starts:</p>
+<p>One natural follow-up question is this: <i>Does every separable Banach space have a Schauder basis?</i> The answer turns out to be <i>no</i>, and it was proven by <a href="https://en.wikipedia.org/wiki/Per_Enflo">Enflo</a> in 1973. This is where it starts:</p>
 
 <p style="border: 2px solid black; padding: 10px;">
 <b>Theorem 4.</b> Let $X$ and $Y$ be Banach spaces, $(T_n \colon X \to Y)_{n \geq 1}$ be a sequence of finite rank operators, and $T \colon X \to Y$ be an operator such that $\| T_n - T \| \to 0$ as $n \to \infty$. Then $T$ is a compact operator. 
 </p>
 
 <p style="border: 2px solid black; padding: 10px;">
-<b>Definition.</b> Let $X$ and $Y$ be normed vector spaces. A linear operator $T \colon X \to Y$ is said to be of <b>finite rank</b> if its range is finite dimensional. And it is called a <b>compact operator</b> if for every bounded sequence $(x_n)_{n \geq 1}$ (i.e. for some constant $C$, $\| x_n \| \leq C$ for all $n$), the sequence $( T x_n )_{n \geq 1}$ has a subsequence that converges in $Y$. 
+<b>Definition.</b> Let $X$ and $Y$ be normed vector spaces. A linear operator $T \colon X \to Y$ is said to be of <b>finite rank</b> if its range is finite-dimensional. And it is called a <b>compact operator</b> if for every bounded sequence $(x_n)_{n \geq 1}$ (i.e. for some constant $C$, $\| x_n \| \leq C$ for all $n$), the sequence $( T x_n )_{n \geq 1}$ has a subsequence that converges in $Y$. 
 </p>
 
 <p>
@@ -407,7 +407,7 @@ The 'natural question' that we raised before the statement of Theorem 4 is basic
 x = \sum_{i=1}^\infty a_i e_i \mapsto P_n(x) = \sum_{i=1}^n a_i e_i
 \]
 then clearly $P_n$ is finite rank (because $P_n(X)$ is finite dimensional) and $P_n \to P = I_X$ the identity operator (because $P_n(x) \to x$ for all $x \in X$) as $n \to \infty$. 
-This is called the <i>approximation property</i> of Banach space, and in fact, one can prove that a Banach space with Schauder basis has approximation property.
+This is called the <i>approximation property</i> of Banach space, and in fact, one can prove that a Banach space with a Schauder basis has the approximation property.
 </p>
 
 <p style="border: 2px solid black; padding: 10px;">
@@ -432,7 +432,7 @@ This gives two immediate consequences: let $X$ be the Banach space Enflo constru
 <br>
 (1) $X$ does not have the approximate property, and also does not have a Schauder basis. This is obvious.
 <br>
-(2) The converse of Theorem 4 is not always true. If $I_X$ can be approximated then any compact operator $T$ can be approximated (by composing the each approximation of $I_X$ with $T$). Additionally, if $X$ is separable and reflexive then the other direction also holds (this is a result by Grothendieck, according to <a href="https://projecteuclid.org/journals/acta-mathematica/volume-130/issue-none/A-counterexample-to-the-approximation-problem-in-Banach-spaces/10.1007/BF02392270.full">Enflo's paper</a>). Enflo's Banach space is separable and reflexive, and hence it serves as the counterexample to the converse of Theorem 4. 
+(2) The converse of Theorem 4 is not always true. If $I_X$ can be approximated then any compact operator $T$ can be approximated (by composing each approximation of $I_X$ with $T$). Additionally, if $X$ is separable and reflexive then the other direction also holds (this is a result by Grothendieck, according to <a href="https://projecteuclid.org/journals/acta-mathematica/volume-130/issue-none/A-counterexample-to-the-approximation-problem-in-Banach-spaces/10.1007/BF02392270.full">Enflo's paper</a>). Enflo's Banach space is separable and reflexive, and hence it serves as the counterexample to the converse of Theorem 4. 
 </p>
 
 <p>
@@ -440,7 +440,7 @@ For his contribution, Enflo was awarded a live goose from Mazur. This story is o
 </p>
 
 <p>
-Enflo solved Mazur's problem and earned a goose. I solved my own, and became the goose. I wonder what'd take someone to win a FlaggnGoose (smirk).
+Enflo solved Mazur's problem and earned a goose. I solved my own, and became the goose. I wonder what it'd take someone to win a FlaggnGoose (smirk).
 </p>
 </font>
 
