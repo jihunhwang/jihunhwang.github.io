@@ -31,7 +31,7 @@ title:
 
 <font size="4">
 <p>
-Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. student studying <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>. Last summer, I visited <a href="https://www.nasa.gov/goddard">NASA GSFC</a> (<a href="https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/">Code 450</a>) again as a research intern. 
+Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. student studying <a href="https://www.cs.purdue.edu/">Computer Science</a> at <a href="https://www.purdue.edu/">Purdue University</a>, where I am fortunate to be advised by Professor <a href="https://www.cs.purdue.edu/homes/hmaji/">Hemanta Maji</a>. Last summer, I visited <a href="https://www.nasa.gov/goddard">NASA GSFC</a> (<a href="https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/">Code 450</a>) as a research intern hosted by <a href="https://scholar.google.com/citations?hl=en&user=toO5wnUAAAAJ&view_op=list_works&sortby=pubdate">Alan Hylton</a>. 
 </p>
 
 <p>
