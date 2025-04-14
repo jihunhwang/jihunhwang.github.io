@@ -14,8 +14,8 @@ gem "activesupport", ">= 6.1.7.3"
 gem "kramdown", ">= 2.3.1"
 gem 'jekyll-analytics'
 gem 'jekyll-sitemap'
-gem "rexml", ">= 3.3.6"
-gem "nokogiri", ">= 1.16.5"
+gem "rexml", ">= 3.3.9"
+gem "nokogiri", ">= 1.18.4"
 gem 'jekyll-paginate'
 gem "minimal-mistakes-jekyll", "~> 4.24.0"
 gem 'jekyll-archives'
@@ -52,7 +52,9 @@ end
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 
-gem "webrick", "~> 1.7"
+gem "webrick", ">= 1.8.2"
+gem "google-protobuf", ">= 3.25.5"
+gem "uri", ">= 0.13.2"
 
 gem "faraday-retry"
 
