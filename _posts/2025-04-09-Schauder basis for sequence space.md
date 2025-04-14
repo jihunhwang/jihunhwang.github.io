@@ -266,7 +266,7 @@ where $\phi_1 \equiv 1$ and $\phi_2(t) = t$ ($\phi_n \in C[0,1]$ for all $n \geq
 </p>
 
 <p>
-While abstract nonsense is the most interesting thing in the world, it would not hurt to step back and touch grass. Fourier basis $( \exp( \iota n x ) )_{n \in \mathbb{N}}$ is an orthonormal basis for $L^2[0,1]$, and it is indeed a Schauder basis. Its coefficients are uniquely determined as $\widehat{f}(n) = \left< f, e_n\right>_{L^2}$ and are indeed well-defined for all $f \in L^2$. The Fourier series $\sum_{n\geq 0} \widehat{f}(n) e_n \to f$ in $L^2$-norm thanks to Parseval's identity $\| f \|_{L^2}^2 = \sum_{n \geq 0} \lvert \widehat{f}(n) \rvert^2$ and Bessel's inequality $\sum_{n \geq 0} \lvert \left< f, e_n \right> \rvert \leq \| f \|_{L^2}^2$. It is, however, not a Schauder basis of $C[0,1]$. 
+While abstract nonsense is the most interesting thing in the world, it would not hurt to step back and touch grass. Fourier basis $( \exp( \iota n x ) )_{n \in \mathbb{N}}$ is an orthonormal basis for $L^2[0,1]$, and it is indeed a Schauder basis. Its coefficients are uniquely determined as $\widehat{f}(n) = \left< f, e_n\right>_{L^2}$ and are indeed well-defined for all $f \in L^2$. The Fourier series $\sum_{n\geq 0} \widehat{f}(n) e_n \to f$ in $L^2$-norm thanks to Parseval's identity $\| f \|_{L^2}^2 = \sum_{n \geq 0} \lvert \widehat{f}(n) \rvert^2$ and Bessel's inequality $\sum_{n \geq 0} \lvert \left< f, e_n \right> \rvert \leq \| f \|_{L^2}^2$. It is, however, not a Schauder basis of $C[0,1]$. I will let the readers think about this more.
 </p>
 </font>
 
