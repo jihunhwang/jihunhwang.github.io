@@ -5,7 +5,7 @@ description: Schauder Basis of Banach Spaces
 tags: ['random-math']
 mathjax: yes
 toc: yes
-last_modified_at: 2025-04-13
+last_modified_at: 2025-05-04
 header:
     teaser: "https://preview.redd.it/axiom-of-choice-phobia-v0-p1ewm8rznxsc1.jpeg?width=640&crop=smart&auto=webp&s=358b2bf8bcb369d68bb6562f82c1fbe4e7d46bd5"
 header-includes:
@@ -270,7 +270,7 @@ While abstract nonsense is the most interesting thing in the world, it would not
 </p>
 </font>
 
-#### Schauder basis vs. inseparability
+##### Schauder basis vs. inseparability
 
 <font size="4">
 <p>
@@ -350,7 +350,7 @@ Then, $\| b - a^{(k)} \|_\infty \geq \lvert b_k - a_k^{(k)} \rvert \geq 1$ for a
 </font>
 
 
-#### Approximation property
+##### Approximation property
 
 <font size="4">
 <p>One natural follow-up question is this: <i>Does every separable Banach space have a Schauder basis?</i> The answer turns out to be <i>no</i>, and it was proven by <a href="https://en.wikipedia.org/wiki/Per_Enflo">Enflo</a> in 1973. This is where it starts:</p>
@@ -424,7 +424,7 @@ However, <a href="https://en.wikipedia.org/wiki/Per_Enflo">Enflo</a> gave an exp
 </p>
 
 <p style="border: 2px solid black; padding: 10px;">
-<b><a href="https://projecteuclid.org/journals/acta-mathematica/volume-130/issue-none/A-counterexample-to-the-approximation-problem-in-Banach-spaces/10.1007/BF02392270.full">Theorem (Enflo)</a>.</b> There exists a Banach space $X$ with a sequence of its finite dimensional subspace $X_n$ such that $\dim(X_n) \to \infty$ as $n \to \infty$, and a constant $C$ such that for all finite rank operator $T$, $\| T - I_X \|$ over $X_n$ (the operator norm with supremum taken over $X_n$) does not converge to $0$ as $n \to \infty$.
+<b><a href="https://projecteuclid.org/journals/acta-mathematica/volume-130/issue-none/A-counterexample-to-the-approximation-problem-in-Banach-spaces/10.1007/BF02392270.full">Theorem (Enflo)</a>.</b> There exists a separable, reflexive Banach space $X$ with a sequence of its finite dimensional subspace $X_n$ such that $\dim(X_n) \to \infty$ as $n \to \infty$, and a constant $C$ such that for all finite rank operator $T$, $\| T - I_X \|$ over $X_n$ (the operator norm with supremum taken over $X_n$) does not converge to $0$ as $n \to \infty$.
 </p>
 
 <p>
@@ -438,13 +438,21 @@ This gives two immediate consequences: let $X$ be the Banach space Enflo constru
 <p>
 For his contribution, Enflo was awarded a live goose from Mazur. This story is outlined pretty well in <a href="https://en.wikipedia.org/wiki/Per_Enflo#The_basis_problem_and_Mazur's_goose">this Wikipedia page for Enflo</a>. 
 </p>
+</font>
 
+<center>
+<img src="https://media.discordapp.net/attachments/1089916024784175236/1184168706616602665/image.png?ex=6818e60c&is=6817948c&hm=2eecb79f5ff80ddf88ad90cb3cdd4c842ba7c2250b6a6085090b978e88690e57&=&format=webp&quality=lossless&width=369&height=619">
+</center>
+
+<font size="4">
+<p> </p>
 <p>
-Enflo solved Mazur's problem and earned a goose. I solved my own, and became the goose. I wonder what it'd take someone to win a FlaggnGoose (smirk).
+Enflo solved Mazur's problem and earned a goose. <br> I solved my own, and became the goose. <br> I wonder what it'd take someone to win a FlaggnGoose (smirk).
 </p>
 </font>
 
 <font size="3">
     <p>(FlaggnGoose is my username for CTF competitions.)</p>
 </font>
+
 
