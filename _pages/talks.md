@@ -84,7 +84,7 @@ On this page, you will find the notes and slides I made for the talks I presente
 
 <li>
 <a href="https://drive.google.com/file/d/1HM1dbxKQJS3PootRmWdgpZ8cA6W2mj5M/view?usp=sharing">Towards SNARKs: Efficient computationally sound zero-knowledge proofs</a> and <a href="https://drive.google.com/file/d/1jgbNLAfgCITQfuDdbwEUt3_Phb1b5lhn/view?usp=sharing">Zero-Knowledge Locally Testable Codes</a>. 
-<div>Presentations for the seminar course CS 592STC Special Topics in Cryptography: Zero-Knowledge Proofs hosted by Professor <a href="https://aarushigoel.github.io/">Aarushi Goel</a>.</div>
+<div>Presentations for the seminar course <a href="https://aarushigoel.github.io/courses/Fall%202024/CS592.html">CS 592STC Special Topics in Cryptography: Zero-Knowledge Proofs</a> hosted by Professor <a href="https://aarushigoel.github.io/">Aarushi Goel</a>.</div>
 <div>Sep 30th and Dec 2nd, 2024 (respectively)</div>
 </li>
 
@@ -105,7 +105,7 @@ On this page, you will find the notes and slides I made for the talks I presente
 </li>
 
 <li><a href="https://drive.google.com/file/d/1xN1JNhN7NQHwCpbjEuje0WM4pJqjAoB5/view?usp=sharing">Adjoints of Unbounded Linear Operators</a> and <a href="https://drive.google.com/file/d/1vaLFJkxKwcpFv8D9rwJaSCXwFLrsiPpk/view?usp=sharing">Sobolev Spaces W_0^{1,p}</a>. 
-<div>In-class presentation for <a href="https://people.math.umass.edu/~nahmod/M725_S20.html">MATH 725 Functional Analysis</a> with Professor <a href="https://people.math.umass.edu/~nahmod/">Andrea Nahmod</a> (<a href="https://en.wikipedia.org/wiki/Andrea_R._Nahmod">Wiki</a>).</div>
+<div>In-class presentations for <a href="https://people.math.umass.edu/~nahmod/M725_S20.html">MATH 725 Functional Analysis</a> with Professor <a href="https://people.math.umass.edu/~nahmod/">Andrea Nahmod</a> (<a href="https://en.wikipedia.org/wiki/Andrea_R._Nahmod">Wiki</a>).</div>
 <div>Mar 3rd and Apr 28th, 2020 (respectively)</div>
 </li>
 
