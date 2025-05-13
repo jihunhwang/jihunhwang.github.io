@@ -4,7 +4,11 @@ permalink: /
 author_profile: true
 ---
 
-# You have finally reached the end of the internet!
+<p align="center">
+<font size="5">
+<b>You have finally reached the end of the internet!</b>
+</font>
+</p>
 
 Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. student studying [Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/), where I am fortunate to be advised by Professor [Hemanta Maji](https://www.cs.purdue.edu/homes/hmaji/).  
 Last summer, I visited [NASA GSFC](https://www.nasa.gov/goddard) ([Code 450](https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/)) as a research intern hosted by [Alan Hylton](https://scholar.google.com/citations?hl=en&user=toO5wnUAAAAJ&view_op=list_works&sortby=pubdate).
