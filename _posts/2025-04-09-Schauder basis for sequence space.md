@@ -51,8 +51,8 @@ There seems to be no issues here! Why is $(1,1/2,1/3,\dots) \notin \mathrm{Span}
 
 ## (Closed) Linear Span
 
-<font size="4">
-<p> We need to remember here that $\ell_p$ is a vector space (again, Banach spaces are complete normed vector spaces). Bear with me and let us recite the axioms for vector spaces: $V$ is a (real) vector space if for all $f,g,h \in V$,</p>
+
+We need to remember here that $\ell_p$ is a vector space (again, Banach spaces are complete normed vector spaces). Bear with me and let us recite the axioms for vector spaces: $V$ is a (real) vector space if for all $f,g,h \in V$,
 <ol>
     <li>$f+g \in V$.</li>
     <li>$(f+g)+h = f+(g+h)$.</li>
@@ -65,28 +65,30 @@ There seems to be no issues here! Why is $(1,1/2,1/3,\dots) \notin \mathrm{Span}
     <li>$(\alpha \beta) f = \alpha(\beta f)$.</li>
     <li>$1 \cdot h = h$.</li>
 </ol>
-<p>A vector space $V$ is a normed vector space if it satisfies the above axioms 1-9 and in addition:</p>
+
+A vector space $V$ is a normed vector space if it satisfies the above axioms 1-9 and in addition:
+
 <ol start="11">
     <li>For all $h \in V$, there exists a real number $\| h \|$ called the norm of $h$. Basically, $\| \cdot \| \colon V \to \mathbb{R}_{\geq 0}$.</li>
     <li>For all $\alpha \in \mathbb{R}$, $\| \alpha f \| = |\alpha| \|f\|$.</li>
     <li>$\| h \| = 0$ iff $h = 0$.</li>
     <li>$\| f+g \| \leq \|f \| + \|g \|$ for all $f, g \in V$.</li>
 </ol>
-<p>It is an easy exercise to prove that the axioms 11-14 imply the axiom 10. Lastly, we say a normed vector space $(V, \| \cdot \|)$ is complete if every Cauchy sequence converges:</p>
+
+It is an easy exercise to prove that the axioms 11-14 imply the axiom 10. Lastly, we say a normed vector space $(V, \| \cdot \|)$ is complete if every Cauchy sequence converges:
+
 <ol start="15">
     <li>For all Cauchy sequence $\{h_n\}_{n \geq 1}$ (i.e. $\| h_n - h_m \| \to 0$ as $n,m \to \infty$), there exists $h \in V$ such that $\| h_n - h \| \to 0$ as $n \to \infty$. </li>
 </ol>
-<p>That is, we say $(V, \| \cdot \|)$ is a Banach space (complete normed vector space) if it satisfies all 15 axioms.</p>
 
-<p>These axioms coincide with everything we learned in our very average linear algebra course. However, it is also these axioms that is making our life hard here: <i>there is nothing in the 15 axioms that guarantees everything to be well-defined and behaved for infinite sums!</i></p>
+That is, we say $(V, \| \cdot \|)$ is a Banach space (complete normed vector space) if it satisfies all 15 axioms.
 
-<p>This forces us to define only finite sums of vectors for defining spans, for arbitrary vector spaces. As we are not specifying any topology or norm, we cannot simply write an infinite sum and hope it is well-defined (converges and is unique) axiomatically; even if they are, choosing a different norm or topology may bring a drastically different notion of convergence. 
-<br> 
-One immediate instance is the commutativity (axiom 5); we learned in undergrad real analysis that switching the order of summations in an infinite series can be problematic unless certain conditions are met (<a href="https://en.wikipedia.org/wiki/Riemann_series_theorem">Riemann rearrangement theorem</a>). 
-</p>
+These axioms coincide with everything we learned in our very average linear algebra course. However, it is also these axioms that is making our life hard here: <i>there is nothing in the 15 axioms that guarantees everything to be well-defined and behaved for infinite sums!</i>
 
-<p>In any case, the key takeaway here is that the basis might contain infinitely many elements, but only finite linear combinations should be considered: 
-</p>
+This forces us to define only finite sums of vectors for defining spans, for arbitrary vector spaces. As we are not specifying any topology or norm, we cannot simply write an infinite sum and hope it is well-defined (converges and is unique) axiomatically; even if they are, choosing a different norm or topology may bring a drastically different notion of convergence.  
+One immediate instance is the commutativity (axiom 5); we learned in undergrad real analysis that switching the order of summations in an infinite series can be problematic unless certain conditions are met ([Riemann rearrangement theorem](https://en.wikipedia.org/wiki/Riemann_series_theorem)). 
+
+In any case, the key takeaway here is that the basis might contain infinitely many elements, but only finite linear combinations should be considered: 
 
 <p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> Let $X$ be vector space over a field $\mathbb{F}$. A (<b>Hamel</b>) <b>basis</b> of $X$ is a subset $(e_i)_{i \in \mathcal{I}}$ in $V$ such that every $x \in X$ can be uniquely written as
@@ -96,89 +98,77 @@ x = \sum_{i \in I} a_i e_i
 where $I \subseteq \mathcal{I}$ is finite and $a_i \in \mathbb{F}$.
 </p>
 
-<p>
+
 Then, it is clear from the context that $\mathcal{E}$ does not span $\ell_p$, because any finite linear combination of elements of $\mathcal{E}$ will eventually be followed by an infinitely long sequence of zeros.
-</p>
-<p>
+
 We do not have to lose our hope here though. Consider $x = (x_1, x_2, \dots) \in \ell_p$ and its 'projection' $x^{(N)} = (x_1, \dots, x_N, 0,0,\dots) \in \mathrm{Span}(\mathcal{E})$ (which clearly is a subset of $\ell_p$). Then, because $x \in \ell_p$,
-</p>
-\[
+
+$$
 \| x - x^{(N)} \|_p^p = \sum_{n = N+1}^{\infty} \lvert  x_{n} \rvert^p \to 0 \text{ as } N \to \infty
-\]
-<p>
+$$
+
+
 This shows that every $x \in \ell_p$ is either an element of $\mathrm{Span}(\mathcal{E})$ or is a limit point of $\mathrm{span}(\mathcal{E})$. So, $\mathrm{Span}(\mathcal{E})$ a dense subset of $\ell_p$, making $\ell_p = \overline{\mathrm{Span}(\mathcal{E})}$. And of course the closure is defined in terms of the topology induced by the $\ell_p$-norm.
-</p>
-<p>
+
 In plain English: $\ell_p$ <i>is in the <b>closed linear span</b> of the standard basis</i> $\mathcal{E}$.
-</p>
-</font>
+
 
 
 ## Introducing Schauder Basis
 
-<font size="4">
 
-<p>
 From the argument above, one may claim that the closed linear span of the standard basis $\mathcal{E} = \{e_1, e_2, \dots\}$ is equal to the set of convergent infinite sums $\sum_i a_i e_i$. 
-</p>
-<p>
+
 This claim is actually not true! Roughly put, the closed linear span considers all possible sequences of finite sums whose limits are taken; these 'approximating' sequences do not have to arise from a single infinite series with fixed coefficients, you can change the coefficients from one term to the next. Hence, the closed linear span can be bigger than the set of elements that can be written as an infinite sum (different sequences of approximations could converge to the same point).
-</p>
 
-<p>
+
+
 This might not sound like too big of a deal for some people, understandably so. A little different way to put this is: the fact $\overline{\mathrm{Span}(\mathcal{E})} = X$ just tells us that one can approximation any element $x \in X$ using a finite linear combination of $\mathcal{E}$, without telling us how to approximate it and giving us any unique expansion of it. 
-</p>
 
-<p>
 Most crucially, dealing with Hamel basis turns out to be a headache in general; we can prove that there (arguably) cannot exist an explicit procedure for constructing a Hamel basis for every Banach space:
-</p>
 
 <p style="border: 2px solid; padding: 10px;">
 <b>Theorem 1.</b> Let $X$ be an infinite-dimensional Banach space and $\mathcal{E}$ be its Hamel basis. Then $\mathcal{E}$ exists, and is uncountably infinite. 
 </p>
 
-<p>
 In other words, an infinite-dimensional Banach space has uncountable dimension (even separable ones!).
-</p>
-<p>
-As one might have anticipated already (because the statement that every vector space has a basis is equivalent to the axiom of choice), the proof of this theorem requires the use of the axiom of choice (Zorn's lemma). 
-</p>
 
-<p>
+As one might have anticipated already (because the statement that every vector space has a basis is equivalent to the axiom of choice), the proof of this theorem requires the use of the axiom of choice (Zorn's lemma). 
+
 We shall also use the Baire Category Theorem, because we want to express $X$ as a countable union of subspaces, after assuming for the sake of contradiction that $\mathcal{E}$ is countable. 
-</p>
 
 <p style="border: 2px solid; padding: 10px;">
 <b>Baire Category Theorem.</b> Let $X$ be a complete metric space and $\{X_n \}_{n \in \mathbb{N}}$ be a sequence of <i>closed subsets</i> in $X$ such that $X_n$ is <i>nowhere dense</i>, i.e. $\mathrm{Int}(X_n) = \emptyset$. Then,
-\[
+$$
 X \neq \bigcup_{n \in \mathbb{N}} X_n \;\; \textsf{ but } \;\; \mathrm{Int}\left( \bigcup_{n \in \mathbb{N}} X_n \right) = \emptyset
-\]
+$$
 </p>
 
-<p>
+
 For self-containedness' sake, let us formally define what nowhere dense means.
-</p>
+
 
 <p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> Let $X$ be a normed vector space and $W$ is a set in $X$. $W$ is said to be <b>nowhere dense</b> in $X$ if for any open ball $\| x - x_0 \| < r$ in $X$, there always exists an element in it which does not belong to $\overline{W}$ 
 (i.e. $\overline{W}$ contains no open balls). 
 </p>
 
-<p>
-<i><b>Proof of Theorem 1.</b></i> Let us first prove the existence. Let $S$ be the family of all subsets of $X$ that are linearly independent. Induce a poset $(S, \subseteq)$ where the partial order is inclusion $\subseteq$. Let $C$ be an arbitrary chain in $S$, then $C$ clearly has an upper bound: $U = \bigcup_{c \in C} c$ and it is in $S$ indeed. Then, by Zorn's lemma, $S$ has a maximal element, call it $\mathcal{E}$, and is a subset of $X$. Clearly, $\mathcal{E}$ spans $X$: if there existed an element $x \in X$ but $x \notin \mathrm{Span}(X)$, then $\mathcal{E} \cup \{x\}$ would still be linearly independent, contradicting the maximality. 
-</p>
+
+<i><b>Proof of Theorem 1.</b></i> 
+Let us first prove the existence. Let $S$ be the family of all subsets of $X$ that are linearly independent. Induce a poset $(S, \subseteq)$ where the partial order is inclusion $\subseteq$. Let $C$ be an arbitrary chain in $S$, then $C$ clearly has an upper bound: $U = \bigcup_{c \in C} c$ and it is in $S$ indeed. Then, by Zorn's lemma, $S$ has a maximal element, call it $\mathcal{E}$, and is a subset of $X$. Clearly, $\mathcal{E}$ spans $X$: if there existed an element $x \in X$ but $x \notin \mathrm{Span}(X)$, then $\mathcal{E} \cup \{x\}$ would still be linearly independent, contradicting the maximality. 
 
 <p>
 Now let us prove the uncountability of $\mathcal{E}$. Suppose for the sake of contradiction that it is actually countable. Since $X$ is infinite-dimensional, assume $\mathcal{E}$ is infinite as well, that is, $\mathcal{E} = \{ e_i \}_{i \in \mathbb{N}}$. 
-<br>
-For $n\in \mathbb{N}$, consider $X_n$ that is a vector space spanned by $\{e_i \}_{1 \leq i \leq n}$. As $X_n$ is finite dimensional and is a subspace of $X$ a complete normed space, it is also complete and hence is <i>closed</i> as well. It is however <i>nowhere dense</i> in the sense that its interior is empty (intuitively: imagine a plane in $\mathbb{R}^3$, it is impossible to place a ball in that plane in a way that it is entirely in the plane because it is bound to have a 'direction' such as the normal vector that the plane does not extend to). 
-<br>
-But clearly, $X = \bigcup_{n\in \mathbb{N}} X_n$ (let $x \in X$ so $x = \sum_{i=1}^k x_i e_{n_i}$, then $x \in F_{N}$ where $N = \max_{1\leq i \leq k} n_i$), meaning that a complete metric space is a countable union of closed nowhere dense sets. This contradicts the Baire category theorem. Hence, this proves the statement. $\blacksquare$
 </p>
 
 <p>
-Theorem 1 is basically telling us that we cannot write elements of $X$ as finite sums in any manageable way. One might have seen this meme somewhere online, and this is where it comes from:
+For $n\in \mathbb{N}$, consider $X_n$ that is a vector space spanned by $\{e_i \}_{1 \leq i \leq n}$. As $X_n$ is finite dimensional and is a subspace of $X$ a complete normed space, it is also complete and hence is <i>closed</i> as well. It is however <i>nowhere dense</i> in the sense that its interior is empty (intuitively: imagine a plane in $\mathbb{R}^3$, it is impossible to place a ball in that plane in a way that it is entirely in the plane because it is bound to have a 'direction' such as the normal vector that the plane does not extend to). 
 </p>
+
+But clearly, $X = \bigcup_{n\in \mathbb{N}} X_n$ (let $x \in X$ so that $x = \sum_{i=1}^k x_i e_{n_i}$, then $x \in F_{N}$ where $N = \max_{1\leq i \leq k} n_i$), meaning that a complete metric space is a countable union of closed nowhere dense sets. This contradicts the Baire category theorem. Hence, this proves the statement. $\blacksquare$
+
+
+Theorem 1 is basically telling us that we cannot write elements of $X$ as finite sums in any manageable way. One might have seen this meme somewhere online, and this is where it comes from:
 
 <p>
 <center>
@@ -186,15 +176,11 @@ Theorem 1 is basically telling us that we cannot write elements of $X$ as finite
 <p></p>
 </center>
 </p>
-</font>
 
-<font size="4">
-<p>
+
 For all these reasons, we introduce Schauder basis over just talking about the closed linear span.
-</p>
-</font>
 
-<font size="4">
+
 <p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> Let $X$ be a Banach space. A <b>Schauder basis</b> is a sequence $(e_i)_{i \geq 1}$ in $X$ such that for all $x \in X$ there exists a unique sequence $(x_i)_{i \geq 1}$ in $\mathbb{R}$ such that
 \[
@@ -204,64 +190,72 @@ x = \sum_{i=1}^\infty x_i e_i = \lim_{n \to \infty} \sum_{i=1}^n x_i e_i
 
 <p>
 Note that we denoted $(e_i)_{i \geq 1}$ as a 'sequence' this time, to emphasize that the order matters (because the series may not converge unconditionally), and there is a unique representation $(x_i)_{i \geq 1}$ of $x \in X$ accordingly. 
-</p>
 
-<p>
 It is clear from the definition that the standard basis $\mathcal{E} = (e_i)_{i \geq 1}$ where $e_i = (0,\dots, 0, \underset{i\text{-th}}{1}, 0,\dots)$ that we have been discussing is a Schauder basis for $\ell_p$ for any $1 \leq p < \infty$.
 </p>
-</font>
 
 
 ### (Non-)examples
 
-<font size="4">
-<p>
+
 From the example above, one may naively think that any basis that spans the space in a closed linear sense is a Schauder basis. But the existence or construction of a Schauder basis is not as trivial.
-An immediate example is $\ell_\infty$. The basis $\mathcal{E} = (e_i)_{i \geq 1}$ discussed above for $\ell_p$ is not a Schauder basis when $p = \infty$ because $x = (1,1,\dots) \in \ell_\infty$ because $\| (1,1,\dots )\|_\infty = 1 < \infty$, but 
-\[
+An immediate example is $\ell_\infty$. The basis \\( \mathcal{E} = (e_i)_ {i \geq 1} \\) discussed above for $\ell_p$ is not a Schauder basis when $p = \infty$ because $x = (1,1,\dots) \in \ell_\infty$ because $\| (1,1,\dots )\|_ \infty = 1 < \infty$, but 
+
+$$
 \left\| x - \sum_{i=1}^N x_i e_i \right\|_\infty = \| (0,\dots, 0, 1,1,\dots) \|_\infty \to 1 \neq 0 \; \text{ as } \; N \to \infty
-\]
+$$
+
 A less immediate example is $C[0,1]$, the space of continuous real-valued functions on $[0,1]$ with the supremum norm:
-\[
+
+$$
 \| f \|_\infty = \sup_{x \in [0,1]} \lvert f(x) \rvert
-\]
+$$
+
+<p>
 Let $\mathcal{M} := \{1, x, x^2, \dots\}$ be the set of monomials, and its span is the set of all polynomials with finite terms. 
 By Weierstrass approximation theorem, for any continuous real-valued function $f$ on a closed interval $[a,b]$, for all $\varepsilon > 0$ there exists a polynomial $p(x)$ such that $\| f - p \|_\infty < \varepsilon$ over $[a,b]$. 
 So, $\mathrm{Span}(\mathcal{M})$ is dense in $C[0,1]$. 
 </p>
 
-<p>
 This leaves some possibility that $\mathcal{M}$ is a Schauder basis of $C[0,1]$, but it turns out it is not, because monomials are not "general" enough to represent every continuous function (intuitively: think about how not every continuous function can also be analytic). For instance, consider the following $f\colon [0,1] \to \mathbb{R}$ where:
-\[
+
+$$
 f(x) = 
 \begin{cases}
     0 & \text{if } x \in [0,1/2] \\
     x - 1/2 & \text{if } x \in [1/2, 1]
 \end{cases}
-\]
-Suppose that there exists $(a_i)_{i\geq 0}$ such that $f_n(x) = \sum_{i=0}^n a_i x^i \to f(x)$ uniformly as $n \to \infty$. Then, because we should have $f_n(x) \to 0$ uniformly for all $x \in [0,1/2]$, it must be the case that $a_i = 0$ for all $i \geq 0$, but this is obviously problematic because it will also give $f_n(x) \to 0$ for $x \in [1/2, 1]$. 
-</p>
+$$
+
+Suppose there exists $(a\_i)\_{i \geq 0}$ such that $f\_n(x) = \sum\_{i=0}^n a\_i x^i \to f(x)$ uniformly as $n \to \infty$. Then, because we should have $f\_n(x) \to 0$ uniformly for all $x \in [0,1/2]$, it must be the case that $a\_i = 0$ for all $i \geq 0$, but this is obviously problematic because it will also give $f\_n(x) \to 0$ for $x \in [1/2, 1]$. 
 
 <p>
 Fortunately, $C[0,1]$ does have a Schauder basis, called <i>Faber-Schauder system</i>. The construction goes as follows: let $\{ \tau_n \}_{n \geq 1}$ be a sequence of binary rationals such that
-\[
+</p>
+
+$$
 \tau_1 = 0, \; \tau_2 = 1, \; \tau_3 = \frac{1}{2}, \; \tau_4 = \frac{1}{4}, \; \tau_5 = \frac{3}{4}, \; \tau_6 = \frac{1}{8}, \; \tau_7 = \frac{3}{8}, \cdots
-\]
+$$
+
+<p>
 and $\tau_n = \frac{1 + 2 (n-1) - 2^{\lfloor \log_2(n-1) + 1 \rfloor}}{2^{\lfloor \log_2(n-1) \rfloor + 1} }$, and the sequence of 'tent' functions $\phi_n \colon [0,1] \to [0,1]$ such that
-\[
+</p>
+
+$$
 \phi_n(t) = 
 \begin{cases}
     1 & \text{if } t = \tau_n \\
     0 & \text{otherwise}
 \end{cases}
-\]
-where $\phi_1 \equiv 1$ and $\phi_2(t) = t$ ($\phi_n \in C[0,1]$ for all $n \geq 1$ obviously). Using Archimedian property ($(\tau_n)_{n \geq 1}$ are indeed dense in $[0,1]$) and the norm convergence property of $C[0,1]$ (which is uniform convergence), one can prove that $(\phi_n)_{n \geq 1}$ is indeed a Schauder basis of $C[0,1]$ (Archimedian property for existence and uniform convergence for uniqueness).
+$$
+
+<p>
+where $\phi_1 \equiv 1$ and $\phi_2(t) = t$ ($\phi_n \in C[0,1]$ for all $n \geq 1$ obviously). Using Archimedian property ($(\tau_{n})_{n \geq 1}$ are indeed dense in $[0,1]$) and the norm convergence property of $C[0,1]$ (which is uniform convergence), one can prove that $(\phi_n)_{n \geq 1}$ is indeed a Schauder basis of $C[0,1]$ (Archimedian property for existence and uniform convergence for uniqueness).
 </p>
 
 <p>
 While abstract nonsense is the most interesting thing in the world, it would not hurt to step back and touch grass. Fourier basis $( \exp( \iota n x ) )_{n \in \mathbb{N}}$ is an orthonormal basis for $L^2[0,1]$, and it is indeed a Schauder basis. Its coefficients are uniquely determined as $\widehat{f}(n) = \left< f, e_n\right>_{L^2}$ and are indeed well-defined for all $f \in L^2$. The Fourier series $\sum_{n\geq 0} \widehat{f}(n) e_n \to f$ in $L^2$-norm thanks to Parseval's identity $\| f \|_{L^2}^2 = \sum_{n \geq 0} \lvert \widehat{f}(n) \rvert^2$ and Bessel's inequality $\sum_{n \geq 0} \lvert \left< f, e_n \right> \rvert \leq \| f \|_{L^2}^2$. It is, however, not a Schauder basis of $C[0,1]$. I will let the readers think about this more.
 </p>
-</font>
 
 ### Inseparability
 
