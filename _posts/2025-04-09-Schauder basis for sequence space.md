@@ -40,12 +40,13 @@ span $\ell_p$ space where $p$ is finite?
 
 ### Wait, what?
 
-
+<p>
 I hope the TL;DR above was impactful enough to grab your attention. The sum $\sum_{n=1}^\infty 1/n$ diverges so clearly $(1,1/2,1/3,\dots) \notin \ell_{1}$, yet is $\in \ell_{p>1}$ by $p$-series test. Let $e_i = (0,\dots, 0,1,0,\dots)$ where the $1$ is in the $i$-th index and the rest are all zeroes so $\mathcal{E} = \{ e_i \}_{i \in \mathbb{N}}$, then
 $$
 \left( 1, \frac{1}{2}, \frac{1}{3}, \dots \right) = e_1 + \frac{1}{2} e_2 + \frac{1}{3} e_3 + \cdots = \sum_{n=1}^\infty \frac{1}{n} e_n
 $$
 There seems to be no issues here! Why is $(1,1/2,1/3,\dots) \notin \mathrm{Span}(\mathcal{E})$?
+</p>
 
 
 
@@ -116,8 +117,11 @@ In plain English: $\ell_p$ <i>is in the <b>closed linear span</b> of the standar
 
 ## Introducing Schauder Basis
 
+<p>
 
 From the argument above, one may claim that the closed linear span of the standard basis $\mathcal{E} = \{e_1, e_2, \dots\}$ is equal to the set of convergent infinite sums $\sum_i a_i e_i$. 
+
+</p>
 
 This claim is actually not true! Roughly put, the closed linear span considers all possible sequences of finite sums whose limits are taken; these 'approximating' sequences do not have to arise from a single infinite series with fixed coefficients, you can change the coefficients from one term to the next. Hence, the closed linear span can be bigger than the set of elements that can be written as an infinite sum (different sequences of approximations could converge to the same point).
 
@@ -153,9 +157,10 @@ For self-containedness' sake, let us formally define what nowhere dense means.
 (i.e. $\overline{W}$ contains no open balls). 
 </p>
 
-
+<p>
 <i><b>Proof of Theorem 1.</b></i> 
 Let us first prove the existence. Let $S$ be the family of all subsets of $X$ that are linearly independent. Induce a poset $(S, \subseteq)$ where the partial order is inclusion $\subseteq$. Let $C$ be an arbitrary chain in $S$, then $C$ clearly has an upper bound: $U = \bigcup_{c \in C} c$ and it is in $S$ indeed. Then, by Zorn's lemma, $S$ has a maximal element, call it $\mathcal{E}$, and is a subset of $X$. Clearly, $\mathcal{E}$ spans $X$: if there existed an element $x \in X$ but $x \notin \mathrm{Span}(X)$, then $\mathcal{E} \cup \{x\}$ would still be linearly independent, contradicting the maximality. 
+</p>
 
 <p>
 Now let us prove the uncountability of $\mathcal{E}$. Suppose for the sake of contradiction that it is actually countable. Since $X$ is infinite-dimensional, assume $\mathcal{E}$ is infinite as well, that is, $\mathcal{E} = \{ e_i \}_{i \in \mathbb{N}}$. 
