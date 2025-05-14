@@ -2,7 +2,7 @@
 title: External Links
 permalink: /links/
 author_profile: true
-toc: true
+# toc: true
 search: exclude
 sitemap: false
 ---
@@ -16,7 +16,7 @@ sitemap: false
 </script>
 
 
-###### Resources
+## Resources
 
 <font size="4">
 <ul>
@@ -104,7 +104,7 @@ sitemap: false
 </ul>
 </font>
 
-###### Online Lectures
+## Online Lectures
 
 <font size="4">
 Let us not forget to thank all those people who generously made their courses and seminars open to public for us.

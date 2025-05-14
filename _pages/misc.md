@@ -2,7 +2,7 @@
 title: Miscellaneous
 author_profile: true
 permalink: /misc/
-toc: true
+# toc: true
 search: exclude
 sitemap: false
 ---
@@ -17,7 +17,7 @@ sitemap: false
   gtag('config', 'G-30GFV5VTPS');
 </script>
 
-###### Some Thoughts or Pedagogies
+## Some Thoughts or Pedagogies
 <font size="4">
 <ul>
 	<li>
@@ -71,7 +71,7 @@ sitemap: false
 </font>
 
 
-###### Personal
+## Personal
 <font size="4">
 <ul>
 

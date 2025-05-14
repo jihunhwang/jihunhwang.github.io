@@ -2,7 +2,7 @@
 title: Notes
 author_profile: true
 permalink: /notes/
-toc: true
+# toc: true
 search: exclude
 sitemap: false
 ---
@@ -15,9 +15,9 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 
 ## Courses Took at Purdue
 <details open>
-<summary><font size="4">Click to expand</font></summary>
-
-Roughly, Purdue adopts the following course numbering system: 100-499 Undergraduate and <b>500-699 Graduate</b>. Some 400-levels are often cross-listed and open to both undergrads and graduate students. See <a href="https://www.purdue.edu/registrar/documents/currentStudents/students/preBannerTranscriptKey.pdf">this</a> for more details.
+<summary>Click to collapse</summary>
+<p></p>
+<p>Roughly, Purdue adopts the following course numbering system: 100-499 Undergraduate and <b>500-699 Graduate</b>. Some 400-levels are often cross-listed and open to both undergrads and graduate students. See <a href="https://www.purdue.edu/registrar/documents/currentStudents/students/preBannerTranscriptKey.pdf">this</a> for more details.</p>
 
 <ul>
 
@@ -40,7 +40,7 @@ Roughly, Purdue adopts the following course numbering system: 100-499 Undergradu
 <details>
 		<summary><font size="4">Click to expand</font></summary>
 <font size="4">
-
+<p></p>
 <p>
 Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, <b>500-699 Master's</b>, and <b>600-899 Doctoral</b>. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
 </p>
@@ -70,7 +70,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 ## Courses TAed at UMass
 <details>
 	<summary><font size="4">Click to expand</font></summary>
-
+<p></p>
 <font size="4">
 <ul>
 
@@ -106,7 +106,7 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 
 <details>
 		<summary><font size="4">Click to expand</font></summary>
-
+<p></p>
 <font size = "4"> 
 	<p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. These were all reproduced after the talks, using my own understandings.
 	</p> 

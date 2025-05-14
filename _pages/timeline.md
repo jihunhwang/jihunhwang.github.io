@@ -1,7 +1,7 @@
 ---
 title: Timeline
 permalink: /timeline/
-toc: true
+# toc: true
 search: exclude
 ---
 
