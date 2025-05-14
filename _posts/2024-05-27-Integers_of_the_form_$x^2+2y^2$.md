@@ -5,7 +5,7 @@ description: Integers of the form $x^2+2y^2$
 tags: ['random-math']
 mathjax: yes
 toc: yes
-last_modified_at: 2024-08-22
+modified: 2024-08-22
 header:
     teaser: "https://as2.ftcdn.net/v2/jpg/02/99/84/89/1000_F_299848927_S0EwX0P6HWGigW6qZWFIBaczKMQuq5D9.jpg"
 ---

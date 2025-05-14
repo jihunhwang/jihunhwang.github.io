@@ -5,7 +5,7 @@ description: SpookyCTF 2023 Writeups
 tags: ['CTF']
 toc: true
 mathjax: yes
-last_modified_at: 2023-12-30
+modified: 2023-12-30
 ---
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

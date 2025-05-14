@@ -5,7 +5,7 @@ description: New Year CTF 2024 Writeups (RSA Party!)
 tags: ['CTF']
 toc: true
 mathjax: true
-last_modified_at: 2024-04-11
+modified: 2024-04-11
 ---
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">

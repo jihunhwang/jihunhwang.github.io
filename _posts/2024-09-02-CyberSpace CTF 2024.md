@@ -4,7 +4,7 @@ date: 2024-09-02
 description: CyberSpace CTF 2024 trendy windy trigonity Writeup
 tags: ['CTF']
 mathjax: yes
-last_modified_at: 2025-05-04
+modified: 2025-05-04
 header:
     teaser: "https://ctftime.org/media/cache/2b/a1/2ba1e95fc5f7b5bebd87275d3d4666b0.png"
 ---
