@@ -189,7 +189,7 @@ A & = \{ n \mid n = ms^2 \textsf{ where } m, s \in \mathbb{N}, m \textsf{ is squ
 
 We shall prove $A = \tilde{A}$.
 
-<h6> Step 1: $\tilde{A} \subseteq A$. </h6>
+<h3> Step 1: $\tilde{A} \subseteq A$. </h3>
 
 
 <p> We first prove that if $p^\alpha \| x^2 + 2y^2$ for some $\alpha \in \mathbb{N} \cup \{0\}$ and $p \equiv 5, 7$ $(\textrm{mod } 8)$, then $2 \mid \alpha$. Here, $p^x \| n$ is the notation for the maximum $x$ such that $p^x \mid n$ yet $p^{x+1} \not\mid n\;$ (i.e., <a href="https://en.wikipedia.org/wiki/P-adic_valuation">$p$-adic order</a> of $n$). </p>
@@ -229,7 +229,7 @@ Therefore, if $p^\ell \mid x,y$ then $p^{\ell + 1} \mid x,y$. This proves the cl
 
 <p>Consequentially, for all $p$ such that $p \equiv 5, 7 \; (\textrm{mod } 8)$ has an even power in $n$, hence goes into the $s$ term in $n = ms^2$; more precisely, for any $n \in \tilde{A}$, if $n$ were to represented as $n = ms^2$, if $p \equiv 5,7 \; (\textrm{mod } 8)$ then $p \not\mid m$. Therefore, $n \in A$ and hence $\tilde{A} \subseteq A$.</p>
 
-<h6> Step 2: $\tilde{A} \supseteq A$. </h6>
+<h3> Step 2: $\tilde{A} \supseteq A$. </h3>
 
 <p>For any $n = ms^2 \in A$, let $m = p_1 p_2 \cdots p_k$. By definition of $A$, all $p_i$'s are $p_i \equiv 1,2,3 \; (\textrm{mod } 8)$, and so by <a href="./#lemma-3">Lemma 3</a>, there exist $a_1, b_1,\dots, a_k, b_k$ $\in \mathbb{N} \cup \{0\}$ such that
 
@@ -247,11 +247,11 @@ Therefore,
 $ms^2 = (s a_t)^2 + 2(s b_t)^2$, making $n = ms^2 \in \tilde{A}$ as well. This proves $A \subseteq \tilde{A}$. 
 </p>
 
-<h6> Step 3: $x=y=0$. </h6>
+<h3> Step 3: $x=y=0$. </h3>
 
 <p>In this case, trivially $x^2 + 2y^2 = 0$. </p>
 
-<h6> Conclusion </h6>
+<h3> Conclusion </h3>
 From Step 1 and 2, we conclude that $A = \tilde{A}$. Step 3 suggests that $0$ must be included in $A$. All in one, we conclude the following:
 <p></p>
 

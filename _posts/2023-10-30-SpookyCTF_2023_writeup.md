@@ -42,7 +42,7 @@ last_modified_at: 2023-12-30
 <p>We are given a file <code><a href="https://spooky.ctfd.io/files/3acbaa7cd6d613e29cf9e18bab0d6249/found_notes.txt?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTF9.ZZC8yw.0bTvsKXmomHb_hjiz4h2FOWgGU0">found_notes.txt</a></code>, whose first few lines looks like this:</p>
 </font>
 <center>
-<img src="/image/spctf_2023/spctf_found_notes.png">
+<img src="/images/spctf_2023/spctf_found_notes.png">
 </center>
 <font size="4">
 
@@ -64,10 +64,11 @@ print(lines)
 <p>The output string surprisingly includes a word that everyone is familiar with:</p>
 </font>
 <center>
-<img src="/image/spctf_2023/spctf_found_notes_jfif.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_found_notes_jfif.png" width="70%" height="70%">
 </center>
 
 <font size="4">
+<p></p>
 <p>which strongly suggests that this is a JPG file.</p>
 
 {% highlight python %}
@@ -76,15 +77,14 @@ with open("found_notes_sol.jpg", "wb") as f:
 f.close()
 {% endhighlight %}
 
-<details>
-<summary><font size="4">Output file <code>found_notes_sol.jpg</code> (Click to expand)</font></summary>
+<p>whose output is:</p>
+
 <center>
-<img src="/image/spctf_2023/found_notes_sol.jpg" width="70%" height="70%">
+<img src="/images/spctf_2023/found_notes_sol.jpg" width="70%" height="70%">
 </center>
-</details>
 <p></p>
 
-<p>and whence the <b>flag: <code>NICC{just_chillin}</code></b>. For the sake of completeness, here is the full solution script, for your reference:</p>
+<p>and whence the <b>flag</b>: <code>NICC{just_chillin}</code>. For the sake of completeness, here is the full solution script, for your reference:</p>
 
 <details>
 <summary><font size="4"><code>sol.py</code> (Click to expand)</font></summary>
@@ -124,7 +124,7 @@ f.close()
 <p>As usual, we start by opening the given file: <code><a href="https://spooky.ctfd.io/files/ef4a3a201da074874a6825fcf4af8bd7/flag.txt.aes?token=eyJ1c2VyX2lkIjo0ODUsInRlYW1faWQiOjI1NSwiZmlsZV9pZCI6MTh9.ZZC82A.FkL50igZpxPbutlgf15byivEcn8">flag.txt.aes</a></code>.</p>
 
 <center>
-<img src="/image/spctf_2023/spctf_keyfits.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_keyfits.png" width="70%" height="70%">
 </center>
 </font>
 
@@ -151,10 +151,11 @@ Congrats on finding the flag!
 
 NICC{1-4m-k3yn0ugh!}
 {% endhighlight %}
-
-<p><b>Flag: <code>NICC{1-4m-k3yn0ugh!}</code></b>.</p>
-
 </font>
+
+**Flag**: <code>NICC{1-4m-k3yn0ugh!}</code>
+
+
 
 ### strange monuments (Crypto)
 
@@ -193,10 +194,11 @@ print(n-1)
 {% endhighlight %}
 
 <p>The reason for subtracing 1 is that since the question asked for number of monuments Indiana <i>passed</i>, hence we exclude the monument it started from. </p>
-
-<p><b>Flag: <code>NICC{2999}</code></b></p>
-
 </font>
+
+**Flag**: <code>NICC{2999}</code>
+
+
 
 
 ### I Have Become Death (Forensics)
@@ -237,7 +239,7 @@ print(len(arr_dirs))
 </font>
 
 <center>
-<img src="/image/spctf_2023/spctf_nuketown.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_nuketown.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -395,7 +397,7 @@ jimmy@jimmy-G5-5587:~/nuketown/nuketown/nuketown2025$ cat MicrosoftUpdateTaskFor
 ...
 {% endhighlight %}
 
-<p>It was <code>bomb.py</code> that was executed at 14:55. Hence, <b>flag: <code>NICC{bomb.py_14:55}</code></b> as desired.</p>
+<p>It was <code>bomb.py</code> that was executed at 14:55. Hence, <b>flag</b>: <code>NICC{bomb.py_14:55}</code> as desired.</p>
 
 <p>As the author of this chall kind of admitted in the Discord server, I think this challenge could be guessy for those who have never heard of fork bomb before (or never played COD before---there is no such thing called fork bomb in COD).</p>
 
@@ -435,7 +437,7 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_2023/spctf_rabbit_hole.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_rabbit_hole.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -445,7 +447,7 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_2023/spctf_dev_tool.png">
+<img src="/images/spctf_2023/spctf_dev_tool.png">
 </center>
 
 <font size="4">
@@ -454,7 +456,7 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_2023/spctf_cyberchef.png">
+<img src="/images/spctf_2023/spctf_cyberchef.png">
 </center>
 
 <font size="4">
@@ -466,7 +468,7 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_2023/spctf_dir1.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_dir1.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -476,15 +478,15 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 </font>
 
 <center>
-<img src="/image/spctf_2023/spctf_dir2.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_dir2.png" width="70%" height="70%">
 </center>
 <p></p>
 <center>
-<img src="/image/spctf_2023/spctf_dir3.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_dir3.png" width="70%" height="70%">
 </center>
 <p></p>
 <center>
-<img src="/image/spctf_2023/spctf_dir4.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_dir4.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -496,15 +498,16 @@ https://niccgetsspooky.xyz/r/a/b/b/i/t/h/o/l/e/rabbit-hole.svg
 {% highlight plaintext %}
 NICC{TH3-UF0S-4R3-UP-N0T-D0WN-50-WHY-4R3-Y0U-D0WN-H3R3}
 {% endhighlight %}
+</font>
 
-<p><b>Flag: <code>NICC{TH3-UF0S-4R3-UP-N0T-D0WN-50-WHY-4R3-Y0U-D0WN-H3R3}</code></b></p>
+<b>Flag</b>: <code>NICC{TH3-UF0S-4R3-UP-N0T-D0WN-50-WHY-4R3-Y0U-D0WN-H3R3}</code>
 
 <p>I <b>strongly recommend that you automate the recursive unzipping step</b>, instead of clicking it 655*3 times like I did. I don't remember why I had chosen to do it manually, IIRC it was because I initially thought it'll stop at <code>secrets600</code> or around that point, (then <code>secrets550</code>, and then so on...) so clicking it very fast could be faster than coding it up.</p>
 
-</font>
+
 
 <center>
-<img src="/image/spctf_2023/spctf_barehands.png" width="60%" height="60%">
+<img src="/images/spctf_2023/spctf_barehands.png" width="60%" height="60%">
 </center>
 
 ### The Wizard (OSINT)
@@ -535,7 +538,7 @@ All spaces are underscores</code></p>
 </font>
 
 <center>
-<img src="/image/spctf_2023/spctf_the-wizard.png" width="70%" height="70%">
+<img src="/images/spctf_2023/spctf_the-wizard.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -549,7 +552,7 @@ All spaces are underscores</code></p>
 <p></p>
 
 <center>
-<img src="/image/spctf_2023/spctf_thewizard_1.png">
+<img src="/images/spctf_2023/spctf_thewizard_1.png">
 </center>
 
 <font size="4">
@@ -561,14 +564,15 @@ All spaces are underscores</code></p>
 </font>
 
 <center>
-<img src="/image/spctf_2023/spctf_thewizard_sol.png" width="60%" height="60%">
+<img src="/images/spctf_2023/spctf_thewizard_sol.png" width="60%" height="60%">
 </center>
 
 <font size="4">
 
 <p>This must be the correct answer, and it indeed was. </p>
-
-<p><b>Flag: <code>NICC{950_24th_St_NW_Washington_DC}</code></b></p>
-
 </font>
+
+**Flag**: <code>NICC{950_24th_St_NW_Washington_DC}</code>
+
+
 

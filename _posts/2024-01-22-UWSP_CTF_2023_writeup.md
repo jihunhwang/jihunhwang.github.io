@@ -7,7 +7,7 @@ toc: true
 mathjax: yes
 last_modified_at: 2024-03-20
 header:
-    teaser: "image/uwsp_2023/TimeisbutaWindow-sol1.png"
+    teaser: "images/uwsp_2023/TimeisbutaWindow-sol1.png"
 ---
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -32,7 +32,7 @@ I found this CTF in <a href="https://en.wikipedia.org/wiki/Pepero_Day">Nov 11th<
 ### Unquestioned and Unrestrained
 
 <center>
-<img src="/image/uwsp_2023/Unquestioned_an_Unrestrained.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Unquestioned_an_Unrestrained.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -59,7 +59,7 @@ print(base64.b64decode(flag_encoded))
 ### A Pale, Violet Light
 
 <center>
-<img src="/image/uwsp_2023/A_Pale,_Violet_Light.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/A_Pale,_Violet_Light.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -131,7 +131,7 @@ print(flag) # poctf{uwsp_533k_4nd_y3_5h411_f1nd}
 ### Missing and Missed
 
 <center>
-<img src="/image/uwsp_2023/Missing_and_Missed.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Missing_and_Missed.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -141,11 +141,11 @@ print(flag) # poctf{uwsp_533k_4nd_y3_5h411_f1nd}
 </font>
 
 <center>
-<img src="/image/uwsp_2023/MaM_sol1.png" width="85%" height="85%">
+<img src="/images/uwsp_2023/MaM_sol1.png" width="85%" height="85%">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/MaM_sol2.png" width="85%" height="85%">
+<img src="/images/uwsp_2023/MaM_sol2.png" width="85%" height="85%">
 </center>
 
 <font size="4">
@@ -158,7 +158,7 @@ print(flag) # poctf{uwsp_533k_4nd_y3_5h411_f1nd}
 ### The Gentle Rocking of the Sun
 
 <center>
-<img src="/image/uwsp_2023/Gentle_Rocking.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Gentle_Rocking.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -169,7 +169,7 @@ print(flag) # poctf{uwsp_533k_4nd_y3_5h411_f1nd}
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Gentle_Rocking_sol1.png" width="85%" height="85%">
+<img src="/images/uwsp_2023/Gentle_Rocking_sol1.png" width="85%" height="85%">
 </center>
 
 <p></p>
@@ -179,15 +179,15 @@ print(flag) # poctf{uwsp_533k_4nd_y3_5h411_f1nd}
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Gentle_Rocking_sol2.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Gentle_Rocking_sol2.png" width="70%" height="70%">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/Gentle_Rocking_sol3.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Gentle_Rocking_sol3.png" width="70%" height="70%">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/Gentle_Rocking_sol4.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Gentle_Rocking_sol4.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -217,7 +217,7 @@ print(root.replace("/", "").replace(".2023",""))
 ### With Desperation and Need
 
 <center>
-<img src="/image/uwsp_2023/With_Desperation_and_Need.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/With_Desperation_and_Need.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -227,7 +227,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/With_Desperation_sol1.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/With_Desperation_sol1.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -237,11 +237,11 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/With_Desperation_sol2.png" width="80%" height="80%">
+<img src="/images/uwsp_2023/With_Desperation_sol2.png" width="80%" height="80%">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/With_Desperation_sol3.png" width="80%" height="80%">
+<img src="/images/uwsp_2023/With_Desperation_sol3.png" width="80%" height="80%">
 </center>
 
 <p></p>
@@ -257,7 +257,7 @@ print(root.replace("/", "").replace(".2023",""))
 ### We Rest Upon a Single Hope
 
 <center>
-<img src="/image/uwsp_2023/We_Rest_Upon_a_Single_Hope.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/We_Rest_Upon_a_Single_Hope.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -267,7 +267,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/We_Rest_Upon_a_Single_Hope_sol1.png">
+<img src="/images/uwsp_2023/We_Rest_Upon_a_Single_Hope_sol1.png">
 </center>
 
 <p></p>
@@ -277,7 +277,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/We_Rest_Upon_a_Single_Hope_sol2.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/We_Rest_Upon_a_Single_Hope_sol2.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -287,7 +287,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/We_Rest_Upon_a_Single_Hope_sol3.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/We_Rest_Upon_a_Single_Hope_sol3.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -297,7 +297,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/We_Rest_Upon_a_Single_Hope_sol4.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/We_Rest_Upon_a_Single_Hope_sol4.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -310,7 +310,7 @@ print(root.replace("/", "").replace(".2023",""))
 ### Vigil of the Ceaseless Eyes
 
 <center>
-<img src="/image/uwsp_2023/Vigil_of_the_Ceaseless_Eyes.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Vigil_of_the_Ceaseless_Eyes.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -320,7 +320,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol0.png" width="60%" height="60%">
+<img src="/images/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol0.png" width="60%" height="60%">
 </center>
 
 <p></p>
@@ -330,11 +330,11 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol0_2.png" width="60%" height="60%">
+<img src="/images/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol0_2.png" width="60%" height="60%">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol1.png" width="60%" height="60%">
+<img src="/images/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol1.png" width="60%" height="60%">
 </center>
 
 <p></p>
@@ -344,7 +344,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol2.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol2.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -354,7 +354,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol4.png" width="50%" height="50%">
+<img src="/images/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol4.png" width="50%" height="50%">
 </center>
 
 <p></p>
@@ -364,7 +364,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol5.png" width="50%" height="50%">
+<img src="/images/uwsp_2023/Vigil_of_the_Ceaseless_Eyes_sol5.png" width="50%" height="50%">
 </center>
 
 <p></p>
@@ -383,7 +383,7 @@ print(root.replace("/", "").replace(".2023",""))
 ### Quantity is Not Abundance
 
 <center>
-<img src="/image/uwsp_2023/Quantity_is_Not_Abundance.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Quantity_is_Not_Abundance.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -393,7 +393,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Quantity_is_Not_Abundance_sol0-0.png" width="50%" height="50%">
+<img src="/images/uwsp_2023/Quantity_is_Not_Abundance_sol0-0.png" width="50%" height="50%">
 </center>
 
 <p></p>
@@ -403,10 +403,10 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Quantity_is_Not_Abundance_sol0-1.PNG" width="60%" height="60%">
+<img src="/images/uwsp_2023/Quantity_is_Not_Abundance_sol0-1.PNG" width="60%" height="60%">
 </center>
 <center>
-<img src="/image/uwsp_2023/Quantity_is_Not_Abundance_sol0-2.PNG" width="60%" height="60%">
+<img src="/images/uwsp_2023/Quantity_is_Not_Abundance_sol0-2.PNG" width="60%" height="60%">
 </center>
 
 <p></p>
@@ -416,11 +416,11 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Quantity_is_Not_Abundance_sol1.png" width="80%" height="80%">
+<img src="/images/uwsp_2023/Quantity_is_Not_Abundance_sol1.png" width="80%" height="80%">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/Quantity_is_Not_Abundance_sol2.png" width="80%" height="80%">
+<img src="/images/uwsp_2023/Quantity_is_Not_Abundance_sol2.png" width="80%" height="80%">
 </center>
 
 <p></p>
@@ -435,7 +435,7 @@ print(root.replace("/", "").replace(".2023",""))
 ### If You Don't, Remember Me
 
 <center>
-<img src="/image/uwsp_2023/If_You_Don_t,_Remember_Me.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/If_You_Don_t,_Remember_Me.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -445,14 +445,14 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/If_You_Don_t,_Remember_Me_sol1.png" width="95%" height="95%">
+<img src="/images/uwsp_2023/If_You_Don_t,_Remember_Me_sol1.png" width="95%" height="95%">
 </center>
 <p></p>
 <font size="4">
     <p>Some very suspicious yet familiar string here.</p>
 </font>
 <center>
-<img src="/image/uwsp_2023/If_You_Don_t,_Remember_Me_sol1-1.png" width="95%" height="95%">
+<img src="/images/uwsp_2023/If_You_Don_t,_Remember_Me_sol1-1.png" width="95%" height="95%">
 </center>
 <p></p>
 <font size="4">
@@ -466,7 +466,7 @@ print(root.replace("/", "").replace(".2023",""))
 ### A Petty Wage in Regret
 
 <center>
-<img src="/image/uwsp_2023/A _Petty_Wage_in_Regret.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/A _Petty_Wage_in_Regret.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -476,7 +476,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/DF2.jpg" width="80%" height="80%">
+<img src="/images/uwsp_2023/DF2.jpg" width="80%" height="80%">
 </center>
 
 <p></p>
@@ -484,14 +484,14 @@ print(root.replace("/", "").replace(".2023",""))
     <p>Although this picture seems normal (in the sense that it is not broken and cannot be opened), let's start by opening it with a text editor.</p>
 </font>
 <center>
-<img src="/image/uwsp_2023/A _Petty_Wage_in_Regret_sol2.png" width="95%" height="95%">
+<img src="/images/uwsp_2023/A _Petty_Wage_in_Regret_sol2.png" width="95%" height="95%">
 </center>
 <p></p>
 <font size="4">
     <p>They even gave you the hint "ASCII" next to it. Anyway, that translates to:</p>
 </font>
 <center>
-<img src="/image/uwsp_2023/A _Petty_Wage_in_Regret_sol2-1.png" width="95%" height="95%">
+<img src="/images/uwsp_2023/A _Petty_Wage_in_Regret_sol2-1.png" width="95%" height="95%">
 <p><font size="4"><code>::P1/2:: poctf{uwsp_7h3_w0rld_h4d</code></font></p>
 </center>
 <p></p>
@@ -503,7 +503,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/DF2_sol.png" width="80%" height="80%">
+<img src="/images/uwsp_2023/DF2_sol.png" width="80%" height="80%">
 
 <p><font size="4"><code>::P2/2:: 17_f1257</code></font></p>
 </center>
@@ -521,7 +521,7 @@ print(root.replace("/", "").replace(".2023",""))
 ### Better to Burn in the Light
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/BetterBurn.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -535,7 +535,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-7z.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/BetterBurn-7z.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -545,7 +545,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-7z-bin.png" width="60%" height="60%">
+<img src="/images/uwsp_2023/BetterBurn-7z-bin.png" width="60%" height="60%">
 </center>
 
 <p></p>
@@ -555,7 +555,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol1.png" width="90%" height="90%">
+<img src="/images/uwsp_2023/BetterBurn-sol1.png" width="90%" height="90%">
 </center>
 
 <p></p>
@@ -565,11 +565,11 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol2.png" width="90%" height="90%">
+<img src="/images/uwsp_2023/BetterBurn-sol2.png" width="90%" height="90%">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol3.png" width="90%" height="90%">
+<img src="/images/uwsp_2023/BetterBurn-sol3.png" width="90%" height="90%">
 </center>
 
 <p></p>
@@ -579,11 +579,11 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol4.png">
+<img src="/images/uwsp_2023/BetterBurn-sol4.png">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol5.png" width="90%" height="90%">
+<img src="/images/uwsp_2023/BetterBurn-sol5.png" width="90%" height="90%">
 </center>
 
 <p></p>
@@ -593,7 +593,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol5-2.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/BetterBurn-sol5-2.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -603,15 +603,15 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol6.png">
+<img src="/images/uwsp_2023/BetterBurn-sol6.png">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol7.png">
+<img src="/images/uwsp_2023/BetterBurn-sol7.png">
 </center>
 <p></p>
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol8.png" width="90%" height="90%">
+<img src="/images/uwsp_2023/BetterBurn-sol8.png" width="90%" height="90%">
 </center>
 
 <p></p>
@@ -639,7 +639,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol10.png">
+<img src="/images/uwsp_2023/BetterBurn-sol10.png">
 </center>
 
 <p></p>
@@ -649,7 +649,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol11.png">
+<img src="/images/uwsp_2023/BetterBurn-sol11.png">
 </center>
 
 <p></p>
@@ -661,7 +661,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol12.png">
+<img src="/images/uwsp_2023/BetterBurn-sol12.png">
 </center>
 
 <p></p>
@@ -671,7 +671,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol13.png">
+<img src="/images/uwsp_2023/BetterBurn-sol13.png">
 </center>
 
 <p></p>
@@ -681,7 +681,7 @@ print(root.replace("/", "").replace(".2023",""))
 </font>
 
 <center>
-<img src="/image/uwsp_2023/BetterBurn-sol14.png">
+<img src="/images/uwsp_2023/BetterBurn-sol14.png">
 </center>
 
 <p></p>
@@ -773,7 +773,7 @@ void main(EVP_PKEY_CTX *param_1)
 </font>
 
 <center>
-<img src="/image/uwsp_2023/MyFriendALoathsomeWorm-ghidra.png">
+<img src="/images/uwsp_2023/MyFriendALoathsomeWorm-ghidra.png">
 </center>
 
 <p></p>
@@ -804,7 +804,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/MyFriendALoathsomeWorm-sol.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/MyFriendALoathsomeWorm-sol.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -976,7 +976,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/AGuildedLily-sol.png" width="80%" height="80%">
+<img src="/images/uwsp_2023/AGuildedLily-sol.png" width="80%" height="80%">
 </center>
 
 <p></p>
@@ -1206,7 +1206,7 @@ void get_string(long param_1)
 </font>
 
 <center>
-<img src="/image/uwsp_2023/TimeisbutaWindow-sol2.png">
+<img src="/images/uwsp_2023/TimeisbutaWindow-sol2.png">
 </center>
 <p></p>
 
@@ -1216,7 +1216,7 @@ void get_string(long param_1)
 
 
 <center>
-<img src="/image/uwsp_2023/TimeisbutaWindow-sol1.png">
+<img src="/images/uwsp_2023/TimeisbutaWindow-sol1.png">
 </center>
 <p></p>
 
@@ -1243,7 +1243,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Timeis-sol3.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Timeis-sol3.png" width="70%" height="70%">
 </center>
 <p></p>
 
@@ -1256,7 +1256,7 @@ nc_ed.interactive()
 ### Absence Makes Hearts Go Yonder
 
 <center>
-<img src="/image/uwsp_2023/Absence.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Absence.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -1266,7 +1266,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/Absence_sol.png">
+<img src="/images/uwsp_2023/Absence_sol.png">
 </center>
 
 <p></p>
@@ -1286,7 +1286,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/An_Invincible_Summer_1.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/An_Invincible_Summer_1.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -1296,7 +1296,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/compare4.png" width="40%" height="40%">
+<img src="/images/uwsp_2023/compare4.png" width="40%" height="40%">
 </center>
 
 <p></p>
@@ -1306,7 +1306,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/text_from_compare4.png">
+<img src="/images/uwsp_2023/text_from_compare4.png">
 </center>
 
 <p></p>
@@ -1316,7 +1316,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/compare7.png" width="40%" height="40%">
+<img src="/images/uwsp_2023/compare7.png" width="40%" height="40%">
 </center>
 
 <p></p>
@@ -1328,7 +1328,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/flag_from_compare6.png">
+<img src="/images/uwsp_2023/flag_from_compare6.png">
 </center>
 
 <p></p>
@@ -1338,7 +1338,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/compare6.png" width="60%" height="60%">
+<img src="/images/uwsp_2023/compare6.png" width="60%" height="60%">
 </center>
 
 <p></p>
@@ -1362,7 +1362,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/bean.png" width="90%" height="90%">
+<img src="/images/uwsp_2023/bean.png" width="90%" height="90%">
 </center>
 
 <font size="4">
@@ -1372,7 +1372,7 @@ nc_ed.interactive()
 </font>
 
 <center>
-<img src="/image/uwsp_2023/bean-lsb.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/bean-lsb.png" width="70%" height="70%">
 </center>
 
 <font size="4">
@@ -1412,7 +1412,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 </font>
 
 <center>
-<img src="/image/uwsp_2023/bean-crop-2.png">
+<img src="/images/uwsp_2023/bean-crop-2.png">
 </center>
 
 <font size="4">
@@ -1420,7 +1420,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 </font>
 
 <center>
-<img src="/image/uwsp_2023/bean-crop-enlarged.png">
+<img src="/images/uwsp_2023/bean-crop-enlarged.png">
 </center>
 
 <p></p>
@@ -1430,7 +1430,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 </font>
 
 <center>
-<img src="/image/uwsp_2023/bean-crop-enlarged-2.png">
+<img src="/images/uwsp_2023/bean-crop-enlarged-2.png">
 </center>
 
 <p></p>
@@ -1446,7 +1446,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 </font>
 
 <center>
-<img src="/image/uwsp_2023/binary-cyberchef.png">
+<img src="/images/uwsp_2023/binary-cyberchef.png">
 </center>
 
 <p></p>
@@ -1456,7 +1456,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 </font>
 
 <center>
-<img src="/image/uwsp_2023/binary-cyberchef-2.png">
+<img src="/images/uwsp_2023/binary-cyberchef-2.png">
 </center>
 
 <p></p>
@@ -1469,7 +1469,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 
 
 <center>
-<img src="/image/uwsp_2023/bean-sol.png">
+<img src="/images/uwsp_2023/bean-sol.png">
 </center>
 
 <p></p>
@@ -1492,7 +1492,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 ### Sight Without Vision 
 
 <center>
-<img src="/image/uwsp_2023/Sight_Without_Vision.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/Sight_Without_Vision.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -1522,7 +1522,7 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 </font>
 
 <center>
-<img src="/image/uwsp_2023/We_mighty.png" width="70%" height="70%">
+<img src="/images/uwsp_2023/We_mighty.png" width="70%" height="70%">
 </center>
 
 <p></p>
@@ -1532,19 +1532,19 @@ b7,r,lsb,Yx         .. file: zlib compressed data
 </font>
 
 <center>
-<img src="/image/uwsp_2023/wemighty-1.png">
+<img src="/images/uwsp_2023/wemighty-1.png">
 </center>
 
 <p></p>
 
 <center>
-<img src="/image/uwsp_2023/wemighty-2.png">
+<img src="/images/uwsp_2023/wemighty-2.png">
 </center>
 
 <p></p>
 
 <center>
-<img src="/image/uwsp_2023/wemighty-3.png">
+<img src="/images/uwsp_2023/wemighty-3.png">
 </center>
 
 <p></p>

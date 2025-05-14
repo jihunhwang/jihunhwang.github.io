@@ -39,7 +39,7 @@ We plan to conduct CTF for almost two weeks - from January 3 to January 14). Due
 ## nanoRSA
 
 <center>
-<img src="/image/newyear_2024/nanorsa.png" width="70%" height="70%">
+<img src="/images/newyear_2024/nanorsa.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -75,7 +75,7 @@ print(long_to_bytes(c))
 ## As a programmer ...
 
 <center>
-<img src="/image/newyear_2024/asprogrammer.png" width="70%" height="70%">
+<img src="/images/newyear_2024/asprogrammer.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -220,7 +220,7 @@ print(long_to_bytes(int(m)))
 ## Two Points Again
 
 <center>
-<img src="/image/newyear_2024/twopointsagain.png" width="70%" height="70%">
+<img src="/images/newyear_2024/twopointsagain.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -230,7 +230,7 @@ print(long_to_bytes(int(m)))
 </font>
 
 <center>
-<img src="/image/newyear_2024/He_chose_the_wrong_parameters_for_RSA.jpg" width="70%" height="70%">
+<img src="/images/newyear_2024/He_chose_the_wrong_parameters_for_RSA.jpg" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -263,7 +263,7 @@ print(long_to_bytes(int(m)))
 ## 39 Bob's Friends
 
 <center>
-<img src="/image/newyear_2024/39bobsfriends.png" width="70%" height="70%">
+<img src="/images/newyear_2024/39bobsfriends.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -350,7 +350,7 @@ print(long_to_bytes(int(m)))
 ## Speeding up RSA
 
 <center>
-<img src="/image/newyear_2024/speedinguprsa.png" width="70%" height="70%">
+<img src="/images/newyear_2024/speedinguprsa.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -425,7 +425,7 @@ print(long_to_bytes(int(m)))
 ## RSA. Don't you see?
 
 <center>
-<img src="/image/newyear_2024/RSAdontyousee.png" width="70%" height="70%">
+<img src="/images/newyear_2024/RSAdontyousee.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -467,7 +467,7 @@ print(long_to_bytes(590578037986257002656994110209456873232307663997))
 ## Like a simple RSA
 
 <center>
-<img src="/image/newyear_2024/likeasimplersa.png" width="70%" height="70%">
+<img src="/images/newyear_2024/likeasimplersa.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -551,7 +551,7 @@ print(flipped_m_string)
 ## Tabular integral
 
 <center>
-<img src="/image/newyear_2024/tabularintegral.png" width="70%" height="70%">
+<img src="/images/newyear_2024/tabularintegral.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -644,7 +644,7 @@ print(long_to_bytes(int(m)))
 ## Highly ambiguous RSA
 
 <center>
-<img src="/image/newyear_2024/highlyambiguous.png" width="70%" height="70%">
+<img src="/images/newyear_2024/highlyambiguous.png" width="70%" height="70%">
 <p></p>
 </center>
 
@@ -784,7 +784,7 @@ for m in m_list:
 ## Ambiguous RSA
 
 <center>
-<img src="/image/newyear_2024/ambiguousrsa.png" width="70%" height="70%">
+<img src="/images/newyear_2024/ambiguousrsa.png" width="70%" height="70%">
 <p></p>
 </center>
 

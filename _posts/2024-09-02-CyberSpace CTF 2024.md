@@ -29,13 +29,12 @@ header:
 </font>
 
 <center>
-<img src="/images/etc/trigonity_chaldesc.png" width="70%" height="70%">
+<img src="/images/etc/trigonity_chaldesc.png" width="60%" height="60%">
 <p></p>
 </center>
 
-<font size="4">
-<p> 
-{% highlight python %}
+
+```python
 ### chall.sage
 
 from Crypto.Util.number import bytes_to_long
@@ -49,40 +48,51 @@ enc = a * cos(x) + b * sin(x)
 
 #38
 #2.78332652222000091147933689155414792020338527644698903976732528036823470890155538913578083110732846416012108159157421703264608723649277363079905992717518852564589901390988865009495918051490722972227485851595410047572144567706501150041757189923387228097603575500648300998275877439215112961273516978501e45
-{% endhighlight %}
-</p>
+```
+
 
 
 <p>
 Initially, because the chal description has the word "Tan," I thought it has to do with the tangent function:
 </p>
 
+$$
 \begin{align*}
 \mathrm{enc} = a \cos(x) + b \sin(x) 
 \implies 
 & \frac{\mathrm{enc}}{\cos(x)} = a + b \tan(x) \\
 & \frac{\mathrm{enc}}{\sin(x)} = \frac{a}{\tan(x)} + b
 \end{align*}
+$$
+
 <p>
 We tried to see if we can extract any information on $a$ and $b$ from here; for example using Cauchy-Schwarz, we got
 </p>
+
+$$
 \begin{align*}
 \left( a + b \tan(x) \right) \left( b + \frac{a}{\tan(x)} \right)
 & \geq \left( \sqrt{ab} + \sqrt{b \tan(x) \frac{a}{\tan(x)} } \right)^2 \\
 & = (2 \sqrt{ab})^2 = 4ab
 \end{align*}
+$$
+
 <p>
 which seemingly looks promising, but this only bounds $ab$, nothing more or less than that. 
 </p>
 
 <p>
 Switching gears a little bit, one can notice that $\mathrm{enc} = a\cos(x) + b\sin(x)$ is (a sort of) an diophantine equation whose coefficients are real numbers. Of course, computers cannot represent every real number accurately, some estimations such as floating-point arithmetic is needed. That is exactly what the code does! 
-{% highlight python %}
+</p>
+
+```python
 sage: RealField(1000)
 Real Field with 1000 bits of precision
-{% endhighlight %}
+```
+
 We can also test it ourselves and confirm that $\sin(x) \times 2^{1000}$ is indeed an integer in this code. 
-{% highlight python %}
+
+```python
 R = RealField(1000)
 x   = R((see chall.sage))
 print(sin(x) * 2**1000)
@@ -95,29 +105,36 @@ print(int(sin(x) * 2**1000) == (sin(x) * 2**1000))
 ## True
 print(int(sin(x) * 2**900) == (sin(x) * 2**900))
 ## False
-{% endhighlight %}
-</p>
+```
 
 <p>
 The problem now then becomes a SubsetSum-ish problem with two variables, which we know very well that we can solve using LLL algorithm: one can think of the solution as an element of a vector space, where one vector has the length $\cos(x)$, and the other has $\sin(x)$, and together they span $\mathrm{enc}$ (for now, I will omit the factor $2^{1000}$ for simplicity, until I actually have to write the solve script):
 </p>
-\[
+
+$$
 \mathcal{B} = \begin{bmatrix} \; v_1 \\ v_2 \\ v_3 \end{bmatrix} = \begin{bmatrix} \; 1 & 0 & \cos(x) \\ 0 & 1 & \sin(x) \\ 0 & 0 & -\mathrm{enc} \end{bmatrix}
-\]
+$$
+
 <p>
 So the lattice $\mathcal{L}$ spanned by $\mathcal{B}$ is:
 </p>
+
+$$
 \begin{align*}
 \mathcal{L} 
 & = \{ a v_1 + b v_2 + c v_3 \mid a, b, c \in \mathbb{Z}  \} \\
 & = \{ (a, b, a \cos(x) + b \sin(x) - c \mathop{\mathrm{enc}}) \mid a,b,c\in \mathbb{Z} \}
 \end{align*}
+$$
+
 <p>
 where we can fix $c = 1$ for convenience, WLOG:
 </p>
-\[
+
+$$
 \mathcal{L} = \{ (a', b', a' \cos(x) + b' \sin(x) - \mathop{\mathrm{enc}}) \mid a',b' \in \mathbb{Z} \}
-\]
+$$
+
 <p>
 which makes it clearer that this lattice is basically the space that contains the space of our desired solution. In particular, if this space contains the vector(s) such that the third coordinate is zero, then it is indeed our solution! 
 </p>
@@ -129,7 +146,8 @@ To see whether that is indeed the case, we can see if this space $\mathcal{L}$ c
 <p>
 As a proof-of-concept, let us take an example: consider a diophantine equation $12x+5y = 22$. Let $(x',y')$ be one of its solutions. Using the same analogy as above, we can think of the solution space as a vector spanned by two canonical basis vectors $u_x = (1,0)$ and $u_y = (0,1)$ under the restriction that the sum of elements of $12x' u_x + 5 y' u_y = (12x', 5y')$ is 22, in other words $12x' + 5y' - 22 = 0$. Hence, we can set up $\mathcal{L}$ and compute:
 </p>
-\[
+
+$$
 \mathcal{B} = 
 \begin{bmatrix}
 1 & 0 & 12 \\
@@ -144,8 +162,9 @@ As a proof-of-concept, let us take an example: consider a diophantine equation $
 2 & 0 & 2 \\
 -2 & 1 & 3
 \end{bmatrix}
-\]
-{% highlight python %}
+$$
+
+```python
 B = Matrix(QQ,
     [
         [1,0,12],
@@ -157,14 +176,17 @@ B.LLL()
 # [ 1  2  0]
 # [ 2  0  2]
 # [-2  1  3]
-{% endhighlight %}
+```
+
 <p>
 The row vector with the third element being $0$ gives a solution $(x',y')=(1,2)$ to $12x+5y = 22$ as desired.
 </p>
 
 <p>
 Let us divert back to the main topic. We can apply the same lines of reasonings for this challenge. However there is a small caveat: the third coordinate is unlikely to be zero in this particular challenge due to the errors introduced by floating-point arithmetic. But we are given that the length of the flag is 38, making $a$ and $b$ less than around $256^{38/2} = 2^{152}$, which is considerably smaller than $2^{1000}$. So, there is a good chance that LLL can still solve this problem, we just need to hope that the error is going to be small enough (e.g. less than $\mathrm{enc}$).
-{% highlight python %}
+</p>
+
+```python
 ## trendy-solve.sage
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 
@@ -195,12 +217,13 @@ B_lll_int
 ## 2461834501240441634675537458806974655348946301
 ## 2610765679588872452147618269600665976169800905]
 ## (remaining entries are redacted due to excessive length)
-{% endhighlight %}
-</p>
+```
 
 <p>
 This is good news -- we have a vector (which in fact is the first vector) that seems promisingly short (entries smaller than both $\mathrm{enc}$ and $2^{152}$. This might be the vector that contains our solution $(a', b', (\mathsf{error}))$! And as you might have guessed, it turns out the answer is <b>yes</b> :-)
-{% highlight python %}
+</p>
+
+```python
 ## trendy-solve.sage continued
 ...
 for j in range(0,3):
@@ -208,18 +231,16 @@ for j in range(0,3):
 # b'CSCTF{Trigo_453_Tr3'
 # b'ndy_FuN_Th35e_D4Y5}'
 # b'u\x12\x1e\xc4\xe9\xde\xbf\xcaF\x83\xd1\x17y\xf9\xc7?\x97\xa4\xc9'
-{% endhighlight %}
-</p>
-</font>
+```
 
-<font size="4">
-  <p><b>Flag: <code>CSCTF{Trigo_453_Tr3ndy_FuN_Th35e_D4Y5}</code></b></p>
-</font>
+<p></p>
+
+**Flag**: <code>CSCTF{Trigo_453_Tr3ndy_FuN_Th35e_D4Y5}</code>
 
 <font size="4">
 <p>The full solve script is provided below for your viewing pleasure:</p>
 <details>
-<summary><font size="4"><code>trendy-sol.sage</code> (Click to expand)</font></summary>
+<summary><code>trendy-sol.sage</code> (Click to expand)</summary>
 {% highlight python %}
 ## trendy-sol.sage
 from Crypto.Util.number import bytes_to_long, long_to_bytes

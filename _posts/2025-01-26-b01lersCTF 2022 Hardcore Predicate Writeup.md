@@ -40,20 +40,19 @@ Annually, <a href="https://b01lers.com/">b01lers</a> runs their own <a href="htt
 
 </font>
 
+<!-- <font size="5"><b>crypto/Hardcore</b></font> -->
 <font size="5"><b>crypto/Hardcore</b></font>
-<!--<h5>crypto/Hardcore</h5> -->
 
 <font size="4">
 <p>Author: <a href="https://github.com/mtanghu">mtanghu</a></p>
 </font>
 
 <center>
-<img src="/image/etc/b01lersctf2022hardcore.png" width="100%" height="100%">
+<img src="/images/etc/b01lersctf2022hardcore.png"  width="70%" height="70%">
 <p></p>
 </center>
 
-<font size="4">
-{% highlight python %}
+```python
 """Hardcore.py"""
 import numpy as np
 from os import urandom
@@ -132,12 +131,9 @@ def main():
 
 if __name__ == "__main__":
     main()
-        
+```
 
-{% endhighlight %}
-</font>
-
-##### Part 1
+## Part 1
 
 <font size="4">
 <p>There are a lot of things happening in the code, but fear not, let's read the "problem statement" carefully for the first part.</p>
@@ -233,12 +229,12 @@ print(long_to_bytes(flag_binary))
 {% endhighlight %}
 </font>
 
-<font size="4">
   <p></p>
-  <p><b>Flag1: <code>bctf{do_you_like_hardcore_chals}</code></b></p>
-</font>
 
-##### Part 2
+**Flag1**: <code>bctf{do_you_like_hardcore_chals}</code>
+
+
+## Part 2
 
 <font size="4">
 <p>Things are now a little tricky. </p>
@@ -253,7 +249,7 @@ with 90% accuracy and sends you back the answer.
 <p>Note that the 100% accuracy part has been changed to 90%. </p>
 </font>
 
-###### Attempt 1
+### Attempt 1
 
 <font size="4">
 <p>
@@ -312,7 +308,7 @@ But then you'd realize that this solution does not work at all. Why?!?
 </p>
 </font>
 
-###### Attempt 2 (Flag!)
+### Attempt 2 (Flag!)
 
 <font size="4">
 <p>
@@ -450,8 +446,6 @@ print(long_to_bytes(flag_binary))
 </font>
 
 
+<p></p>
 
-<font size="4">
-  <p></p>
-  <p><b>Flag2: <code>bctf{goldreich-levin-theorem.:D}</code></b></p>
-</font>
+**Flag2**: <code>bctf{goldreich-levin-theorem.:D}</code>

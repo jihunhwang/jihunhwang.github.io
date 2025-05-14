@@ -31,12 +31,11 @@ last_modified_at: 2024-04-24
 ### half-big-rsa
 
 <center>
-<img src="/image/b01lersctf_2024/halfbigrsa.png">
+<img src="/images/b01lersctf_2024/halfbigrsa.png">
 <p></p>
 </center>
 
-<font size="4">
-{% highlight python %}
+```python
 ## half-big-rsa.py
 import math
 from Crypto.Util.number import getPrime, bytes_to_long, long_to_bytes
@@ -57,24 +56,26 @@ with open("output.txt", "w") as f:
     f.write("e = {0}\n".format(e))
     f.write("n = {0}\n".format(n))
     f.write("c = {0}\n".format(c))
-{% endhighlight %}
+```
 
-{% highlight text %}
+```
 ## output.txt
 e = 8190
 n = 665515140120452927777672138241759151799589898667434054796291409500701895847040006534274017960741836352283431369658890777476904763064058571375981053480910502427450807868148119447222740298374306206049235106218160749784482387828757815767617741823504974133549502118215185814010416478030136723860862951197024098473528800567738616891653602341160421661595097849964546693006026643728700179973443277934626276981932233698776098859924467510432829393769296526806379126056800758440081227444482951121929701346253100245589361047368821670154633942361108165230244033981429882740588739029933170447051711603248745453079617578876855903762290177883331643511001037754039634053638415842161488684352411211039226087704872112150157895613933727056811203840732191351328849682321511563621522716119495446110146905479764695844458698466998084615534512596477826922686638159998900511018901148179784868970554998882571043992165232556707995154316126421679595109794273650628957795546293370644405017478289280584942868678139801608538607476925924119532501884957937405840470383051787503858934204828174270819328204062103187487600845013162433295862838022726861622054871029319807982173856563380230936757321006235403066943155942418392650327854150659087958008526462507871976852849
 c = 264114212766855887600460174907562771340758069941557124363722491581842654823497784410492438939051339540245832405381141754278713030596144467650101730615738854984455449696059994199389876326336906564161058000092717176985620153104965134542134700679600848779222952402880980397293436788260885290623102864133359002377891663502745146147113128504592411055578896628007927185576133566973715082995833415452650323729270592804454136123997392505676446147317372361704725254801818246172431181257019336832814728581055512990705620667354025484563398894047211101124793076391121413112862668719178137133980477637559211419385463448196568615753499719509551081050176747554502163847399479890373976736263256211300138385881514853428005401803323639515624537818822552343927090465091651711036898847540315628282568055822817711675290278630405760056752122426935056309906683423667413310858931246301024309863011027878238814311176040130230980947128260455261157617039938807829728147629666415078365277247086868327600962627944218138488810350881273304037069779619294887634591633069936882854003264469618591009727405143494184122164870065700859379313470866957332849299246770925463579384528152251689152374836955250625216486799615834558624798907067202005564121699019508857929778460
-{% endhighlight %}
+```
 
 <p>To begin with, we are given the equation $c = m^e \text{ mod } n$ where $n$ is a 4096-bit prime number. Normally, we'd be able to compute $d := e^{-1} \text{ mod } n-1$ and find $m$ by computing $c^d \text{ mod } n$, but unfortunately $e^{-1} \text{ mod } n-1$ does not exist as $g := \gcd(e, n-1) = 18 \neq 1$.</p>
 
 <p>Fortunately, we have $\gcd(e/g, n-1) = 1$, so $d_1 := (e/g)^{-1} \text{ mod } n-1$ exists. That is, there exists $k \in \mathbb{Z}$ such that</p>
-\[
+
+$$
 \frac{e}{g} d_1 = (n-1) k + 1 \implies e d_1 = (n-1)gk + g
-\]
+$$
+
 <p>and hence, $c^{d_1} = m^{e d_1} = m^g = m^{18} \text{ mod } n$. Denote $m_1 := m^{g} \text{ mod } n$. It is clear that $m_1^{e/g} = c \text{ mod } n$.</p>
 
-{% highlight python %}
+```python
 with open("output.txt","rb") as f:
     file = f.readlines()
     e = int((file[0])[4:])
@@ -86,44 +87,51 @@ d1 = pow(e//g, -1, n-1)
 m1 = pow(c, d1, n)
 
 assert pow(m1, e//g, n) == c # True
-{% endhighlight %}
+```
 
-<p>We are left with taking 18-th roots of $m_1$ in $\mathbb{F}_n$. We could use <code>nth_root</code> function in sagemath, but given that $n$ is a 4096-bit prime, it'd take forever. Let's use some trick. Factordb says:</p>
+<p>We are left with taking 18-th roots of $m_1$ in $\mathbb{F}_n$. We could use <code>nth_root</code> function in sagemath, but given that $n$ is a 4096-bit prime, it'd take forever. Let's use some trick. Factordb says:
 \[
 n-1 = 2^4 \times 3^3 \times 202021 \times 7625664192\dots 09
 \]
-<p>Since $g = 18 = 2 \times 3^2$, we have $\gcd(g, (n-1)/g) = 6$, but</p>
+Since $g = 18 = 2 \times 3^2$, we have $\gcd(g, (n-1)/g) = 6$, but
 \[
 \gcd\left(24 g, \frac{n-1}{24 g} \right) = 1
 \]
-<p>because $24g = 2^4 \times 3^3$. So, we can raise $m_1$ to the power of $24$,</p>
+because $24g = 2^4 \times 3^3$. So, we can raise $m_1$ to the power of $24$,
 \[
 m_2 := (m_1)^{24} = m^{24g} \mod n
 \]
-<p> and compute the inverse of $24g$ -- there exists $k' \in \mathbb{Z}$ such that</p>
+and compute the inverse of $24g$ -- there exists $k' \in \mathbb{Z}$ such that</p>
+
+$$
 \begin{align*}
 d_2 := (24g)^{-1} \text{ mod } \frac{n-1}{24 g} 
 & \implies 24 g d_2 = 1 + \frac{n-1}{24 g} k' \\
 & \implies 24 g \cdot (24 g\; d_2) = 24g + (n-1)k'
 \end{align*}
-<p>Hence,</p>
+$$
+
+Hence,
+
+$$
 \begin{align*}
 (m_2)^{24g d_2} = m^{24g \cdot (24g d_2)} = m^{24g} \mod n
 \end{align*}
+$$
 
-{% highlight python %}
+```python
 assert math.gcd(24 * g, (n-1)//(24 * g)) == 1 # True
 m2 = pow(m1, 24, n)
 d2 = pow(24 * g, -1, (n-1)//(24 * g))
 m_candidate = pow(m2, d2, n)
 assert pow(m_candidate, 24 * g, n) == m2 # True
-{% endhighlight %}
+```
 
 <p>and therefore, $m$ would be one of the $24g$-th roots of $(m_2)^{24g d_2}$ in $\mathbb{F}_n$. That is, let $\rho$ be a $24g$-th root of unity in $\mathbb{F}_n$, then $m = (m_2)^{d_2} \rho^i \text{ mod } n$ for some integer $i$. </p>
 
 <p>This can be done by finding a generator of a subgroup $E$ of order $24g = 432$ in $\mathbb{F}_n^\times$. Note that $E$ is cyclic since $n$ is prime. This can be done brute forcefully but in most cases (and apparently and fortunately, for this case as well) it should finish very quickly.</p>
 
-{% highlight python %}
+```python
 # Find a subgroup E with order 432 in F_n^*
 gen_ind = 1
 gen_E = 1 # generator of E
@@ -140,24 +148,22 @@ while gen_E == 1 or pow(gen_E, 16, n) == 1 or pow(gen_E, 27, n) == 1 \
 for i in range(24 * g + 1):
     if i != 0 and i != 24 * g:
         assert pow(gen_E, i, n) != 1
-{% endhighlight %}
+```
 
 <p>We are then left with computing the said $(m_2)^{d_2} \rho^i \text{ mod } n$ for $i = 0,1,\dots, 24g-1$. </p>
 
-{% highlight python %}
+```python
 for i in range(0, 24 * g):
     m = (m_candidate * pow(gen_E, i, n)) % n
     if pow(m, e, n) == c and b'bctf{' in long_to_bytes(m):
         print(long_to_bytes(m))
         ## b'bctf{Pr1M3_NUM83r5_4r3_C001_bu7_7H3Y_4r3_57r0N6_0N1Y_WH3N_
         ##        7H3Y_4r3_MU171P113D_3V3N_1F_7H3Y_4r3_b1g}'
-{% endhighlight %}
-</font>
+```
 
-<font size="4">
-  <p><b>Flag: <code>bctf{Pr1M3_NUM83r5_4r3_C001_bu7_7H3Y_4r3_57r0N6_0N1Y_WH3N_7H3Y_4r3_
-  MU171P113D_3V3N_1F_7H3Y_4r3_b1g}</code></b></p>
-</font>
+
+**Flag**: <code>bctf{Pr1M3_NUM83r5_4r3_C001_bu7_7H3Y_4r3_57r0N6_0N1Y_WH3N_7H3Y_4r3_
+  MU171P113D_3V3N_1F_</code> <code>7H3Y_4r3_b1g}</code>
 
 <font size="4">
 <p>The full solution script <code>sol.py</code> is provided below for the sake of completeness:</p>
@@ -221,7 +227,7 @@ for i in range(0, 24 * g):
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/half-big-rsa-nthroot.png">
+<img src="/images/b01lersctf_2024/half-big-rsa-nthroot.png">
 <p></p>
 </center>
 
@@ -232,7 +238,7 @@ for i in range(0, 24 * g):
 ### shamir-for-dummies
 
 <center>
-<img src="/image/b01lersctf_2024/shamirfordummies.png">
+<img src="/images/b01lersctf_2024/shamirfordummies.png">
 <p></p>
 </center>
 
@@ -460,18 +466,18 @@ print(long_to_bytes(sum_shares))
 {% endhighlight %}
 </font>
 
-<font size="4">
-  <p><b>Flag: <code>bctf{P0LYN0m14l_1N_M0d_P_12_73H_P0W3Rh0u23_0F_73H_5h4M1r}</code></b></p>
-</font>
+<p>Flag!</p>
+
+**Flag**: <code>bctf{P0LYN0m14l_1N_M0d_P_12_73H_P0W3Rh0u23_0F_73H_5h4M1r}</code>
 
 <font size="4">
-  <p>This challenge was inspired by <a href="https://eprint.iacr.org/2021/186">Maji et al.'s EuroCrypt '21</a> (see Remark 1) and <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITC.2022.16">Maji et al.'s ITC '22</a> (see Theorem 5) papers on an example attack against Shamir secret sharing scheme when evaluation places for the polynomial are chosen poorly. </p>
+  <p>This challenge was inspired by the example attack against Shamir secret sharing scheme when evaluation places for the polynomial are chosen poorly, presented in <a href="https://eprint.iacr.org/2021/186">Maji et al. EuroCrypt '21</a> (see Remark 1) and <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITC.2022.16">Maji et al. ITC '22</a> (see Theorem 5).</p>
 </font>
 
 ### R(esurre)C(tion)4
 
 <center>
-<img src="/image/b01lersctf_2024/rc4.png">
+<img src="/images/b01lersctf_2024/rc4.png">
 <p></p>
 </center>
 
@@ -544,7 +550,7 @@ if __name__ == '__main__':
 </details>
 </font>
 
-<font size="4">
+
 <p></p>
   <p>This is a well-known insecure implementation of RC4. The only part that you need to pay attention to is the following:</p>
 {% highlight python %}
@@ -563,7 +569,9 @@ S[j] = temp
 <p>but implementation-wise, it is not. If you are swapping two values via XOR operation like <code>server-dist.py</code> does, if the two values are the same, then they both end up becoming a $0$ as the XOR of two same numbers is equal to $0$.</p>
 
 <p>If the plaintext is long---like very long---then we are certainly bound to reach a point where <code>S[i] = S[j]</code> (and/or <code>i = j</code>). Once this happens, as said above, <code>S</code> will be updated as <code>S[i] = S[j] = 0</code>, and this will be 'accumulated' and eventually transform <code>S</code> into a sequence of zeroes, which leaves (some parts of) the plaintext unencrypted. Therefore, our goal is to just make the plaintext very long by padding it with a bunch of garbage data or empty characters/spaces, so the plaintext appears at the end of the ciphertext.</p>
-{% highlight python %}
+
+```python
+# sol.py
 import pwn
 import binascii
 
@@ -580,12 +588,11 @@ unhexed_ct = binascii.unhexlify(ciphertext)
 ## Since flag won't be that long anyway, just print the last 50 chars.
 print(unhexed_ct[len(unhexed_ct) - 50:len(unhexed_ct)])
 ## bctf{1f_gOOgL3_541D_1T_15_b4D_Th3n_1T_15_b4D}
-{% endhighlight %}
-</font>
+```
 
-<font size="4">
-  <p><b>Flag: <code>bctf{1f_gOOgL3_541D_1T_15_b4D_Th3n_1T_15_b4D}</code></b></p>
-</font>
+<p></p>
+
+**Flag**: <code>bctf{1f_gOOgL3_541D_1T_15_b4D_Th3n_1T_15_b4D}</code>
 
 <font size="4">
   <p>This challenge was inspired by the closing keynote talk (titled "<i>Where Code Meets Chip</i>") at the 2024 Annual CERIAS Security Symposium, given by Philippe Biondi from Airbus.</p>
@@ -596,7 +603,7 @@ print(unhexed_ct[len(unhexed_ct) - 50:len(unhexed_ct)])
 ### basketball-scholar
 
 <center>
-<img src="/image/b01lersctf_2024/basketball.png">
+<img src="/images/b01lersctf_2024/basketball.png">
 <p></p>
 </center>
 
@@ -605,7 +612,7 @@ print(unhexed_ct[len(unhexed_ct) - 50:len(unhexed_ct)])
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/pete.png">
+<img src="/images/b01lersctf_2024/pete.png">
 <p></p>
 </center>
 
@@ -614,7 +621,7 @@ print(unhexed_ct[len(unhexed_ct) - 50:len(unhexed_ct)])
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/pete-corner.png">
+<img src="/images/b01lersctf_2024/pete-corner.png">
 <p></p>
 </center>
 
@@ -623,7 +630,7 @@ print(unhexed_ct[len(unhexed_ct) - 50:len(unhexed_ct)])
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/pete-corner2.png">
+<img src="/images/b01lersctf_2024/pete-corner2.png">
 <p></p>
 </center>
 
@@ -634,14 +641,14 @@ print(unhexed_ct[len(unhexed_ct) - 50:len(unhexed_ct)])
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/lsb-analysis.png" width="80%" height="80%">
+<img src="/images/b01lersctf_2024/lsb-analysis.png" width="80%" height="80%">
 <p></p>
 </center>
 
-<font size="4">
+
 <p>which gives a pretty strong evidence that this is an instance of LSB steganography. So, we can use the <code>lsb</code> function in the <code>stegano</code> package in Python to extract the string. </p>
 
-{% highlight python %}
+```python
 import os
 import numpy as np
 from stegano import lsb
@@ -688,42 +695,41 @@ if __name__ == "__main__":
     decoded = Decode(path)
     print(decoded)
     # b'VGhpcyBIVyB3YXMgdG9vIGVhc3kgYmN0ZntHb19iMDFsZXJDVEZtYWtlcnMhfQ==\n'�èÿLÀB��Ùßõ?��ä
-{% endhighlight %}
+```
 
-<p>And <code>VGhpcyBIVyB3YXMgdG9vIGVhc3kgYmN0ZntHb19iMDFsZXJDVEZtYWtlcnMhfQ==</code> at the end is <code>This HW was too easy bctf{Go_b01lerCTFmakers!}</code> in base64.</p>
-</font>
+<p>And <br> <code>VGhpcyBIVyB3YXMgdG9vIGVhc3kgYmN0ZntHb19iMDFsZXJDVEZtYWtlcnMhfQ==</code> <br> at the end is <br> <code>This HW was too easy bctf{Go_b01lerCTFmakers!}</code> <br> in base64.</p>
 
-<font size="4">
-  <p><b>Flag: <code>bctf{Go_b01lerCTFmakers!}</code></b></p>
-</font>
+
+**Flag**: <code>bctf{Go_b01lerCTFmakers!}</code>
 
 <font size="4">
-  <p>During the CTF, we received a few comments that this challenge looked very guessy in the beginning, but at the end it was created very logically and actually not guessy at all. I will call this a win.</p>
+  <p>During the CTF, I received a few comments that this challenge looked very guessy initially, but at the end they could tell it was created very logically and it showed. I will call this a win.</p>
 </font>
 
 ### TeXnically...
 
 <center>
-<img src="/image/b01lersctf_2024/texnically.png">
+<img src="/images/b01lersctf_2024/texnically.png">
 <p></p>
 </center>
 
-<font size="4">
+
 <p>Apparently I cannot copy-paste the <code>server-dist.py</code> code directly here. Please click this link <a href="https://github.com/b01lers/b01lers-ctf-2024-public/blob/main/misc/texnically/dist/server-dist.py"><code>server-dist.py</code></a> instead.</p>
 
 <p>Though, the only crucial part on the <code>server-dist.py</code> file is this line:</p>
-{% highlight latex %}
+
+```latex
 \newif\iflong
-{% endhighlight %}
+```
 
 <p>The challenge description says "you can program with LaTeX!" and this line fits its vibe. This is how you define a Boolean variable in LaTeX. </p>
 
 <p>Anyway, let us try playing around with the server. Netcat into the server and type some random string like <code>\texttt{b01ler up!}</code> as suggested, we get this response:</p>
 
-</font>
+
 
 <center>
-<img src="/image/b01lersctf_2024/tex1.png">
+<img src="/images/b01lersctf_2024/tex1.png">
 <p></p>
 </center>
 
@@ -738,7 +744,7 @@ if __name__ == "__main__":
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/tex2.png">
+<img src="/images/b01lersctf_2024/tex2.png">
 <p></p>
 </center>
 
@@ -748,7 +754,7 @@ if __name__ == "__main__":
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/tex3.png">
+<img src="/images/b01lersctf_2024/tex3.png">
 <p></p>
 </center>
 
@@ -758,7 +764,7 @@ if __name__ == "__main__":
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/tex5.png">
+<img src="/images/b01lersctf_2024/tex5.png">
 <p></p>
 </center>
 
@@ -767,17 +773,16 @@ if __name__ == "__main__":
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/tex4.png">
+<img src="/images/b01lersctf_2024/tex4.png">
 <p></p>
 </center>
 
 <font size="4">
 <p>Voila.</p>
 </font>
-
-<font size="4">
-  <p><b>Flag: <code>bctf{WH47_Y0U_533_15_WH47_Y0U_G37,_L473X}</code></b></p>
-</font>
+<p>
+<b>Flag</b>: <code>bctf{WH47_Y0U_533_15_WH47_Y0U_G37,_L473X}</code>
+</p>
 
 <font size="4">
 <p>As expected, there were many different solutions to this challenge. There was one by Rev4184 who used the fact that the commands can be redefined with <code>renewcommand{}</code></p>
@@ -788,7 +793,7 @@ if __name__ == "__main__":
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/tex6.png">
+<img src="/images/b01lersctf_2024/tex6.png">
 <p></p>
 </center>
 
@@ -801,8 +806,8 @@ if __name__ == "__main__":
 </font>
 
 <center>
-<img src="/image/b01lersctf_2024/tex7.png">
-<img src="/image/b01lersctf_2024/tex8.png">
+<img src="/images/b01lersctf_2024/tex7.png">
+<img src="/images/b01lersctf_2024/tex8.png">
 <p></p>
 </center>
 
