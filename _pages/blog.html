@@ -3,8 +3,20 @@ layout: archive
 permalink: /blog/
 title: "Blog posts"
 author_profile: true
-mathjax: yes
 ---
+
+<ul class="taxonomy__index">
+  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for year in postsInYear %}
+    <li>
+      <a href="#{{ year.name }}">
+        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<a href="/tags/" style="color: steelblue; text-decoration: underline;text-decoration-style: dotted; text-decoration-thickness: 1px;">Click here to sort posts by tag.</a>
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
@@ -16,3 +28,4 @@ mathjax: yes
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
+

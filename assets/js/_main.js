@@ -88,6 +88,28 @@ $(document).ready(function () {
     offset: -75, // needs to match $masthead-height
     preventDefault: false,
   }); 
+  
+  // Auto scroll sticky ToC with content
+  const scrollTocToContent = function (event) {
+    var target = event.target;
+    var scrollOptions = { behavior: "auto", block: "nearest", inline: "start" };
+
+    var tocElement = document.querySelector("aside.sidebar__right.sticky");
+    if (!tocElement) return;
+    if (window.getComputedStyle(tocElement).position !== "sticky") return;
+
+    if (target.parentElement.classList.contains("toc__menu") && target == target.parentElement.firstElementChild) {
+      // Scroll to top instead
+      document.querySelector("nav.toc header").scrollIntoView(scrollOptions);
+    } else {
+      target.scrollIntoView(scrollOptions);
+    }
+  };
+  
+  // Has issues on Firefox, whitelist Chrome for now
+  if (!!window.chrome) {
+    document.addEventListener("gumshoeActivate", scrollTocToContent);
+  }
 
   // add lightbox class to all image links
   // Add "image-popup" to links ending in image extensions,

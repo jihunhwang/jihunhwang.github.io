@@ -1,31 +1,14 @@
 ---
 title: "Schauder Basis of Banach Spaces"
+modified: 2025-05-04
 date: 2025-04-09
 description: Schauder Basis of Banach Spaces
 tags: ['random-math']
-mathjax: yes
-toc: yes
-last_modified_at: 2025-05-04
+toc: true
+# toc_sticky: yes
 header:
     teaser: "https://preview.redd.it/axiom-of-choice-phobia-v0-p1ewm8rznxsc1.jpeg?width=640&crop=smart&auto=webp&s=358b2bf8bcb369d68bb6562f82c1fbe4e7d46bd5"
-header-includes:
-    - \usepackage{amsmath}
-    - \usepackage{amsthm}
-output:
-  pdf_document:
-    keep_tex: true
 ---
-
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        },
-    });
-</script>
-
-
 
 I was once asked this question on the spot in a Discord server, but I shamefully (I'll admit) gave a pretty bad answer to it. It was not a difficult or deep question, but I think it is worth spanning (pun intended) a blogpost.
 
@@ -35,29 +18,29 @@ The primary reference for this post is <a href="https://bookstore.ams.org/view?P
 
 ## TL;DR
 
-<font size="4">
-  <p>For our average impatient readers who just want to see the answer and call it a day, here is the summary of this post:</p>
-  <p><b>Q.</b> Does the set of vectors </p>
-  \[
+For our average impatient readers who just want to see the answer and call it a day, here is the summary of this post:
+
+**Q.** Does the set of vectors
+  $$
   \mathcal{E} = \{ (1,0,0,0,\dots), (0,1,0,0,\dots), (0,0,1,0,\dots), \dots \}
-  \] 
-  <p>span $\ell_p$ space where $p$ is finite?</p>
+  $$ 
+span $\ell_p$ space where $p$ is finite?
 
-  <p><b>A.</b> No. Counterexample: $(1,1/2,1/3,\dots) \in \ell_{p>1}$ but it is not a span of $\mathcal{E}$.</p>
-</font>
+**A.** No. Counterexample: $(1,1/2,1/3,\dots) \in \ell_{p>1}$ but it is not a span of $\mathcal{E}$.
 
-#### Wait, what?
 
-<font size="4">
-<p>I hope the TL;DR above was impactful enough to grab your attention. The sum $\sum_{n=1}^\infty 1/n$ diverges so clearly $(1,1/2,1/3,\dots) \notin \ell_{1}$, yet is $\in \ell_{p>1}$ by $p$-series test. Let $e_i = (0,\dots, 0,1,0,\dots)$ where the $1$ is in the $i$-th index and the rest are all zeroes so $\mathcal{E} = \{ e_i \}_{i \in \mathbb{N}}$, then</p>
-\[
+### Wait, what?
+
+
+I hope the TL;DR above was impactful enough to grab your attention. The sum $\sum_{n=1}^\infty 1/n$ diverges so clearly $(1,1/2,1/3,\dots) \notin \ell_{1}$, yet is $\in \ell_{p>1}$ by $p$-series test. Let $e_i = (0,\dots, 0,1,0,\dots)$ where the $1$ is in the $i$-th index and the rest are all zeroes so $\mathcal{E} = \{ e_i \}_{i \in \mathbb{N}}$, then
+$$
 \left( 1, \frac{1}{2}, \frac{1}{3}, \dots \right) = e_1 + \frac{1}{2} e_2 + \frac{1}{3} e_3 + \cdots = \sum_{n=1}^\infty \frac{1}{n} e_n
-\]
-<p>There seems to be no issues here! Why is $(1,1/2,1/3,\dots) \notin \mathrm{Span}(\mathcal{E})$?</p>
-</font>
+$$
+There seems to be no issues here! Why is $(1,1/2,1/3,\dots) \notin \mathrm{Span}(\mathcal{E})$?
 
 
-#### (Closed) Linear Span
+
+## (Closed) Linear Span
 
 <font size="4">
 <p> We need to remember here that $\ell_p$ is a vector space (again, Banach spaces are complete normed vector spaces). Bear with me and let us recite the axioms for vector spaces: $V$ is a (real) vector space if for all $f,g,h \in V$,</p>
@@ -96,7 +79,7 @@ One immediate instance is the commutativity (axiom 5); we learned in undergrad r
 <p>In any case, the key takeaway here is that the basis might contain infinitely many elements, but only finite linear combinations should be considered: 
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> Let $X$ be vector space over a field $\mathbb{F}$. A (<b>Hamel</b>) <b>basis</b> of $X$ is a subset $(e_i)_{i \in \mathcal{I}}$ in $V$ such that every $x \in X$ can be uniquely written as
 \[
 x = \sum_{i \in I} a_i e_i
@@ -122,7 +105,7 @@ In plain English: $\ell_p$ <i>is in the <b>closed linear span</b> of the standar
 </font>
 
 
-#### Introducing Schauder Basis
+## Introducing Schauder Basis
 
 <font size="4">
 
@@ -141,7 +124,7 @@ This might not sound like too big of a deal for some people, understandably so. 
 Most crucially, dealing with Hamel basis turns out to be a headache in general; we can prove that there (arguably) cannot exist an explicit procedure for constructing a Hamel basis for every Banach space:
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Theorem 1.</b> Let $X$ be an infinite-dimensional Banach space and $\mathcal{E}$ be its Hamel basis. Then $\mathcal{E}$ exists, and is uncountably infinite. 
 </p>
 
@@ -156,7 +139,7 @@ As one might have anticipated already (because the statement that every vector s
 We shall also use the Baire Category Theorem, because we want to express $X$ as a countable union of subspaces, after assuming for the sake of contradiction that $\mathcal{E}$ is countable. 
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Baire Category Theorem.</b> Let $X$ be a complete metric space and $\{X_n \}_{n \in \mathbb{N}}$ be a sequence of <i>closed subsets</i> in $X$ such that $X_n$ is <i>nowhere dense</i>, i.e. $\mathrm{Int}(X_n) = \emptyset$. Then,
 \[
 X \neq \bigcup_{n \in \mathbb{N}} X_n \;\; \textsf{ but } \;\; \mathrm{Int}\left( \bigcup_{n \in \mathbb{N}} X_n \right) = \emptyset
@@ -167,7 +150,7 @@ X \neq \bigcup_{n \in \mathbb{N}} X_n \;\; \textsf{ but } \;\; \mathrm{Int}\left
 For self-containedness' sake, let us formally define what nowhere dense means.
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> Let $X$ be a normed vector space and $W$ is a set in $X$. $W$ is said to be <b>nowhere dense</b> in $X$ if for any open ball $\| x - x_0 \| < r$ in $X$, there always exists an element in it which does not belong to $\overline{W}$ 
 (i.e. $\overline{W}$ contains no open balls). 
 </p>
@@ -203,7 +186,7 @@ For all these reasons, we introduce Schauder basis over just talking about the c
 </font>
 
 <font size="4">
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> Let $X$ be a Banach space. A <b>Schauder basis</b> is a sequence $(e_i)_{i \geq 1}$ in $X$ such that for all $x \in X$ there exists a unique sequence $(x_i)_{i \geq 1}$ in $\mathbb{R}$ such that
 \[
 x = \sum_{i=1}^\infty x_i e_i = \lim_{n \to \infty} \sum_{i=1}^n x_i e_i
@@ -220,7 +203,7 @@ It is clear from the definition that the standard basis $\mathcal{E} = (e_i)_{i 
 </font>
 
 
-##### Examples and non-examples
+### (Non-)examples
 
 <font size="4">
 <p>
@@ -271,7 +254,7 @@ While abstract nonsense is the most interesting thing in the world, it would not
 </p>
 </font>
 
-##### Schauder basis vs. inseparability
+### Inseparability
 
 <font size="4">
 <p>
@@ -282,11 +265,11 @@ The 'intuitive/trivial basis' of $C[0,1]$ turns out to be not a (Schauder) basis
 Interestingly, it turns out $\ell_\infty$ does not have a Schauder basis. Even more interestingly, $\ell_\infty$ is not separable, and every inseparable Banach space has no Schauder basis! We shall prove this by proving its contrapositive. 
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> A topological space $X$ is said to be <b>separable</b> if it contains a countable dense set; equivalently, $X$ is <b>separable</b> if there exists a sequence $(x_n)_{n \geq 1}$ such that every nonempty subset of $X$ contains at least one element in $(x_n)_{n \geq 1}$
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Theorem 2.</b> Let $X$ be a Banach space with a Schauder basis. Then $X$ is separable.
 </p>
 
@@ -331,7 +314,7 @@ This completes the proof. $\blacksquare$
 Now we shall show that $\ell_\infty$ is indeed not separable. This is one of my favorite proofs in functional analysis, because it reminds me of the proof of uncountability of $(0,1) \subseteq \mathbb{R}$. 
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Theorem 3.</b> $\ell_\infty$ is not separable.
 </p>
 
@@ -351,16 +334,16 @@ Then, $\| b - a^{(k)} \|_\infty \geq \lvert b_k - a_k^{(k)} \rvert \geq 1$ for a
 </font>
 
 
-##### Approximation property
+### Approximation property
 
 <font size="4">
 <p>One natural follow-up question is this: <i>Does every separable Banach space have a Schauder basis?</i> The answer turns out to be <i>no</i>, and it was proven by <a href="https://en.wikipedia.org/wiki/Per_Enflo">Enflo</a> in 1973. This is where it starts:</p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Theorem 4.</b> Let $X$ and $Y$ be Banach spaces, $(T_n \colon X \to Y)_{n \geq 1}$ be a sequence of finite rank operators, and $T \colon X \to Y$ be an operator such that $\| T_n - T \| \to 0$ as $n \to \infty$. Then $T$ is a compact operator. 
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> Let $X$ and $Y$ be normed vector spaces. A linear operator $T \colon X \to Y$ is said to be of <b>finite rank</b> if its range is finite-dimensional. And it is called a <b>compact operator</b> if for every bounded sequence $(x_n)_{n \geq 1}$ (i.e. for some constant $C$, $\| x_n \| \leq C$ for all $n$), the sequence $( T x_n )_{n \geq 1}$ has a subsequence that converges in $Y$. 
 </p>
 
@@ -411,11 +394,11 @@ then clearly $P_n$ is finite rank (because $P_n(X)$ is finite dimensional) and $
 This is called the <i>approximation property</i> of Banach space, and in fact, one can prove that a Banach space with a Schauder basis has the approximation property.
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Definition.</b> Let $X$ be a Banach space. $X$ is said to have the <b>approximation property</b> if for every compact set $K \subseteq X$ and $\varepsilon > 0$, there exists a finite-rank operator $T$ such that $\| Tx - x\| < \varepsilon$ for all $x \in K$.
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b>Proposition.</b>
 If a Banach space has a Schauder basis, then it has the approximation property.
 </p>
@@ -424,7 +407,7 @@ If a Banach space has a Schauder basis, then it has the approximation property.
 However, <a href="https://en.wikipedia.org/wiki/Per_Enflo">Enflo</a> gave an explicit construction of a Banach space $X$ such that the identity operator $I_X$ cannot be approximated with other finite (lower) rank operator $T_n$.
 </p>
 
-<p style="border: 2px solid black; padding: 10px;">
+<p style="border: 2px solid; padding: 10px;">
 <b><a href="https://projecteuclid.org/journals/acta-mathematica/volume-130/issue-none/A-counterexample-to-the-approximation-problem-in-Banach-spaces/10.1007/BF02392270.full">Theorem (Enflo)</a>.</b> There exists a separable, reflexive Banach space $X$ with a sequence of its finite dimensional subspace $X_n$ such that $\dim(X_n) \to \infty$ as $n \to \infty$, and a constant $C$ such that for all finite rank operator $T$, $\| T - I_X \|$ over $X_n$ (the operator norm with supremum taken over $X_n$) does not converge to $0$ as $n \to \infty$.
 </p>
 
@@ -442,7 +425,7 @@ For his contribution, Enflo was awarded a live goose from Mazur. This story is o
 </font>
 
 <center>
-<img src="https://media.discordapp.net/attachments/1089916024784175236/1184168706616602665/image.png?ex=6818e60c&is=6817948c&hm=2eecb79f5ff80ddf88ad90cb3cdd4c842ba7c2250b6a6085090b978e88690e57&=&format=webp&quality=lossless&width=369&height=619">
+<img src="/images/etc/enflo_goose.png">
 </center>
 
 <font size="4">

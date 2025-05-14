@@ -29,7 +29,7 @@ header:
 </font>
 
 <center>
-<img src="/image/etc/trigonity_chaldesc.png" width="70%" height="70%">
+<img src="/images/etc/trigonity_chaldesc.png" width="70%" height="70%">
 <p></p>
 </center>
 
