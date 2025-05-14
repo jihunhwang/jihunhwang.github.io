@@ -4,11 +4,20 @@ modified: 2025-05-04
 date: 2025-04-09
 description: Schauder Basis of Banach Spaces
 tags: ['random-math']
-toc: true
+toc: yes
 # toc_sticky: yes
 header:
     teaser: "https://preview.redd.it/axiom-of-choice-phobia-v0-p1ewm8rznxsc1.jpeg?width=640&crop=smart&auto=webp&s=358b2bf8bcb369d68bb6562f82c1fbe4e7d46bd5"
 ---
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [["$", "$"], ["\\(", "\\)"]],
+            processEscapes: true
+        }
+    });
+</script>
 
 I was once asked this question on the spot in a Discord server, but I shamefully (I'll admit) gave a pretty bad answer to it. It was not a difficult or deep question, but I think it is worth spanning (pun intended) a blogpost.
 
