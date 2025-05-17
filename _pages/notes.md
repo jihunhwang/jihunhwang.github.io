@@ -114,7 +114,6 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 
 <ul>
  
-
 <li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst on Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>
 
@@ -129,22 +128,17 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 <li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by <a href="https://ricerca.mat.uniroma3.it/users/lschaffler/">Luca Schaffler</a> from UMass Amherst at the <a href="https://www.math.umass.edu/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
 </li>
 
-<!-- 
-
--->
-
 </ul>
-</font>
 </details>
 
 
-  <!--
-    CSS snippet that switchs the summary text of an expandable section depending on its state. Essentially, this script makes a <details> element whose <summary> text toggles between "Click to expand" and "Click to collapse" as it expands and collapses.
-    
-    sources: 
-    https://stackoverflow.com/questions/56758098/how-to-position-detail-marker-to-come-after-summary
-		https://stackoverflow.com/questions/49924024/how-to-properly-position-the-arrow-in-details-css
-    -->
+<!--
+  CSS snippet that switchs the summary text of an expandable section depending on its state. Essentially, this script makes a <details> element whose <summary> text toggles between "Click to expand" and "Click to collapse" as it expands and collapses.
+  
+  sources: 
+  https://stackoverflow.com/questions/56758098/how-to-position-detail-marker-to-come-after-summary
+	https://stackoverflow.com/questions/49924024/how-to-properly-position-the-arrow-in-details-css
+  -->
 
 <!-- // Testing to make sure it works
 <details>
