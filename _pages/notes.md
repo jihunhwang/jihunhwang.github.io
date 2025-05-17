@@ -15,11 +15,15 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 
 ## Courses Took at Purdue
 <details open>
-<summary>Click to collapse</summary>
+<summary></summary>
 <p></p>
 <p>Roughly, Purdue adopts the following course numbering system: 100-499 Undergraduate and <b>500-699 Graduate</b>. Some 400-levels are often cross-listed and open to both undergrads and graduate students. See <a href="https://www.purdue.edu/registrar/documents/currentStudents/students/preBannerTranscriptKey.pdf">this</a> for more details.</p>
 
 <ul>
+
+<li>Spring 2025, <a href="https://drive.google.com/file/d/1YxuXcQalpJcAQJt7y6is1SSpB8MJ9Csy/view?usp=sharing">MA 454 Galois Theory</a>
+	
+</li>
 
 <li>Fall 2024, <a href="https://drive.google.com/file/d/1GYO9-ZZowy_iI5M-YyyhFuD2dg9bMLNS/view?usp=sharing">MA 595SP Additive Combinatorics: Sum-Product Phenomenon</a>
 </li>
@@ -38,8 +42,8 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 
 ## Courses Took at UMass
 <details>
-		<summary><font size="4">Click to expand</font></summary>
-<font size="4">
+		<summary></summary>
+
 <p></p>
 <p>
 Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, <b>500-699 Master's</b>, and <b>600-899 Doctoral</b>. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
@@ -64,14 +68,13 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 <li>Spring 2017, <a href="https://drive.google.com/open?id=1IjVn1H4pVxuKUGNgjZ6TRT2dxyS-z0Jl">MATH 563H Differential Geometry</a></li>
 
 </ul>
-</font>
 </details>
 
 ## Courses TAed at UMass
 <details>
-	<summary><font size="4">Click to expand</font></summary>
+	<summary></summary>
 <p></p>
-<font size="4">
+
 <ul>
 
 <li>Spring 2021, <a href="https://drive.google.com/file/d/19mo8aIlcgKCk8apulDjb9nG9XjZWvyoy/view?usp=sharing">MATH 523H Undergraduate Real Analysis</a>: Problems selected by Professor <a href="https://www.math.umass.edu/directory/faculty/franz-pedit">Franz Pedit</a> and solutions created/gathered and typed by myself.
@@ -86,11 +89,10 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 <li>Spring 2018, <a href="https://drive.google.com/file/d/1kPq84MlS1eCzRC-WBtKCgWoWHFrlzqps/view?usp=sharing">MATH 421 Undergraduate Complex Analysis</a>: Created jointly with Professor <a href="https://www.umass.edu/mathematics-statistics/about/directory/william-meeks">William Meeks</a> (typed, selected materials, wrote homework problems, etc.).</li>
 
 </ul>
-</font>
 </details>
 
 <!--
-###### Courses Audited
+###### Courses Audited at UMass
 
 <details>
 		<summary><font size="4">Coming soon!</font></summary>
@@ -105,9 +107,8 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 ## Talks Attended 
 
 <details>
-		<summary><font size="4">Click to expand</font></summary>
-<p></p>
-<font size = "4"> 
+	<summary></summary>
+	<p></p>
 	<p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. These were all reproduced after the talks, using my own understandings.
 	</p> 
 
@@ -135,3 +136,28 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </ul>
 </font>
 </details>
+
+
+  <!--
+    CSS snippet that switchs the summary text of an expandable section depending on its state. Essentially, this script makes a <details> element whose <summary> text toggles between "Click to expand" and "Click to collapse" as it expands and collapses.
+    
+    sources: 
+    https://stackoverflow.com/questions/56758098/how-to-position-detail-marker-to-come-after-summary
+		https://stackoverflow.com/questions/49924024/how-to-properly-position-the-arrow-in-details-css
+    -->
+
+<!-- // Testing to make sure it works
+<details>
+  <summary></summary>
+  <p>Hidden content goes here.</p>
+</details>
+-->
+
+<style>
+summary::after {
+  content: " Click to expand";
+}
+details[open] summary:after {
+  content: " Click to collapse";
+}
+</style>

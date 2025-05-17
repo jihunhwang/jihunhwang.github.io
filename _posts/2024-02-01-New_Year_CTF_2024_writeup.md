@@ -17,7 +17,6 @@ modified: 2024-04-11
     });
 </script>
 
-<font size="4">
 
 <p> 
 b01lers did not play any CTF as a group over the winter break (we technically played one, but it was right before New Year's Eve, and so almost no one played it) until late January. I was looking for something that I could practice on my own, just as I did with UWSP CTF.
@@ -34,7 +33,7 @@ We plan to conduct CTF for almost two weeks - from January 3 to January 14). Due
 </font></blockquote>
 
 <p>A CTF commemorating cultures and traditions? Yes please!</p>
-</font>
+
 
 ## nanoRSA
 
@@ -43,17 +42,17 @@ We plan to conduct CTF for almost two weeks - from January 3 to January 14). Due
 <p></p>
 </center>
 
-<font size="4">
-{% highlight text %}
+
+```
 ## rsa.txt
 e = 1
 c = 9908255308151638808626355523286556242109836830117153917
 n = 245841236512478852752909734912575581815967630033049838269083
-{% endhighlight %}
+```
 
 <p>As \(e = 1\), the \(c\) here actually is not a ciphertext but the plaintext itself.</p>
 
-{% highlight python %}
+```
 ## sol.py
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 
@@ -63,14 +62,13 @@ n = 245841236512478852752909734912575581815967630033049838269083
 
 print(long_to_bytes(c))
 ## b'grodno{R3sTcD4gH6iJ0kL}'
-{% endhighlight %}
+```
 
 <p>Definitely the weirdest chal I have ever seen, haha.</p>
-</font>
 
-<font size="4">
-  <p><b>Flag: <code>grodno{R3sTcD4gH6iJ0kL}</code></b></p>
-</font>
+
+
+**Flag**: <code>grodno{R3sTcD4gH6iJ0kL}</code>
 
 ## As a programmer ...
 
@@ -79,9 +77,8 @@ print(long_to_bytes(c))
 <p></p>
 </center>
 
-<font size="4">
 <details>
-<summary><font size="4"><code>code_RSA.py</code> (Click to expand)</font></summary>
+<summary><code>code_RSA.py</code> (Click to expand)</summary>
 {% highlight python %}
 from Crypto.Util.number import getPrime , bytes_to_long , GCD
 import random
@@ -132,12 +129,12 @@ print(f"c = {c}")
 </details>
 <p></p>
 <p>Here are two lines that are worth reading carefully:</p>
-{% highlight python %}
+```python
 s = pow_m(p, pow_m(q, a_, c_ * (p - 1) * (q - 1)), n)
 t = pow_m(q, pow_m(p, b_, d_ * (p - 1) * (q - 1)), n)
-{% endhighlight %}
+```
 <p>Function <code>pow_m</code> may look new at first sight, but it is actually the same as <code>pow</code> function. The only thing it does differently is representing the power in base-2, but as we all know that should not make any difference because the number itself does not change.</p>
-{% highlight python %}
+```python
 def pow_m(base, degree, module):
     degree = bin(degree)[2:]
     r = 1
@@ -145,32 +142,39 @@ def pow_m(base, degree, module):
         r = (r * base ** int(degree[i])) % module
         base = (base ** 2) % module
     return r
-{% endhighlight %}
+```
 <p>So for example, <code>pow_m(5,7,100)</code> computes \(5^7 \text{ mod } 100\) but it converts the power $7$ into its binary representation $111_{(2)}$ within the function, and then computes $5^{111_{(2)}} \text{ mod } 100$.</p>
 
 <p>Hence, $s$ and $t$ are:</p>
+
+$$
 \begin{align*}
 s & = p^{q^a \text{ mod } c\phi(n)} \mod n \\
 t & = q^{p^b \text{ mod } d\phi(n)} \mod n
 \end{align*}
-<p>Since $n = pq$, we have $s$ and $t$ are multiple of $p$ and $q$ respectively because $s = p^{(\cdots)} - k pq = p(\cdots)$ for some integer $k$, and similarly for $t$ as well. </p>
+$$
+
+<p>Since $n = pq$, we have $s$ and $t$ are multiple of $p$ and $q$ respectively, because $$s = p^{(\cdots)} - k pq = p(\cdots)$$ for some integer $k$, and similarly for $t$ as well. </p>
 
 <p>I don't know if this was intended, but I noticed that $s$ and $t$ are actually primes.</p>
-{% highlight python %}
+
+```python
 s = 9679603728276260450163332348967772341039656114836199341829623928424883179482998295442569610750090617263140422489655203690606051598227889033133696824561049
 t = 7544882607176903318920087402887255144232202298941096774820758222068650540914461606464972583857391951228165370888600203959000417894282048977659598507065283
 is_prime(s) # True
 is_prime(t) # True
-{% endhighlight %}
+```
 
 <p>which suggests that $s = p$ and $t = q$. In fact, it turns out that $st = n$, so our claim is actually correct.</p>
-{% highlight python %}
+
+```python
 p_cand = s
 q_cand = t
 print(p_cand * q_cand == n) # True
-{% endhighlight %}
+```
 <p>So we are left with finding $d = e^{-1} \text{ mod } \phi(n)$, but such a $d$ apparently does not exist. But this is not a big deal. Since $e = 3$ is very small, we can just take the cube root of $c$. </p>
-{% highlight python %}
+
+```python
 phi_n = (p_cand - 1) * (q_cand - 1)
 # This one doesn't work. d doesn't exist!
 # d = e.inverse_mod(phi_n)
@@ -179,18 +183,15 @@ phi_n = (p_cand - 1) * (q_cand - 1)
 m = c.nth_root(3)
 print(long_to_bytes(int(m)))
 # b'grodno{Sm4ll_e_1s_e4sy_t0_br3ak}'
-{% endhighlight %}
-</font>
+```
 
-<font size="4">
-  <p><b>Flag: <code>grodno{Sm4ll_e_1s_e4sy_t0_br3ak}</code></b></p>
-</font>
+**Flag**: <code>grodno{Sm4ll_e_1s_e4sy_t0_br3ak}</code>
 
-<font size="4">
+
 <p>For completeness, the full solution script is provided below:</p>
 
 <details>
-<summary><font size="4"><code>sol.py</code> (Click to expand)</font></summary>
+<summary><code>sol.py</code> (Click to expand)</summary>
 {% highlight python %}
 ## sol.py
 from Crypto.Util.number import long_to_bytes
@@ -214,7 +215,7 @@ print(long_to_bytes(int(m)))
 ## b'grodno{Sm4ll_e_1s_e4sy_t0_br3ak}'
 {% endhighlight %}
 </details>
-</font>
+
 
 
 ## Two Points Again
@@ -224,21 +225,19 @@ print(long_to_bytes(int(m)))
 <p></p>
 </center>
 
-<font size="4">
 
 <p>The <code>output_badRSA1.txt</code> file contains $N$, $e$, and $c$ as usual and <code>He_chose_the_wrong_parameters_for_RSA.jpg</code> file is some depressing-looking picture.</p>
-</font>
+
 
 <center>
 <img src="/images/newyear_2024/He_chose_the_wrong_parameters_for_RSA.jpg" width="70%" height="70%">
 <p></p>
 </center>
 
-<font size="4">
 
 <p>I honestly have no idea what it is supposed to be about because I managed to solve it without using that picture.</p>
 
-{% highlight python %}
+```python
 ## sol.py
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 
@@ -252,13 +251,10 @@ m = pow(c, d, N)
 print(long_to_bytes(int(m)))
 ## b'By harnessing the grodno{m@thematical_pr0perties_0f_l@rge_prime_numb3rs}, RSA provides a robust and efficient method for encrypting and decrypting information.'
 
-{% endhighlight %}
+```
 
-</font>
+**Flag**: <code>grodno{m@thematical_pr0perties_0f_l@rge_prime_numb3rs}</code>
 
-<font size="4">
-  <p><b>Flag: <code>grodno{m@thematical_pr0perties_0f_l@rge_prime_numb3rs}</code></b></p>
-</font>
 
 ## 39 Bob's Friends
 
@@ -267,8 +263,7 @@ print(long_to_bytes(int(m)))
 <p></p>
 </center>
 
-<font size="4">
-{% highlight python %}
+```python
 ## 39_letters.py
 from Crypto.Util.number import getPrime, bytes_to_long
 
@@ -279,13 +274,13 @@ n = [getPrime(1024) * getPrime(1024) for i in range(e)]
 c = [pow(m, e, n[i]) for i in range(e)]
 
 open("all_letters.txt", 'w').write(f"e = {e}\nc = {c}\nn = {n}")
-{% endhighlight %}
+```
 
 <p>The above code snippet is <code>39_letters.py</code>, and <code>all_letters.txt</code> is the output of it. So, there are 39 ciphertexts of the same plaintext and encryption key but different modulus $n$.</p>
 
 <p>Looks like Hastad Broadcast attack could work. Let us first make sure that $n$'s are all coprime.</p>
 
-{% highlight python %}
+```python
 for n1 in n:
     for n2 in n:
         if n1 == n2:
@@ -294,35 +289,32 @@ for n1 in n:
             if gcd(n1, n2) != 1:
                 print("Not all are coprime!")
                 break
-{% endhighlight %}
+```
 
 <p>It looks like they all are -- good! Now using the Chinese Remainder Theorem (CRT), we can compute $c' \mod n_1 n_2 \cdots n_{39}$ such that</p>
+
+$$
 \begin{align*}
 c' & \equiv c_1 \quad (\text{mod } n_1) \\
 c' & \equiv c_2 \quad (\text{mod } n_2) \\
 & \vdots \\
 c' & \equiv c_{39} \quad (\text{mod } n_{39})
 \end{align*}
+$$
 
 <p>And then, since $e = 39$ is pretty small, we can just have Sagemath compute the 39-th root and hope for the best. This is worth trying because we don't know the factors of $n_i$'s.</p>
 
-{% highlight python %}
+```python
 c_prime = crt(c, n)
 m = c_prime.nth_root(e)
 print(long_to_bytes(int(m)))
 ## b'grodno{I_s3nd_y0u_gr33t1ngs,_long-no5ed_b4rb@rian!}'
-{% endhighlight %}
-</font>
-
-<font size="4">
-  <p><b>Flag: <code>grodno{I_s3nd_y0u_gr33t1ngs,_long-no5ed_b4rb@rian!}</code></b></p>
-</font>
-
-<font size="4">
+```
+**Flag**: <code>grodno{I_s3nd_y0u_gr33t1ngs,_long-no5ed_b4rb@rian!}</code>
 <p>For completeness, the full solution script is provided below:</p>
 
 <details>
-<summary><font size="4"><code>sol.py</code> (Click to expand)</font></summary>
+<summary><code>sol.py</code> (Click to expand)</summary>
 {% highlight python %}
 ## sol.py
 from Crypto.Util.number import getPrime, bytes_to_long, long_to_bytes
@@ -345,7 +337,7 @@ print(long_to_bytes(int(m)))
 ## b'grodno{I_s3nd_y0u_gr33t1ngs,_long-no5ed_b4rb@rian!}'
 {% endhighlight %}
 </details>
-</font>
+
 
 ## Speeding up RSA
 
@@ -354,9 +346,8 @@ print(long_to_bytes(int(m)))
 <p></p>
 </center>
 
-<font size="4">
 
-{% highlight python %}
+```python
 ## FastRSA.txt
 from Crypto.Util.number import getPrime, isPrime, bytes_to_long
 from random import shuffle, randint
@@ -379,22 +370,25 @@ ciphertext = pow(flag, e, n)
 print(f"n = {n}")
 print(f"e = {e}")
 print(f"ciphertext = {ciphertext}")
-{% endhighlight %}
+```
 
 
 <p>This is a Python code, I don't know why it is saved as a txt file :/</p>
 
 <p>Anyway, <code>FastRSA.txt</code> tells us that $p$ and $q$ are quite close, namely $p < q < p+100$, which we can solve as follows:</p>
+
+$$
 \begin{align*}
 p < q < p + 100 
 & \implies p^2 < pq = n < p^2 + 100p \\
 & \implies p < \sqrt{n} < \sqrt{n^2 + n}
 \end{align*}
+$$
 
 <p>So, we can first sample a prime less than $\sqrt{n}$, divide $n$ with it, and test whether the result is also prime, yet the difference is within $100$. Surprisingly, the largest prime less than $\sqrt{n}$ (which can be found as <code>previous_prime(floor(x))</code> in Python) turns out to be a divisor of $n$, kindly allowing us not to have to go through multiple rounds of trial-and-errors!</p>
 
 
-{% highlight python %}
+```python
 from Crypto.Util.number import getPrime, isPrime, bytes_to_long, long_to_bytes
 
 n = 68022741432432659084802752907723896845807597528827093397040482890296955569957917533647208679014132848196640022782537553867867116789555103992690960043358529714577060390999199352850076508734027336995147674705206553971423041116507591767092936323207651404971678259040137037188349250850647087365720392427587716357
@@ -415,13 +409,8 @@ d = e.inverse_mod(phi_n)
 m = pow(ciphertext, d, n)
 print(long_to_bytes(int(m))) 
 ## b'grodno{Ofru*YgePg8h}'
-{% endhighlight %}
-</font>
-
-<font size="4">
-  <p><b>Flag: <code>grodno{Ofru*YgePg8h}</code></b></p>
-</font>
-
+```
+**Flag**: <code>grodno{Ofru*YgePg8h}</code>
 ## RSA. Don't you see?
 
 <center>
@@ -429,17 +418,16 @@ print(long_to_bytes(int(m)))
 <p></p>
 </center>
 
-<font size="4">
 
 <p>This probably was my second least favorite chal.</p>
 
 <p><code>bad_key_RSA7.txt</code> contains modulus $n$ and ciphertext $c$.</p>
 
-{% highlight python %}
+```python
 ## FastRSA.txt
 n = 510455968498862752142013731579474328723310777296251103995720014690922544772970221326609943932666933884583779989279749751965065759326718241861261266118931632314278216558197999744401997064607812611656202982537707422336316278240818112605133350665090469282358420767497684038370214831241610948332950200948893154418227177756661105178181344918831905709071807822815920145833475947583975940930708656865134570100826908846882042480273905993605262506238894653889076488054769060548390264030368213974838640283290652810034721062024772512570469656593296183132887893008387954382307012480402982539766107913546246342536372712823848005080430374027732201643609667812026739871057278001851403896353883323140311508803529006106549270303682588173140904015031303721807528619688027406527232487050011016079831657471193756667793724441364661954794745690554595751283917370080658925469370380727815766735405592012955326943595828938713062234746000895077621037608721684995119817829484718653817230220705751287420365781471942393843166891317525257821901962245090503999770832372884893224189945428758494073216783176892424245758369646363325179308507434383283640229263136296101396815852592981728133820291727435434173738862100819440625756334619060411057040087732583209603106650509993277189670378133215245690678106477277633362769064603979510781409762235829530175058778095982186310999563997968042998587278325447511129924286555795264462773734226498045541962580476621356090136504314596552452013121685061373469857477073805740867028448268443972695736905371988108610381428537873504771426161043127036299220264496866932405323908848839098360231461768903038258186478712005777780041606910730043539001228290271381595228100424427247479313848996067119856933463904530738266923484015939440490383017021789690413905437661284762742673909462218623073915597832399887644502779555022245760357198611534125609390567760580946179110263015926341677522153296600234195258663133107810476321446293325720989139998505352336490794509096366318974917903790909095308400678705082307448439651342933203683211220006159444557921006752617792409868741054755642124403082575553056416560150393879360813285957295794522756798177134654677518050479567582642692122853242389362860671141734035679201354670378865192887096975058036154819057923758044248841912696220411199154448555418294647711081902386844160478032141479071012268929133154462253116123338321383889967758974217473298926308739099841117520373845644945058295972634625329709675667497065410925495130269882523507
 c = 146191992513246362469507704007583693878019668405112522434911516253897250863564984597502119212030542733240884634727607094051644988000371061167046076333035170258569378315089526140301960546749921731405886181318781589070874855288644318994081011862448500882176793820654331181792725059180024358540975190199239355030050554843485368434873252779289350203984223248843741661015758452258454711183342915926826470953793097295187270157574352590083347620756837006702652224468440461390408764820318857423862757287894502424794108994242765807437302875671703409225533491419983884889187539685536993337825182665553664889009910421535551727817328796926973615135952284983962338591255274394713205663577280389714423036732807416048296721177841516090446642609898509936030583184449262932434371025684043715748591270141139404342719082255845746904063234079151421242737516426820631107635564101471481703690740771977770299935664223033324972107308225574043263600523027644072208042951082226524195927434141678229967397193267969519691477229896804777542037308265803982451500287490173430299183788034036630885563720426543493038308837226297161620483490688118616912687406119854625466739572707081021141379403692566538617619349196628880991899189160253188197361086687625067108099589867715155511594230501980229866087983639664181917072288745344286526893180632809747290366617411413214567287911361246947758885723761297732171318229199138290975135908385825468275755860842078088991004706664332947073131545716673449119648202529785484100747417496022257588619870489887983811642162265016298539495576653063474402471625911423596708968640071272267843041692972557634311023902678207332392991620539330192731805730024190561956257671227971511704915376259931611983251839476812339073276851362557221748175411112090575001845291274436480893145416887304425699546900018980380483932834041147311814295978324353531302933018286315592594086089933639954151713470691045218438547455727127045177566679338154853805948333367100928698494950018394825821209720037145786375735666562089611447195387615418387417717680311902983589536196637143290373
-{% endhighlight %}
+```
 
 
 <p>Running <code>print(len(bin(n)))</code> and <code>sp.isprime(n)</code>, we can find out that $n$ is a 8191-bit composite number. Wow! My computer won't stand a chance of factoring it. </p>
@@ -447,22 +435,22 @@ c = 1461919925132463624695077040075836938780196684051125224349115162538972508635
 <p>So, yes, $n$ is massive, and yes, trying to factor it yourself could melt your RAM (of your computer or your brain), but because $n$ is massive, $c$ seems very small compared to $n$. This means there is a possibility that $m$ is, like, very, very small.</p>
 
 <p><a href="http://factordb.com/">Factordb</a> says $c$ is a power of $43$, <a href="http://factordb.com/index.php?query=146191992513246362469507704007583693878019668405112522434911516253897250863564984597502119212030542733240884634727607094051644988000371061167046076333035170258569378315089526140301960546749921731405886181318781589070874855288644318994081011862448500882176793820654331181792725059180024358540975190199239355030050554843485368434873252779289350203984223248843741661015758452258454711183342915926826470953793097295187270157574352590083347620756837006702652224468440461390408764820318857423862757287894502424794108994242765807437302875671703409225533491419983884889187539685536993337825182665553664889009910421535551727817328796926973615135952284983962338591255274394713205663577280389714423036732807416048296721177841516090446642609898509936030583184449262932434371025684043715748591270141139404342719082255845746904063234079151421242737516426820631107635564101471481703690740771977770299935664223033324972107308225574043263600523027644072208042951082226524195927434141678229967397193267969519691477229896804777542037308265803982451500287490173430299183788034036630885563720426543493038308837226297161620483490688118616912687406119854625466739572707081021141379403692566538617619349196628880991899189160253188197361086687625067108099589867715155511594230501980229866087983639664181917072288745344286526893180632809747290366617411413214567287911361246947758885723761297732171318229199138290975135908385825468275755860842078088991004706664332947073131545716673449119648202529785484100747417496022257588619870489887983811642162265016298539495576653063474402471625911423596708968640071272267843041692972557634311023902678207332392991620539330192731805730024190561956257671227971511704915376259931611983251839476812339073276851362557221748175411112090575001845291274436480893145416887304425699546900018980380483932834041147311814295978324353531302933018286315592594086089933639954151713470691045218438547455727127045177566679338154853805948333367100928698494950018394825821209720037145786375735666562089611447195387615418387417717680311902983589536196637143290373">in particular</a>:</p>
-\[
+
+$$
 c = (590578 \cdots 663997)^{43}
-\]
+$$
+
 <p>and we know that 43 is a prime. So it is likely that, $e = 43$ and $m$ is whatever inside the parentheses? Well, one can only try it out!</p>
-{% highlight python %}
+
+```python
 print(long_to_bytes(590578037986257002656994110209456873232307663997))
 # b'grodno{1rt46te362y4}'
-{% endhighlight %}
+```
 
 <p>Turns out that indeed was the case. I feel like this chal was kind of too guessy... but whatever.</p>
 
-</font>
+**Flag**: <code>grodno{1rt46te362y4}</code>
 
-<font size="4">
-  <p><b>Flag: <code>grodno{1rt46te362y4}</code></b></p>
-</font>
 
 ## Like a simple RSA
 
@@ -471,12 +459,11 @@ print(long_to_bytes(590578037986257002656994110209456873232307663997))
 <p></p>
 </center>
 
-<font size="4">
 
 <p>This was my least favorite chal.</p>
 
 
-{% highlight python %}
+```python
 ## Asim_en.py
 from random import randint
 
@@ -502,16 +489,16 @@ def encrypt(m, public_key):
 def decrypt(c, public_key, private_key):
     m = (c * private_key) % public_key[0]
     return m
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 ## Asim_en_data.txt
 h = 8470387347298476177456807592234800305223146039241805029722152502623609066137655800632000167660507958129073278126249206662322559690599099900670113252751054479281818630329178438136876189437058031446326100810231155131782952040600724
 
 f = 6416887830534433629567050229667684734973282397714251811755752025377169146409477365161229363756766441347368380751372023179641944107478195964183801916988232697767349642657617
 
 C =  4501577816736015596060497850546201260925821617971707200151522683849342994222685636584343269899367495933875369681542486925080096048706520947165012158736670485935607004216130611982263313862618848808033812929735326651289123228929207
-{% endhighlight %}
+```
 
 <p>I think <code>C</code> is a typo of <code>c</code> in <code>Asim_en_data.txt</code>.</p>
 
@@ -520,16 +507,16 @@ C =  450157781673601559606049785054620126092582161797170720015152268384934299422
 
 <p>But the thing is, $c = (m \cdot f) \mod h$ and we are given $f$ and $g$ in the <code>Asim_en_data.txt</code> file. Why is this "the thing"? Well, that's all you need!</p>
 
-{% highlight python %}
+```python
 g = pow(f, -1, h)
 m = (C * g) % h
 print(long_to_bytes(m)) 
 # b'}syek_owt_sesu_noitpyrcne_cirtemmysA{ondorg'
-{% endhighlight %}
+```
 
 <p>At first sight, this looks like gibberish, and you might think that this is not the answer and you did something wrong. But it actually is, you just have to flip it.</p>
 
-{% highlight python %}
+```python
 m_bytes = long_to_bytes(m)
 flipped_m = ['0'] * len(m_bytes)
 for i in range(0, len(m_bytes)):
@@ -538,15 +525,12 @@ for i in range(0, len(m_bytes)):
 flipped_m_string = b''.join([long_to_bytes(byte) for byte in flipped_m])
 print(flipped_m_string)
 # b'grodno{Asymmetric_encryption_uses_two_keys}'
-{% endhighlight %}
+```
 
 <p>Obfuscation is certainly a valid direction of making challenges, but this was neither interesting nor inspirational. I also don't think it is the most efficient way. But I might be misunderstanding the true intention behind it, so let's just leave it at that.</p>
 
-</font>
+**Flag**: <code>grodno{Asymmetric_encryption_uses_two_keys}</code>
 
-<font size="4">
-  <p><b>Flag: <code>grodno{Asymmetric_encryption_uses_two_keys}</code></b></p>
-</font>
 
 ## Tabular integral
 
@@ -555,11 +539,10 @@ print(flipped_m_string)
 <p></p>
 </center>
 
-<font size="4">
 
 <p>This is a continuation of <a href="#as-a-programmer-">As a programmer...</a> chal. The modulus $n$ is the same as well.</p>
 
-{% highlight python %}
+```python
 ## code-1_RSA.py
 from Crypto.Util.number import getPrime , bytes_to_long , GCD
 import random
@@ -604,21 +587,21 @@ c = pow(m, RSA_E, n)
 print(f"e = {RSA_E}")
 print(f"n = {n}")
 print(f"c = {c}")
-{% endhighlight %}
+```
 
-{% highlight python %}
+```python
 ## output-1_RSA.txt
 result = 20117592692127098588753437379069003348613839573307328479253068975449684582657055021953308835068569396945974471202929298236980403722500726250752177385185136
 e = 65535
 n = 100453988882542992490998347280864651674523730326071992099923705624297492995724040273435666400892240650403709184653269170214775367155421267297513519983583974127607248712584793703291706765449984242862266005990641621934762324500510163811305939549791463415426045133627623936872711576456064088395298011550598173543
 c = 646098991936071165618855133467386214077692769952480307735059513755382001181137258371601655593121675955747317908533063393507780027839742582377329066259567529884707434560746088580480291482009810109491307087053030796747330057377805082208943141866814111327643950041391371422557114240842804177952921952124237052
-{% endhighlight %}
+```
 
 <p>Now we are given a new value called <code>result</code>. Based on our analysis from <a href="#as-a-programmer-">As a programmer...</a>, given that $n$ is the same, we can guess that <code>result</code> now is $p+q$, its multiple, or $(p+q) + nk$, or some sort.</p>
 
 <p>Running <code>print(len(bin(result)))</code> tells us that <code>result</code> is a 513-bit integer, so it is a sum of two 512-bit integers. Given that it is much smaller than $n$ and its GCD with $n$ is $1$, we can guess confidentially (?) that <code>result</code> is actually equal to $p+q$. Let's try it.</p>
 
-{% highlight python %}
+```python
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 
 result = ...
@@ -632,14 +615,12 @@ d = e.inverse_mod(phi_N)
 m = pow(c, d, n)
 print(long_to_bytes(int(m)))
 # b'grodno{Rem3mber_Euler"s_the0rem_and_1ts_con5equenc3s}'
-{% endhighlight %}
+```
 
 <p>At this point, I am not sure if this was the intended solution (also if my solution for <a href="#as-a-programmer-">As a programmer...</a> was).</p>
-</font>
 
-<font size="4">
-  <p><b>Flag: <code>grodno{Rem3mber_Euler"s_the0rem_and_1ts_con5equenc3s}</code></b></p>
-</font>
+**Flag**: <code>grodno{Rem3mber_Euler"s_the0rem_and_1ts_con5equenc3s}</code>
+
 
 ## Highly ambiguous RSA
 
@@ -648,11 +629,10 @@ print(long_to_bytes(int(m)))
 <p></p>
 </center>
 
-<font size="4">
 
 <p>The Python file <code>Triple_ambiguous_RSA.py</code> has everything, including the content of <code>Triple_ambiguous_RSA.txt</code>.</p>
 
-{% highlight python %}
+```python
 ## Triple_ambiguous_RSA.py
 from Crypto.Util.number import bytes_to_long
        
@@ -687,41 +667,52 @@ e2 = 17656
 n3 = 1476397917727380110001203955119376017350831987887155549202221944834157018381937476166521375696257
 e3 = 19407
 c  = 611696235674033015624831923566847674953519491228623379258607782032635868791588102056975818050929
-{% endhighlight %}
+```
 
 <p>Ciphertext $c$ was computed as follows:</p>
+
+$$
 \begin{align*}
 c 
 & = (\underbrace{(m^{e_1} \text{ mod } n_1)^{e_2} \text{ mod } n_2}_{=: c_2})^{e_3} \text{ mod } n_3 \\
 & = {c_2}^{e_3} \text{ mod } n_3
 \end{align*}
+$$
 
 <p>$n_3$ is prime, so $\phi(n_3) = n_3 - 1$ but $\gcd(n_3 - 1, e_3) = 3 \neq 1$. But instead, we can divide both $n_3 - 1$ and $e_3$ with $3$ and compute the multiplicative inverse of $e_3/3$.</p>
+
+$$
 \begin{align*}
 d_3' := \left( \frac{e_3}{3} \right)^{-1} \text{ mod } \frac{n_3 - 1}{3}
 & \implies d_3' \frac{e_3}{3} = \frac{n_3 - 1}{3} k + 1 \\
 & \implies e_3 d_3' = 3 \mod \phi(n_3)
 \end{align*}
+$$
+
 <p>and hence,</p>
+
+$$
 \begin{align*}
 c^{d_3'} 
 & = {c_2}^{e_3 d_3'} \mod n_3 \\
 & = {c_2}^3 \mod n_3
 \end{align*}
+$$
+
 <p>We can then compute $c_2$ using Sagemath using <code>nth_root</code> function.</p> 
 
-{% highlight python %}
+```python
 gcd3 = math.gcd(e3, n3-1) # 3
 d3_prime = pow(e3//gcd3, -1, (n3-1)//gcd3) 
 c2_cube = pow(c, d3_prime, n3)
 K = GF(n3)
 a = K(c2_cube)
 c2_list = c2_cube.nth_root(3, all=True)
-{% endhighlight %}
+```
 
 <p>BUT, then at that point, you'd realize that all three $n$'s here are small enough for Sagemath to compute the <code>nth_root</code> within a reasonable time. So, instead of going through all these maths with our hands and brain, we can just let Sagemath do all the big brain stuff for us. Like this:</p>
 
-{% highlight python %}
+```python
 from Crypto.Util.number import long_to_bytes
 import sympy as sp
 import math
@@ -772,14 +763,12 @@ for m in m_list:
 # b"\xde\x12%\xab\x9a\xfa=\xe8vhA\xe1\xcf\xf0tA\x80\xa3{J'
 ##              PeK!\xc6\xd7cWL\x13U62\xf7\xdc\x9f!\xbd\xd6"
 # b'grodno{This_1s_n0t_a_f@k3_fl@g}'
-{% endhighlight %}
+```
 
 <p>I don't know if this was intended, but I like how they anticipated that there could be more than one solution (possible $m$) and marked the real solution as "not a fake flag."</p>
-</font>
 
-<font size="4">
-  <p><b>Flag: <code>grodno{This_1s_n0t_a_f@k3_fl@g}</code></b></p>
-</font>
+**Flag**: <code>grodno{This_1s_n0t_a_f@k3_fl@g}</code>
+
 
 ## Ambiguous RSA
 
@@ -788,46 +777,63 @@ for m in m_list:
 <p></p>
 </center>
 
-<font size="4">
 
 <p>This was actually very fun.</p>
 
-{% highlight python %}
+```python
 ## ambiguous_RSA.txt
 n = 777756371658356441826729228653092499434631035305172509880322655002004039008045720787492699292349816956024214162682281707332483772214797314033060613323980372951195774893061735986175142948571861677456340554882793376078703872291302030430567132018088785535855408409110377327189973952601340410943042788508253813758310797413184518506957817440212935348105193856735320286761202181863843014473637156803666187315158578927428069529022109186345431842082598475904461332010274125796234390386163234411794022829179847776668959528434596799883850787931364114410352436664187913625065855379249496132986517948363694832630053643957898814106766253069509185062057819464868740755645906236165905410302944050073667197489707292827557882235469313758585436824941776058737561207593994338597243557274586583779294003573579715956405551983309527717168010308210474073655763532261396593836782340235001459323323874331108443898602886777412635264588171440447380273250599296164420162936894801775967062285275415331174008098445058416170315779898002726099868162629427919982038415596943715271451944958290466107472382220610122455028556516287294530657864511238573735141255147514127113474557825358554738290595478206958791661391715249798229726238533489373041633676785713548604217861
 e = 50000
 c = 277359187737258362457534632897090609560275835679907190105508305441781088814950381016117048539810699066668346328707239514247747907024858310042465519804872870468645205535199652666860215144396517509831499728224333577993959380695379150844556883688676144218513768298762581885211876375391342455796156456940548741775950266259611168974452206230570494668698573109274627591842683500384555496015872119947324253901120166868283565117432214783776347994180900043829861747583679841893145482535708198926172748189296275575298131314037764131458195690034230771810286866816955794935414105559326348029049747362599528397557590649155979645823782983966182573456965073532051120287778829594508586835614410719154415803215604015687922794249575275088281033853893589312980289714947975117796646193511911511459440764242386211925662924184898808246988788167092186489240112034940356104882149267058764103175974317576790173813320755017793253366071995395701277842820830242038217541557382036257895686016950644008318986563083604553889153070592017254562516835720872613177777139282977415232050406102429719686895830799282348962471590476649961821249207276558353697914498653389130863975927905580766179709281500497070076138657086424222192427642911863924117001924531455220929197873
-{% endhighlight %}
+```
 
 <p>Despite the similarity in the titles, this chal actually is not quite similar to the previous one (<a href="./#highly-ambiguous-rsa">Highly ambiguous RSA</a>). </p>
 
 <p>Good news is that $n$ is a prime number. This can be confirmed by using <a href="http://factordb.com/">Factordb</a> or just running <code>sp.isprime(n)</code>. However, very bad news is that $n$ is a 4096-bit prime number. Hence, naively running <code>m = c.nth_root(e)</code> on Sagemath would take forever! (I let it run for two days for giggles and it could not solve it.)</p>
 
 <p><a href="http://factordb.com/">Factordb</a> also says that</p>
+
+$$
 \begin{align*}
 n-1 = 2^2 \times 5 \times 47 \times 8274003953\dots 19
 \end{align*}
+$$
 
 <p>and hence we know $g := \gcd(e,n-1) = 20$. The good news here is that $\gcd(e, (n-1)/g)) = 1$ so $d' := e^{-1} \text{ mod } (n-1)/g$ exists, i.e. there exists $k \in \mathbb{Z}$ such that:</p>
+
+$$
 \begin{align*}
 ed' = \frac{n-1}{g} k + 1 \implies e gd' = (n-1)k + g
 \end{align*}
+$$
 
 <p>and this implies, by Fermat's little theorem,</p>
+
+$$
 \begin{align*}
 & c^{gd'} = m^{e gd'} = m^{(n-1)k + g} = m^{g} \mod n
 \end{align*}
+$$
+
 <p>which means that $m$ would be a $g$-th root of $c^{gd'}$ in $\mathbb{F}_n$. Let $\rho$ be a nontrivial $g$-th root of unity over $\mathbb{F}_n$ (i.e., $\rho^g = 1 \text{ mod } n$ where $\rho \neq 1 \text{ mod } n$). Then for some integer $k$,</p>
+
+$$
 \begin{align*}
 m' := c^{d'} = m \rho^k \mod n 
 \end{align*}
+$$
+
 <p>It is easy to see that $m'$ is a "candidate" $m$:</p>
+
+$$
 \begin{align*}
 (m')^e = m^e \rho^{ek} = m^e = c \mod n
 \end{align*}
+$$
+
 <p>because $\rho^{ek} = 1 \text{ mod } n$ since $g \mid e$.</p>
 
-{% highlight python %}
+```python
 n = ...
 e = 50000
 c = ...
@@ -837,7 +843,7 @@ g = gcd(e, n-1) # 20
 d_prime = (e).inverse_mod((n-1)//g) # e d' = ((n-1)/g) k + 1
 m_prime = pow(c, d_prime, n)
 assert pow(m_prime, e, n) == c # True
-{% endhighlight %}
+```
 
 <p>But there is no guarantee that this $m'$ (denoted as <code>m_prime</code> in the code above) is the true $m$ that we are looking for. As $\mathbb{F}_n$ here is a field, there can be (up to) $e$ distinct solutions to the equation $c = m^e \text{ mod } n$. They can be found by multiplying $e$-th roots of unity to a $m$ that satisfies the equation. </p>
 
@@ -849,7 +855,7 @@ assert pow(m_prime, e, n) == c # True
 
 <p>Let $r \in \mathbb{F}_n^\times$ and $r_E := r^{(n-1)/g} \text{ mod } n$. Clearly $r_E^g = r^{n-1} = 1 \text{ mod } n$, and so $r_E$ is a candidate primitive $g$-th root of unity. And to test whether $r_E$ indeed is a primitive $g$-th root of unity, we can calculate the cardinality of $\left< r_E \right> = \{ r_E, r_E^2, \cdots, r_E^g = 1 \}$ and make sure it is $g$ indeed. Oh, and of course, both $r$ and $r_E$ should not be $1$, you know what I meant :sweat_smile:</p>
 
-{% highlight python %}
+```python
 r = 1
 r_E = 1
 while r_E == 1:
@@ -864,15 +870,17 @@ for i in range(0, 21):
     if r_E_i not in gen_by_r_E:
         gen_by_r_E.append(r_E_i)
 print("abs(<r_E>) =", len(gen_by_r_E)) # abs(<r_E>) = 20
-{% endhighlight %}
+```
 
 <p>That very well was the case, and now we can set $\rho = r_E$. Now, with one $m$ such that $m^g = c \text{ mod } n$ that we found already, we can multiply it with each element of $\left< \rho \right>$ and it will be another solution to the equation $x^g = c \text{ mod } n$ because</p>
-\[
+
+$$
 (m \rho^i)^g = m^g (\rho^g)^i = m^g 1^i = m^g = c \mod n
-\]
+$$
+
 <p>for all $i = 1,2,\dots,g-1$, in other words, for all $\rho^i \in \left<\rho\right>$.</p>
 
-{% highlight python %}
+```python
 for i in range(0,g):
     m = Mod(m_prime * pow(r_E, i, n), n)
     assert pow(m, e, n) == c
@@ -884,19 +892,17 @@ for i in range(0,g):
         ## landscape of tomorrow. grodno{Und3rstanding_RSA's_pr1nciples
         ## _@nd_its_practical_@pplic@tions} empowers us to embrace the 
         ## power of encryption and secure our digital future."
-{% endhighlight %}
+```
 <p>Flag, at long last.</p>
-</font>
 
-<font size="4">
-  <p><b>Flag: <code>grodno{Und3rstanding_RSA's_pr1nciples_@nd_its_practical_@pplic@tions}</code></b></p>
-</font>
 
-<font size="4">
+**Flag**: <code>grodno{Und3rstanding_RSA's_pr1nciples_@nd_its_practical_@pplic@tions}</code>
+
+
 <p>For completeness, the full solution script is provided below:</p>
 
 <details>
-<summary><font size="4"><code>sol.py</code> (Click to expand)</font></summary>
+<summary><code>sol.py</code> (Click to expand)</summary>
 {% highlight python %}
 ## sol.py
 from Crypto.Util.number import long_to_bytes
@@ -939,12 +945,14 @@ for i in range(0,g):
         ## power of encryption and secure our digital future."
 {% endhighlight %}
 </details>
-</font>
 
-<font size="4">
+
 <p></p>
 <p>One of my colleagues pointed out that the fact that $c^{d'} = m'$ might not be the same as "true" $m$ could be a bit counter-intuitive to some people, because, as we computed somewhere above</p>
-    \[ (m')^e = c^{ed'} = c = m^e \mod n \] 
+
+$$
+(m')^e = c^{ed'} = c = m^e \mod n
+$$
 
 <p>which understandably gives a "vibe" that $m' = m \;\text{ mod } n$ must be the case.</p>
 
@@ -952,7 +960,7 @@ for i in range(0,g):
 
 <p>Here is a concrete example, for those who still remain unconvinced.</p>
 
-{% highlight python %}
+```python
 ## example.py
 n = 101
 e = 36
@@ -964,11 +972,11 @@ d_prime = e.inverse_mod((n-1)//g) ## 16
 m_prime = pow(c,d_prime,n)
 print(m_prime) ## 31
 print(m_prime == m) ## False
-{% endhighlight %}
+```
 
 <p>However, as we did in the solution, if we compute and multiply roots of unity, we can recover the true $m$.</p>
 
-{% highlight python %}
+```python
 ## example.py continued
 r = 1
 r_E = 1
@@ -986,5 +994,5 @@ for i in range(0,g):
     m = Mod(m_prime * pow(r_E, i, n), n)
     print(m) 
     ## 31, 7, 70, 94
-{% endhighlight %}
-</font>
+```
+
