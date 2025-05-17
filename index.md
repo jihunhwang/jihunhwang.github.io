@@ -18,3 +18,11 @@ Before Purdue, I finished my Master's degree in [Computer Science](https://www.c
 I am interested in any topics within or related to theoretical computer science. For now, let's say my biggest interest is [information-theoretic cryptography](https://itcrypto.github.io/), particularly leakage-resilient cryptography. I also like to talk about network algorithms, high-performance computing, and computer security, but not as much as I like cryptography.
 
 I also play [CTFs](https://ctftime.org/ctf-wtf/) sometimes as a member of [b01lers](https://b01lers.com/). If you are a student at Purdue interested in ethical hacking and offensive security, please consider joining us! 
+
+<!-- 
+CTFTime stats widget created by CygnusX-26 
+https://github.com/CygnusX-26/ctftime-card
+
+I added a JavaScript code in /assets/js/main.min.js so the theme (light or dark) gets changed automatically when the website's theme gets toggled between light and dark modes. It's a little laggy, but I still like it!
+-->
+<img id="ctf-stats-widget" alt="b01lers ctftime stats" />

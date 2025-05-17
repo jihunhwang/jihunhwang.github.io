@@ -19,10 +19,10 @@ modified: 2024-04-11
 
 
 <p> 
-b01lers did not play any CTF as a group over the winter break (we technically played one, but it was right before New Year's Eve, and so almost no one played it) until late January. I was looking for something that I could practice on my own, just as I did with UWSP CTF.
+b01lers did not play any CTF as a group over the winter break (we technically played one, but it was right before New Year's Eve, and so basically no one was active) until late January. I was looking for something that I could practice on my own, just as I did with UWSP CTF.
 </p>
 
-<p>I found this CTF in January 13th (maybe 12th? I don't recall). This apparently was a (few days less than) two-week-long event from Jan 3 to 14, and I happen to find it a day before the last day -- what a clutch.</p>
+<p>I found this CTF in sometime Jan 13th-ish. This apparently was a (few days less than) two-week-long event from Jan 3 to 14, and I happen to find it a day before the last day -- what a clutch.</p>
 
 <p>This CTF had a myriad of challenges. What was most interesting to me was that half of the crypto chals were on RSA. So, yes, my goal was to solve all RSA-related chals, basically throwing an RSA party for myself. Long story short, I could not solve all of them before the deadline unfortunately because I got caught up with my research work, but I managed to solve them all later.</p>
 
