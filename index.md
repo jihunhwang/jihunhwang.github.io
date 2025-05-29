@@ -25,4 +25,6 @@ https://github.com/CygnusX-26/ctftime-card
 
 I added a JavaScript code in /assets/js/main.min.js so the theme (light or dark) gets changed automatically when the website's theme gets toggled between light and dark modes. It's a little laggy, but I still like it!
 -->
+<a href="https://ctftime.org/team/11464">
 <img id="ctf-stats-widget" alt="b01lers ctftime stats" />
+</a>
