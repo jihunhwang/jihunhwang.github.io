@@ -10,6 +10,10 @@ search: exclude
 <font size="4">
 <ul>
 
+<li>
+	<div><b>April 2025</b></div>
+	<div>Proud to share that we placed 2nd out of 139 in this year's <a href="https://ectf.mitre.org/">MITRE eCTF</a>. Big thanks to everyone on Purdue Team 3 (b01lers) — awesome working together!</div>
+</li>
 
 <li>
 	<div><b>March 2025</b></div>
@@ -37,7 +41,7 @@ search: exclude
 
 <li>
 	<div><b>April 2024</b></div>
-	<div>We placed 3rd and won the best poster award in this year's <a href="https://mitre-engenuity.org/growing-impact/ectf-embedded-capture-the-flag/">MITRE eCTF</a>. Thank you b01lers for this great opportunity, and most importantly: nice collaborative work everyone!</div>
+	<div>We placed 3rd out of 97 and won the best poster award at this year's <a href="https://ectf.mitre.org/">MITRE eCTF</a>. Huge thanks to b01lers for this opportunity, and most importantly: nice collaborative work everyone!</div>
 </li>
 
 <li>

@@ -1,7 +1,7 @@
 ---
 title: "Kővári-Sós-Turán Theorem"
-modified: 2025-06-10
-date: 2025-05-17
+modified: 2025-06-13
+date: 2025-06-13
 description: Kovari-Sos-Turan Theorem
 tags: ['random-math']
 toc: yes
