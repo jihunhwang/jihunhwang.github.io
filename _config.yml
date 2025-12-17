@@ -17,6 +17,8 @@ url                      : https://jihunhwang.github.io # the base hostname & pr
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jihunhwang/jihunhwang.github.io"
 
+fontawesome: true
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
@@ -78,10 +80,10 @@ author:
 
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-envelope-square"
       url: "mailto:hwang102@purdue.edu"
     - label: "Picture"
-      icon: "fas fa-fw fa-image"
+      icon: "fas fa-image"
       url: "/images/Jimmy_pic.jpg"
 
 # Publication Category - The following the list of publication categories and their headings

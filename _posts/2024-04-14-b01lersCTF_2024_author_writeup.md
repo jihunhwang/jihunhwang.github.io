@@ -845,5 +845,5 @@ stdout=subprocess.DEVNULL)
 ...
 {% endhighlight %}
 
-<p>In summary, this challenge has taught me many lessons, and gave me a big reminder that security vulnerabilities often arise from lack of attention to details.</p>
+<p>In summary, this challenge has taught me many lessons and given me a big reminder that security vulnerabilities often arise from a lack of attention to detail.</p>
 </font>
