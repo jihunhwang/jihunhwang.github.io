@@ -7,7 +7,7 @@ mathjax: yes
 toc: yes
 modified: 2025-12-22
 header:
-    teaser: "https://s1.ax1x.com/2022/07/23/jXsiEF.png"
+    teaser: "https://www.eljooker.tech/assets/img/posts/2024-12-26-My%200xL4ugh%20CTF%20Challenges/cover.jpg"
 ---
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
