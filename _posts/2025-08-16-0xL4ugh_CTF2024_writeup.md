@@ -123,7 +123,7 @@ gAAAAABnbO285CLp59VwjWxb2E0zl3DbvgPG5pbroxMda_OucjsmCDHOPJs8_XZD5C5WfqKvUzE0WkEL
 <p>
 Brute-forcing all combinations of country and year is certainly feasible.  
 There is also the <a href="https://github.com/pycountry/pycountry">pycountry</a> package which contains the name of all countries and their associated details. 
-The only thing to be careful is that some countries are named slightly differently in that package: for example, Russia appears as Russian Federation and Turkey as Turkiye (I was told that Turkiye is actually the correct spelling, but apparently the chal authors did not go with that spelling).
+The only thing to be careful is that some countries are named slightly differently in that package: for example, Russia appears as Russian Federation and Turkiye as Turkey (I was told that Turkiye is actually the correct spelling, but apparently the chal authors did not go with that spelling).
 I realized this only after failing even when trying <code>pycountry.historic_countries</code> which returns the name of countries that no longer exist (e.g., USSR).  
 </p>
 </font>
