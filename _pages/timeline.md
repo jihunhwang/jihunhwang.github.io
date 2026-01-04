@@ -11,13 +11,18 @@ search: exclude
 <ul>
 
 <li>
+	<div><b>September 2025</b></div>
+	<div>I am (virtually) attending the <a href="https://swc-math.github.io/aws/2026/2026PAWS.html">Preliminary Arizona Winter School</a> (PAWS 2025) hosted by the <a href="https://swc-math.github.io/misc/aboutSWC/index.html">Southwest Center for Arithmetic Geometry</a>!</div>
+</li>
+
+<li>
 	<div><b>April 2025</b></div>
 	<div>Proud to share that we placed 2nd out of 139 in this year's <a href="https://ectf.mitre.org/">MITRE eCTF</a>. Big thanks to everyone on Purdue Team 3 (b01lers) — awesome working together!</div>
 </li>
 
 <li>
 	<div><b>March 2025</b></div>
-	<div>I am (virtually) attending a workshop on <a href="https://www.slmath.org/workshops/1091">Algebraic and Analytic Methods in Combinatorics</a> held at SLMath (formerly MSRI)!</div>
+	<div>I am (virtually) attending a workshop on <a href="https://www.slmath.org/workshops/1091">Algebraic and Analytic Methods in Combinatorics</a> held at <a href="https://www.slmath.org/">SLMath</a> (formerly MSRI)!</div>
 </li>
 
 </ul>
@@ -151,7 +156,7 @@ search: exclude
 
 <li>
 	<div><b>February 2021</b></div>
-	<div>Along with my regular classes at UMass, I will concurrently be taking <a href="https://www.bsmath.hu/CURRENT/NUTsyllabus.html">Topics in Analytic number theory</a> course offered at <a href="https://www.budapestsemesters.com/spring-2021-distance-learning-opportunity/">Budapest Semester in Mathematics</a> (BSM)! I am quite excited, as UMass had never offered any graduate-level courses in analytic number theory.</div>
+	<div>I will be (virtually) visiting and taking course(s) from the <a href="https://www.budapestsemesters.com/spring-2021-distance-learning-opportunity/">Budapest Semester in Mathematics</a> (BSM) concurrently with my regular classes at UMass!</div>
 </li>
 
 <li>

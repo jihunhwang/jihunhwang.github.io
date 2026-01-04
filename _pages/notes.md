@@ -21,17 +21,24 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 
 <ul>
 
-<li>Spring 2025, <a href="https://drive.google.com/file/d/1YxuXcQalpJcAQJt7y6is1SSpB8MJ9Csy/view?usp=sharing">MA 454 Galois Theory</a>
-	
+<li>
+	Fall 2025, <a href="https://drive.google.com/file/d/1n6tvW7pWRfhkwJqMhuShbEUnitczTEz7/view?usp=sharing">MA 584 Algebraic Number Theory</a>
 </li>
 
-<li>Fall 2024, <a href="https://drive.google.com/file/d/1GYO9-ZZowy_iI5M-YyyhFuD2dg9bMLNS/view?usp=sharing">MA 595SP Additive Combinatorics: Sum-Product Phenomenon</a>
+<li>
+	Spring 2025, <a href="https://drive.google.com/file/d/1YxuXcQalpJcAQJt7y6is1SSpB8MJ9Csy/view?usp=sharing">MA 454 Galois Theory</a>
 </li>
 
-<li>Fall 2023, <a href="https://drive.google.com/file/d/1MRDJ8MaT6X19yFlRMX_zXaHr7oUyeiH9/view?usp=sharing">CS 593MLT Machine Learning Theory</a>
+<li>
+	Fall 2024, <a href="https://drive.google.com/file/d/1GYO9-ZZowy_iI5M-YyyhFuD2dg9bMLNS/view?usp=sharing">MA 595SP Additive Combinatorics: Sum-Product Phenomenon</a>
 </li>
 
-<li>Fall 2022, <a href="https://drive.google.com/file/d/12Vjjmb4PkbQjROhwtfUV-9OefPRgz6eo/view?usp=share_link">STAT 598DP Differential Privacy</a>
+<li>
+	Fall 2023, <a href="https://drive.google.com/file/d/1MRDJ8MaT6X19yFlRMX_zXaHr7oUyeiH9/view?usp=sharing">CS 593MLT Machine Learning Theory</a>
+</li>
+
+<li>
+	Fall 2022, <a href="https://drive.google.com/file/d/12Vjjmb4PkbQjROhwtfUV-9OefPRgz6eo/view?usp=share_link">STAT 598DP Differential Privacy</a>
 </li>
 
 </ul>
