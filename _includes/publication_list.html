@@ -1,0 +1,33 @@
+<ol>
+{% assign papers = site.data[include.data_file] %}
+{% for paper in papers %}
+  <li>
+    <b>{{ paper.title }}</b><br>
+    {% assign authors_count = paper.authors | size %}
+    {% assign second_last_index = authors_count | minus:2 %}
+    with 
+    {% for author in paper.authors %}
+      {% assign url = site.data.colleagues[author] %}
+      {% if url %}<a href="{{ url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}{% if forloop.index0 < second_last_index %},{% elsif forloop.index0 == second_last_index %}, and{% endif %}{% endfor %}
+    <br>
+    <b>{{ paper.venue }}</b>
+    {% if paper.pdf %}[<a href="{{ paper.pdf }}">PDF</a>]{% endif %}
+    {% if paper.full_version %}[<a href="{{ paper.full_version }}">Full version</a>]{% endif %}
+    {% if paper.ePrint %}[<a href="{{ paper.ePrint }}">ePrint</a>]{% endif %}
+    {% if paper.arXiv %}[<a href="{{ paper.arXiv }}">arXiv</a>]{% endif %}
+    {% if paper.LIPIcs %}[<a href="{{ paper.LIPIcs }}">LIPIcs</a>]{% endif %}
+    {% if paper.NTRS %}[<a href="{{ paper.NTRS }}">NTRS</a>]{% endif %}
+    {% if paper.slides %}[<a href="{{ paper.slides }}">Slides</a>]{% endif %}
+    {% if paper.demo %}[<a href="{{ paper.demo }}">Demo</a>]{% endif %}
+    {% if paper.github %}[<a href="{{ paper.github }}">GitHub</a>]{% endif %}
+    {% if paper.video %}[<a href="{{ paper.video }}">Video</a>]{% endif %}
+    <br>
+    <details class="abstract-details" closed>
+      <summary class="abstract-summary"></summary>
+      {% for paragraph in paper.abstract %}
+        <p><span class="indented">{{ paragraph }}</span></p>
+      {% endfor %}
+    </details>
+  </li>
+{% endfor %}
+</ol>
