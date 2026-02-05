@@ -2,7 +2,8 @@
 title: Notes
 author_profile: true
 permalink: /notes/
-# toc: true
+#toc: true
+#toc_sticky: yes
 search: exclude
 sitemap: false
 ---

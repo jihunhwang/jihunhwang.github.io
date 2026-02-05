@@ -41,3 +41,36 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* -----------------------------
+   Custom overrides
+----------------------------- */
+
+// Smooth hover underline only for main content links
+.page,
+.post,
+.archive {
+  a {
+    text-decoration: none !important;  // remove default underline
+    position: relative;
+    //color: inherit;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;                 // underline thickness
+      background-color: currentColor;
+      transition: width 0.3s ease; // smooth animation
+    }
+
+    &:hover::after,
+    &:focus::after {
+      width: 100%;                  // underline appears on hover/focus
+    }
+  }
+}
+
+

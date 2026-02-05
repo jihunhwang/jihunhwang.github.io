@@ -5,7 +5,7 @@ date: 2025-06-13
 description: Kovari-Sos-Turan Theorem
 tags: ['random-math']
 toc: yes
-# toc_sticky: yes
+toc_sticky: yes
 header:
     teaser: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Turan_13-4.svg"
 ---

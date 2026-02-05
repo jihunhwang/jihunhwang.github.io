@@ -328,7 +328,6 @@ whitelist:
   - jemoji
   - jekyll-toc
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)

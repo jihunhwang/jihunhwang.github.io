@@ -5,7 +5,7 @@ date: 2025-04-09
 description: Schauder Basis of Banach Spaces
 tags: ['random-math']
 toc: yes
-# toc_sticky: yes
+toc_sticky: yes
 header:
     teaser: "https://preview.redd.it/axiom-of-choice-phobia-v0-p1ewm8rznxsc1.jpeg?width=640&crop=smart&auto=webp&s=358b2bf8bcb369d68bb6562f82c1fbe4e7d46bd5"
 ---

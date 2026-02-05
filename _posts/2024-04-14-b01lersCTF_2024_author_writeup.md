@@ -4,6 +4,7 @@ date: 2024-04-14
 description: b01lersCTF 2024 author's official writeup
 tags: ['CTF']
 toc: true
+toc_sticky: yes
 mathjax: true
 modified: 2024-04-24
 ---

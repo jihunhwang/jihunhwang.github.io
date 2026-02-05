@@ -5,6 +5,7 @@ description: b01lersCTF 2022 Hardcore Predicate
 tags: ['CTF']
 mathjax: yes
 toc: yes
+toc_sticky: yes
 modified: 2025-01-27
 header:
     teaser: "https://s1.ax1x.com/2022/07/23/jXsiEF.png"
