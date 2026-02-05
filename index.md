@@ -10,10 +10,15 @@ author_profile: true
 </font>
 </p>
 
-Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. student studying [Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/), where I am fortunate to be advised by Professor {{ "Hemanta Maji" | link_colleagues }}.  
-Last summer, I visited [NASA GSFC](https://www.nasa.gov/goddard) ([Code 450](https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/)) as a research intern hosted by {{ "Alan Hylton" | link_colleagues }}.
+Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. student studying [Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/), where I am fortunate to be advised by Professor 
+{% assign url = site.data.colleagues["Hemanta Maji"] %}{% if url %}<a href="{{ url }}">Hemanta Maji</a>{% else %}Hemanta Maji{% endif %}.  
+Last summer, I visited [NASA GSFC](https://www.nasa.gov/goddard) ([Code 450](https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/)) as a research intern hosted by 
+{% assign url = site.data.colleagues["Alan Hylton"] %}{% if url %}<a href="{{ url }}">Alan Hylton</a>{% else %}Alan Hylton{% endif %}.
 
-Before Purdue, I finished my Master's degree in [Computer Science](https://www.cics.umass.edu/) at [UMass Amherst](https://www.umass.edu/) where I briefly worked with Professor {{ "Adam O'Neill" | link_colleagues }}. Even prior to that, I did my undergrad in [Mathematics](https://www.math.umass.edu/) with a minor in [Physics](https://www.physics.umass.edu/) at the same institution, and I finished my senior thesis under the supervision of Professor {{ "Panos Kevrekidis" | link_colleagues }} ([Wiki](https://en.wikipedia.org/wiki/Panayotis_G._Kevrekidis)). 
+Before Purdue, I finished my Master's degree in [Computer Science](https://www.cics.umass.edu/) at [UMass Amherst](https://www.umass.edu/) where I briefly worked with Professor 
+{% assign url = site.data.colleagues["Adam O'Neill"] %}{% if url %}<a href="{{ url }}">Adam O'Neill</a>{% else %}Adam O'Neill{% endif %}.
+Even prior to that, I did my undergrad in [Mathematics](https://www.math.umass.edu/) with a minor in [Physics](https://www.physics.umass.edu/) at the same institution, and I finished my senior thesis under the supervision of Professor 
+{% assign url = site.data.colleagues["Panos Kevrekidis"] %}{% if url %}<a href="{{ url }}">Panos Kevrekidis</a>{% else %}Panos Kevrekidis{% endif %}.
 <!--- on extreme wave events ([Abstract here](/Downloads/Hwang_Abstract.pdf)).--->
 
 I am interested in any topics within or related to theoretical computer science. For now, let's say my biggest interest is [information-theoretic cryptography](https://itcrypto.github.io/), particularly leakage-resilient cryptography. I also like to talk about network algorithms, high-performance computing, and computer security, but not as much as I like cryptography. See my [Research](/research) page for details.

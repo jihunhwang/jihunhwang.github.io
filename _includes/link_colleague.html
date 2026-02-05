@@ -1,0 +1,6 @@
+{% assign url = site.data.colleagues[include.name] %}
+{% if url %}
+  <a href="{{ url }}">{{ include.name }}</a>
+{% else %}
+  {{ include.name }}
+{% endif %}

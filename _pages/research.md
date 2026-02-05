@@ -15,29 +15,11 @@ sitemap: false
 <p><i>Nota Bene: Authors are usually listed alphabetically, often even arbitrarily, among mathematicians and theoretical computer scientists. See <a href="http://www.ams.org/profession/leaders/CultureStatement04.pdf">this statement</a> from the American Mathematical Society for details.</i></p>
 </font>
 
-<!-- Template
-<li>
-	<b>title</b>
-	<br>
-	{{ "with (author names)" | link_colleagues }}
-	<br>
-	<b>(conference)</b> [<a href="link">PDF</a>] 
-	<br>
-	<details class="abstract-details" closed>
-		<summary class="abstract-summary"></summary>
-			<p>
-				<span class="indented">
-					text
-				</span>
-				<span class="indented">
-					text
-				</span>
-				<span class="indented">
-					text
-				</span>
-			</p>
-	</details>
-</li>
+<!--
+Note for myself
+publication_list.html is under _includes
+publications_phd.yml and publications_side.yml are under _data
+colleagues.yml is also under _data
 -->
 
 Papers that reflects my current primary research interest the best:
