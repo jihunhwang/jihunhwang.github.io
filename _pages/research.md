@@ -11,7 +11,7 @@ sitemap: false
 
 ## Publications
 
-<font size="3">
+<font size="3"> 
 <p><i>Nota Bene: Authors are usually listed alphabetically, often even arbitrarily, among mathematicians and theoretical computer scientists. See <a href="http://www.ams.org/profession/leaders/CultureStatement04.pdf">this statement</a> from the American Mathematical Society for details.</i></p>
 </font>
 
