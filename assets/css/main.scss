@@ -73,7 +73,22 @@
   }
 }
 
-.highlighter-rouge pre.highlight code {
-  font-size: 1em;
+.highlighter-rouge pre.highlight {
+  font-size: 1.5em !important;
+  line-height: 1.5;
+
+  white-space: pre-wrap;   // enable wrapping
+  word-break: break-word;  // break long tokens
+  overflow-x: auto;        // safe fallback
+}
+
+
+details .highlight pre {
+  font-size: 0.85rem !important;
+  line-height: 1.5;
+
+  white-space: pre-wrap;   // enable wrapping
+  word-break: break-word;  // break long tokens
+  overflow-x: auto;        // safe fallback
 }
 
