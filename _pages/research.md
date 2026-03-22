@@ -74,8 +74,8 @@ Papers that reflects my current primary research interest the best:
 </ol> -->
 
 I also have a side interest in network algorithms/modeling, and computer security in general:
-
-{% include publication_list.html data_file="publications_side" %}
+{% assign prev_count = site.data["publications_phd"] | size | plus: 1 %}
+{% include publication_list.html data_file="publications_side"  start_num=prev_count %}
 
 
 

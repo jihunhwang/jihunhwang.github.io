@@ -1,5 +1,6 @@
+
 - title: "Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage"
-  authors:
+  coauthors:
     - "Aniruddha Biswas"
     - "Hemanta Maji"
     - "Xiuyu Ye"
@@ -7,15 +8,14 @@
   venue: "Preprint"
   abstract: 
     - "Additive masking is a widely used countermeasure against side-channel attacks in which a secret is additively split into multiple random shares. However, over binary fields, the number of 1's in the binary representation (i.e., the Hamming weight) of the shares reveals information about the original secret. Inner product masking scheme has been proposed as a promising alternative that is secure against such information leakage."
-    - "In this work, we establish that inner product masking over a binary extension field is provably secure against Hamming weight leakage, and it translates into security against arbitrary symmetric function leakage from the shares. In addition, we present an efficiently computable score function that quantifies its security against leakages, enabling users to test and certify its security. Finally, we derive a relationship between the leakage resilience of inner-product masking and additive masking over an arbitrary field; they are at least as secure as additive masking."
-    - "Our approach is Fourier-analytic and involves estimating spectral norms of the Hamming slice by studying Krawtchouk polynomials."
+    - "In this work, we establish that inner product masking over a binary extension field is provably secure against Hamming weight leakage, and it translates into security against arbitrary symmetric function leakage from the shares. In addition, we present an efficiently computable score function that quantifies its security against leakages, enabling users to test and certify its security. Finally, we derive a relationship between the leakage resilience of inner-product masking and additive masking over an arbitrary field; they are at least as secure as additive masking. Our approach is Fourier-analytic and involves estimating spectral norms of the Hamming slice by studying Krawtchouk polynomials."
 
 - title: "Security of Shamir's Secret-sharing against Physical Bit Leakage: Secure Evaluation Places"
-  authors:
+  coauthors:
     - "Hai Nguyen"
     - "Hemanta Maji"
     - "Xiuyu Ye"
-  LIPIcs: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITC.2025.3"
+  doi: "10.4230/LIPIcs.ITC.2025.3"
   full_version: "https://www.cs.purdue.edu/homes/hmaji/papers/HMNY24.pdf"
   venue: "ITC 2025"
   abstract: 
