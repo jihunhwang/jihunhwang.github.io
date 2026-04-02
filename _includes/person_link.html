@@ -1,0 +1,1 @@
+{% assign url = site.data.people[include.name] %}{% if url %}<a href="{{ url }}">{{ include.display | default: include.name }}</a>{% else %}{{ include.display | default: include.name }}{% endif %}

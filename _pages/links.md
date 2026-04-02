@@ -93,9 +93,11 @@ sitemap: false
   <a href="https://is.gd/ourfa2m2">OURFA²M²</a> organized by great people provides helpful information for undergraduate math majors.
 </li>
 
+<!--
 <li>
   Very extensive list of advices and <a href="https://www.vanessasun.com/questions-to-ask-when-considering-a-graduate-school-program/">Questions to ask when considering a graduate school program</a> written and compiled by <a href="https://www.vanessasun.com/">Vanessa Sun</a> at MIT. 
 </li>
+-->
 
 <li>
   <a href="https://mentor-crypto-2021.github.io/">Crypto Mentoring workshop</a>, generic yet extensive suggestions for junior cryptographers (e.g., Ph.D. students).
@@ -127,7 +129,7 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 <li>
-  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://geometrygunheecho.com/test/">Gunhee Cho</a> at UCSB actively uploads a wide range of rigorous lecture series in mathematics, from undergraduate courses to recent research topics. Lectures are mostly in Korean, but the notes are in English except very few.
+  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://sites.google.com/view/enjoyingmath/home">Gunhee Cho</a> at UCSB actively uploads a wide range of rigorous lecture series in mathematics, from undergraduate courses to recent research topics. Lectures are mostly in Korean, but the notes are in English except very few.
 </li>
 
 <li>

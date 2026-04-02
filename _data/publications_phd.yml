@@ -1,3 +1,17 @@
+- title: "Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage"
+  coauthors:
+    - "Aniruddha Biswas"
+    - "Hemanta Maji"
+    - "Ilya Shkredov"
+    - "Xiuyu Ye"
+  full_version: "https://www.cs.purdue.edu/homes/hmaji/papers/BHMSY26.pdf"
+  venue: "Preprint"
+  abstract:
+    - 'Side-channel attacks threaten even foundational primitives such as secret sharing, undermining threshold cryptography, and masking countermeasures. We study additive secret sharing over $\mathbb{Z}/N\mathbb{Z}$ under Hamming-weight leakage, focusing on local leakage resilience: statistical independence between the secret and the total leakage.'
+    - 'Prior guarantees were limited to Mersenne primes $N=2^n-1$ with $k \geq 5$, where insecurity was bounded by $n^{-k/4}$. For $k=2$, the scheme is insecure, while for $k=3,4$ and for non-Mersenne moduli, no guarantees were known.'
+    - 'We remove these restrictions. For all $N$ sufficiently close to $2^n$, we prove insecurity at most $n^{-k/2}$ for every $k \geq 3$. This yields the first guarantees for $k=3,4$ and for non-Mersenne moduli, and (after our result) even square-root-sized moduli are less insecure than what previous work guaranteed. We also prove a matching lower bound, showing that our decay exponent is optimal.'
+    - 'Our proof introduces new analytic and spectral techniques to leakage-resilience analysis, combining Fourier analysis, complex analysis, and matrix methods. Our intermediate results resolve the ternary problem for Hamming slices, implying that the associated Cayley graphs of near-central slices have diameter at most $3$.'
+
 
 - title: "Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage"
   coauthors:

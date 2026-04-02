@@ -9,7 +9,7 @@
     {% assign second_last_index = authors_count | minus:2 %}
     with 
     {% for author in paper.coauthors %}
-      {% assign url = site.data.colleagues[author] %}
+      {% assign url = site.data.people[author] %}
       {% if url %}<a href="{{ url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}{% if forloop.index0 < second_last_index %},{% elsif forloop.index0 == second_last_index %}, and{% endif %}{% endfor %}
     <br>
     {% endif %}

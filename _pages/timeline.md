@@ -11,13 +11,18 @@ search: exclude
 <ul>
 
 <li>
+	<div><b>December 2025</b></div>
+	<div><a href="https://kevin.fish/b01lers-2025-wrapped">b01lers 2025 wrapped</a>: Take a look at what {% include person_link.html name="b01lers" %} achieved this year! </div>
+</li>
+
+<li>
 	<div><b>September 2025</b></div>
 	<div>I am (virtually) attending the <a href="https://swc-math.github.io/aws/2026/2026PAWS.html">Preliminary Arizona Winter School</a> (PAWS 2025) hosted by the <a href="https://swc-math.github.io/misc/aboutSWC/index.html">Southwest Center for Arithmetic Geometry</a>!</div>
 </li>
 
 <li>
 	<div><b>April 2025</b></div>
-	<div>Proud to share that we placed 2nd out of 139 in this year's <a href="https://ectf.mitre.org/">MITRE eCTF</a>. Big thanks to everyone on Purdue Team 3 (b01lers) — awesome working together!</div>
+	<div>Proud to share that we placed 2nd out of 139 in this year's <a href="https://ectf.mitre.org/">MITRE eCTF</a>. Big thanks to everyone on Purdue Team 3 ({% include person_link.html name="b01lers" %}) — awesome working together!</div>
 </li>
 
 <li>
@@ -69,12 +74,14 @@ search: exclude
 
 <li>
 	<div><b>November 2023</b></div>
-	<div>Both papers I wrote with my intern mentor and fellow interns are accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. Thank you all!</div>
+	<div>Both papers I wrote with my intern mentor and fellow interns have been accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. Thank you all!</div>
 </li>
 
 <li>
 	<div><b>October 2023</b></div>
-	<div>I received <a href="https://www.cs.purdue.edu/graduate/gta-award-winners.html">Graduate Teaching Award</a> from my department, for my achievement as a CS 426 (Computer Security) TA in Spring 2022. Thank you, <a href="https://www.cs.purdue.edu/homes/clg/">Christina</a>, for the nomination and all your support!</div>
+	<div>I received <a href="https://www.cs.purdue.edu/graduate/gta-award-winners.html">Graduate Teaching Award</a> from my department, for my achievement as a CS 426 (Computer Security) TA in Spring 2022. Thank you, 
+	{% include person_link.html name="Christina Garman" display="Christina" %},
+		for the nomination and all your support!</div>
 </li>
 
 <li>
@@ -112,7 +119,9 @@ search: exclude
 
 <li>
 	<div><b>September 2022</b></div>
-	<div>I became a member of <a href="https://b01lers.com/">b01lers</a> (Purdue's <a href="https://ctftime.org/team/11464">CTF team</a>)! Technically, I joined last year but I have not been active at all. I hope to learn more about how crytographical concepts are used in practice.</div>
+	<div>I became a member of 
+		{% include person_link.html name="b01lers" %} 
+	(Purdue's <a href="https://ctftime.org/team/11464">CTF team</a>)! Technically, I joined last year but I have not been active at all. I hope to learn more about how crytographical concepts are used in practice.</div>
 </li>
 
 <li>
@@ -156,12 +165,14 @@ search: exclude
 
 <li>
 	<div><b>February 2021</b></div>
-	<div>I will be (virtually) visiting and taking course(s) from the <a href="https://www.budapestsemesters.com/spring-2021-distance-learning-opportunity/">Budapest Semester in Mathematics</a> (BSM) concurrently with my regular classes at UMass!</div>
+	<div>I will be (virtually) visiting and taking course(s) from the <a href="https://budapestsemesters.com/">Budapest Semester in Mathematics</a> (BSM) concurrently with my regular classes at UMass!</div>
 </li>
 
 <li>
 	<div><b>January 2021</b></div>
-	<div>UMass Cryptography Group led by Professor <a href="https://groups.cs.umass.edu/oneill/">Adam O'Neill</a> is now running a seminar series, <a href="https://sites.google.com/view/umasscryptosem/">UMass Cryptography Seminar</a>. I will be one of the co-organizers!</div>
+	<div>UMass Cryptography Group led by Professor 
+		{% include person_link.html name="Adam O'Neill" %}
+	is now running a seminar series, <a href="https://sites.google.com/view/umasscryptosem/">UMass Cryptography Seminar</a>. I will be one of the co-organizers!</div>
 </li>
 
 </ul>
@@ -170,7 +181,7 @@ search: exclude
 
 ## 2020
 <details>
-	<summary><font size="4">Click to expand</font></summary>
+	<summary></summary>
 <font size="4">
 
 <ul>
@@ -204,7 +215,7 @@ search: exclude
 
 <li>
 <div><b>January 2020</b></div>
-	<div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad. I will be spending another 1.5 years around Amherst, working on my M.S. in computer science!</div>
+	<div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad student. I will be spending another 1.5 years around Amherst, working on my M.S. in Computer Science!</div>
 </li>
 </ul>
 </font>
@@ -213,23 +224,28 @@ search: exclude
 
 ## 2019
 <details>
-	<summary><font size="4">Click to expand</font></summary>
+	<summary></summary>
 <font size="4">
 <ul>
 
 <li>
 	<div><b>September 2019</b></div>
-	<div>Happy to announce that I just made my very first publication, with the people I met in ERAU REU! Our paper is accepted to <a href="https://ieeexplore.ieee.org/xpl/conhome/9048088/proceeding">2019 ICII</a>, all thanks to my amazing collaborators!</div>
+	<div>Happy to announce that I just made my very first publication with the people I met during the ERAU REU! Our paper has been accepted to the <a href="https://ieeexplore.ieee.org/xpl/conhome/9048088/proceeding">2019 IEEE ICII</a>, all thanks to my amazing collaborators!</div>
 </li>
 
 <li>
 	<div><b>Summer 2019</b></div>
-		<div>I spent my whole summer at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a></div> with a group of awesome people doing <a href="https://sites.google.com/view/nsf-reu-erau/">NSF-REU@ERAU</a>! My advisor was Professor <a href="https://sites.google.com/view/yuanj/">Jiawei Yuan</a>
+		<div>I spent my whole summer at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a> with a group of awesome people doing <a href="https://sites.google.com/view/nsf-reu-erau/">NSF-REU@ERAU</a>! My advisor was Professor 
+			{% include person_link.html name="Jiawei Yuan" %}.</div>
 </li>
 
 <li>
 	<div><b>January 2019</b></div>
-		<div>I started my senior research/thesis under Professor <a href="https://people.math.umass.edu/~kevrekid/">Panos Kevrekidis</a> and <a href="https://web.calpoly.edu/~echarala/">Stathis Charalampidis</a> on extreme waves from the irregular burstings in superfluid 3-He/4-HE!
+		<div>I started my senior research/thesis under Professor 
+			{% include person_link.html name="Panos Kevrekidis" %}
+		and
+			{% include person_link.html name="Stathis Charalampidis" %}
+		on extreme waves from the irregular burstings in superfluid 3-He/4-HE!
 		</div>
 </li>
 
@@ -242,7 +258,7 @@ search: exclude
 ## 2018
 
 <details>
-	<summary><font size="4">Click to expand</font></summary>
+	<summary></summary>
 <font size="4">
 <ul>
 
@@ -253,19 +269,24 @@ search: exclude
 
 <li>
 	<div><b>May 2018</b></div>
-		<div>I was selected for Math 300 UGTA by the math department with a colleague of mine <a href="https://www.math.columbia.edu/~plei/index.html">Patrick Lei</a>!
+		<div>I was selected for Math 300 UGTA by the math department with a colleague of mine 
+			{% include person_link.html name="Patrick Lei" %}!
 		</div>
 </li>
 
 <li>
 	<div><b>April 2018</b></div>
-		<div>I was invited to give a talk about <a href="https://en.wikipedia.org/wiki/Weierstrass_factorization_theorem">Weierstrass product</a> in Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a>'s Math 421 (Undergrad) Complex analysis class!
+		<div>I was invited to give a talk about <a href="https://en.wikipedia.org/wiki/Weierstrass_factorization_theorem">Weierstrass product</a> in Professor 
+			{% include person_link.html name="William Meeks" %}'s
+		Math 421 (Undergrad) Complex analysis class!
 		</div>
 </li>
 
 <li>
 	<div><b>Spring 2018</b></div>
-		<div>I did an independent study in <a href="https://www.youtube.com/watch?v=gvLBbh0VKXw">minimal and constant-mean-curvature (CMC) surfaces</a> under Professor <a href="https://www.math.umass.edu/directory/emeritus-faculty/william-meeks">William Meeks</a>. It was mainly on understanding the first few chapters of <a href="https://www.ams.org/publications/authors/books/postpub/ulect-60">his book</a>. We did also spend a lot of time reading recent papers/surveys and talking about geometric analysis in general (e.g. Ricci flow).</div>
+		<div>I did an independent study in <a href="https://www.youtube.com/watch?v=gvLBbh0VKXw">minimal and constant-mean-curvature (CMC) surfaces</a> under Professor 
+			{% include person_link.html name="William Meeks" %}. 
+		It was mainly on understanding the first few chapters of <a href="https://www.ams.org/publications/authors/books/postpub/ulect-60">his book</a>. We did also spend a lot of time reading recent papers/surveys and talking about geometric analysis in general (e.g. Ricci flow).</div>
 </li>
 
 </ul>
@@ -275,19 +296,22 @@ search: exclude
 
 ## 2017
 <details>
-	<summary><font size="4">Click to expand</font></summary>
+	<summary></summary>
 <font size="4">
 <ul>
 
 <li>
 	<div><b>August 2017</b></div>
-	<div>After taking Math 563H Differential Geometry and studying Ergodic theory during my REU with Professor <a href="https://www.math.umass.edu/directory/faculty/yao-li">Yao Li</a>, I decided to study pure mathematics. However, it doesn't mean I am no longer interested in applied mathematics and computer science!
+	<div>After taking Math 563H Differential Geometry and studying Ergodic theory during my REU with Professor 
+		{% include person_link.html name="Yao Li" %},
+	I decided to study pure mathematics. However, it doesn't mean I am no longer interested in applied mathematics and computer science!
 	</div>
 </li>
 
 <li>
 	<div><b>Summer 2017</b></div>
-	<div>I was again around Amherst, MA for <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a>. I studied Ergodic theory and statistical physics under Professor <a href="https://www.math.umass.edu/directory/faculty/yao-li">Yao Li</a>!
+	<div>I was again around Amherst, MA for <a href="https://sites.google.com/umass.edu/math-stat-reu">UMass Math REU</a>. I studied Ergodic theory and statistical physics under Professor 
+		{% include person_link.html name="Yao Li" %}!
 	</div>
 </li>
 
@@ -304,14 +328,14 @@ search: exclude
 
 ## 2016
 <details>
-	<summary><font size="4">Click to expand</font></summary>
+	<summary></summary>
 <font size="4">
 <ul>
 
 
 <li>
 	<div><b>Summer 2016</b></div>
-	<div>I was lucky enough be a REU participant in my freshman year. I was at <a href="https://www.math.umass.edu/undergraduate/research-experience">UMass Math REU</a> over the summer studying combinatorial representation theory under Professor <a href="https://www.math.umass.edu/directory/faculty/alexei-oblomkov">Alexei Oblomkov</a>!
+	<div>I was lucky enough be a REU participant in my freshman year. I was at <a href="https://sites.google.com/umass.edu/math-stat-reu">UMass Math REU</a> over the summer studying combinatorial representation theory under Professor <a href="https://www.math.umass.edu/directory/faculty/alexei-oblomkov">Alexei Oblomkov</a>!
 	</div>
 </li>
 
@@ -329,7 +353,7 @@ search: exclude
 
 ## 2015
 <details>
-	<summary><font size="4">Click to expand</font></summary>
+	<summary></summary>
 <font size="4">
 <ul>
 
@@ -346,7 +370,7 @@ search: exclude
 
 ## 2014
 <details>
-	<summary><font size="4">Click to expand</font></summary>
+	<summary></summary>
 <font size="4">
 <ul>
 
@@ -358,3 +382,13 @@ search: exclude
 </ul>
 </font>
 </details>
+
+
+<style>
+summary::after {
+  content: " Click to expand";
+}
+details[open] summary:after {
+  content: " Click to collapse";
+}
+</style>

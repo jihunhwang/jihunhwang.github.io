@@ -11,19 +11,23 @@ author_profile: true
 </p>
 
 Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. student studying [Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/), where I am fortunate to be advised by Professor 
-{% assign url = site.data.colleagues["Hemanta Maji"] %}{% if url %}<a href="{{ url }}">Hemanta Maji</a>{% else %}Hemanta Maji{% endif %}.  
+  {% include person_link.html name="Hemanta Maji" %}.  
 Last summer, I visited [NASA GSFC](https://www.nasa.gov/goddard) ([Code 450](https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/)) as a research intern hosted by 
-{% assign url = site.data.colleagues["Alan Hylton"] %}{% if url %}<a href="{{ url }}">Alan Hylton</a>{% else %}Alan Hylton{% endif %}.
+  {% include person_link.html name="Alan Hylton" %}.
 
 Before Purdue, I finished my Master's degree in [Computer Science](https://www.cics.umass.edu/) at [UMass Amherst](https://www.umass.edu/) where I briefly worked with Professor 
-{% assign url = site.data.colleagues["Adam O'Neill"] %}{% if url %}<a href="{{ url }}">Adam O'Neill</a>{% else %}Adam O'Neill{% endif %}.
+  {% include person_link.html name="Adam O'Neill" %}.
 Even prior to that, I did my undergrad in [Mathematics](https://www.math.umass.edu/) with a minor in [Physics](https://www.physics.umass.edu/) at the same institution, and I finished my senior thesis under the supervision of Professor 
-{% assign url = site.data.colleagues["Panos Kevrekidis"] %}{% if url %}<a href="{{ url }}">Panos Kevrekidis</a>{% else %}Panos Kevrekidis{% endif %}.
+  {% include person_link.html name="Panos Kevrekidis" display="Panayotis (Panos) Kevrekidis" %}.
 <!--- on extreme wave events ([Abstract here](/Downloads/Hwang_Abstract.pdf)).--->
 
 I am interested in any topics within or related to theoretical computer science. For now, let's say my biggest interest is [information-theoretic cryptography](https://itcrypto.github.io/), particularly leakage-resilient cryptography. I also like to talk about network algorithms, high-performance computing, and computer security, but not as much as I like cryptography. See my [Research](/research) page for details.
 
-I also play [CTFs](https://ctftime.org/ctf-wtf/) sometimes as a member of [b01lers](https://b01lers.com/). If you are a student at Purdue interested in ethical hacking and offensive security, please consider joining us! ([b01lers stats in 2025](https://kevin.fish/b01lers-2025-wrapped))
+I also play 
+  [CTFs](https://ctftime.org/ctf-wtf/) 
+sometimes as a member of 
+  {% include person_link.html name="b01lers" %}.
+If you are a student at Purdue interested in ethical hacking and offensive security, please consider joining us! ([b01lers stats in 2025](https://kevin.fish/b01lers-2025-wrapped))
 
 <!-- 
 CTFTime stats widget created by CygnusX-26 
