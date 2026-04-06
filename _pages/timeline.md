@@ -61,7 +61,8 @@ search: exclude
 
 <li>
 	<div><b>March 2024</b></div>
-	<div>I presented both papers at <a href="https://www.aeroconf.org/">AeroConf 2024</a> held at Big Sky, MT!</div>
+	<div>I presented both papers at <a href="https://www.aeroconf.org/">AeroConf 2024</a> held at Big Sky, MT! <br>
+	See our slides: Talk 1 (<a href="https://drive.google.com/file/d/1rgx0Bjlif14aVo65roZljjrTKODJwhU5/view?usp=sharing">clock sync</a>) and Talk 2 (<a href="https://drive.google.com/file/d/1440KiYYs1LxczYcD-bGjaPmrHU8rOr09/view?usp=sharing">modeling</a>).</div>
 </li>
 
 </ul>

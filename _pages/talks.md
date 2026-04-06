@@ -21,7 +21,7 @@ On this page, you will find the notes and slides I made for the talks I presente
   NASA GRC-GSFC HDTN Clock Synchronization Intern Meeting  
   *Jul 12th, 2024*
 
-- [Pre-Processing and Leakage-Resilience Secure Computation](https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link)  
+- [Pre-Processing and Leakage-Resilient Secure Computation](https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link)  
   Purdue CS Theory Reading Seminar  
   *Nov 3rd, 2022*
 
@@ -68,7 +68,7 @@ On this page, you will find the notes and slides I made for the talks I presente
   *Apr 8th* and *29th, 2020* (respectively)
 
 - [Adjoints of Unbounded Linear Operators](https://drive.google.com/file/d/1xN1JNhN7NQHwCpbjEuje0WM4pJqjAoB5/view?usp=sharing) and [Sobolev Spaces W_0^{1,p}](https://drive.google.com/file/d/1vaLFJkxKwcpFv8D9rwJaSCXwFLrsiPpk/view?usp=sharing)  
-  In-class presentations for [MATH 725 Functional Analysis](https://people.math.umass.edu/~nahmod/M725_S20.html) with Prof. 
+  In-class presentations for [MATH 725 Functional Analysis](https://nahmod.github.io/Andrea-R-Nahmod.io/M725_S20.html) with Prof. 
     {% include person_link.html name="Andrea Nahmod" %} 
   ([Wiki](https://en.wikipedia.org/wiki/Andrea_R._Nahmod))  
   *Mar 3rd* and *Apr 28th, 2020* (respectively)
