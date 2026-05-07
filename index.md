@@ -10,18 +10,19 @@ author_profile: true
 </font>
 </p>
 
-Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. student studying [Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/), where I am fortunate to be advised by Professor 
-  {% include person_link.html name="Hemanta Maji" %}.  
-Last summer, I visited [NASA GSFC](https://www.nasa.gov/goddard) ([Code 450](https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/)) as a research intern hosted by 
+Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. candidate in [Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/), where I am fortunate to be advised by Professor 
+  {% include person_link.html name="Hemanta Maji" %}.
+I have also worked at [NASA GSFC](https://www.nasa.gov/goddard) ([Code 450](https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/)) several times as a research intern, hosted by Dr.
   {% include person_link.html name="Alan Hylton" %}.
 
-Before Purdue, I finished my Master's degree in [Computer Science](https://www.cics.umass.edu/) at [UMass Amherst](https://www.umass.edu/) where I briefly worked with Professor 
+Before Purdue, I completed my Master's degree in [Computer Science](https://www.cics.umass.edu/) at [UMass Amherst](https://www.umass.edu/) where I briefly worked with Professor 
   {% include person_link.html name="Adam O'Neill" %}.
-Even prior to that, I did my undergrad in [Mathematics](https://www.math.umass.edu/) with a minor in [Physics](https://www.physics.umass.edu/) at the same institution, and I finished my senior thesis under the supervision of Professor 
+Even prior to that, I did my undergraduate in [Mathematics](https://www.math.umass.edu/) with a minor in [Physics](https://www.physics.umass.edu/) at the same institution, and I wrote my senior thesis under the guidance of Professor 
   {% include person_link.html name="Panos Kevrekidis" display="Panayotis (Panos) Kevrekidis" %}.
 <!--- on extreme wave events ([Abstract here](/Downloads/Hwang_Abstract.pdf)).--->
 
-I am interested in any topics within or related to theoretical computer science. For now, let's say my biggest interest is [information-theoretic cryptography](https://itcrypto.github.io/), particularly leakage-resilient cryptography. I also like to talk about network algorithms, high-performance computing, and computer security, but not as much as I like cryptography. See my [Research](/research) page for details.
+I am interested in any topics within or related to theoretical computer science. 
+Currently, I am most interested in [information-theoretic cryptography](https://itcrypto.github.io/), particularly leakage-resilient cryptography. I also like to talk about network algorithms, high-performance computing, and computer security, but not as much as I like cryptography. See my [Research](/research) page for details.
 
 I also play 
   [CTFs](https://ctftime.org/ctf-wtf/) 

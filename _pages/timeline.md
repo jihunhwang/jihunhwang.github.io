@@ -5,6 +5,18 @@ permalink: /timeline/
 search: exclude
 ---
 
+## 2026
+<font size="4">
+<ul>
+<li>
+	<div><b>May 2026</b></div>
+	<div>Finally! I passed my preliminary exam. I am now a Ph.D. Candidate, graduating in 1-2 years!</div>
+</li>
+
+</ul>
+</font>
+
+
 ## 2025
 
 <font size="4">
