@@ -10,7 +10,23 @@ search: exclude
 <ul>
 <li>
 	<div><b>May 2026</b></div>
+	<div>Excited to share that our paper <i>Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage</i> has been accepted to <a href="https://itcrypto.github.io/2026/index.html">ITC 2026</a>! See you there!</div>
+</li>
+
+<li>
+	<div><b>May 2026</b></div>
 	<div>Finally! I passed my preliminary exam. I am now a Ph.D. Candidate, graduating in 1-2 years!</div>
+</li>
+
+<li>
+	<div><b>April 2026</b></div>
+	<div>Attending <a href="https://sites.google.com/view/algecom-main/algecom-xxvii-purdue-april-11-2026">AlGeCom XXVII</a>!</div>
+</li>
+
+<li>
+	<div><b>April 2026</b></div>
+	<div>Our preprint <i>Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage</i> is now <a href='{{ site.data.publications_phd | where: "title", "Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage" | first | map: "full_version" | first }}'>
+  online</a>!</div>
 </li>
 
 </ul>
@@ -74,8 +90,10 @@ search: exclude
 <li>
 	<div><b>March 2024</b></div>
 	<div>I presented both papers at <a href="https://www.aeroconf.org/">AeroConf 2024</a> held at Big Sky, MT! <br>
-	See our slides: Talk 1 (<a href="https://drive.google.com/file/d/1rgx0Bjlif14aVo65roZljjrTKODJwhU5/view?usp=sharing">clock sync</a>) and Talk 2 (<a href="https://drive.google.com/file/d/1440KiYYs1LxczYcD-bGjaPmrHU8rOr09/view?usp=sharing">modeling</a>).</div>
+	See our slides: Talk 1 (<a href='{{ site.data.publications_side | where: "title", "A Proposed Clock Synchronization Method for the Solar System Internet" | first | map: "slides" | first }}'>clock sync</a>) and Talk 2 (<a href='{{ site.data.publications_side | where: "title", "Multi-domain Routing in Delay Tolerant Networks" | first | map: "slides" | first }}'>modeling</a>).</div>
 </li>
+
+
 
 </ul>
 </font>
@@ -87,7 +105,7 @@ search: exclude
 
 <li>
 	<div><b>November 2023</b></div>
-	<div>Both papers I wrote with my intern mentor and fellow interns have been accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. Thank you all!</div>
+	<div>Both papers I wrote with my intern mentor and fellow interns have been accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. See you there!</div>
 </li>
 
 <li>
@@ -104,7 +122,7 @@ search: exclude
 
 <li>
 	<div><b>July 2023</b></div>
-	<div>The BPv7 paper I wrote with my CS 536 classmates based on our course project has been accepted to <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a> conference!</div>
+	<div>The BPv7 paper I wrote with my CS 536 classmates based on our course project has been accepted to <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a> conference!</div> 
 </li>
 
 <li>
@@ -178,7 +196,7 @@ search: exclude
 
 <li>
 	<div><b>February 2021</b></div>
-	<div>I will be (virtually) visiting and taking course(s) from the <a href="https://budapestsemesters.com/">Budapest Semester in Mathematics</a> (BSM) concurrently with my regular classes at UMass!</div>
+	<div>I will be (virtually) taking course(s) from the <a href="https://budapestsemesters.com/">Budapest Semester in Mathematics</a> (BSM) concurrently with my regular classes at UMass!</div>
 </li>
 
 <li>
