@@ -93,6 +93,30 @@ I also have a side interest in network algorithms/modeling, and computer securit
 ## People
 
 <style>
+/* Venue badge */
+abbr.venue-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  vertical-align: middle;
+  margin-right: 5px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+abbr.venue-badge a {
+  color: white;
+  text-decoration: none;
+}
+
+abbr.venue-badge a:hover {
+  text-decoration: underline;
+}
+
 /* Abstract summary */
 summary.abstract-summary {
   font-size: 0.8em;   /* smaller summary font */

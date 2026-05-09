@@ -1,0 +1,25 @@
+# https://htmlcolorcodes.com/
+
+
+ITC:
+  url: "https://itcrypto.github.io/"
+  color: "#003366"
+
+CRYPTO:
+  url: "https://crypto.iacr.org/"
+  color: "#003366"
+  # IACR navy blue
+  # Saving it here for record
+
+AeroConf:
+  url: "https://www.aeroconf.org/"
+  color: "#5E3400"
+
+WiSEE:
+  color: "#005950"
+
+ICII:
+  color: "#38005E"
+
+Preprint:
+  color: "#636363"

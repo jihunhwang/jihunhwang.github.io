@@ -13,13 +13,34 @@
       {% if url %}<a href="{{ url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}{% if forloop.index0 < second_last_index %},{% elsif forloop.index0 == second_last_index %}, and{% endif %}{% endfor %}
     <br>
     {% endif %}
-    <b>{{ paper.venue }}</b>
-    {% if paper.pdf %}[<a href="{{ paper.pdf }}">PDF</a>]{% endif %}
-    {% if paper.full_version %}[<a href="{{ paper.full_version }}">Full version</a>]{% endif %}
-    {% if paper.ePrint %}[<a href="{{ paper.ePrint }}">ePrint</a>]{% endif %}
-    {% if paper.arXiv %}[<a href="{{ paper.arXiv }}">arXiv</a>]{% endif %}
-    {% if paper.ECCC %}[<a href="{{ paper.ECCC }}">ECCC</a>]{% endif %}
-    {% if paper.NTRS %}[<a href="{{ paper.NTRS }}">NTRS</a>]{% endif %}
+    <!-- <b>{{ paper.venue }}</b> -->
+    {%- if paper.abbr -%}
+      {%- assign venue_info = site.data.venues[paper.abbr] -%}
+      {%- if venue_info -%}
+        {%- if venue_info.color -%}
+          {%- assign badge_style = venue_info.color | prepend: 'background-color:' -%}
+        {%- else -%}
+          {%- assign badge_style = 'background-color:#555' -%}
+        {%- endif -%}
+        {%- assign badge_url = paper.venue_url | default: venue_info.url -%}
+        <abbr class="venue-badge" style="{{ badge_style }}">
+          {%- if badge_url -%}
+            <a href="{{ badge_url }}">{{ paper.venue }}</a>
+          {%- else -%}
+            {{ paper.venue }}
+          {%- endif -%}
+        </abbr>
+      {%- endif -%}
+    {%- else -%}
+      <b>{{ paper.venue }}</b>
+    {%- endif -%}
+    <!-- <b>{{ paper.venue }}</b> -->
+    {% if paper.pdf %}<b>[<a href="{{ paper.pdf }}">PDF</a>]</b>{% endif %}
+    {% if paper.full_version %}<b>[<a href="{{ paper.full_version }}">Full version</a>]</b>{% endif %}
+    {% if paper.ePrint %}<b>[<a href="{{ paper.ePrint }}">ePrint</a>]</b>{% endif %}
+    {% if paper.arXiv %}<b>[<a href="{{ paper.arXiv }}">arXiv</a>]</b>{% endif %}
+    {% if paper.ECCC %}<b>[<a href="{{ paper.ECCC }}">ECCC</a>]</b>{% endif %}
+    {% if paper.NTRS %}<b>[<a href="{{ paper.NTRS }}">NTRS</a>]</b>{% endif %}
     <!-- {% if paper.LIPIcs %}[<a href="{{ paper.LIPIcs }}">LIPIcs</a>]{% endif %} -->
     {% if paper.doi %}<font size="3">(<a href="https://doi.org/{{ paper.doi }}">doi</a>)</font>{% endif %}
     {% if paper.slides %}[<a href="{{ paper.slides }}">Slides</a>]{% endif %}

@@ -6,6 +6,7 @@
     - "Xiuyu Ye"
   full_version: "https://www.cs.purdue.edu/homes/hmaji/papers/BHMSY26.pdf"
   venue: "Preprint"
+  abbr: "Preprint"
   abstract:
     - 'Side-channel attacks threaten even foundational primitives such as secret sharing, undermining threshold cryptography, and masking countermeasures. We study additive secret sharing over $\mathbb{Z}/N\mathbb{Z}$ under Hamming-weight leakage, focusing on local leakage resilience: statistical independence between the secret and the total leakage.'
     - 'Prior guarantees were limited to Mersenne primes $N=2^n-1$ with $k \geq 5$, where insecurity was bounded by $n^{-k/4}$. For $k=2$, the scheme is insecure, while for $k=3,4$ and for non-Mersenne moduli, no guarantees were known.'
@@ -20,6 +21,8 @@
     - "Xiuyu Ye"
   full_version: "https://www.cs.purdue.edu/homes/hmaji/papers/BHMY25.pdf"
   venue: "ITC 2026"
+  abbr: "ITC"
+  venue_url: "https://itcrypto.github.io/2026/"
   abstract: 
     - "Additive masking is a widely used countermeasure against side-channel attacks in which a secret is additively split into multiple random shares. However, over binary fields, the number of 1's in the binary representation (i.e., the Hamming weight) of the shares reveals information about the original secret. Inner product masking scheme has been proposed as a promising alternative that is secure against such information leakage."
     - "In this work, we establish that inner product masking over a binary extension field is provably secure against Hamming weight leakage, and it translates into security against arbitrary symmetric function leakage from the shares. In addition, we present an efficiently computable score function that quantifies its security against leakages, enabling users to test and certify its security. Finally, we derive a relationship between the leakage resilience of inner-product masking and additive masking over an arbitrary field; they are at least as secure as additive masking. Our approach is Fourier-analytic and involves estimating spectral norms of the Hamming slice by studying Krawtchouk polynomials."
@@ -32,6 +35,8 @@
   doi: "10.4230/LIPIcs.ITC.2025.3"
   full_version: "https://www.cs.purdue.edu/homes/hmaji/papers/HMNY24.pdf"
   venue: "ITC 2025"
+  abbr: "ITC"
+  venue_url: "https://itcrypto.github.io/2025/"
   abstract: 
     - "Can Shamir's secret-sharing protect its secret even when all shares are partially compromised?"
     - 'For instance, repairing Reed-Solomon codewords, when possible, recovers the entire secret in the corresponding Shamir’s secret sharing. Yet, Shamir’s secret sharing mitigates various side-channel threats, depending on where its secret-sharing polynomial is evaluated. Although most evaluation places yield secure schemes, none are known explicitly; even techniques to identify them are unknown. Our work initiates research into such classifier constructions and derandomization objectives.'
