@@ -25,7 +25,7 @@ search: exclude
 
 <li>
 	<div><b>April 2026</b></div>
-	<div>Our preprint <i>Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage</i> is now <a href='{{ site.data.publications_phd | where: "title", "Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage" | first | map: "full_version" | first }}'>
+	<div>Our new preprint <i>Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage</i> is now <a href='{{ site.data.publications_phd | where: "title", "Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage" | first | map: "full_version" | first }}'>
   online</a>!</div>
 </li>
 
@@ -46,6 +46,14 @@ search: exclude
 <li>
 	<div><b>September 2025</b></div>
 	<div>I am (virtually) attending the <a href="https://swc-math.github.io/aws/2026/2026PAWS.html">Preliminary Arizona Winter School</a> (PAWS 2025) hosted by the <a href="https://swc-math.github.io/misc/aboutSWC/index.html">Southwest Center for Arithmetic Geometry</a>!</div>
+</li>
+
+<li>
+	<div><b>July 2025</b></div>
+	<div>Our preprint <i>Leakage-resilient Secret-sharing against Hamming Weight Leakage</i> is <a href='{{ site.data.publications_phd | where: "title", "Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage" | first | map: "full_version" | first }}'>
+  online</a>!</div>
+
+  <div><font size=3>(<i>Edit</i>: the title is now <i>Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage.</i>)</font></div>
 </li>
 
 <li>
@@ -79,7 +87,7 @@ search: exclude
 
 <li>
 	<div><b>April 2024</b></div>
-	<div>We placed 3rd out of 97 and won the best poster award at this year's <a href="https://ectf.mitre.org/">MITRE eCTF</a>. Huge thanks to b01lers for this opportunity, and most importantly: nice collaborative work everyone!</div>
+	<div>We placed 3rd out of 97 and won the best poster award at this year's <a href="https://ectf.mitre.org/">MITRE eCTF</a>. Huge thanks to {% include person_link.html name="b01lers" %} for this opportunity, and most importantly: nice collaborative work everyone!</div>
 </li>
 
 <li>
