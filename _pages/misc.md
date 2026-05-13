@@ -153,7 +153,7 @@ Let us not forget to thank all those people who generously made their courses an
 
 
 <li>
-  <a href="https://sites.google.com/site/marywootters/home?authuser=0">Mary Wootters</a>made great introductory courses in <a href="https://youtube.com/playlist?list=PLkvhuSoxwjI_UudECvFYArvG0cLbFlzSr">Coding Theory</a> and <a href="https://sites.google.com/site/marywootters/teaching?authuser=0">Randomized Algorithms</a>.
+  <a href="https://sites.google.com/site/marywootters/home?authuser=0">Mary Wootters</a> made great introductory courses in <a href="https://youtube.com/playlist?list=PLkvhuSoxwjI_UudECvFYArvG0cLbFlzSr">Coding Theory</a> and <a href="https://sites.google.com/site/marywootters/teaching?authuser=0">Randomized Algorithms</a>.
 </li>
 
 <li>
