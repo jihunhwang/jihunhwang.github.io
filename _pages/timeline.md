@@ -2,7 +2,9 @@
 title: Timeline
 permalink: /timeline/
 # toc: true
+# toc_sticky: true
 search: exclude
+sitemap: false
 ---
 
 ## 2026

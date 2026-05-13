@@ -11,6 +11,10 @@ CRYPTO:
   # IACR navy blue
   # Saving it here for record
 
+FOCS:
+  color: "#2E6F40"
+  # Saving it here for record
+
 AeroConf:
   url: "https://www.aeroconf.org/"
   color: "#5E3400"

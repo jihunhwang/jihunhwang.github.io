@@ -1,6 +1,8 @@
 ---
 title: Talks
 permalink: /talks/
+# toc: true
+# toc_sticky: yes
 search: exclude
 sitemap: false
 ---
