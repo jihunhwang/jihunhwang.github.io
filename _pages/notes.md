@@ -23,6 +23,10 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 <ul>
 
 <li>
+	Spring 2026, <a href="https://drive.google.com/file/d/1mCOx3WGGdaDfaJOkPx-DPSdO_9gs_tFi/view?usp=sharing">MA 595ADC Additive Combinatorics</a>
+</li>
+
+<li>
 	Fall 2025, <a href="https://drive.google.com/file/d/1n6tvW7pWRfhkwJqMhuShbEUnitczTEz7/view?usp=sharing">MA 584 Algebraic Number Theory</a>
 </li>
 
