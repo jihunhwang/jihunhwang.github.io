@@ -24,7 +24,7 @@ sitemap: false
 <ul>
 	
 <li>
-  <a href="https://researchseminars.org/">Research Seminars</a>. Provides a list of online seminars/conferences in mathematics, computer science, physics, and biology. Open to everyone.
+  <a href="https://researchseminars.org/">Research Seminars</a>. Provides lists of online seminars/conferences in mathematics, computer science, physics, etc. Open to everyone.
 </li>
 
 <li>
@@ -101,7 +101,7 @@ sitemap: false
 </li> -->
 
 <li>
-  <a href="https://is.gd/ourfa2m2">OURFA²M²</a> organized by great people provides helpful information for undergraduate math majors.
+  <a href="https://is.gd/ourfa2m2">OURFA²M²</a> provides many helpful information for undergraduate math majors.
 </li>
 
 <!--

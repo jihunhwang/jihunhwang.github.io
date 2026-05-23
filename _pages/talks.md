@@ -9,6 +9,20 @@ sitemap: false
 
 On this page, you will find the notes and slides I made for the talks I presented.
 
+## Invited Talks
+
+- [Towards Provable Leakage-Resilience of Additive Masking under Hamming-weight Model](https://drive.google.com/file/d/1S0kmFv8mtgBHVroA-XidTm-QJQJH37aJ/view?usp=sharing) ([abstract](https://www.tcs.tifr.res.in/web/events/1721))  
+  [TIFR STCS Student Seminar](https://www.tcs.tifr.res.in/web/events/category?q=STCS%20Student%20Seminar)  
+  *May 22nd, 2026*
+
+- <a href='{{ site.data.publications_side | where: "title", "A Proposed Clock Synchronization Method for the Solar System Internet" | first | map: "slides" | first }}'>A Proposed Clock Synchronization Method for the Solar System Internet</a>  
+  IEEE Aerospace Conference (AeroConf 2024)  
+  *Mar 6th, 2024*
+
+- <a href='{{ site.data.publications_side | where: "title", "Multi-domain Routing in Delay Tolerant Networks" | first | map: "slides" | first }}'>Multi-domain Routing in Delay Tolerant Networks</a>  
+  IEEE Aerospace Conference (AeroConf 2024)  
+  *Mar 6th, 2024*  
+
 ## Informal Talks (Reading Seminar, etc.)
 
 - [Reverse Multiplication Friendly Embeddings: Quick introduction](https://drive.google.com/file/d/1bqQGZNbMNMXRztXDZU4fKUsP9e9u1kiR/view?usp=sharing)  
@@ -31,7 +45,7 @@ On this page, you will find the notes and slides I made for the talks I presente
   [Purdue CS Theory Reading Seminar](https://theory.cs.purdue.edu/spring2022.html)  
   *Feb 24th, 2022*
 
-- [Constructing Indistinguishability Obfuscation for Polynomial-Sized Circuits](https://drive.google.com/file/d/1lV1dFz7yEn25Me7VfZX0FGK-kZaVPwrG/view?usp=sharing) ([Talk Abstract](https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing))  
+- [Constructing Indistinguishability Obfuscation for Polynomial-Sized Circuits](https://drive.google.com/file/d/1lV1dFz7yEn25Me7VfZX0FGK-kZaVPwrG/view?usp=sharing) ([abstract](https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing))  
   [UMass CS Theory Seminar](https://groups.cs.umass.edu/theory/)  
   *Oct 20th, 2020*
 
@@ -39,12 +53,12 @@ On this page, you will find the notes and slides I made for the talks I presente
   UMass Geometric Analysis Reading Seminar  
   *May 7th, 2020*
 
-- [Enhanced Differential Equation Solvers Using Parallel Algorithms](https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m) ([Talk Abstract](https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw))  
+- [Enhanced Differential Equation Solvers Using Parallel Algorithms](https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m) ([abstract](https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw))  
   [UMass CS Theory Seminar](https://groups.cs.umass.edu/theory/)  
   *Apr 29th, 2020*
 
 - [Weierstrass Product and Sum of Reciprocals of Squares](https://drive.google.com/open?id=1cCTnSr_cReJvLxLMmprTFKUYuvExqVbs)  
-  Guest lecture in MATH 421 Undergraduate Complex Analysis, taught by Prof. [William Meeks](https://www.umass.edu/mathematics-statistics/about/directory/william-meeks) ([Wiki](https://en.wikipedia.org/wiki/William_Hamilton_Meeks,_III))  
+  Guest lecture for MATH 421 (Undergraduate Complex Analysis), taught by Prof. [William Meeks](https://www.umass.edu/mathematics-statistics/about/directory/william-meeks) ([Wiki](https://en.wikipedia.org/wiki/William_Hamilton_Meeks,_III))  
   *Apr 30th, 2018*
 
 

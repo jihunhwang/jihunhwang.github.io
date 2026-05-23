@@ -132,18 +132,18 @@ and
 
 <ul>
  
-<li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://web.math.princeton.edu/~rcabral/">Rafael Montezuma</a> from Princeton/UMass Amherst at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst on Feb 5th, 12th, 20th, and Mar 11th, 2020.
+<li><a href="https://drive.google.com/open?id=1rr596S8bVaCe2kTfFr-itRFPyEDIIgby">Morse Inequalities for the Area functional</a> by <a href="https://sites.google.com/mat.ufc.br/montezuma/in%C3%ADcio">Rafael Montezuma</a> at <a href="https://www.math.umass.edu/seminars/geometry-and-geometric-analysis-seminar">Geometry and Geometric Analysis Seminar</a> at UMass Amherst on Feb 5th, 12th, 20th, and Mar 11th, 2020.
 </li>
 
 
-<li><a href="https://drive.google.com/open?id=1G1_7gSlUzcnvNq_t1KiNnP8QQUTryeX_">Computing Higher Symplectic Capacities</a> by <a href="http://math.columbia.edu/~kyler/">Kyler Siegel</a> from Columbia at <a href="https://www.umass.edu/mathematics-statistics/seminars/geometry-and-topology-seminar">UMass Geometry and Topology Seminar</a> at UMass Amherst in Feb 19th, 2020.
+<li><a href="https://drive.google.com/open?id=1G1_7gSlUzcnvNq_t1KiNnP8QQUTryeX_">Computing Higher Symplectic Capacities</a> by <a href="https://kylersiegel.xyz/">Kyler Siegel</a> at <a href="https://www.umass.edu/mathematics-statistics/seminars/geometry-and-topology-seminar">UMass Geometry and Topology Seminar</a> in Feb 19th, 2020.
 </li>
 
-<li><a href="https://drive.google.com/open?id=1c_dd1yJWKzdi560e7_5BwIG1uoxHMKOu">The Multiplicative Hitchin System</a> by <a href="https://people.math.umass.edu/~celliott/">Chris Elliott</a> from UMass Amherst at the <a href="https://www.umass.edu/mathematics-statistics/seminars/geometry-and-topology-seminar">UMass Geometry and Topology Seminar</a> at UMass Amherst in Feb 7th, 2020.
+<li><a href="https://drive.google.com/open?id=1c_dd1yJWKzdi560e7_5BwIG1uoxHMKOu">The Multiplicative Hitchin System</a> by <a href="https://chrisjelliott.github.io/">Chris Elliott</a> at <a href="https://www.umass.edu/mathematics-statistics/seminars/geometry-and-topology-seminar">UMass Geometry and Topology Seminar</a> in Feb 7th, 2020.
 </li>
 
 
-<li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by {% include person_link.html name="Luca Schaffler" %} from UMass Amherst at the <a href="https://www.umass.edu/mathematics-statistics/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
+<li><a href="https://drive.google.com/open?id=1Vv3vxqLlKpIdfB50DmzyjPyuTJ8ewHQF">A Pascal's Theorem for Rational Normed Curves</a> by {% include person_link.html name="Luca Schaffler" %} at <a href="https://www.umass.edu/mathematics-statistics/seminars/valley-geometry-seminar">Valley Geometry Seminar</a> at UMass Amherst in Jan 31st, 2020.
 </li>
 
 </ul>

@@ -10,6 +10,12 @@ sitemap: false
 ## 2026
 <font size="4">
 <ul>
+
+<li>
+	<div><b>May 2026</b></div>
+	<div>Gave a talk (virtually) at the <a href="https://www.tcs.tifr.res.in/web/events/1721">student seminar</a> at <a href="https://www.tcs.tifr.res.in/web/">TIFR STCS</a> on our recent papers!</div>
+</li>
+
 <li>
 	<div><b>May 2026</b></div>
 	<div>Excited to share that our paper <i>Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage</i> has been accepted to <a href="https://itcrypto.github.io/2026/index.html">ITC 2026</a>! See you there!</div>
