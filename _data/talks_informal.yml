@@ -1,0 +1,56 @@
+- title: "Reverse Multiplication Friendly Embeddings: Quick introduction"
+  slides: "https://drive.google.com/file/d/1bqQGZNbMNMXRztXDZU4fKUsP9e9u1kiR/view?usp=sharing"
+  venue: "Purdue Cryptography Reading Group"
+  venue_url: "https://xiuyuye.github.io/purdue-crypto-read/"
+  date: "Oct 22nd, 2025"
+
+- title: "Towards Topos of Graphs"
+  slides: "https://drive.google.com/file/d/1rrHeaktlrlYfgyS7u2aHzzK_VKhe_lwA/view?usp=sharing"
+  annotated_slides: "https://drive.google.com/file/d/1TlkjzeCYWtVlzxZt2K_TC0WHnwl58okn/view?usp=sharing"
+  venue: "NASA GSFC Topos Theory Reading Seminar (Interns)"
+  date: "Jul 29th, 2024"
+
+- title: "Hasty Introduction to Software-Defined Networks"
+  slides: "https://drive.google.com/file/d/1xZLxRlWb2wJf_mzjy_nVtnMrcs035zlJ/view?usp=sharing"
+  venue: "NASA GRC-GSFC HDTN Clock Synchronization Intern Meeting"
+  date: "Jul 12th, 2024"
+
+- title: "Pre-Processing and Leakage-Resilient Secure Computation"
+  slides: "https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link"
+  venue: "Purdue CS Theory Reading Seminar"
+  date: "Nov 3rd, 2022"
+  abstract:
+    - 'In this talk, we discuss one of the computational analogs of information-theoretic leakage-resilience, such as the one presented last week. In particular, we discuss the existence of secure compilers against a computationally bounded adversary such as an $\mathsf{AC}^0$ leakage. We link this problem to a celebrated yet unsolved complexity-theoretic problem regarding the computational hardness of the inner product and discuss one of the recent progress in that problem.'
+
+- title: "Determinantal Complexity and Matrix Multiplication"
+  slides: "https://drive.google.com/file/d/16skP4qoTWEzEi2Yq1kYVx1eRxyNaB5Li/view?usp=sharing"
+  venue: "Purdue CS Theory Reading Seminar"
+  venue_url: "https://theory.cs.purdue.edu/spring2022.html"
+  date: "Feb 24th, 2022"
+  abstract:
+    - 'Finding the smallest exponent of matrix multiplication has always been of great interest to computer scientists and numerical analysts. The main goal of this talk is to introduce a representation-theoretic approach to the matrix multiplication problem presented by Chiantini et al. in 2018. To do this, we will dedicate the first half of the talk by discussing one of the traditions of algebraic complexity theory pioneered by L. Valiant in 1979, his conjecture ($\mathsf{VBP}$ vs. $\mathsf{VNP}$), as well as some computational models and their consequences relevant to Chiantini et al.`s result.'
+
+- title: "Constructing Indistinguishability Obfuscation for Polynomial-Sized Circuits"
+  slides: "https://drive.google.com/file/d/1lV1dFz7yEn25Me7VfZX0FGK-kZaVPwrG/view?usp=sharing"
+  abstract_url: "https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing"
+  venue: "UMass CS Theory Seminar"
+  venue_url: "https://groups.cs.umass.edu/theory/"
+  date: "Oct 20th, 2020"
+  abstract:
+    - 'Indistinguishability obfuscator ($i\mathcal{O}$) is known to be the best possible obfuscator that exists. It is currently conceived as one of the most important, powerful tools in post-quantum cryptography since Garg et al. (FOCS 2013) have successfully constructed the first candidate $i\mathcal{O}$ for $\mathsf{NC}^1$ circuits, and proved $i\mathcal{O}$ implies functional encryption. However, construction of $i\mathcal{O}$ for general circuits under standard cryptographic assumptions has been remaining as an open problem in cryptography. The goal of this survey is to introduce the recent progress in constructing $i\mathcal{O}$ for polynomial-size circuits (starting from $\mathsf{NC}^1$ circuits) and its relationship with functional encryption presented in Gay et al. (EuroCrypt 2021) and Jane, Lin, and Sahai (STOC 2021).'
+
+- title: "Recent Progress in the embedded Calabi-Yau conjecture"
+  slides: "https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing"
+  venue: "UMass Geometric Analysis Reading Seminar"
+  date: "May 7th, 2020"
+
+- title: "Enhanced Differential Equation Solvers Using Parallel Algorithms"
+  slides: "https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m"
+  abstract_url: "https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw"
+  venue: "UMass CS Theory Seminar"
+  venue_url: "https://groups.cs.umass.edu/theory/"
+  date: "Apr 29th, 2020"
+  abstract: 
+    - 'The purpose of this talk/survey is to introduce the concept of parallel computing systems and algorithms, and the efforts of developing more efficient (optimistically more accurate) methods of computing numerical solutions to differential equations.'
+    - 'Started from the parallel implementation of the Runge-Kutta method as well as the other classical integrators, parallel computing is still attracting numerous researchers by improving the numerical solvers to unstable equations such as stiff equations and resource-intensive algorithms such as fractional-order differential equations. This talk will focus mainly on the numerical methods for stiff equation solvers and fractional order differential equation solvers.'
+

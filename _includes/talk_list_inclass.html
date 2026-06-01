@@ -1,0 +1,32 @@
+<ul>
+{% assign talks = site.data[include.data_file] %}
+{% for talk in talks %}
+<li>
+  {% if talk.slides %}<b>{{ talk.title }}</b>{% endif %}<br>
+  {% if talk.date %}<i>{{ talk.date }}</i> {% endif %}
+  {% if talk.slides %}[<a href="{{ talk.slides }}">Slides</a>]{% endif %}<br>
+  {% if talk.title2 %}
+    {% if talk.slides2 %}<b>{{ talk.title2 }}</b>{% endif %}<br>
+    {% if talk.date2 %}<i>{{ talk.date2 }}</i> {% endif %}
+    {% if talk.slides2 %}[<a href="{{ talk.slides2 }}">Slides</a>]{% endif %}<br>
+  {% endif %}
+  {% capture venue_line %}
+    {% if talk.venue_url %}<a href="{{ talk.venue_url }}">{{ talk.venue }}</a>
+      {% else %}{{ talk.venue }}
+    {% endif %}
+    {% if talk.prof %} 
+      with Prof. {% assign prof_url = site.data.people[talk.prof] %}
+        {% if prof_url %}
+          <a href="{{ prof_url }}">{{ talk.prof_display | default: talk.prof }}</a>
+          {% else %}
+          {{ talk.prof_display | default: talk.prof }}
+        {% endif %}
+        {% if talk.prof_wiki %}
+           (<a href="{{ talk.prof_wiki }}">Wiki</a>)
+        {% endif %}
+    {% endif %}
+  {% endcapture %}
+  {{ venue_line | strip }}.
+</li>
+{% endfor %}
+</ul>

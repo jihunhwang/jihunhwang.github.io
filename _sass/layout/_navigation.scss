@@ -385,7 +385,7 @@
   color: var(--global-text-color-light);
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: var(--global-bg-color);
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
@@ -393,7 +393,7 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: var(--global-base-color);
+    background: var(--global-nav-title-bg-color);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
@@ -413,7 +413,7 @@
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: var(--global-code-text-color);
+    color: var(--global-text-color);
     font-size: $type-size-7;
     font-weight: bold;
     line-height: 1.5;
@@ -445,5 +445,15 @@
 
   li ul li ul li ul li ul li ul > li a {
     padding-inline-start: 3.25rem;
+  }
+}
+
+html[data-theme="dark"] {
+  .toc {
+    border-color: #3a3a3a;
+  }
+
+  .toc__menu a {
+    border-bottom-color: #3a3a3a;
   }
 }

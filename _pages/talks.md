@@ -7,96 +7,102 @@ search: exclude
 sitemap: false
 ---
 
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [["$", "$"], ["\\(", "\\)"]],
+            processEscapes: true
+        }
+    });
+</script>
+
 On this page, you will find the notes and slides I made for the talks I presented.
 
-## Invited Talks
+<!--
+talk_list.html is the code, it is in /_includes folder.
+talks_invited.yml is the data file, it is in /_data folder.
+-->
 
-- [Towards Provable Leakage-Resilience of Additive Masking under Hamming-weight Model](https://drive.google.com/file/d/1S0kmFv8mtgBHVroA-XidTm-QJQJH37aJ/view?usp=sharing) ([abstract](https://www.tcs.tifr.res.in/web/events/1721))  
-  [TIFR STCS Student Seminar](https://www.tcs.tifr.res.in/web/events/category?q=STCS%20Student%20Seminar)  
-  *May 22nd, 2026*
+## Invited / Conference Talks
 
-- <a href='{{ site.data.publications_side | where: "title", "A Proposed Clock Synchronization Method for the Solar System Internet" | first | map: "slides" | first }}'>A Proposed Clock Synchronization Method for the Solar System Internet</a>  
-  IEEE Aerospace Conference (AeroConf 2024)  
-  *Mar 6th, 2024*
+{% include talk_list.html data_file="talks_invited" %}
 
-- <a href='{{ site.data.publications_side | where: "title", "Multi-domain Routing in Delay Tolerant Networks" | first | map: "slides" | first }}'>Multi-domain Routing in Delay Tolerant Networks</a>  
-  IEEE Aerospace Conference (AeroConf 2024)  
-  *Mar 6th, 2024*  
 
 ## Informal Talks (Reading Seminar, etc.)
 
-- [Reverse Multiplication Friendly Embeddings: Quick introduction](https://drive.google.com/file/d/1bqQGZNbMNMXRztXDZU4fKUsP9e9u1kiR/view?usp=sharing)  
-  [Purdue Cryptography Reading Group](https://xiuyuye.github.io/purdue-crypto-read/)  
-  *Oct 22nd, 2025*
-
-- [Towards Topos of Graphs](https://drive.google.com/file/d/1rrHeaktlrlYfgyS7u2aHzzK_VKhe_lwA/view?usp=sharing) ([annotated slides](https://drive.google.com/file/d/1TlkjzeCYWtVlzxZt2K_TC0WHnwl58okn/view?usp=sharing))  
-  NASA GSFC Topos Theory Reading Seminar (Interns)  
-  *Jul 29th, 2024*
-
-- [Hasty Introduction to Software-Defined Networks](https://drive.google.com/file/d/1xZLxRlWb2wJf_mzjy_nVtnMrcs035zlJ/view?usp=sharing)  
-  NASA GRC-GSFC HDTN Clock Synchronization Intern Meeting  
-  *Jul 12th, 2024*
-
-- [Pre-Processing and Leakage-Resilient Secure Computation](https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link)  
-  Purdue CS Theory Reading Seminar  
-  *Nov 3rd, 2022*
-
-- [Determinantal Complexity and Matrix Multiplication](https://drive.google.com/file/d/16skP4qoTWEzEi2Yq1kYVx1eRxyNaB5Li/view?usp=sharing)  
-  [Purdue CS Theory Reading Seminar](https://theory.cs.purdue.edu/spring2022.html)  
-  *Feb 24th, 2022*
-
-- [Constructing Indistinguishability Obfuscation for Polynomial-Sized Circuits](https://drive.google.com/file/d/1lV1dFz7yEn25Me7VfZX0FGK-kZaVPwrG/view?usp=sharing) ([abstract](https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing))  
-  [UMass CS Theory Seminar](https://groups.cs.umass.edu/theory/)  
-  *Oct 20th, 2020*
-
-- [Recent Progress in the embedded Calabi-Yau conjecture](https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing)  
-  UMass Geometric Analysis Reading Seminar  
-  *May 7th, 2020*
-
-- [Enhanced Differential Equation Solvers Using Parallel Algorithms](https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m) ([abstract](https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw))  
-  [UMass CS Theory Seminar](https://groups.cs.umass.edu/theory/)  
-  *Apr 29th, 2020*
-
-- [Weierstrass Product and Sum of Reciprocals of Squares](https://drive.google.com/open?id=1cCTnSr_cReJvLxLMmprTFKUYuvExqVbs)  
-  Guest lecture for MATH 421 (Undergraduate Complex Analysis), taught by Prof. [William Meeks](https://www.umass.edu/mathematics-statistics/about/directory/william-meeks) ([Wiki](https://en.wikipedia.org/wiki/William_Hamilton_Meeks,_III))  
-  *Apr 30th, 2018*
-
+{% include talk_list.html data_file="talks_informal" %}
 
 
 ## In-class Talks
 
-- [Towards SNARKs: Efficient computationally sound zero-knowledge proofs](https://drive.google.com/file/d/1HM1dbxKQJS3PootRmWdgpZ8cA6W2mj5M/view?usp=sharing) and [Zero-Knowledge Locally Testable Codes](https://drive.google.com/file/d/1jgbNLAfgCITQfuDdbwEUt3_Phb1b5lhn/view?usp=sharing)  
-  Presentations for the seminar course [CS 592STC Special Topics in Cryptography: Zero-Knowledge Proofs](https://aarushigoel.github.io/courses/Fall%202024/CS592.html) hosted by Prof. 
-    {% include person_link.html name="Aarushi Goel" %}  
-  *Sep 30th* and *Dec 2nd, 2024* (respectively)
+{% include talk_list_inclass.html data_file="talks_inclass" %}
 
-- [Algebraic Geometric Secret Sharing Schemes and Secure Multi-Party Computations over Small Fields](https://drive.google.com/file/d/1hcB5khCKKZE8jIAcUQeuXpO8nLW_iZPu/view?usp=sharing)  
-  Paper reading presentation for [CS 655 Advanced Cryptology](https://www.cs.purdue.edu/homes/jblocki/courses/655_Spring23/index.html) with Prof. 
-    {% include person_link.html name="Jeremiah Blocki" %}   
-  *Apr 18th, 2023*
 
-- [Why is WiFi dangerous?](https://github.com/jihunhwang/Dangerous_WiFi)  
-  My Capstone project for CS 590J Cyber Effects (recording is available in the link as well)
+<style>
+/* Venue badge */
+abbr.venue-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  vertical-align: middle;
+  margin-right: 5px;
+  white-space: nowrap;
+  text-decoration: none;
+}
 
-- [Optimization of Non-Smooth Functions](https://drive.google.com/open?id=1WoqGJrSrRFGIz13BWrOsqS5sIbSfi4Ds) and [Convergence Along ULA Under Isoperimetric Assumptions](https://drive.google.com/file/d/1V0-tLMkKijvZEi46CJ4H040T3DRaBMjr/view?usp=sharing)  
-  Reading projects for CS 690OP Convex Optimization with Prof. 
-    {% include person_link.html name="Madalina Fiterau" display="Madalina (Ina) Fiterau" %}  
-  *Apr 8th* and *29th, 2020* (respectively)
+abbr.venue-badge a {
+  color: white;
+  text-decoration: none;
+}
 
-- [Adjoints of Unbounded Linear Operators](https://drive.google.com/file/d/1xN1JNhN7NQHwCpbjEuje0WM4pJqjAoB5/view?usp=sharing) and [Sobolev Spaces W_0^{1,p}](https://drive.google.com/file/d/1vaLFJkxKwcpFv8D9rwJaSCXwFLrsiPpk/view?usp=sharing)  
-  In-class presentations for [MATH 725 Functional Analysis](https://nahmod.github.io/Andrea-R-Nahmod.io/M725_S20.html) with Prof. 
-    {% include person_link.html name="Andrea Nahmod" %} 
-  ([Wiki](https://en.wikipedia.org/wiki/Andrea_R._Nahmod))  
-  *Mar 3rd* and *Apr 28th, 2020* (respectively)
+abbr.venue-badge a:hover {
+  text-decoration: underline;
+}
 
-- [Fundamental Group of 3-Manifold](https://drive.google.com/open?id=1eft8KB049S9JKEC7CHc_XhjSPHZuDi7_) ([Slides](https://drive.google.com/open?id=14wPGpRbFJ4Rn44hYd-C_uyVLLQeVqbPB))  
-  Junior-year writing course with Prof. 
-    {% include person_link.html name="Franz Pedit" %}   
-  *Dec 6th, 2018*
+/* Abstract summary */
+summary.abstract-summary {
+  font-size: 0.8em;   /* smaller summary font */
+  text-decoration: underline;
+}
 
-- [Complexity of Numerical Analysis with BSS Machine](https://drive.google.com/open?id=1qC8w4TC-Urbf_Y6wJeoca7Sna0u1P76u)  
-  Reading project for [CS 601 Theory of Computation](https://people.cs.umass.edu/~immerman/cs601/) with Prof. 
-    {% include person_link.html name="Neil Immerman" %}
-  ([Wiki](https://en.wikipedia.org/wiki/Neil_Immerman))  
-  *May 1st, 2018*
+details.abstract-details p {
+  font-size: 0.8em; /* slightly smaller */
+  padding-left: 1em;  /* indent the summary text */
+  display: block;     /* ensures padding applies properly */
+  margin: 0.2em 0;
+}
 
+details.abstract-details li {
+  font-size: 0.8em;
+}
+
+summary.abstract-summary::after {
+  content: " Abstract (click to expand)";
+}
+
+details[open] summary.abstract-summary::after {
+  content: " Abstract (click to collapse)";
+}
+
+/* BibTeX summary */
+summary.bibtex-summary {
+  font-size: 0.7em; /* even smaller */
+}
+
+summary.bibtex-summary::after {
+  content: " BibTeX (click to expand)";
+}
+
+details[open] summary.bibtex-summary::after {
+  content: " BibTeX (click to collapse)";
+}
+
+p span.indented {
+  display: block;      /* each line behaves like a block */
+  text-indent: 1em;    /* indent the first line of each block */
+}
+</style>

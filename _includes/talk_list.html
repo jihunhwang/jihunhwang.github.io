@@ -1,0 +1,20 @@
+<ul>
+{% assign talks = site.data[include.data_file] %}
+{% for talk in talks %}
+  <li>
+    <b>{{ talk.title }}</b><br>
+    <i>{{ talk.date }}</i>
+      {% if talk.slides %}[<a href="{{ talk.slides }}">Slides</a>{% if talk.annotated_slides %} (<a href="{{ talk.annotated_slides }}">annotated</a>){% endif %}]{% endif %}
+      {% if talk.event_url %}(<a href="{{ talk.event_url }}">Event page</a>){% endif %}<br>
+    {% if talk.venue_url %}<a href="{{ talk.venue_url }}">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}{% if talk.venue_short %} ({{ talk.venue_short }}){% endif %}<br>
+    {% if talk.abstract %}
+    <details class="abstract-details" closed>
+      <summary class="abstract-summary"></summary>
+      {% for paragraph in talk.abstract %}
+        <p><span class="indented">{{ paragraph }}</span></p>
+      {% endfor %}
+    </details>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
