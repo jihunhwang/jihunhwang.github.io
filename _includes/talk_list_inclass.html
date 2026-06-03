@@ -2,13 +2,17 @@
 {% assign talks = site.data[include.data_file] %}
 {% for talk in talks %}
 <li>
-  {% if talk.slides %}<b>{{ talk.title }}</b>{% endif %}<br>
+  {% if talk.title %}<b>{{ talk.title }}</b>{% endif %}<br>
   {% if talk.date %}<i>{{ talk.date }}</i> {% endif %}
-  {% if talk.slides %}[<a href="{{ talk.slides }}">Slides</a>]{% endif %}<br>
+  {% if talk.slides %}[<a href="{{ talk.slides }}">Slides</a>]{% endif %}
+  {% if talk.notes %}[<a href="{{ talk.notes }}">Notes</a>]{% endif %}
+  {% if talk.link %}[<a href="{{ talk.link }}">Link</a>]{% endif %}
+  {% if talk.video %}[<a href="{{ talk.video }}">Video</a>]{% endif %}<br>
   {% if talk.title2 %}
-    {% if talk.slides2 %}<b>{{ talk.title2 }}</b>{% endif %}<br>
+    {% if talk.title2 %}<b>{{ talk.title2 }}</b>{% endif %}<br>
     {% if talk.date2 %}<i>{{ talk.date2 }}</i> {% endif %}
-    {% if talk.slides2 %}[<a href="{{ talk.slides2 }}">Slides</a>]{% endif %}<br>
+    {% if talk.slides2 %}[<a href="{{ talk.slides2 }}">Slides</a>]{% endif %}
+    {% if talk.notes2 %}[<a href="{{ talk.notes2 }}">Notes</a>]{% endif %}<br>
   {% endif %}
   {% capture venue_line %}
     {% if talk.venue_url %}<a href="{{ talk.venue_url }}">{{ talk.venue }}</a>

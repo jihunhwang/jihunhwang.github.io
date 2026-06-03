@@ -40,7 +40,7 @@
     - 'Indistinguishability obfuscator ($i\mathcal{O}$) is known to be the best possible obfuscator that exists. It is currently conceived as one of the most important, powerful tools in post-quantum cryptography since Garg et al. (FOCS 2013) have successfully constructed the first candidate $i\mathcal{O}$ for $\mathsf{NC}^1$ circuits, and proved $i\mathcal{O}$ implies functional encryption. However, construction of $i\mathcal{O}$ for general circuits under standard cryptographic assumptions has been remaining as an open problem in cryptography. The goal of this survey is to introduce the recent progress in constructing $i\mathcal{O}$ for polynomial-size circuits (starting from $\mathsf{NC}^1$ circuits) and its relationship with functional encryption presented in Gay et al. (EuroCrypt 2021) and Jane, Lin, and Sahai (STOC 2021).'
 
 - title: "Recent Progress in the embedded Calabi-Yau conjecture"
-  slides: "https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing"
+  notes: "https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing"
   venue: "UMass Geometric Analysis Reading Seminar"
   date: "May 7th, 2020"
 
