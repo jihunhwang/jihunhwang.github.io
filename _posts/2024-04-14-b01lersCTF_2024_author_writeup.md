@@ -1,12 +1,13 @@
 ---
 title: "b01lersCTF 2024 author's writeup"
+modified: 2024-04-24
 date: 2024-04-14
 description: b01lersCTF 2024 author's official writeup
 tags: ['CTF']
 toc: true
 toc_sticky: yes
+share: false
 mathjax: true
-modified: 2024-04-24
 ---
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">

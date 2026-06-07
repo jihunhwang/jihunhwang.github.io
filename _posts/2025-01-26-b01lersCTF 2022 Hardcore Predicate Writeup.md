@@ -1,12 +1,13 @@
 ---
 title: "b01lersCTF 2022: Hardcore (predicate)"
+modified: 2025-01-27
 date: 2025-01-26
 description: b01lersCTF 2022 Hardcore Predicate
 tags: ['CTF']
 mathjax: yes
 toc: yes
 toc_sticky: yes
-modified: 2025-01-27
+share: false
 header:
     teaser: "https://s1.ax1x.com/2022/07/23/jXsiEF.png"
     # overlay_image: "/image/etc/b01lersctf2022hardcore.png"

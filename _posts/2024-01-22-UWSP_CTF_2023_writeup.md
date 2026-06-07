@@ -1,12 +1,13 @@
 ---
 title: "Pointer Overflow CTF 2023 Writeups"
 date: 2024-01-22
+modified: 2024-03-20
 description: Pointer Overflow CTF 2023 Writeups
 tags: ['CTF']
 toc: true
 toc_sticky: yes
+share: false
 mathjax: yes
-modified: 2024-03-20
 header:
     teaser: "images/uwsp_2023/TimeisbutaWindow-sol1.png"
 ---

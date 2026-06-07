@@ -1,10 +1,11 @@
 ---
 title: "CyberSpace CTF 2024: trendy windy trigonity"
+modified: 2025-05-04
 date: 2024-09-02
 description: CyberSpace CTF 2024 trendy windy trigonity Writeup
 tags: ['CTF']
 mathjax: yes
-modified: 2025-05-04
+share: false
 header:
     teaser: "https://ctftime.org/media/cache/2b/a1/2ba1e95fc5f7b5bebd87275d3d4666b0.png"
 ---

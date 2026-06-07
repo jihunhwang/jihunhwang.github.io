@@ -41,7 +41,7 @@ author:
   orcid            : "http://orcid.org/0000-0002-3695-3706"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Jihun_Hwang2"
   scopus           : # URL
 
   # Repositories and software development
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : jihun-hwang
+  linkedin         : "jihun-hwang"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

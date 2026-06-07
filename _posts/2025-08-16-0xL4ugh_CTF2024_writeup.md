@@ -1,12 +1,13 @@
 ---
 title: "0xL4ugh CTF 2024 Writeup"
+modified: 2025-12-22
 date: 2025-08-16
 description: 0xL4ugh CTF 2024 Writeup
 tags: ['CTF']
 mathjax: yes
 toc: yes
 toc_sticky: yes
-modified: 2025-12-22
+share: false
 header:
     teaser: "https://www.eljooker.tech/assets/img/posts/2024-12-26-My%200xL4ugh%20CTF%20Challenges/cover.jpg"
 ---
