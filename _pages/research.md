@@ -56,7 +56,7 @@ abbr.venue-badge {
   font-style: normal;
   color: white;
   vertical-align: middle;
-  margin-right: 5px;
+  margin-right: 3px;
   white-space: nowrap;
   text-decoration: none;
 }

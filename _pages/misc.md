@@ -48,11 +48,11 @@ sitemap: false
 </li> -->
 
 <li>
-  <a href="https://websites.umass.edu/tevelev/grad_advice/">Advice for pure math undergraduates in UMass Amherst</a> (<a href="https://web.archive.org/web/20210126014044/https://people.math.umass.edu/~tevelev/grad_advice.html">Archive</a>) by Professor {% include person_link.html name="Jenia Tevelev" %}. I believe that his opinions are still valid for applied math students.
+  <a href="https://websites.umass.edu/tevelev/grad_advice/">Advice for pure math undergraduates in UMass Amherst</a> (<a href="https://web.archive.org/web/20210126014044/https://people.math.umass.edu/~tevelev/grad_advice.html">Archive</a>) by Prof. {% include person_link.html name="Jenia Tevelev" %}. I believe that his opinions are still valid for applied math students.
 </li>
 
 <li>
-  <a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">Applying to Ph.D. Programs in Computer Science</a> by Professor <a href="https://www.cs.cmu.edu/~harchol/">Mor Harchol-Balter</a>. If you are thinking of applying to Ph.D. programs in CS, please, do read this first. 
+  <a href="https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf">Applying to Ph.D. Programs in Computer Science</a> by Prof. <a href="https://www.cs.cmu.edu/~harchol/">Mor Harchol-Balter</a>. If you are thinking of applying to Ph.D. programs in CS, please, do read this first. 
 </li>
 
 <li>
@@ -128,23 +128,23 @@ Let us not forget to thank all those people who generously made their courses an
 <ul>
 
 <li>
-  <a href="https://ocw.mit.edu/index.htm">MIT OCW</a> (<a href = "https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw">Youtube</a>). It's MIT OCW, so I assume I don't need to put any explanations here. 
+  <a href="https://ocw.mit.edu/index.htm">MIT OCW</a> (<a href = "https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw">Youtube</a>). It's MIT OCW; no explanations needed. 
 </li>
 
 <li>
-  <a href="https://www.ictp.it/">ICTP</a> (<a href="https://www.youtube.com/channel/UC-akozxNLMPcMcs0qVvS1VQ/featured">Youtube</a>) and their <a href="https://www.youtube.com/channel/UCBlqfZZYQWKyr6qLAB7LINw">Diploma Programme</a> upload the recordings of their lectures which are roughly equivalent to the MS/PhD level math courses in the US.
+  <a href="https://www.ictp.it/">ICTP</a> (<a href="https://www.youtube.com/channel/UC-akozxNLMPcMcs0qVvS1VQ/featured">Youtube</a>) and their <a href="https://www.youtube.com/channel/UCBlqfZZYQWKyr6qLAB7LINw">Diploma Programme</a> upload recordings of their lectures which are roughly equivalent to the MS/PhD level math courses in the US.
 </li>
 
 <li>
-  <a href="http://www.cs.cmu.edu/~odonnell/">Ryan O'Donnell</a> (<a href="https://www.youtube.com/c/RyanODonnellTeaching/playlists">Youtube</a>) has made some golden lectures in complexity theory. 
+  <a href="http://www.cs.cmu.edu/~odonnell/">Ryan O'Donnell</a> (<a href="https://www.youtube.com/c/RyanODonnellTeaching/playlists">Youtube</a>) has put some golden lectures in theoretical computer science online. 
 </li>
 
 <li>
-  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://sites.google.com/view/enjoyingmath/home">Gunhee Cho</a> has a wide range of rigorous lecture series in mathematics, spanning undergraduate courses to recent research topics. Lectures are mostly in Korean, but the notes are primarily in English.
+  <a href="https://www.youtube.com/channel/UCB_AbuIVIG8I3K3_T_j0FSw/videos">Enjoying Math</a> by <a href="https://sites.google.com/view/enjoyingmath/home">Gunhee Cho</a> has a wide range of rigorous lecture series in mathematics, spanning undergraduate courses to recent research topics. Lectures are mostly in Korean, but slides/notes are primarily in English.
 </li>
 
 <li>
-  Pretty intensive algorithms courses developed by <a href="https://kentquanrud.com/">Kent Quanrud</a> at Purdue is available on his website; if you are just looking for videos, see <a href="https://www.youtube.com/@kquanrud">his YouTube channel</a>.
+  Pretty intensive algorithms courses developed by <a href="https://kentquanrud.com/">Kent Quanrud</a> is available on his <a href="https://kentquanrud.com/">webpage</a>; if you are just looking for videos, see <a href="https://www.youtube.com/@kquanrud">his YouTube channel</a>.
 </li>
 
 <!-- <li>
@@ -214,10 +214,8 @@ Let us not forget to thank all those people who generously made their courses an
 
 <li>
 	<a href="https://tonsky.me/blog/disenchantment/?fbclid=IwAR3xwKo5ZA5yhTXVtJT7mnptk5gN5GAJwXXIf1GKhqUPsauaIy1d0rgY4uc">Software disenchantment</a>. <i>"Windows 95 was 30MB. Today we have web pages heavier than that! Windows 10 is 4GB, which is 133 times as big. But is it 133 times as superior?"</i>
-	</li>
-	
+</li>
 
-	
 <li>
 	<a href="https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/">Does one have to be a genius to do maths?</a> by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a> (<a href="https://en.wikipedia.org/wiki/Terence_Tao">Wiki</a>), 2006 Fields Medalist. <i>"The objective in mathematics is not to obtain the highest ranking, the highest “score”, or the highest number of prizes and awards"</i>. If you read Korean, take a look at <a href="https://comic.naver.com/webtoon/detail.nhn?titleId=703853&no=5&weekday=sun">this webtoon</a> as well.
 </li>
@@ -229,10 +227,14 @@ Let us not forget to thank all those people who generously made their courses an
 <li>
 	<a href="https://www.theatlantic.com/education/archive/2021/09/bias-math-sexism-racism/620207/">Math is Personal</a>. In case you do not understand why teachers are often called the engineers of human soul. Learning is very deep and students are too valuable to be just classified using some letters and numerics. 
 </li>
+
+<li>
+  <a href="https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/">There’s more to mathematics than rigour and proofs</a> again by <a href="https://www.math.ucla.edu/~tao/">Terry Tao</a>. It changed my perspective on math (and CS indeed) education quite a bit. See also <a href="https://mathwithbaddrawings.com/2015/12/16/good-mathematician-vs-great-mathematician/">Good Mathematician vs. Great Mathematician</a> by Ben Orlin.  
+</li>
 	
 <li>
 	<a href="https://www.dailyprincetonian.com/article/2022/02/stem-intro-courses-humanites-exploration">Why won’t anyone teach me math?</a> I agree that a certain level of difficulty must be maintained in curriculums. However, systemically refusing to help or educate students is not a reasonable method of keeping that standard. 
-	</li>
+</li>
 	
 <li>
 	<a href="https://artofproblemsolving.com/community/c5h1147943p5421541">Having Time for Math</a> by <a href="https://web.evanchen.cc/">Evan Chen</a>. If you don't have time, then maybe you should make some time!
@@ -241,10 +243,12 @@ Let us not forget to thank all those people who generously made their courses an
 <li>
 	<a href="https://www.cs.cmu.edu/~mblum/research/pdf/grad.html">The 4 R's of Graduate School</a> by <a href="https://www.cs.cmu.edu/~mblum/">Manuel Blum</a> (<a href="https://en.wikipedia.org/wiki/Manuel_Blum">Wiki</a>), 1995 Turing Award winner. <i>"Without writing, you are reduced to a finite automaton. With writing you have the extraordinary power of a Turing machine."</i>
 </li>
-	
- <li>
+
+<!--
+<li>
 	<a href="https://www.edupristine.com/blog/11-facts-about-data-science">The Inconvenient Truth About Data Science</a>. "<i>Some models are more wrong than others, but all are wrong.</i>"
 </li>
+-->
 
 </ul>
 

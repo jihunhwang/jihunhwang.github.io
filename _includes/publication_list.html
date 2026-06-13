@@ -13,7 +13,6 @@
       {% if url %}<a href="{{ url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}{% if forloop.index0 < second_last_index %},{% elsif forloop.index0 == second_last_index %}, and{% endif %}{% endfor %}
     <br>
     {% endif %}
-    <!-- <b>{{ paper.venue }}</b> -->
     {%- if paper.abbr -%}
       {%- assign venue_info = site.data.venues[paper.abbr] -%}
       {%- if venue_info -%}
@@ -34,7 +33,6 @@
     {%- else -%}
       <b>{{ paper.venue }}</b>
     {%- endif -%}
-    <!-- <b>{{ paper.venue }}</b> -->
     {% if paper.pdf %}<b>[<a href="{{ paper.pdf }}">PDF</a>]</b>{% endif %}
     {% if paper.full_version %}<b>[<a href="{{ paper.full_version }}">Full version</a>]</b>{% endif %}
     {% if paper.ePrint %}<b>[<a href="{{ paper.ePrint }}">ePrint</a>]</b>{% endif %}
