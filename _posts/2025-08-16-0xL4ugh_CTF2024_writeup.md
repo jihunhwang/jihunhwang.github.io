@@ -1,6 +1,6 @@
 ---
 title: "0xL4ugh CTF 2024 Writeup"
-modified: 2025-12-22
+modified: 2026-06-18
 date: 2025-08-16
 description: 0xL4ugh CTF 2024 Writeup
 tags: ['CTF']
@@ -11,6 +11,7 @@ share: false
 header:
     teaser: "https://www.eljooker.tech/assets/img/posts/2024-12-26-My%200xL4ugh%20CTF%20Challenges/cover.jpg"
 ---
+
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
     MathJax.Hub.Config({
@@ -34,7 +35,7 @@ I only a chance to revisit them in summer, which is why this writeup is late.
 During the CTF, I worked closely with <a href="https://dm248.github.io/">dm248</a>. 
 </p>
 
-<p>Because the team hosting this CTF is based in Egypt, some of the flags contain statements referencing some ongoing geopolitical events. I should hence make a disclaimer that this post is not intended to be a description or representation of my personal opinions on those matters in any way en messe.</p>
+<p><b>Please note:</b> Because the team hosting this CTF is based in Egypt, some of the flags contain statements referencing some ongoing geopolitical events. I should hence make a disclaimer that this post is not intended to be a description or representation of my personal opinions on those matters in any way en messe.</p>
 
 <p>Let's dive in. </p>
 </font>
@@ -1062,14 +1063,19 @@ print(f"{n = }")
 print(f"{suspect1 = }")
 print(f"{suspect2 = }")
 print(f"{suspect3 = }")
-
-"""
+```
+<font size="4">
+<details>
+<summary><code>Parameters (Click to expand)</code></summary>
+{% highlight python %}
 n = 19839772406592038190388369555693240762538001200560061266337400393390156583067094925964221108025393509323129492181808800544023673275469504815756943291095595848265120220669476825666894482813540241527304775449458006280511430395083776478716286901666159754102681493836770408600291259628536040434644542060008861460420239246675790014643348741981881010487160862738716411889615506716421080697468265585927037843912107880024620419353850828958766380546515595072180248367832537298679740790910760381847091223213725252496813564585753065499199756614019421519942263274322634395687433695110598812240962419691874373000201021934599758797
 suspect1 = 5481486211302967857769378509759769524898893113769798571566110518298239375346559533567130904334120310259073521689660742329402669803133955525980601074061060366523204309605656941088516563019896350744848647220202699971933873327122537767517470710991239051145546233486350769062812973389594972516798683040238948422580474396838973908938438667987996165190322222109916886919741191377317838047550364750510197486200306552822564654524636230517193400552655480382550090475112152259065912376331879070271050217631265029575688136893103014397737263756000822849774077743242156386781732974791603691819070298846187429459320822647710620293
 suspect2 = 15471195868740783618434039853444325091271961027566455380499276767098755025135594696728733163606916023568535782480341237444034508459734566848020061886214821897207138082654569949589331097642340763425757407284917986100913980642765560090771257023522726807588417681283124019065392862167108175329291155234133431256495186165800850480939395948647023937960370587015180526235807164349620200372082282153041480140456912677691184030985478987260144919138692599055396440254136094165144465177387897117241518119002151156994012940982185071384104913576348164605987962727398059082040045985921247609152298846513278146669552901243070877548
 suspect3 = 19399106641059719430021192160300204748154013890459468255719373754354019167820792318092409182406115115530722200666728245446889796562750491115857160508014999883632529321252844540803747198849908691018558610987780941352925318030705567748409124616428965718613582321101358603980688505770743832166552232290945499674026703080355911673609019440196413604866135380765992660957896795208203543126720721831806050402994470347462682914357117859227310008496022278900904627608587245076871675416071315270832931533605319537498860164513939297842228067992324510225950750517047989392427879860701099273608883718222060264811834053566449919927
-"""
-```
+{% endhighlight %}
+</details>
+</font>
+
 <p></p>
 
 <font size="4">
@@ -1125,17 +1131,206 @@ This was the one that struggled me the most (and the reason this writeup was so 
 </p>
 </font>
 
+```python
+## chall.py
+from Crypto.Util.number import getPrime, isPrime, bytes_to_long
+
+p=getPrime(512)
+while True:
+    w=getPrime(20)
+    x=2*w*p-1
+    if isPrime(x):
+        break
+
+q=getPrime(512*2)
+n = p * q *x
+e = 65537
+m = bytes_to_long(b'redacted')
+c = pow(m, e, n)
+print(f"{n = }")
+print(f"{e = }")
+print(f"{c = }")
+```
+
 <font size="4">
-<p>
-(Writing in progress)
-</p>
+<details>
+<summary><code>Parameters (Click to expand)</code></summary>
+{% highlight python %}
+n = 18186672849609603331344182584568642941078893104802301217241028624469607021717197485036251613075846729705028441094100248337306406098776983108141004863456595015660485098203867670995838502297993710897784135087115777697925848407153788837657722171924264421550564295047937036911411846582733847201015164634546149603743246378710225407507435371659148999942913405493417037116587298256802831009824832360479040621348157491754407277404391337488226402711686156101028879269050800874367763551119682177453648890492731413760738825931684979379268401715029193518612541590846238434595210876468090976194627398214837801868969047036272502669215123
+e = 65537
+c = 1617999293557620724157535537778741335004656286655134597579706838690566178453141895621909480622070931381931296468696585541046188947144084107698620486576573164517733264644244665803523581927226503313545336021669824656871624111167113668644971950653103830443634752480477923970518891620296211614968804248580381104245404606917784407446279304488720323993268637887493503760075542578433642707326246816504761740168067216112150231996966168374619580811013034502620645288021335483574561758204631096791789272910596432850424873592013042090724982779979496197239647019869960002253384162472401724931485470355288814804233134786749608640103461
+{% endhighlight %}
+</details>
 </font>
 
 
 <font size="4">
-<p>
+<p></p>
 
+<p>
+Notice first that $x + 1 = 2wp$ where $w$ is a small (20-bit) making $x+1$ (sort of) a smooth number. This reminds us of <a href="https://en.wikipedia.org/wiki/Williams's_p_%2B_1_algorithm">Williams' algorithm</a>.
+However, directly applying Williams' algorithm does not work, because $p$ is a 512-bit prime number, i.e. $x+1$ isn't "quite smooth."
+Then, how do we make it work?
 </p>
+
+<p>Let us recall how Williams' algorithm proceeds. Let $\{V_k (P) \}_k$ be the Lucas sequence with parameter $P$:
+$$
+V_k = P \; V_{k-1} - V_{k-2} \;\text{ mod } n \qquad \text{where } V_0 = 2 \text{ and } V_1 = P
+$$
+where $n$ is the number we want to factorize; for brevity, we write $V_k := V_k(P)$ unless the parameter $P$ has to be explicitly mentioned. 
+Then for any prime $x$ and $D = P^2 - 4$, 
+$$
+V_{x - \left( \frac{D}{x} \right)} \equiv 2 \pmod{x}
+$$
+where $\left( \frac{D}{x} \right)$ here denotes the Legendre symbol. But surely, we have 
+$$
+V_{k_1 k_2}(P) = V_{k_1}(V_{k_2}(P)) \quad \text{for all } k_1, k_2 \in \mathbb{N}
+$$
+implying that any multiple $M$ of $x - \left( \frac{D}{x} \right)$ gives $V_M \equiv 2 \pmod{x}$, and hence
+$$
+x \mid \gcd(V_M - 2, n)
+$$
+This is the crux of Williams' algorithm. 
+We pick a multiplier $M$ that is "smooth enough" to be a multiplier of $x+1$ for some (unknown) prime factor $x$ of $n$, compute $V_M \text{ mod } n$, then $\gcd(V_M - 2, n)$ to get (a multiple of) $x$. 
+</p>
+
+<p>This algorithm inherently assumes $x+1 = 2wp$ to be smooth so that a smooth $M$ can be a multiple of it, but as mentioned, it is not quite smooth, because $p$ is a 512-bit prime number. 
+We can however make it relatively smooth with facts we know already: 
+<ol>
+  <li>$p$ exists in both $n = pqx$ and $x+1 = 2wp$ as a factor.</li>
+  <li>$w$ is a 20-bit prime number, there are only $\pi(2^{20}) - \pi(2^{19}) = 38635$ many of them.</li>
+  <li>We just need $M$ to be a multiple of $x+1$.</li>
+</ol>
+So, we can construct a multiple of $x+1$ as follows:
+$$
+M = 2n \prod_{\substack{\text{prime } r \\ \text{s.t. } 2^{19} \leq r < 2^{20}}} r
+$$
+Another thing is that $M$ is a multiple of $x+1$, but not $x-1$. So, if $\left( \frac{D}{x} \right) = 1$ then the factorization may fail. There is no way to avoid this, one could only try a bunch of $P$'s and hope one of them will give $\left( \frac{D}{x} \right) = 1$. 
+</p>
+</font>
+
+```python
+# list of small primes up to 2^20
+w_list = []
+r = nextprime(2 ** 19)
+while r < 2 ** 20:
+    w_list.append(r)
+    r = nextprime(r)
+
+# Williams' p+1 method, Stage 1
+def williams_p_plus_1(n):
+    for V in range(3, 20): # This is P, basically
+    # increase the range as needed. 
+    # We don't know if (D/x) = -1 always so we can only find out by trying.
+        V = mlucas(V, 2 * n, n) 
+        # covering factor 2 and absorbing p by multiplying with n
+        for w in w_list: # cover all small primes w
+            V = mlucas(V, w, n)
+            d = gcd(V - 2, n)
+            if d != 1:
+                return d
+        return None
+
+# Run attack
+factor = williams_p_plus_1(n)
+if factor:
+    print("Found factor using Williams' p+1:", factor)
+    print("Other cofactor (n // factor):", n // factor)
+else:
+    print("No factor found.")
+
+# Found factor using Williams' p+1: 13369926184283525479137252245830688062158599594729655296587126454736382975139997234673311311527859026599782401918879938602709326237082485476353502307050500252433
+# Other cofactor (n // factor): ...
+```
+
+
+<font size="4">
+<p>
+This is good news, we just need to wrap up the rest then!
+</p>
+</font>
+
+```python
+x = factor
+p = gcd(x+1, n)
+pq = n // x
+q = pq // p
+
+phi = (p-1) * (q-1) * (x-1)
+d = pow(e, -1, phi)
+m = pow(c, d, n)
+print(long_to_bytes(m))
+# b'0xL4ugh{Fr0m_Th3_r!v3r_t0_Th3_$ea_palestine_will_be_fr33}'
+```
+
+**Flag**: `0xL4ugh{Fr0m_Th3_r!v3r_t0_Th3_$ea_palestine_will_be_fr33}`
+
+<font size="4">
+
+<p>The full solve script is below.</p>
+
+<details>
+<summary><code>sol.py (Click to expand)</code></summary>
+{% highlight python %}
+from math import gcd
+from sympy import primerange, nextprime, isprime, factorint
+from primefac import mlucas # https://pypi.org/project/primefac/
+from Crypto.Util.number import bytes_to_long, long_to_bytes
+
+n = 18186672849609603331344182584568642941078893104802301217241028624469607021717197485036251613075846729705028441094100248337306406098776983108141004863456595015660485098203867670995838502297993710897784135087115777697925848407153788837657722171924264421550564295047937036911411846582733847201015164634546149603743246378710225407507435371659148999942913405493417037116587298256802831009824832360479040621348157491754407277404391337488226402711686156101028879269050800874367763551119682177453648890492731413760738825931684979379268401715029193518612541590846238434595210876468090976194627398214837801868969047036272502669215123
+e = 65537
+c = 1617999293557620724157535537778741335004656286655134597579706838690566178453141895621909480622070931381931296468696585541046188947144084107698620486576573164517733264644244665803523581927226503313545336021669824656871624111167113668644971950653103830443634752480477923970518891620296211614968804248580381104245404606917784407446279304488720323993268637887493503760075542578433642707326246816504761740168067216112150231996966168374619580811013034502620645288021335483574561758204631096791789272910596432850424873592013042090724982779979496197239647019869960002253384162472401724931485470355288814804233134786749608640103461
+
+# list of small primes up to 2^20
+w_list = []
+r = nextprime(2 ** 19)
+while r < 2 ** 20:
+    w_list.append(r)
+    r = nextprime(r)
+
+# Williams' p+1 method, Stage 1
+def williams_p_plus_1(n):
+    for V in range(3, 20): # This is P, basically
+    # increase the range as needed. 
+    # We don't know if (D/x) = -1 always so we can only find out by trying.
+        V = mlucas(V, 2 * n, n) # covering factor 2 and absort p by multiplying with n
+        for w in w_list: # cover all small primes w
+            V = mlucas(V, w, n)
+            d = gcd(V - 2, n)
+            if d != 1:
+                return d
+        return None
+
+# Run attack
+factor = williams_p_plus_1(n)
+if factor:
+    print("Found factor using Williams' p+1:", factor)
+    print("Other cofactor (n // factor):", n // factor)
+else:
+    print("No factor found.")
+
+# Found factor using Williams' p+1: 13369926184283525479137252245830688062158599594729655296587126454736382975139997234673311311527859026599782401918879938602709326237082485476353502307050500252433
+# Other cofactor (n // factor): 1360267259439936852897194535500744898739714463970623614041679758672623934111553368555695195572420499086025339340663707695584601679821170729269967154041209003093613155553640495692545184706255929077263509756303295677134381138492789438159699665962323044217166103149688021505707796705514736632505162990963856792157648021132950857472040995927337527533095874676060092571069412688523739804084046372985512051510041460332199873096740313885778075878035887620063976217400931
+
+# print(len(bin(factor))) # 534 -> so factor is x
+
+# Recall
+# x = 2wp - 1
+# n = pqx
+# So, gcd(x+1, n) = p
+x = factor
+p = gcd(x+1, n)
+pq = n // x
+q = pq // p
+# print(p,q,x)
+
+phi = (p-1) * (q-1) * (x-1)
+d = pow(e, -1, phi)
+m = pow(c, d, n)
+print(long_to_bytes(m))
+# b'0xL4ugh{Fr0m_Th3_r!v3r_t0_Th3_$ea_palestine_will_be_fr33}'
+{% endhighlight %}
+</details>
 </font>
 
 <font size="4">
