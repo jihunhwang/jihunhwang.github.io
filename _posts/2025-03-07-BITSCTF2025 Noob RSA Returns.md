@@ -1,5 +1,5 @@
 ---
-title: "BITSCTF 2025 Noob RSA Returns Writeup"
+title: "BITSCTF 2025: Noob RSA Returns"
 modified: 2026-06-22
 date: 2025-03-17
 description: BITSCTF 2025 Noob RSA Returns Writeup
