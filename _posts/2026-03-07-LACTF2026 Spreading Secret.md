@@ -9,7 +9,7 @@ mathjax: yes
 # toc_sticky: yes
 share: false
 header:
-    teaser: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbZAR8drUWWTQHnLmve-HXCEYtdE2WMc5Nxg&s"
+    teaser: "https://lac.tf/images/mountains-logo.gif"
 ---
 
 

@@ -1,9 +1,8 @@
-{% assign start = include.start_num | default: 1 %}
-<ol start="{{ start }}">
+
+<ol start="{{ include.start_num }}">
 {% assign papers = site.data[include.data_file] %}
 {% for paper in papers %}
-  {% assign paper_num = start | plus: forloop.index0 %}
-  <li id="paper-{{ paper_num }}">
+  <li>
     <b>{{ paper.title }}</b><br>
     {% if paper.coauthors %}
     {% assign authors_count = paper.coauthors | size %}

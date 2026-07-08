@@ -40,10 +40,46 @@ I also have a side interest in network algorithms/modeling, and computer securit
 
 
 
-## Unpublished Writeups
+
+## Coauthors
+
+#### People I published with
+
+{% assign all_papers = site.data.publications_phd | concat: site.data.publications_side %}
+
+{% assign coauthors_all = "" | split: "," %}
+{% for paper in all_papers %}
+  {% if paper.coauthors %}
+    {% assign coauthors_all = coauthors_all | concat: paper.coauthors %}
+  {% endif %}
+{% endfor %}
+{% assign coauthors_unique = coauthors_all | uniq | sort %}
+
+<div class="collab-columns">
+{% for person in coauthors_unique %}
+  {% assign person_url = site.data.people[person] %}
+  {% assign links = "" %}
+  {% assign is_first = true %}
+  {% for paper in all_papers %}
+    {% if paper.coauthors contains person %}
+      {% assign n = forloop.index %}
+      {% if is_first %}
+        {% assign links = links | append: '<a href="#paper-' | append: n | append: '">[' | append: n | append: ']</a>' %}
+        {% assign is_first = false %}
+      {% else %}
+        {% assign links = links | append: ', <a href="#paper-' | append: n | append: '">[' | append: n | append: ']</a>' %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  <div class="collab-item">
+  {% if person_url %}<a href="{{ person_url }}">{{ person }}</a>{% else %}{{ person }}{% endif %}
+  ({{ links }})
+  </div>
+{% endfor %}
+</div>
 
 
-## People
+
 
 <style>
 /* Venue badge */
@@ -111,5 +147,16 @@ details[open] summary.bibtex-summary::after {
 p span.indented {
   display: block;      /* each line behaves like a block */
   text-indent: 1em;    /* indent the first line of each block */
+}
+
+
+.collab-columns {
+  columns: 3 220px;      /* up to 3 columns, each at least 220px wide, auto-collapses on narrow screens */
+  column-gap: 1.5em;
+}
+
+.collab-item {
+  break-inside: avoid-column;  /* keep each person's entry from splitting across columns */
+  margin-bottom: 0.1em;
 }
 </style>
