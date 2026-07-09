@@ -8,11 +8,11 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
+$background                 : #2E2E2C;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #7ec8e3;
+$text                       : #E0DDD6;
+$link                       : #6e9fb5;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 
@@ -40,6 +40,7 @@ html[data-theme="dark"] {
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #{$light-gray};
+    --global-divider-strong-color       : #6b6b6b;
     --global-dark-border-color          : #{$background-light};
     --global-code-background-color      : #2d2d2d;
     --global-code-text-color            : #e0e0e0;
@@ -51,5 +52,6 @@ html[data-theme="dark"] {
     --global-masthead-link-color-hover  : #{$background-light};
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
+    --global-archive-subtitle-color     : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
 }
