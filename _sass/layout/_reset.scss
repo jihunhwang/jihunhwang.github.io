@@ -24,6 +24,8 @@ body { margin: 0; }
 
 /* Selected elements */
 
+// default
+/*
 ::-moz-selection {
   color: #fff;
   background: #000;
@@ -32,6 +34,18 @@ body { margin: 0; }
 ::selection {
   color: #fff;
   background: #000;
+}
+*/
+
+// new
+::-moz-selection {
+  color: var(--global-bg-color);
+  background: var(--global-text-color);
+}
+
+::selection {
+  color: var(--global-bg-color);
+  background: var(--global-text-color);
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */
