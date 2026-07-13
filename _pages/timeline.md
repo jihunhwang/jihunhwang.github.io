@@ -12,13 +12,19 @@ sitemap: false
 <ul>
 
 <li>
-	<div><b>May 2026</b></div>
-	<div>Gave a talk (virtually) at the <a href="https://www.tcs.tifr.res.in/web/events/1721">student seminar</a> at <a href="https://www.tcs.tifr.res.in/web/">TIFR STCS</a> on our recent papers!</div>
+	<div><b>July 2026</b></div>
+	<div>Attending <a href="https://www.theoryofnumbers.com/cant/">CANT 2026</a> (virtually)!</div>
 </li>
 
 <li>
 	<div><b>May 2026</b></div>
-	<div>Excited to share that our paper <i>Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage</i> has been accepted to <a href="https://itcrypto.github.io/2026/index.html">ITC 2026</a>! See you there!</div>
+	<div>Gave a talk at the <a href="https://www.tcs.tifr.res.in/web/events/1721">student seminar</a> at <a href="https://www.tcs.tifr.res.in/web/">TIFR STCS</a> on our recent papers! <a href='{{ site.data.talks_invited | where: "title", "Towards Provable Leakage-Resilience of Additive Masking under Hamming-weight Model" | first | map: "slides" | first }}'>Here</a> are my slides.</div>
+</li>
+
+<li>
+	<div><b>May 2026</b></div>
+	<div>Excited to announce that our paper <a href='{{ site.data.publications_phd | where: "title", "Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage" | first | map: "full_version" | first }}'>
+  <i>Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage</i></a> is accepted to <a href="https://itcrypto.github.io/2026/index.html">ITC 2026</a>! See you there!</div>
 </li>
 
 <li>
@@ -28,7 +34,7 @@ sitemap: false
 
 <li>
 	<div><b>April 2026</b></div>
-	<div>Attending <a href="https://sites.google.com/view/algecom-main/algecom-xxvii-purdue-april-11-2026">AlGeCom XXVII</a>!</div>
+	<div>Attended <a href="https://sites.google.com/view/algecom-main/algecom-xxvii-purdue-april-11-2026">AlGeCom XXVII</a>!</div>
 </li>
 
 <li>
@@ -100,7 +106,7 @@ sitemap: false
 
 <li>
 	<div><b>April 2024</b></div>
-	<div>I was selected as a <a href="https://www.cs.purdue.edu/news/articles/2024/2024_purdue_cs_awards.html">2024 Raymond Boyce Graduate Teacher Award</a> recipient by my department!</div>
+	<div>I am selected as a <a href="https://www.cs.purdue.edu/news/articles/2024/2024_purdue_cs_awards.html">2024 Raymond Boyce Graduate Teacher Award</a> recipient by my department!</div>
 </li>
 
 <li>
@@ -121,7 +127,7 @@ sitemap: false
 
 <li>
 	<div><b>November 2023</b></div>
-	<div>Both papers I wrote with my intern mentor and fellow interns have been accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. See you there!</div>
+	<div>Both papers I wrote with my intern mentor and fellow interns are accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. See you there!</div>
 </li>
 
 <li>
@@ -138,7 +144,7 @@ sitemap: false
 
 <li>
 	<div><b>July 2023</b></div>
-	<div>The BPv7 paper I wrote with my CS 536 classmates based on our course project has been accepted to <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a> conference!</div> 
+	<div>The BPv7 paper I wrote with my CS 536 classmates based on our course project is accepted to <a href="https://2023.ieee-wisee.org/">WiSEE 2023</a>!</div> 
 </li>
 
 <li>
@@ -161,7 +167,8 @@ sitemap: false
 
 <li>
 	<div><b>November 2022</b></div>
-	<div>I gave a short talk at our Theory reading seminar about (computational) leakage-resilience cryptography, based on the papers I read last semester with my advisor. <a href="https://drive.google.com/file/d/1R-Et4OCzj5AJ5hN-7Re6-6c6q-9XI32-/view?usp=share_link">Here</a> are my slides.</div>
+	<div>I gave a short talk at our Theory reading seminar about (computational) leakage-resilience cryptography, based on the papers I read last semester with my advisor. 
+	<a href='{{ site.data.talks_informal | where: "title", "Pre-Processing and Leakage-Resilient Secure Computation" | first | map: "slides" | first }}'>Here</a> are my slides.</div>
 </li>
 
 <li>
@@ -178,7 +185,7 @@ sitemap: false
 
 <li>
 	<div><b>February 2022</b></div>
-	<div>Based on one of the topics I learned in <a href="https://gct2022.sciencesconf.org/">GCT 2022</a>, I gave a talk about introductory algebraic complexity theory and exponent of matrix multiplication at Purdue CS reading seminar! Here are <a href="https://drive.google.com/file/d/16skP4qoTWEzEi2Yq1kYVx1eRxyNaB5Li/view?usp=sharing">my slides</a>.</div>
+	<div>Based on one of the topics I learned in <a href="https://gct2022.sciencesconf.org/">GCT 2022</a>, I gave a talk about introductory algebraic complexity theory and exponent of matrix multiplication at Purdue CS reading seminar! <a href='{{ site.data.talks_informal | where: "title", "Determinantal Complexity and Matrix Multiplication" | first | map: "slides" | first }}'>Here</a> are my slides.</div>
 </li>
 
 <li>
@@ -262,7 +269,7 @@ sitemap: false
 
 <li>
 <div><b>January 2020</b></div>
-	<div>My senior thesis submission has been approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad student. I will be spending another 1.5 years around Amherst, working on my M.S. in Computer Science!</div>
+	<div>My senior thesis is approved! My abstract is available <a href="/Downloads/Hwang_Abstract.pdf">here</a>. This also means that I am no longer an undergrad student. I will be spending another 1.5 years around Amherst, working on my M.S. in Computer Science!</div>
 </li>
 </ul>
 </font>
@@ -277,7 +284,7 @@ sitemap: false
 
 <li>
 	<div><b>September 2019</b></div>
-	<div>Happy to announce that I just made my very first publication with the people I met during the ERAU REU! Our paper has been accepted to the <a href="https://ieeexplore.ieee.org/xpl/conhome/9048088/proceeding">2019 IEEE ICII</a>, all thanks to my amazing collaborators!</div>
+	<div>Happy to announce that I just made my very first publication with the people I met during the ERAU REU! Our paper is accepted to the <a href="https://ieeexplore.ieee.org/xpl/conhome/9048088/proceeding">2019 IEEE ICII</a>, all thanks to my amazing collaborators!</div>
 </li>
 
 <li>
