@@ -91,7 +91,7 @@ sitemap: false
 
 <li>
 	<div><b>November 2024</b></div>
-	<div>The results from this summer are again accepted for publication in <a href="https://www.aeroconf.org/">AeroConf 2025</a>. Many thanks to my mentor and collaborators!</div>
+	<div>The results from this summer have once again accepted for publication at <a href="https://www.aeroconf.org/">AeroConf 2025</a>. Many thanks to my mentor and collaborators for their contributions!</div>
 </li>
 
 <li>
@@ -106,7 +106,7 @@ sitemap: false
 
 <li>
 	<div><b>April 2024</b></div>
-	<div>I am selected as a <a href="https://www.cs.purdue.edu/news/articles/2024/2024_purdue_cs_awards.html">2024 Raymond Boyce Graduate Teacher Award</a> recipient by my department!</div>
+	<div>I was selected by my department as a recipient of the <a href="https://www.cs.purdue.edu/news/articles/2024/2024_purdue_cs_awards.html">2024 Raymond Boyce Graduate Teacher Award</a>!</div>
 </li>
 
 <li>
@@ -127,14 +127,14 @@ sitemap: false
 
 <li>
 	<div><b>November 2023</b></div>
-	<div>Both papers I wrote with my intern mentor and fellow interns are accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. See you there!</div>
+	<div>Both papers that I coauthored with my intern mentor and fellow interns are accepted to <a href="https://www.aeroconf.org/">AeroConf 2024</a>. See you there!</div>
 </li>
 
 <li>
 	<div><b>October 2023</b></div>
-	<div>I received <a href="https://www.cs.purdue.edu/graduate/gta-award-winners.html">Graduate Teaching Award</a> from my department, for my achievement as a CS 426 (Computer Security) TA in Spring 2022. Thank you, 
+	<div>I received the <a href="https://www.cs.purdue.edu/graduate/gta-award-winners.html">Graduate Teaching Award</a> from my department in recognition of my work as a CS 426 (Computer Security) TA in Spring 2022. Thank you 
 	{% include person_link.html name="Christina Garman" display="Christina" %},
-		for the nomination and all your support!</div>
+		for the nomination and for all of your support!</div>
 </li>
 
 <li>
@@ -149,7 +149,7 @@ sitemap: false
 
 <li>
 	<div><b>March 2023</b></div>
-	<div>I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again this summer working on network information theory and modeling/algorithms for Near Space Network (NSN)!</div>
+	<div>I will be visiting <a href="https://www.nasa.gov/goddard">NASA GSFC</a> again this summer to work on network information theory as well as network modeling and algorithms for the Near Space Network (NSN)!</div>
 </li>
 
 </ul>
@@ -162,7 +162,7 @@ sitemap: false
 
 <li>
 	<div><b>November 2022</b></div>
-	<div>Happy to announce that both papers submitted to <a href="https://www.aeroconf.org/">AeroConf 2023</a> are accepted, all thanks to my intern mentor and my colleagues I met at GSFC!</div>
+	<div>Happy to announce that both papers we submitted to <a href="https://www.aeroconf.org/">AeroConf 2023</a> are accepted. Many thanks to my intern mentor and my colleagues I met at GSFC for making this project possible!</div>
 </li>
 
 <li>
