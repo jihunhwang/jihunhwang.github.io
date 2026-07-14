@@ -27,15 +27,7 @@ sitemap: false
   <a href="https://researchseminars.org/">Research Seminars</a>. Provides lists of online seminars/conferences in mathematics, computer science, physics, etc. Open to everyone.
 </li>
 
-<li>
-  For Purdue students: <a href="https://www.boilergrades.com/">Boiler Grades</a> has grade distributions of previous offerings of all courses and professors in Purdue. 
 
-  <a href="https://boiler.courses/">BoilerCourses</a> (which is a modified <a href="https://boilerclasses.com/">BoilerClasses</a>) and <a href="https://purdue.io/">Purdue.io</a> should make your life easier by not having you to log into UniTime and interact with it.
-</li>
-
-<li>
-  Want to get the most out of your four years at Purdue CS? Take a look at this guide: <a href="https://opcs.cart.moe/">Optimizing Purdue CS</a>. In fact, I think every incoming Purdue CS undergrad should read this. 
-</li>
 
 
 <!-- <li>
@@ -92,11 +84,12 @@ sitemap: false
   <a href="https://www.wechall.net/about_wechall">WeChall</a>, <a href="https://overthewire.org/wargames/">OverTheWire</a>, <a href="https://picoctf.org/">picoCTF</a>, and <a href="https://cryptohack.org/">Cryptohack</a> have interesting CTF-like cybersecurity challenges. If you are a Purdue student, please also give our own <a href="https://internal.b01lersc.tf/">internal CTF</a> a shot too!
 </li>
 
+<!-- 
 <li>
 <a href="https://www.redblobgames.com/">Red Blob Games</a>: Interactive (and cute!) tutorials for math and algorithms. See also <a href="https://www.complexity-explorables.org/">Complexity Explorables</a> for complex systems.
 </li>
 
-<!-- <li>
+<li>
   <a href="https://glebbahmutov.com/blog/dont-help-me-say-no/">Don't help me say no</a>. A great list of mistakes that you should avoid at all costs in your job applications, written by a Purdue CS Ph.D. alum. Also, see <a href="https://glebbahmutov.com/blog/help-me-say-yes/">Help me say yes</a>.
 </li> -->
 
@@ -119,6 +112,32 @@ sitemap: false
 </li>
 
 </ul>
+</font>
+
+### Purdue
+
+<font size="4">
+
+<ul>
+
+<li>
+  <a href="https://www.boilergrades.com/">Boiler Grades</a> has grade distributions for previous offerings of courses and instructors in Purdue. 
+</li>
+
+<li>
+  <a href="https://boiler.courses/">BoilerCourses</a> (a modified version of <a href="https://boilerclasses.com/">BoilerClasses</a>) and <a href="https://purdue.io/">Purdue.io</a> should make your life easier by sparing you from having to log into UniTime and interact with its interface.
+</li>
+
+<li>
+  Want to get the most out of your &le;4 years at Purdue CS? Take a look at this guide: <a href="https://opcs.cart.moe/">Optimizing Purdue CS</a>. I think every incoming Purdue CS undergrad should read this. 
+</li>
+
+<li>
+  <a href="https://zhtluo.com/misc/purdue-cs-printer-setup-for-linux.html">Purdue CS Printer Setup for Ubuntu</a> by the legendary <a href="https://zhtluo.com/index.html">Zhongtang Luo</a>. 
+</li>
+
+</ul>
+
 </font>
 
 ## Online Lectures
