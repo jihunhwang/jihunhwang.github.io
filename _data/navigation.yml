@@ -23,6 +23,8 @@ main:
   #   url: /links/
   - title: "Misc"
     url: /misc/
+  - title: "CV"
+    url: /cv/
     
   # - title: "Publications"
   #   url: /publications/

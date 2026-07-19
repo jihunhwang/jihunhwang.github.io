@@ -1,68 +1,38 @@
-{
-  "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
-    },
-    "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
-    ]
-  },
+{ 
+  "summary": null,
+  "interests": ["Theoretical computer science and computer security"],
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Purdue University",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "2021",
+      "endDate": "2027",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "University of Massachusetts Amherst",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2020",
+      "endDate": "2021",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "University of Massachusetts Amherst",
+      "area": "Mathematics (minor in Physics)",
+      "studyType": "B.S.",
+      "startDate": "2015",
+      "endDate": "2019",
       "gpa": null,
       "courses": []
     }
   ],
   "skills": [],
   "languages": [],
-  "interests": [],
   "references": [],
   "publications": [
     {
@@ -139,14 +109,34 @@
       "role": "Workshop",
       "description": ""
     }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
   ]
 }
+
+
+
+  // // Garbage can
+  // "basics": 
+  // {
+  //   "name": "Jihun Hwang",
+  //   "email": "none@example.org",
+  //   "phone": "",
+  //   "website": "https://academicpages.github.io",
+  //   "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+  //   "profiles": [
+  //     {
+  //       "network": "Google Scholar",
+  //       "username": "",
+  //       "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  //     },
+  //     {
+  //       "network": "ORCID",
+  //       "username": "",
+  //       "url": "http://orcid.org/yourorcidurl"
+  //     },
+  //     {
+  //       "network": "GitHub",
+  //       "username": "academicpages",
+  //       "url": "https://github.com/academicpages"
+  //     }
+  //   ]
+  // },
