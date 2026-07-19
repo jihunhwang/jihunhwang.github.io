@@ -5,3 +5,4 @@ Disallow: /notes/
 Disallow: /talks/
 Disallow: /misc/
 Disallow: /tags/
+Disallow: /cv/
