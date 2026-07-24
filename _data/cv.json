@@ -1,6 +1,14 @@
 { 
   "summary": null,
-  "interests": ["Theoretical computer science and computer security; in particular, information-theoretic cryptography (leakage-resilient cryptography) and network architectures (protocols and algorithms)."],
+  "interests": [
+    {
+      "name": "Theoretical computer science and its applications to computer security and networks.",
+      "keywords": [
+        "Information-theoretic cryptography: leakage-resilient cryptography",
+        "Network modeling: architectures, protocols, and algorithms"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Purdue University",
@@ -10,7 +18,8 @@
       "startDate": "2021",
       "endDate": "2027",
       "advisor": "Hemanta Maji",
-      "committee": ["Jeremiah Blocki", "Wojciech Szpankowski", "Christina Garman"],
+      "dissertation_tentative": "Towards Provable Leakage-Resilience of Additive and Inner-Product Masking under Hamming-weight Model",
+      "committee": ["Jeremiah Blocki", "Wojciech Szpankowski", "Christina Garman", "Ilya Shkredov (Tentative)"],
       "courses": [],
       "highlights": []
     },
@@ -21,6 +30,7 @@
       "studyType": "M.S.",
       "startDate": "2020",
       "endDate": "2021",
+      "advisor_unofficial": "Adam O'Neill",
       "courses": []
     },
     {
@@ -30,9 +40,9 @@
       "studyType": "B.S.",
       "startDate": "2015",
       "endDate": "2019",
-      // "thesis": "Formation of Bursting Events in a Lattice Dynamical System",
-      // "advisor": "Panayotis Kevrekidis",
-      // "committee": ["Efstathios Charalampidis"],
+      "thesis": "Formation of Bursting Events in a Lattice Dynamical System",
+      "advisor": "Panayotis Kevrekidis",
+      "committee": ["Efstathios Charalampidis"],
       //"courses": []
     }
   ],

@@ -20,8 +20,8 @@ Before Purdue, I did my Master's in [Computer Science](https://www.cics.umass.ed
   {% include person_link.html name="Panos Kevrekidis" display="Panayotis (Panos) Kevrekidis" %}.
 <!--- on extreme wave events ([Abstract here](/Downloads/Hwang_Abstract.pdf)).--->
 
-I am interested in any topics in or related to theoretical computer science. 
-Currently, I am most interested in [information-theoretic cryptography](https://itcrypto.github.io/). I also like to talk about network algorithms, high-performance computing, and computer security. See my [**Research**](/research) page for details.
+I am interested in any topics in or related to theoretical computer science and computer security. 
+Currently, I am most interested in [information-theoretic cryptography](https://itcrypto.github.io/). I also like to talk about computer networks and high-performance computing. See my [**Research**](/research) page for details.
 
 I occasionally play 
   [CTFs](https://ctftime.org/ctf-wtf/) 
