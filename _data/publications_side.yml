@@ -26,9 +26,11 @@
     - "Karuna Petwe"
     - "Tobias Timofeyev"
   venue: "AeroConf 2025"
+  venue_full: "2025 IEEE Aerospace Conference"
   abbr: "AeroConf"
   NTRS: "https://ntrs.nasa.gov/citations/20250000365"
   doi: "10.1109/AERO63441.2025.11068754"
+  cv: true
   abstract:
     - "Delay Tolerant Networking (DTN) is maturing into a viable enabling technology for the so-called Solar System Internet (SSI). The focus of SSI is shifting towards modern network architectures and scalability, which goes beyond the underlying protocol suite of DTN. Following a record-setting experiment campaign on the International Space Station (ISS), there is a wealth of operational experience and lessons-learned based on the advent of service-provider oriented architectures available to propel humanity's ability to network in space to new levels. However, deeper understandings of extending these architectures to the solar-system level are not fully explored. In this paper, we combine this new information with previous theoretical advances to open new doors in DTN network modeling with an eye on practical means to designing, creating, and operating future space networks."
     - "The primary purpose of networking is scalability, however simply using DTN does not give this for free. Indeed, having a protocol suite does not inform the user on its best practices; in the case of DTN, best practices are not known. In particular, the ISS experiments illustrated the difficulty of uniting DTN network areas across project and programmatic boundaries. In traditional DTN routing, all nodes have the same schedule of contacts - known as a contact graph - and it is expected that these data are globally consistent. Approaches depending on omniscience neither scale nor generalize well, yet alternatives remain elusive as there is no standard temporospatial network modeling approach."
@@ -46,10 +48,12 @@
     - "Miguel Lopez"
     - "Oliver Chiriac"
   venue: "AeroConf 2024"
+  venue_full: "2024 IEEE Aerospace Conference"
   abbr: "AeroConf"
   NTRS: "https://ntrs.nasa.gov/citations/20240000642"
   doi: "10.1109/AERO58975.2024.10521325"
   slides: "https://drive.google.com/file/d/1rgx0Bjlif14aVo65roZljjrTKODJwhU5/view?usp=sharing"
+  cv: true
   abstract:
     - "Networked communications in space are necessary to achieve scalability in terms of the number of communicating nodes but also in terms of the overall system complexity. A key component to such a system is the ability to synchronize clocks, which is the focus of this paper. The so-called Solar System Internet (SSI) will be built upon Delay Tolerant Networking (DTN), which, in analogy to the Internet Protocol (IP), can be considered a suite of protocols necessary for networking in the space domain. Therefore, our goal is to extend this suite to include a DTN clock synchronization capability, analogous to the Network Time Protocol (NTP) used in the Internet. A motivating example of a network in space is NASA's LunaNet, a vision for a multi-hop multi-path network extending to the moon wherein not all nodes will have direct connections to an authoritative reference clock. In this paper, we propose a general clock synchronization methodology and algorithm that could be used for LunaNet as well as more elaborate time-varying networks."
     - "In recent years, DTN has benefited from modeling efforts founded on the mathematical tool of sheaves. Here we continue this work to provide an approach to clock synchronization. Due to the time-varying nature of space networks, absolute consensus is not possible. However, the sheaf Laplacian provides a practical, distributed approach to approximating consensus by allowing data to diffuse through the network. In particular, the sheaf Laplacian is readily computable, lending our approach to implementation."

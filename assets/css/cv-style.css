@@ -21,8 +21,8 @@
 
 .cv-section h2 {
   margin-top: 0;
-  font-size: 1.1rem;
-  text-transform: uppercase;
+  font-size: 1.2rem;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.03em;
   border-bottom: 2px solid var(--global-border-color);
   padding-bottom: 0.5rem;
@@ -123,6 +123,10 @@
   padding-top: 0;
 }
 
+.cv-tt-row:last-child {
+  padding-bottom: 0;
+}
+
 .cv-tt-date {
   flex: 0 0 110px;
   text-align: center;
@@ -194,6 +198,10 @@
 .cv-item:first-child {
   border-top: none;
   padding-top: 0;
+}
+
+.cv-item:last-child {
+  padding-bottom: 0;
 }
 
 .cv-item-header {

@@ -33,12 +33,12 @@
       <b>{{ paper.venue }}</b>
     {%- endif -%}
     <!-- <b>{{ paper.venue }}</b> -->
-    {% if paper.pdf %}<b>[<a href="{{ paper.pdf }}">PDF</a>]</b>{% endif %}
-    {% if paper.full_version %}<b>[<a href="{{ paper.full_version }}">Full version</a>]</b>{% endif %}
-    {% if paper.ePrint %}<b>[<a href="{{ paper.ePrint }}">ePrint</a>]</b>{% endif %}
-    {% if paper.arXiv %}<b>[<a href="{{ paper.arXiv }}">arXiv</a>]</b>{% endif %}
-    {% if paper.ECCC %}<b>[<a href="{{ paper.ECCC }}">ECCC</a>]</b>{% endif %}
-    {% if paper.NTRS %}<b>[<a href="{{ paper.NTRS }}">NTRS</a>]</b>{% endif %}
+    {% if paper.pdf %}<b>[<a href="{{ paper.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>]</b>{% endif %}
+    {% if paper.full_version %}<b>[<a href="{{ paper.full_version }}"><i class="fas fa-file-pdf"></i> Full version</a>]</b>{% endif %}
+    {% if paper.ePrint %}<b>[<a href="{{ paper.ePrint }}"><i class="fas fa-file-pdf"></i> ePrint</a>]</b>{% endif %}
+    {% if paper.arXiv %}<b>[<a href="{{ paper.arXiv }}"><i class="fas fa-file-pdf"></i> arXiv</a>]</b>{% endif %}
+    {% if paper.ECCC %}<b>[<a href="{{ paper.ECCC }}"><i class="fas fa-file-pdf"></i> ECCC</a>]</b>{% endif %}
+    {% if paper.NTRS %}<b>[<a href="{{ paper.NTRS }}"><i class="fas fa-file-pdf"></i> NTRS</a>]</b>{% endif %}
     <!-- {% if paper.LIPIcs %}[<a href="{{ paper.LIPIcs }}">LIPIcs</a>]{% endif %} -->
     {% if paper.doi %}<font size="3">(<a href="https://doi.org/{{ paper.doi }}">doi</a>)</font>{% endif %}
     {% if paper.slides %}[<a href="{{ paper.slides }}">Slides</a>]{% endif %}
