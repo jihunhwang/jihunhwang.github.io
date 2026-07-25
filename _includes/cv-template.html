@@ -11,7 +11,7 @@
 
   {% if cv.interests.size > 0 %}
   <div class="cv-section">
-    <h2>Interests</h2>
+    <h2>Research Interests</h2>
     {% for interest in cv.interests %}
     <p>{{ interest.name }}</p>
     {% if interest.keywords.size > 0 %}
@@ -200,7 +200,7 @@
         </div>
         <div class="cv-tt-main">
           <h3 class="cv-tt-title">{{ award.title }}</h3>
-          {% if award.awarder %}<div class="cv-tt-org"><i class="fas fa-award"></i> {{ award.awarder }}</div>{% endif %}
+          {% if award.awarder %}<div class="cv-tt-org"><i class="fas fa-award"></i>{{ award.awarder }}</div>{% endif %}
           {% if award.summary %}<div class="cv-tt-detail">{{ award.summary }}</div>{% endif %}
         </div>
       </li>
