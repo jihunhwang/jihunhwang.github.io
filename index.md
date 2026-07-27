@@ -12,7 +12,7 @@ author_profile: true
 
 Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. candidate in [Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/), where I am fortunate to be advised by Professor 
   {% include person_link.html name="Hemanta Maji" %}.
-I also worked at [NASA GSFC](https://www.nasa.gov/goddard) ([Code 450](https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/)) several summers as a research intern, hosted by Dr.
+I spent several summers at [NASA GSFC](https://www.nasa.gov/goddard) ([Code 450](https://www.nasa.gov/goddard/flight-projects-directorate/fpd-programs-and-projects/)) as a research intern, hosted by Dr.
   {% include person_link.html name="Alan Hylton" %}.
 
 Before Purdue, I did my Master's in [Computer Science](https://www.cics.umass.edu/) at [UMass Amherst](https://www.umass.edu/) where I briefly worked with Professor 

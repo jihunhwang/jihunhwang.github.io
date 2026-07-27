@@ -4,8 +4,8 @@
     {
       "name": "Theoretical computer science and its applications to computer security and networks.",
       "keywords": [
-        "Information-theoretic cryptography: leakage-resilient cryptography",
-        "Network modeling: architectures, protocols, and algorithms"
+        "Information-theoretic cryptography: provable security of cryptographic primitives against information leakage (side-channel attacks).",
+        "Network architectures: mathematical modeling of challenged networks toward more reliable and scalable protocols."
       ]
     }
   ],
