@@ -27,6 +27,7 @@
   venue_full: "7th Conference on Information-Theoretic Cryptography"
   abbr: "ITC"
   venue_url: "https://itcrypto.github.io/2026/"
+  slides: "https://drive.google.com/file/d/1_4GaqQsRCbgHsyWFBcnG4gp73viOCdRA/view?usp=sharing"
   cv: true
   abstract: 
     - "Additive masking is a widely used countermeasure against side-channel attacks in which a secret is additively split into multiple random shares. However, over binary fields, the number of 1's in the binary representation (i.e., the Hamming weight) of the shares reveals information about the original secret. Inner product masking scheme has been proposed as a promising alternative that is secure against such information leakage."

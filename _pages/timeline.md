@@ -12,6 +12,11 @@ sitemap: false
 <ul>
 
 <li>
+	<div><b>August 2026</b></div>
+	<div>Attending <a href="https://crypto.iacr.org/2026/">CRYPTO 2026</a> and giving a talk at <a href="https://itcrypto.github.io/2026/index.html">ITC 2026</a>! See my slides <a href="https://drive.google.com/file/d/1_4GaqQsRCbgHsyWFBcnG4gp73viOCdRA/view?usp=sharing">here</a>.</div>
+</li>
+
+<li>
 	<div><b>July 2026</b></div>
 	<div>Attending <a href="https://www.theoryofnumbers.com/cant/">CANT 2026</a> (virtually)!</div>
 </li>
