@@ -1,3 +1,15 @@
+- title: "Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage"
+  venue: "7th Conference on Information-Theoretic Cryptography"
+  venue_short: "ITC 2026"
+  venue_url: "https://itcrypto.github.io/2026/index.html"
+  date: "Aug 15th, 2026"
+  slides: "https://drive.google.com/file/d/1_4GaqQsRCbgHsyWFBcnG4gp73viOCdRA/view?usp=sharingg"
+  cv: false
+  abstract:
+    - 'Additive masking is a widely used side-channel countermeasure in which a secret is split additively into random shares. Over binary fields, however, the Hamming weight of the shares leaks information about the secret. Inner-product masking has been proposed as a promising alternative.'
+    - 'We prove that inner-product masking over a binary extension field is secure against Hamming-weight leakage, which also yields security against arbitrary symmetric-function leakage from the shares. We give an efficiently computable score function for testing and certifying security against leakage.'
+    - 'We also relate the leakage resilience of inner-product and additive masking over arbitrary fields; roughly, inner-product masking is at least as secure. The proof is Fourier analytic and estimates spectral norms of the Hamming slice through Krawtchouk polynomials.'
+
 - title: "Towards Provable Leakage-Resilience of Additive Masking under Hamming-weight Model"
   venue: "TIFR STCS Student Seminar"
   venue_url: "https://www.tcs.tifr.res.in/web/events/category?q=STCS%20Student%20Seminar"
