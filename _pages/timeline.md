@@ -12,6 +12,12 @@ sitemap: false
 <ul>
 
 <li>
+	<div><b>September 2026</b></div>
+	<div>Our new preprint <i>Energy Estimation of the Hamming Slice and its Applications</i> is on <a href='{{ site.data.publications_phd | where: "title", "Energy Estimation of the Hamming Slice and its Applications" | first | map: "arXiv" | first }}'>
+  arXiv</a>!</div>
+</li>
+
+<li>
 	<div><b>August 2026</b></div>
 	<div>Attending <a href="https://crypto.iacr.org/2026/">CRYPTO 2026</a> and giving a talk at <a href="https://itcrypto.github.io/2026/index.html">ITC 2026</a>! See my slides <a href="https://drive.google.com/file/d/1_4GaqQsRCbgHsyWFBcnG4gp73viOCdRA/view?usp=sharing">here</a>.</div>
 </li>
