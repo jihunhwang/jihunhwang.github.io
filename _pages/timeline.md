@@ -50,8 +50,9 @@ sitemap: false
 
 <li>
 	<div><b>April 2026</b></div>
-	<div>Our new preprint <i>Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage</i> is now <a href='{{ site.data.publications_phd | where: "title", "Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage" | first | map: "full_version" | first }}'>
-  online</a>!</div>
+	<div>Our new preprint <i>Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage</i> is now <a href='{{ site.data.publications_phd | where: "title", "Beyond All-or-Nothing Corruption: Additive Secret Sharing under Hamming-Weight Leakage" | first | map: "full_version" | first }}'>online</a>!</div>	
+	
+<div><font size=3>(<i>Edit</i>: the title is now <i>Beyond All-or-Nothing Corruption: Additive Secret Sharing under Hamming-Weight Leakage.</i>)</font></div>
 </li>
 
 </ul>

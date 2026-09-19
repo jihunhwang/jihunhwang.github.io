@@ -1,19 +1,19 @@
-- title: "Beyond Threshold Security: Additive Secret Sharing under Hamming-Weight Leakage"
+- title: "Beyond All-or-Nothing Corruption: Additive Secret Sharing under Hamming-Weight Leakage"
   coauthors:
     - "Aniruddha Biswas"
     - "Hemanta Maji"
     - "Ilya Shkredov"
     - "Xiuyu Ye"
-  full_version: "https://www.cs.purdue.edu/homes/hmaji/papers/BHMSY26.pdf"
+  full_version: "https://www.cs.purdue.edu/homes/hmaji/papers/BHMSY26b.pdf"
   venue: "Preprint"
   venue_full: "Preprint"
   abbr: "Preprint"
   cv: true
   abstract:
-    - 'Side-channel attacks threaten even foundational primitives such as secret sharing, undermining threshold cryptography, and masking countermeasures. We study additive secret sharing over $\mathbb{Z}/N\mathbb{Z}$ under Hamming-weight leakage, focusing on local leakage resilience: statistical independence between the secret and the total leakage.'
-    - 'Prior guarantees were limited to Mersenne primes $N=2^n-1$ with $k \geq 5$, where insecurity was bounded by $n^{-k/4}$. For $k=2$, the scheme is insecure, while for $k=3,4$ and for non-Mersenne moduli, no guarantees were known.'
-    - 'We remove these restrictions. For all $N$ sufficiently close to $2^n$, we prove insecurity at most $n^{-k/2}$ for every $k \geq 3$. This yields the first guarantees for $k=3,4$ and for non-Mersenne moduli, and (after our result) even square-root-sized moduli are less insecure than what previous work guaranteed. We also prove a matching lower bound, showing that our decay exponent is optimal.'
-    - 'Our proof introduces new analytic and spectral techniques to leakage-resilience analysis, combining Fourier analysis, complex analysis, and matrix methods. Our intermediate results resolve the ternary problem for Hamming slices, implying that the associated Cayley graphs of near-central slices have diameter at most $3$.'
+    - 'Side-channel attacks threaten secret sharing, as well as the threshold protocols and masking defenses built on it. Motivated by power analysis, Faust et al. (EUROCRYPT 2024) initiated the theoretical study of additive secret sharing over the cyclic group $\mathbb{Z}/N\mathbb{Z}$ when each share leaks its Hamming weight. They asked whether these weights, taken together, reveal vanishingly little about the secret as the modulus grows.'
+    - 'For Mersenne $N=2^n-1$ with prime exponent $n$, they proved insecurity $\ll_k n^{-k/4+1}$, establishing security for $k\ge5$ shares. Two shares were known to be insecure there, but the practically important three- and four-share cases remained open. So did non-Mersenne moduli, including the dyadic modulus $N=2^n$, and the question of how quickly insecurity could decay.'
+    - 'We prove security for every near-dyadic modulus $| N-2^n | \leq 2^n/n$ and every fixed $k\geq3$, with insecurity $\ll_k {n^{-k/2+5/4}}$. This gives the first security guarantees for three and four shares and for non-Mersenne moduli, including the dyadic moduli. The leading share-dependent term improves to $n^{-k/2}$, and our lower bounds show that this dependence on $k$ is optimal. Roughly speaking, doubling the share length buys $k/2$ additional bits of statistical security, twice the $k/4$ guaranteed before. At this scale, a fixed target insecurity requires only the square root of the share length prescribed by the earlier analysis.'
+    - 'Our proof uses Fourier energy to bound insecurity, contracting it by ${n^{-1/2}}$ per share. We identify Bernoulli dynamics as the broader mechanism underlying Faust et al.&#8217;s exact binary rotation phenomenon and extend the analysis to near-dyadic moduli. For the lower bounds, we identify Fourier modes that retain information about the secret. The estimates rely on spectral estimates obtained from generating functions and Cauchy`s coefficient formula.'
 
 - title: "Energy Estimation of the Hamming Slice and its Applications"
   coauthors:
