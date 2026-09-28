@@ -1,3 +1,9 @@
+- title: "Efficient Pseudorandom Correlation Generators for Oblivious Linear Evaluations"
+  slides: "https://drive.google.com/file/d/1JcJT7B68Vgywpra9YqtjjyWeYws5kIAD/view?usp=sharing"
+  venue: "Purdue Cryptography Reading Group"
+  venue_url: "https://xiuyuye.github.io/purdue-crypto-read/"
+  date: "Sep 25th, 2026"
+
 - title: "Reverse Multiplication Friendly Embeddings: Quick introduction"
   slides: "https://drive.google.com/file/d/1bqQGZNbMNMXRztXDZU4fKUsP9e9u1kiR/view?usp=sharing"
   venue: "Purdue Cryptography Reading Group"

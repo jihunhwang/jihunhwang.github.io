@@ -1,8 +1,8 @@
 ---
 title: Talks
 permalink: /talks/
-# toc: true
-# toc_sticky: yes
+toc: true
+toc_sticky: yes
 search: exclude
 sitemap: false
 ---
@@ -28,12 +28,14 @@ talks_invited.yml is the data file, it is in /_data folder.
 {% include talk_list.html data_file="talks_invited" %}
 
 
-## Informal Talks (Reading Seminar, etc.)
+## Informal Talks
+
+### Reading Seminar Talks
 
 {% include talk_list.html data_file="talks_informal" %}
 
 
-## In-class Talks
+### In-class Talks
 
 {% include talk_list_inclass.html data_file="talks_inclass" %}
 
