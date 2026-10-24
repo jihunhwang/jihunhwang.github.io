@@ -15,9 +15,11 @@
     {% if talk.notes2 %}[<a href="{{ talk.notes2 }}">Notes</a>]{% endif %}<br>
   {% endif %}
   {% capture venue_line %}
+    {% if talk.venue_prefix %}{{ talk.venue_prefix }}{% endif %}
     {% if talk.venue_url %}<a href="{{ talk.venue_url }}">{{ talk.venue }}</a>
       {% else %}{{ talk.venue }}
     {% endif %}
+    {% if talk.venue_suffix %}{{ talk.venue_suffix }}{% endif %}
     {% if talk.prof %} 
       with Prof. {% assign prof_url = site.data.people[talk.prof] %}
         {% if prof_url %}

@@ -247,6 +247,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      hide_avatar: true
       read_time: true
       comments: true
       share: true

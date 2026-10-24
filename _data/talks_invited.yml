@@ -1,14 +1,14 @@
-- title: "Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage"
-  venue: "7th Conference on Information-Theoretic Cryptography"
-  venue_short: "ITC 2026"
-  venue_url: "https://itcrypto.github.io/2026/index.html"
-  date: "Aug 15th, 2026"
-  slides: "https://drive.google.com/file/d/1_4GaqQsRCbgHsyWFBcnG4gp73viOCdRA/view?usp=sharingg"
-  cv: false
+- title: "Beyond All-or-Nothing Corruption: Additive Secret Sharing under Hamming-Weight Leakage"
+  venue: "Purdue CS Theory Seminar"
+  venue_url: "https://theorypurdue.wordpress.com/"
+  date: "Oct 22nd, 2026"
+  slides: "https://drive.google.com/file/d/18jotWQ-z0rQr9wdtW49shWMaqK6qOsk9/view?usp=drive_link"
+  cv: true
   abstract:
-    - 'Additive masking is a widely used side-channel countermeasure in which a secret is split additively into random shares. Over binary fields, however, the Hamming weight of the shares leaks information about the secret. Inner-product masking has been proposed as a promising alternative.'
-    - 'We prove that inner-product masking over a binary extension field is secure against Hamming-weight leakage, which also yields security against arbitrary symmetric-function leakage from the shares. We give an efficiently computable score function for testing and certifying security against leakage.'
-    - 'We also relate the leakage resilience of inner-product and additive masking over arbitrary fields; roughly, inner-product masking is at least as secure. The proof is Fourier analytic and estimates spectral norms of the Hamming slice through Krawtchouk polynomials.'
+    - 'Side-channel attacks threaten secret sharing, as well as the threshold protocols and masking defenses built on it. Motivated by power analysis, Faust et al. (EUROCRYPT 2024) initiated the theoretical study of additive secret sharing over the cyclic group $\mathbb{Z}/N\mathbb{Z}$ when each share leaks its Hamming weight. They asked whether these weights, taken together, reveal vanishingly little about the secret as the modulus grows.'
+    - 'For Mersenne $N=2^n-1$ with prime exponent $n$, they proved insecurity $\ll_k n^{-k/4+1}$, establishing security for $k\ge5$ shares. Two shares were known to be insecure there, but the practically important three- and four-share cases remained open. So did non-Mersenne moduli, including the dyadic modulus $N=2^n$, and the question of how quickly insecurity could decay.'
+    - 'We prove security for every near-dyadic modulus $| N-2^n | \leq 2^n/n$ and every fixed $k\geq3$, with insecurity $\ll_k {n^{-k/2+5/4}}$. This gives the first security guarantees for three and four shares and for non-Mersenne moduli, including the dyadic moduli. The leading share-dependent term improves to $n^{-k/2}$, and our lower bounds show that this dependence on $k$ is optimal. Roughly speaking, doubling the share length buys $k/2$ additional bits of statistical security, twice the $k/4$ guaranteed before. At this scale, a fixed target insecurity requires only the square root of the share length prescribed by the earlier analysis.'
+    - 'Our proof uses Fourier energy to bound insecurity, contracting it by ${n^{-1/2}}$ per share. We identify Bernoulli dynamics as the broader mechanism underlying Faust et al.&#8217;s exact binary rotation phenomenon and extend the analysis to near-dyadic moduli. For the lower bounds, we identify Fourier modes that retain information about the secret. The estimates rely on spectral estimates obtained from generating functions and Cauchy&#8217;s coefficient formula.'
 
 - title: "Towards Provable Leakage-Resilience of Additive Masking under Hamming-weight Model"
   venue: "TIFR STCS Student Seminar"
@@ -22,36 +22,3 @@
     - 'Over binary extension fields (Boolean hypercubes), we show that inner-product secret sharing  (where the secret is reconstructed as an inner product of the shares with a fixed vector) is secure against Hamming-weight leakage unless the reconstruction vector is constant. We also introduce an efficiently computable score function that quantifies and certifies the security afforded by a given reconstruction vector.'
     - 'Over near-dyadic-order groups, we show that additive secret sharing is secure against Hamming-weight leakage. We prove matching upper and lower bounds on insecurity, establishing that our bounds are tight. As a byproduct, we obtain a ternary representation result: the Cayley graphs of near-central Hamming slices have diameter at most three.'
     - 'Our analysis is Fourier-analytic, combining techniques from Krawtchouk polynomials, additive combinatorics, and spectral methods.'
-
-- title: "A Proposed Clock Synchronization Method for the Solar System Internet"
-  venue: "2024 IEEE Aerospace Conference"
-  venue_short: "AeroConf 2024"
-  venue_url: "https://www.aeroconf.org/"
-  date: "Mar 6th, 2024"
-  slides: "https://drive.google.com/file/d/1rgx0Bjlif14aVo65roZljjrTKODJwhU5/view?usp=sharing"
-  abstract:
-    - "Networked communications in space are necessary to achieve scalability in terms of the number of communicating nodes but also in terms of the overall system complexity. A key component to such a system is the ability to synchronize clocks, which is the focus of this paper. The so-called Solar System Internet (SSI) will be built upon Delay Tolerant Networking (DTN), which, in analogy to the Internet Protocol (IP), can be considered a suite of protocols necessary for networking in the space domain. Therefore, our goal is to extend this suite to include a DTN clock synchronization capability, analogous to the Network Time Protocol (NTP) used in the Internet. A motivating example of a network in space is NASA's LunaNet, a vision for a multi-hop multi-path network extending to the moon wherein not all nodes will have direct connections to an authoritative reference clock. In this paper, we propose a general clock synchronization methodology and algorithm that could be used for LunaNet as well as more elaborate time-varying networks."
-    - "In recent years, DTN has benefited from modeling efforts founded on the mathematical tool of sheaves. Here we continue this work to provide an approach to clock synchronization. Due to the time-varying nature of space networks, absolute consensus is not possible. However, the sheaf Laplacian provides a practical, distributed approach to approximating consensus by allowing data to diffuse through the network. In particular, the sheaf Laplacian is readily computable, lending our approach to implementation."
-    - "Our approach is well suited to handle the difficulties of space networks. For instance, differences in clock accuracy mean certain nodes are more authoritative than others; we can account for these differences through hierarchies in the network, generalizing the strata in NTP. Furthermore, just as error estimation is an integral part of NTP, we are able to give concrete error bounds for our approach. Indeed, different applications (e.g., communications schedules, pointing, navigation, distributed science) will have different requirements, hence it is necessary to maintain clocks within a given tolerance. We outline some of the necessary steps to turn our approach into a practical network protocol that could be used in DTN, and we conclude the paper with suggestions for future research."
-
-- title: "Multi-domain Routing in Delay Tolerant Networks"
-  venue: "2024 IEEE Aerospace Conference"
-  venue_short: "AeroConf 2024"
-  venue_url: "https://www.aeroconf.org/"
-  date: "Mar 6th, 2024"
-  slides: "https://drive.google.com/file/d/1440KiYYs1LxczYcD-bGjaPmrHU8rOr09/view?usp=drive_link"
-  abstract:
-    - "The goal of Delay Tolerant Networking (DTN) is to provide the missing ingredient for the ever-growing collection of communicating nodes in our solar system to become a Solar System Internet (SSI). Great strides have been made in modeling particular types of DTNs, such as schedule- or discovery-based. Now, analogously to the Internet, these smaller DTNs can be considered routing domains which must be stitched together to form the overall SSI. In this paper, we propose a framework for cross-domain routing in DTNs as well as methodologies for detecting these sub-domains. Example time-varying networks are given to demonstrate the techniques proposed."
-    - "A basic component is the mathematical theory of sheaves, which unifies the underlying model of DTN routing algorithms, by giving rise to routing sheaves -- these can be defined for the dynamic and scheduled networks as noted above, and can also be used to define the interfaces between these domains in order to route across them. An immediate application would be routing across discovery-based networks connected by scheduled networks."
-    - "These DTN subdomains remain elusive, however, and need to become well-defined and properly sized for tractable computability. In particular, a balance must be determined between areas that are too large (i.e. large matrix computations) versus areas that are too small (i.e. 'many' single-noded domains). Moreover, the connections between the domains should, at least locally, be chosen to optimize data flow and connectivity: we address this in three ways. First, tools from persistent homology are given to understand underlying structures, reminiscent of hierarchies in the Internet Protocol (IP) addressing. Second, we construct a notion of temporal graph curvature based on network geometry to analyze flows induced by dynamical processes on these networks. Finally, Schrödinger Bridges, a tool arising from statistical physics, are proposed as a method of constructing flows on time-evolving networks with desirable properties such as speed, robustness, and load sensitivity."
-    - "We construct an approach to temporal hypergraphs to simultaneously model unicast, multicast, and broadcast, using the language of scheme theory, and then consider DTN network coding as a way to achieve network-level computation and organization. The paper concludes with a discussion and ideas for future work."
-
-- title: "Bundle Protocol version 7 Implementation with Configurable Faulty Network and Evaluation"
-  venue: "2023 IEEE Int. Conf. on Wireless for Space and Extreme Environments"
-  venue_short: "WiSEE 2023"
-  venue_url: "https://2023.ieee-wisee.org/"
-  date: "Sep 7th, 2023"
-  slides: "https://github.com/etdickey/BPv7Java/blob/master/Presentation.pptx"
-  abstract:
-    - "The Bundle Protocol (BP) is a key component that enables delay/disruption-tolerant networking (DTN), an overlay network architecture that facilitates communication in challenging environments with intermittent connectivity. Previous works on DTNs were largely on analyzing or optimizing DTNs instead of studying BP alone itself; hence, whether or not BP is still at an experimental stage must be studied. This work begins by presenting a lightweight implementation of BP Version 7 (BPv7) created by implementing only the required portions of RFC9171, with a new convergence layer that simulates expected and unexpected disruptions for testing purposes. Our implementation is lightweight enough to be easily extendable for additional tests and simple enough to be used for educational purposes. Some preliminary, lightweight experiments indicate that BPv7, even with only the required parts in RFC9171, can serve its purpose and still ensures essential functionalities. It tolerates disruptions and infinitely long delays well, as intended. Moreover, it handles large data dumps and floods of packets well, as long as they are infrequent. In the course of our implementation and experiments, we identified potential architectural, specification, and deployment-related flaws of BP, and suggested solutions or directions toward them from the perspective of software engineering and network algorithms."
-

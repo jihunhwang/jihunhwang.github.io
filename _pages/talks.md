@@ -20,12 +20,17 @@ On this page, you will find the notes and slides I made for the talks I presente
 
 <!--
 talk_list.html is the code, it is in /_includes folder.
-talks_invited.yml is the data file, it is in /_data folder.
+talks_invited.yml and talks_conference.yml are the data files, they are in /_data folder.
 -->
 
-## Invited / Conference Talks
+## Invited Talks
 
 {% include talk_list.html data_file="talks_invited" %}
+
+
+## Conference Talks
+
+{% include talk_list.html data_file="talks_conference" %}
 
 
 ## Informal Talks

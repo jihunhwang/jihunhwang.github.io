@@ -119,7 +119,7 @@
   </div>
   {% endif %}
 
-  {% assign cv_talks = site.data.talks_invited | concat: site.data.talks_informal | where: "cv", true %}
+  {% assign cv_talks = site.data.talks_invited | concat: site.data.talks_conference | concat: site.data.talks_informal | where: "cv", true %}
   {% if cv_talks.size > 0 %}
   <div class="cv-section">
     <h2>Selected Talks</h2>

@@ -1,3 +1,11 @@
+- title: "GPUThor: Amplifying Rowhammer Attacks via Non-Uniform Patterns to Exploit ECC-Protected GPUs"
+  slides: "https://drive.google.com/file/d/1bfKd1IJvwGFiZ90hKONqg4Nr1d9CiTLM/view?usp=drive_link"
+  date: "Oct 7th, 2026"
+  venue: "CS 592FIA Fault Injection Attack"
+  venue_url: "https://davejingtian.org/fia/"
+  prof: "Jing Tian"
+  prof_display: "Jing (Dave) Tian"
+
 - title: "Towards SNARKs: Efficient computationally sound zero-knowledge proofs"
   slides: "https://drive.google.com/file/d/1HM1dbxKQJS3PootRmWdgpZ8cA6W2mj5M/view?usp=sharing"
   date: "Sep 30th, 2024"
@@ -17,8 +25,11 @@
 
 - title: "Why is WiFi dangerous?"
   link: "https://github.com/jihunhwang/Dangerous_WiFi"
-  venue: "My Capstone project for CS 590J Cyber Effects (demo/recording available in the link)"
+  venue_prefix: "My Capstone project for"
+  venue: "CS 590J Cyber Effects"
+  venue_suffix: "(demo/recording available in the link)"
   date: "Spring 2021"
+  venue_url: "https://infosec.cs.umass.edu/590Jcybereffects"
 
 - title: "Optimization of Non-Smooth Functions"
   notes: "https://drive.google.com/open?id=1WoqGJrSrRFGIz13BWrOsqS5sIbSfi4Ds"
