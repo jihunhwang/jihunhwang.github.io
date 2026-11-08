@@ -2,7 +2,7 @@
 title: "0xL4ugh CTF 2024 Writeup"
 modified: 2026-06-18
 date: 2025-08-16
-description: 0xL4ugh CTF 2024 Writeup
+description: "Crypto writeups for 0xL4ugh CTF (December 2024), including an AES-CTR nonce-reuse attack."
 tags: ['CTF']
 mathjax: yes
 toc: yes
@@ -13,14 +13,6 @@ header:
 ---
 
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 
 <font size="4">
@@ -45,7 +37,7 @@ During the CTF, I worked closely with <a href="https://dm248.github.io/">dm248</
 > I love saving my chats with my friends on my laptop but I should protect them, they have info can make you a billionaire 😎, so to protect them well I decided to protect each chat with a different password, so I will protect each one with the year I knew him at and his country (example is 2013brazil) now I'm sure I'm the only one who know these info.
 
 <details>
-<summary><code>encrypt.py (Click to expand)</code></summary>
+<summary><code>encrypt.py</code></summary>
 {% highlight python %}
 ## encrypt.py
 import base64
@@ -97,7 +89,7 @@ if __name__ == "__main__":
 <p></p>
 
 <details>
-<summary>Files (Click to expand)</summary>
+<summary>Files</summary>
 {% highlight python %}
 ## example.txt
 hello
@@ -201,7 +193,7 @@ if __name__ == "__main__":
 <p></p>
 
 <details>
-<summary>Decrypted files (Click to expand)</summary>
+<summary>Decrypted files</summary>
 {% highlight python %}
 ## decrypted_encrypted_friend1
 Ossama: Are you ready for the next step in the plan?
@@ -233,7 +225,7 @@ Ossama: We'll finish everything on time, we just need to work together and stay 
 ## Capawchino Cafe
 
 <details>
-<summary><code>challenge.py (Click to expand)</code></summary>
+<summary><code>challenge.py</code></summary>
 {% highlight python %}
 import hashlib
 import json
@@ -851,7 +843,7 @@ Anyways, the full solve scripts are provided below, for your viewing pleasure ;)
 
 <font size="4">
 <details>
-<summary><code>sol_part1.py (Click to expand)</code></summary>
+<summary><code>sol_part1.py</code></summary>
 {% highlight python %}
 import json
 from Crypto.Cipher import AES
@@ -939,7 +931,7 @@ ctxt = b'5729075718eb8e7638b0ba4b7b14942deb9f9550f6e59f4db6b83de599f7666b0f3a7e8
 
 <font size="4">
 <details>
-<summary><code>sol_part2.sage (Click to expand)</code></summary>
+<summary><code>sol_part2.sage</code></summary>
 {% highlight python %}
 import json
 from Crypto.Cipher import AES
@@ -1066,7 +1058,7 @@ print(f"{suspect3 = }")
 ```
 <font size="4">
 <details>
-<summary><code>Parameters (Click to expand)</code></summary>
+<summary>Parameters</summary>
 {% highlight python %}
 n = 19839772406592038190388369555693240762538001200560061266337400393390156583067094925964221108025393509323129492181808800544023673275469504815756943291095595848265120220669476825666894482813540241527304775449458006280511430395083776478716286901666159754102681493836770408600291259628536040434644542060008861460420239246675790014643348741981881010487160862738716411889615506716421080697468265585927037843912107880024620419353850828958766380546515595072180248367832537298679740790910760381847091223213725252496813564585753065499199756614019421519942263274322634395687433695110598812240962419691874373000201021934599758797
 suspect1 = 5481486211302967857769378509759769524898893113769798571566110518298239375346559533567130904334120310259073521689660742329402669803133955525980601074061060366523204309605656941088516563019896350744848647220202699971933873327122537767517470710991239051145546233486350769062812973389594972516798683040238948422580474396838973908938438667987996165190322222109916886919741191377317838047550364750510197486200306552822564654524636230517193400552655480382550090475112152259065912376331879070271050217631265029575688136893103014397737263756000822849774077743242156386781732974791603691819070298846187429459320822647710620293
@@ -1154,7 +1146,7 @@ print(f"{c = }")
 
 <font size="4">
 <details>
-<summary><code>Parameters (Click to expand)</code></summary>
+<summary>Parameters</summary>
 {% highlight python %}
 n = 18186672849609603331344182584568642941078893104802301217241028624469607021717197485036251613075846729705028441094100248337306406098776983108141004863456595015660485098203867670995838502297993710897784135087115777697925848407153788837657722171924264421550564295047937036911411846582733847201015164634546149603743246378710225407507435371659148999942913405493417037116587298256802831009824832360479040621348157491754407277404391337488226402711686156101028879269050800874367763551119682177453648890492731413760738825931684979379268401715029193518612541590846238434595210876468090976194627398214837801868969047036272502669215123
 e = 65537
@@ -1270,7 +1262,7 @@ print(long_to_bytes(m))
 <p>The full solve script is below.</p>
 
 <details>
-<summary><code>sol.py (Click to expand)</code></summary>
+<summary><code>sol.py</code></summary>
 {% highlight python %}
 from math import gcd
 from sympy import primerange, nextprime, isprime, factorint

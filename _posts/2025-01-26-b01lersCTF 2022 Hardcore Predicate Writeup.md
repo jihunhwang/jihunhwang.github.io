@@ -2,7 +2,7 @@
 title: "b01lersCTF 2022: Hardcore (predicate)"
 modified: 2025-01-27
 date: 2025-01-26
-description: b01lersCTF 2022 Hardcore Predicate
+description: "A b01lersCTF 2022 challenge built on the Goldreich–Levin hardcore predicate, solved with a noisy inner-product oracle."
 tags: ['CTF']
 mathjax: yes
 toc: yes
@@ -15,14 +15,6 @@ header:
     # overlay_filter: rgba(205, 239, 154, 0.30)
 ---
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 
 <font size="4">

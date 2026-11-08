@@ -2,7 +2,7 @@
 title: "LACTF 2026: spreading-secrets"
 modified: 2026-06-28
 date: 2026-03-03
-description: LACTF 2026 spreading-secrets Writeup
+description: 'Shamir secret sharing with a single share: finding the root of a degree-$3^9$ polynomial $P$ via $\gcd(P(x), x^p - x)$.'
 tags: ['CTF']
 mathjax: yes
 # toc: yes
@@ -13,14 +13,6 @@ header:
 ---
 
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 
 <font size="4">
@@ -86,7 +78,7 @@ print(f"Share_1={shares[0]}") # Share_1=(1, ...)
 ```
 
 <details>
-<summary>Full <code>chall.py</code> with parameters (Click to expand)</summary>
+<summary>Full <code>chall.py</code> with parameters</summary>
 {% highlight python %}
 ## chall.py
 
@@ -148,7 +140,7 @@ print(f"Share_1={shares[0]}")
 
 <!--
 <details>
-<summary>Parameters (Click to expand)</summary>
+<summary>Parameters</summary>
 {% highlight python %}
 print(f"p={p}")
 # p=12670098302188507742440574100120556372985016944156009521523684257469947870807586552014769435979834701674318132454810503226645543995288281801918123674138911
@@ -294,7 +286,7 @@ See below for the full solve script.
 </font>
 
 <details>
-<summary><code>sol.py (Click to expand)</code></summary>
+<summary><code>sol.py</code></summary>
 {% highlight python %}
 from Crypto.Util.number import long_to_bytes
 

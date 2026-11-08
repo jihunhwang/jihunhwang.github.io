@@ -1,18 +1,24 @@
-<ul>
+<ul class="talk-list">
 {% assign talks = site.data[include.data_file] %}
 {% for talk in talks %}
 <li>
-  {% if talk.title %}<b>{{ talk.title }}</b>{% endif %}<br>
-  {% if talk.date %}<i>{{ talk.date }}</i> {% endif %}
-  {% if talk.slides %}[<a href="{{ talk.slides }}">Slides</a>]{% endif %}
-  {% if talk.notes %}[<a href="{{ talk.notes }}">Notes</a>]{% endif %}
-  {% if talk.link %}[<a href="{{ talk.link }}">Link</a>]{% endif %}
-  {% if talk.video %}[<a href="{{ talk.video }}">Video</a>]{% endif %}<br>
+  {% if talk.title %}<b>{{ talk.title }}</b>{% endif %}
+  <div class="meta-row">
+    {% if talk.date %}<span class="meta-date">{{ talk.date }}</span>{% endif %}
+    {% if talk.slides %}<a class="link-pill" href="{{ talk.slides }}"><i class="fas fa-person-chalkboard"></i>Slides</a>{% endif %}
+    {% if talk.notes %}<a class="link-pill" href="{{ talk.notes }}"><i class="fas fa-file-lines"></i>Notes</a>{% endif %}
+    {% if talk.link %}<a class="link-pill" href="{{ talk.link }}"><i class="fas fa-link"></i>Link</a>{% endif %}
+    {% if talk.video %}<a class="link-pill" href="{{ talk.video }}"><i class="fas fa-video"></i>Video</a>{% endif %}
+  </div>
   {% if talk.title2 %}
-    {% if talk.title2 %}<b>{{ talk.title2 }}</b>{% endif %}<br>
-    {% if talk.date2 %}<i>{{ talk.date2 }}</i> {% endif %}
-    {% if talk.slides2 %}[<a href="{{ talk.slides2 }}">Slides</a>]{% endif %}
-    {% if talk.notes2 %}[<a href="{{ talk.notes2 }}">Notes</a>]{% endif %}<br>
+  <div class="talk-second">
+    <b>{{ talk.title2 }}</b>
+    <div class="meta-row">
+      {% if talk.date2 %}<span class="meta-date">{{ talk.date2 }}</span>{% endif %}
+      {% if talk.slides2 %}<a class="link-pill" href="{{ talk.slides2 }}"><i class="fas fa-person-chalkboard"></i>Slides</a>{% endif %}
+      {% if talk.notes2 %}<a class="link-pill" href="{{ talk.notes2 }}"><i class="fas fa-file-lines"></i>Notes</a>{% endif %}
+    </div>
+  </div>
   {% endif %}
   {% capture venue_line %}
     {% if talk.venue_prefix %}{{ talk.venue_prefix }}{% endif %}
@@ -20,7 +26,7 @@
       {% else %}{{ talk.venue }}
     {% endif %}
     {% if talk.venue_suffix %}{{ talk.venue_suffix }}{% endif %}
-    {% if talk.prof %} 
+    {% if talk.prof %}
       with Prof. {% assign prof_url = site.data.people[talk.prof] %}
         {% if prof_url %}
           <a href="{{ prof_url }}">{{ talk.prof_display | default: talk.prof }}</a>
@@ -32,7 +38,7 @@
         {% endif %}
     {% endif %}
   {% endcapture %}
-  {{ venue_line | strip }}.
+  <div class="talk-venue">{{ venue_line | strip }}.</div>
 </li>
 {% endfor %}
 </ul>

@@ -3,7 +3,7 @@
   venue_short: "ITC 2026"
   venue_url: "https://itcrypto.github.io/2026/index.html"
   date: "Aug 15th, 2026"
-  slides: "https://drive.google.com/file/d/1_4GaqQsRCbgHsyWFBcnG4gp73viOCdRA/view?usp=sharingg"
+  slides: "https://drive.google.com/file/d/1_4GaqQsRCbgHsyWFBcnG4gp73viOCdRA/view?usp=sharing"
   cv: false
   abstract:
     - 'Additive masking is a widely used side-channel countermeasure in which a secret is split additively into random shares. Over binary fields, however, the Hamming weight of the shares leaks information about the secret. Inner-product masking has been proposed as a promising alternative.'

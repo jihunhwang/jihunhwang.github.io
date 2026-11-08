@@ -2,7 +2,7 @@
 title: "BITSCTF 2025: Noob RSA Returns"
 modified: 2026-06-22
 date: 2025-03-17
-description: BITSCTF 2025 Noob RSA Returns Writeup
+description: 'RSA with a leaky hint $K = (Ap^2 - Cp + D)d$: approximating $p$ from $K$, then recovering it exactly.'
 tags: ['CTF']
 mathjax: yes
 # toc: yes
@@ -13,14 +13,6 @@ header:
 ---
 
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 
 <font size="4">
@@ -61,7 +53,7 @@ Encrypt()
 ```
 
 <details>
-<summary>Parameters (Click to expand)</summary>
+<summary>Parameters</summary>
 {% highlight python %}
 e = 65537
 n = 94391578028846794543970306963076155289398888845132329034244336898352288130614402434536624297683695128972774452047972797577299176726976054101512298009248486464357336027594075427866979990479026404794249095503495046303993475122649145761379383861274918580282133794104162177538259963029805672413580517485119968223
@@ -135,7 +127,7 @@ See below for the full solve script.
 </font>
 
 <details>
-<summary><code>sol.py (Click to expand)</code></summary>
+<summary><code>sol.py</code></summary>
 {% highlight python %}
 import math
 from Crypto.Util.number import long_to_bytes

@@ -2,7 +2,7 @@
 title: "CyberSpace CTF 2024: trendy windy trigonity"
 modified: 2025-05-04
 date: 2024-09-02
-description: CyberSpace CTF 2024 trendy windy trigonity Writeup
+description: 'Floating-point $a\cos(x) + b\sin(x)$ turned into integers: recovering $a$ and $b$ with LLL.'
 tags: ['CTF']
 mathjax: yes
 share: false
@@ -10,14 +10,6 @@ header:
     teaser: "https://ctftime.org/media/cache/2b/a1/2ba1e95fc5f7b5bebd87275d3d4666b0.png"
 ---
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 <font size="4">
 <p>I worked closely with VinhChilling and <a href="https://github.com/Athryx">Athryx</a> on this challenge.</p>
@@ -241,7 +233,7 @@ for j in range(0,3):
 <font size="4">
 <p>The full solve script is provided below for your viewing pleasure:</p>
 <details>
-<summary><code>trendy-sol.sage</code> (Click to expand)</summary>
+<summary><code>trendy-sol.sage</code></summary>
 {% highlight python %}
 ## trendy-sol.sage
 from Crypto.Util.number import bytes_to_long, long_to_bytes

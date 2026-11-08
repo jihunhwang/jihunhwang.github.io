@@ -1,0 +1,400 @@
+# News / timeline entries, newest first. Rendered by _includes/news_list.html.
+#
+# Fields
+#   date:  shown as-is ("May 2026", "Summer 2024", "September 27th, 2018").
+#          Must END with the 4-digit year; entries are grouped by it.
+#   text:  Markdown (inline HTML also works).
+#   note:  optional, Markdown, shown below the text in small muted type
+#          (e.g. "*Edit*: the title is now ...").
+#   refs:  optional map of link targets looked up from other data files, so the
+#          link stays correct if you change the URL there. Use as [label](@key):
+#            refs:
+#              slides: { data: talks_invited, title: "Exact talk title", field: slides }
+#
+# People (looked up in _data/people.yml; only use names that exist there)
+#   @[Hemanta Maji]              -> linked "Hemanta Maji"
+#   [Christina](@Christina Garman) -> linked custom text
+
+
+# ---------------------------------------------------------------- 2026
+
+- date: September 2026
+  text: >-
+    Our new preprint *Energy Estimation of the Hamming Slice and its Applications*
+    is on [arXiv](@arxiv)!
+  refs:
+    arxiv: { data: publications_phd, title: "Energy Estimation of the Hamming Slice and its Applications", field: arXiv }
+
+- date: August 2026
+  text: >-
+    Attending [CRYPTO 2026](https://crypto.iacr.org/2026/) and giving a talk at
+    [ITC 2026](https://itcrypto.github.io/2026/index.html)! See my slides
+    [here](https://drive.google.com/file/d/1_4GaqQsRCbgHsyWFBcnG4gp73viOCdRA/view?usp=sharing).
+
+- date: July 2026
+  text: >-
+    Attending [CANT 2026](https://www.theoryofnumbers.com/cant/) (virtually)!
+
+- date: May 2026
+  text: >-
+    Gave a talk at the [student seminar](https://www.tcs.tifr.res.in/web/events/1721)
+    at [TIFR STCS](https://www.tcs.tifr.res.in/web/) on our recent papers!
+    [Here](@slides) are my slides.
+  refs:
+    slides: { data: talks_invited, title: "Towards Provable Leakage-Resilience of Additive Masking under Hamming-weight Model", field: slides }
+
+- date: May 2026
+  text: >-
+    Excited to announce that our paper
+    [*Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage*](@paper)
+    is accepted to [ITC 2026](https://itcrypto.github.io/2026/index.html)! See you there!
+  refs:
+    paper: { data: publications_phd, title: "Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage", field: full_version }
+
+- date: May 2026
+  text: >-
+    Finally! I passed my preliminary exam. I am now a Ph.D. Candidate, graduating in 1-2 years!
+
+- date: April 2026
+  text: >-
+    Attended [AlGeCom XXVII](https://sites.google.com/view/algecom-main/algecom-xxvii-purdue-april-11-2026)!
+
+- date: April 2026
+  text: >-
+    Our new preprint *Beyond Threshold Security: Additive Secret Sharing under
+    Hamming-Weight Leakage* is now [online](@paper)!
+  note: >-
+    (*Edit*: the title is now *Beyond All-or-Nothing Corruption: Additive Secret
+    Sharing under Hamming-Weight Leakage.*)
+  refs:
+    paper: { data: publications_phd, title: "Beyond All-or-Nothing Corruption: Additive Secret Sharing under Hamming-Weight Leakage", field: full_version }
+
+# ---------------------------------------------------------------- 2025
+
+- date: December 2025
+  text: >-
+    [b01lers 2025 wrapped](https://kevin.fish/b01lers-2025-wrapped): Take a look at
+    what @[b01lers] achieved this year!
+
+- date: September 2025
+  text: >-
+    I am (virtually) attending the
+    [Preliminary Arizona Winter School](https://swc-math.github.io/aws/2026/2026PAWS.html)
+    (PAWS 2025) hosted by the
+    [Southwest Center for Arithmetic Geometry](https://swc-math.github.io/misc/aboutSWC/index.html)!
+
+- date: July 2025
+  text: >-
+    Our preprint *Leakage-resilient Secret-sharing against Hamming Weight Leakage*
+    is [online](@paper)!
+  note: >-
+    (*Edit*: the title is now *Resilience of Inner-Product Masking Scheme against
+    Hamming Weight Leakage.*)
+  refs:
+    paper: { data: publications_phd, title: "Resilience of Inner-Product Masking Scheme against Hamming Weight Leakage", field: full_version }
+
+- date: April 2025
+  text: >-
+    Proud to share that we placed 2nd out of 139 in this year's
+    [MITRE eCTF](https://ectf.mitre.org/). Big thanks to everyone on Purdue Team 3
+    (@[b01lers]) — awesome working together!
+
+- date: March 2025
+  text: >-
+    I am (virtually) attending a workshop on
+    [Algebraic and Analytic Methods in Combinatorics](https://www.slmath.org/workshops/1091)
+    held at [SLMath](https://www.slmath.org/) (formerly MSRI)!
+
+# ---------------------------------------------------------------- 2024
+
+- date: November 2024
+  text: >-
+    The results from this summer have once again been accepted for publication at
+    [AeroConf 2025](https://www.aeroconf.org/). Many thanks to my mentor and
+    collaborators for their contributions!
+
+- date: Summer 2024
+  text: >-
+    I am visiting [NASA GSFC](https://www.nasa.gov/goddard) as a research intern
+    again this summer!
+
+- date: April 2024
+  text: >-
+    We placed 3rd out of 97 and won the best poster award at this year's
+    [MITRE eCTF](https://ectf.mitre.org/). Huge thanks to @[b01lers] for this
+    opportunity, and most importantly: nice collaborative work everyone!
+
+- date: April 2024
+  text: >-
+    I was selected by my department as a recipient of the
+    [2024 Raymond Boyce Graduate Teacher Award](https://www.cs.purdue.edu/news/articles/2024/2024_purdue_cs_awards.html)!
+
+- date: March 2024
+  text: >-
+    I presented both papers at [AeroConf 2024](https://www.aeroconf.org/) held at
+    Big Sky, MT!<br>
+    See our slides: Talk 1 ([clock sync](@talk1)) and Talk 2 ([modeling](@talk2)).
+  refs:
+    talk1: { data: publications_side, title: "A Proposed Clock Synchronization Method for the Solar System Internet", field: slides }
+    talk2: { data: publications_side, title: "Multi-domain Routing in Delay Tolerant Networks", field: slides }
+
+# ---------------------------------------------------------------- 2023
+
+- date: November 2023
+  text: >-
+    Both papers that I coauthored with my intern mentor and fellow interns are
+    accepted to [AeroConf 2024](https://www.aeroconf.org/). See you there!
+
+- date: October 2023
+  text: >-
+    I received the
+    [Graduate Teaching Award](https://www.cs.purdue.edu/graduate/gta-award-winners.html)
+    from my department in recognition of my work as a CS 426 (Computer Security)
+    TA in Spring 2022. Thank you [Christina](@Christina Garman), for the
+    nomination and for all of your support!
+
+- date: July 2023
+  text: >-
+    I am honored to be selected as a
+    [2023 John Mather Nobel Scholar](https://spacegrant.org/programs/john-mather/).
+    All my gratitude goes to my intern mentor at GSFC!
+
+- date: July 2023
+  text: >-
+    The BPv7 paper I wrote with my CS 536 classmates based on our course project
+    is accepted to [WiSEE 2023](https://2023.ieee-wisee.org/)!
+
+- date: March 2023
+  text: >-
+    I will be visiting [NASA GSFC](https://www.nasa.gov/goddard) again this summer
+    to work on network information theory as well as network modeling and
+    algorithms for the Near Space Network (NSN)!
+
+# ---------------------------------------------------------------- 2022
+
+- date: November 2022
+  text: >-
+    Happy to announce that both papers we submitted to
+    [AeroConf 2023](https://www.aeroconf.org/) are accepted. Many thanks to my
+    intern mentor and my colleagues I met at GSFC for making this project possible!
+
+- date: November 2022
+  text: >-
+    I gave a short talk at our Theory reading seminar about (computational)
+    leakage-resilience cryptography, based on the papers I read last semester
+    with my advisor. [Here](@slides) are my slides.
+  refs:
+    slides: { data: talks_informal, title: "Pre-Processing and Leakage-Resilient Secure Computation", field: slides }
+
+- date: September 2022
+  text: >-
+    I became a member of @[b01lers] (Purdue's
+    [CTF team](https://ctftime.org/team/11464))! Technically, I joined last year
+    but I have not been active at all. I hope to learn more about how
+    cryptographic concepts are used in practice.
+
+- date: May 2022
+  text: >-
+    I feel too thankful and excited to find a way to precisely describe my
+    feeling about this opportunity in words. I am instead leaving the
+    hieroglyphic representation of my summer plan
+    [here](/Downloads/I'm_a_NASA_Intern.png) provided by them.
+
+- date: February 2022
+  text: >-
+    Based on one of the topics I learned in
+    [GCT 2022](https://gct2022.sciencesconf.org/), I gave a talk about
+    introductory algebraic complexity theory and exponent of matrix
+    multiplication at Purdue CS reading seminar! [Here](@slides) are my slides.
+  refs:
+    slides: { data: talks_informal, title: "Determinantal Complexity and Matrix Multiplication", field: slides }
+
+- date: January 2022
+  text: >-
+    I attended
+    [The 12th BIU Winter School on Cryptography](https://cyber.biu.ac.il/event/the-12th-biu-winter-school-on-cryptography/)
+    online. This year's topic was in Secure Computation.
+
+# ---------------------------------------------------------------- 2021
+
+- date: October 2021
+  text: >-
+    Started attending the virtual sections of the
+    [GCT 2022](https://gct2022.sciencesconf.org/), School and Conference on
+    Geometric Complexity Theory 2021-2022! Joined a bit late, so I hope I can
+    catch up.
+
+- date: June 2021
+  text: >-
+    Check out my final project
+    [Why is WiFi dangerous?](https://github.com/jihunhwang/Dangerous_WiFi) for
+    CS 590J Cyber Effects :)
+
+- date: April 2021
+  text: >-
+    **Excited to announce that I accepted my offer to the Computer Science Ph.D.
+    program at [Purdue University](https://www.cs.purdue.edu/)!**
+
+- date: February 2021
+  text: >-
+    I will be (virtually) taking course(s) from the
+    [Budapest Semester in Mathematics](https://budapestsemesters.com/) (BSM)
+    concurrently with my regular classes at UMass!
+
+- date: January 2021
+  text: >-
+    UMass Cryptography Group led by Professor @[Adam O'Neill] is now running a
+    seminar series,
+    [UMass Cryptography Seminar](https://sites.google.com/view/umasscryptosem/).
+    I will be one of the co-organizers!
+
+# ---------------------------------------------------------------- 2020
+
+- date: October 2020
+  text: >-
+    I gave a talk at the [UMass CS Theory Seminar](https://groups.cs.umass.edu/theory/)
+    with a colleague of mine (Kyle Doney) about
+    [candidate indistinguishability obfuscators](https://eprint.iacr.org/2013/451).
+    [Here](https://drive.google.com/file/d/1BvUJ94ZzMdUmaD9_-SmIjr4hHruHGZVz/view?usp=sharing)
+    is the abstract of the talk.
+
+- date: August 2020
+  text: >-
+    I gave a talk at the UMass Geometric Analysis Reading Seminar about the
+    [Dorfmeister-Pedit-Wu](https://www.intlpress.com/site/pub/files/_fulltext/journals/cag/1998/0006/0004/CAG-1998-0006-0004-a001.pdf)
+    (DPW) construction of minimal surfaces!
+
+- date: June 2020
+  text: >-
+    I started working with Professor
+    [Adam O'Neill](https://groups.cs.umass.edu/oneill/) on Multi-Input
+    [Functional Encryption](https://eprint.iacr.org/2010/556.pdf) (MIFE) based
+    privacy-preserving contact tracing.
+
+- date: May 2020
+  text: >-
+    I gave a short talk at the UMass Geometric Analysis Reading Seminar on May
+    7th on the recent progress in
+    [the embedded Calabi-Yau conjecture](https://mathoverflow.net/questions/308443/on-the-calabi-yau-conjecture-for-minimal-surfaces),
+    by Colding-Minicozzi and Meeks-Perez-Ros!
+    [Here](https://drive.google.com/file/d/1gw3eaI9tQFrcVB2hw3cm1b6VyELKp8Bn/view?usp=sharing)
+    are my notes.
+
+- date: April 2020
+  text: >-
+    Based on what I learned during my senior research, I spoke at the
+    [UMass CS Theory Seminar](https://groups.cs.umass.edu/theory/) on April 29th
+    with a colleague of mine (Wenbo Xie) on parallel algorithm-based differential
+    equation solvers!
+    [Here](https://drive.google.com/open?id=1vDVbmkYslDomSF6u4W6GsDAIETGLScuw) is
+    the abstract of the talk and
+    [Here](https://drive.google.com/open?id=1Kgk_hyf2IharsyZ3MrSb3xou8fmBlM4m) are
+    the lecture slides.
+
+- date: January 2020
+  text: >-
+    My senior thesis is approved! My abstract is available
+    [here](/Downloads/Hwang_Abstract.pdf). This also means that I am no longer an
+    undergrad student. I will be spending another 1.5 years around Amherst,
+    working on my M.S. in Computer Science!
+
+# ---------------------------------------------------------------- 2019
+
+- date: September 2019
+  text: >-
+    Happy to announce that I just made my very first publication with the people
+    I met during the ERAU REU! Our paper is accepted to the
+    [2019 IEEE ICII](https://ieeexplore.ieee.org/xpl/conhome/9048088/proceeding),
+    all thanks to my amazing collaborators!
+
+- date: Summer 2019
+  text: >-
+    I spent my whole summer at [Embry-Riddle Aeronautical University](https://erau.edu)
+    with a group of awesome people doing
+    [NSF-REU@ERAU](https://sites.google.com/view/nsf-reu-erau/)! My advisor was
+    Professor @[Jiawei Yuan].
+
+- date: January 2019
+  text: >-
+    I started my senior research/thesis under Professor @[Panos Kevrekidis] and
+    @[Stathis Charalampidis] on extreme waves from the irregular burstings in
+    superfluid 3-He/4-HE!
+
+# ---------------------------------------------------------------- 2018
+
+- date: September 27th, 2018
+  text: >-
+    Effective immediately (from 10 A.M.), Jimmy is now a proud citizen of the
+    United States of America!
+    ([Oath of Allegiance](https://www.uscis.gov/us-citizenship/naturalization-test/naturalization-oath-allegiance-united-states-america))
+
+- date: May 2018
+  text: >-
+    I was selected for Math 300 UGTA by the math department with a colleague of
+    mine @[Patrick Lei]!
+
+- date: April 2018
+  text: >-
+    I was invited to give a talk about
+    [Weierstrass product](https://en.wikipedia.org/wiki/Weierstrass_factorization_theorem)
+    in Professor @[William Meeks]'s Math 421 (Undergrad) Complex analysis class!
+
+- date: Spring 2018
+  text: >-
+    I did an independent study in
+    [minimal and constant-mean-curvature (CMC) surfaces](https://www.youtube.com/watch?v=gvLBbh0VKXw)
+    under Professor @[William Meeks]. It was mainly on understanding the first
+    few chapters of [his book](https://www.ams.org/publications/authors/books/postpub/ulect-60).
+    We did also spend a lot of time reading recent papers/surveys and talking
+    about geometric analysis in general (e.g. Ricci flow).
+
+# ---------------------------------------------------------------- 2017
+
+- date: August 2017
+  text: >-
+    After taking Math 563H Differential Geometry and studying Ergodic theory
+    during my REU with Professor @[Yao Li], I decided to study pure mathematics.
+    However, it doesn't mean I am no longer interested in applied mathematics and
+    computer science!
+
+- date: Summer 2017
+  text: >-
+    I was again around Amherst, MA for
+    [UMass Math REU](https://sites.google.com/umass.edu/math-stat-reu). I studied
+    Ergodic theory and statistical physics under Professor @[Yao Li]!
+
+- date: January 2017
+  text: >-
+    I am now also a part of [CICS](https://www.cics.umass.edu/)! I was admitted
+    to the computer science major. I plan to double major (or dual degree) math
+    and computer science.
+
+# ---------------------------------------------------------------- 2016
+
+- date: Summer 2016
+  text: >-
+    I was lucky enough to be an REU participant in my freshman year. I was at
+    [UMass Math REU](https://sites.google.com/umass.edu/math-stat-reu) over the
+    summer studying combinatorial representation theory under Professor
+    [Alexei Oblomkov](https://www.math.umass.edu/directory/faculty/alexei-oblomkov)!
+
+- date: January 2016
+  text: >-
+    I had decided to start taking upper-level math major courses. I am the only
+    freshman in those classes. Let's see how it goes.
+
+# ---------------------------------------------------------------- 2015
+
+- date: September 2015
+  text: >-
+    Here I go, I am now an adult - a college student! I plan to study
+    applied/computational mathematics, and possibly physics, at UMass Amherst.
+    I don't think I will continue pre-med.
+
+# ---------------------------------------------------------------- 2014
+
+- date: August 2014
+  text: >-
+    I was at the [International Congress of Mathematicians (ICM 2014)](http://www.icm2014.org/)
+    at COEX Center, Seoul, South Korea. My long journey as a future
+    mathematician had begun!

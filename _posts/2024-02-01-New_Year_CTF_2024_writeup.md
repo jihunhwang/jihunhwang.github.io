@@ -2,7 +2,7 @@
 title: "New Year CTF 2024 Writeups (RSA Party!)"
 modified: 2024-04-11
 date: 2024-02-01
-description: New Year CTF 2024 Writeups (RSA Party!)
+description: 'A batch of RSA variants, from tiny $e$ to ambiguous moduli, solved in a CTF I played solo.'
 tags: ['CTF']
 toc: true
 toc_sticky: yes
@@ -10,14 +10,6 @@ share: false
 mathjax: true
 ---
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 
 <p> 
@@ -80,7 +72,7 @@ print(long_to_bytes(c))
 </center>
 
 <details>
-<summary><code>code_RSA.py</code> (Click to expand)</summary>
+<summary><code>code_RSA.py</code></summary>
 {% highlight python %}
 from Crypto.Util.number import getPrime , bytes_to_long , GCD
 import random
@@ -193,7 +185,7 @@ print(long_to_bytes(int(m)))
 <p>For completeness, the full solution script is provided below:</p>
 
 <details>
-<summary><code>sol.py</code> (Click to expand)</summary>
+<summary><code>sol.py</code></summary>
 {% highlight python %}
 ## sol.py
 from Crypto.Util.number import long_to_bytes
@@ -316,7 +308,7 @@ print(long_to_bytes(int(m)))
 <p>For completeness, the full solution script is provided below:</p>
 
 <details>
-<summary><code>sol.py</code> (Click to expand)</summary>
+<summary><code>sol.py</code></summary>
 {% highlight python %}
 ## sol.py
 from Crypto.Util.number import getPrime, bytes_to_long, long_to_bytes
@@ -904,7 +896,7 @@ for i in range(0,g):
 <p>For completeness, the full solution script is provided below:</p>
 
 <details>
-<summary><code>sol.py</code> (Click to expand)</summary>
+<summary><code>sol.py</code></summary>
 {% highlight python %}
 ## sol.py
 from Crypto.Util.number import long_to_bytes

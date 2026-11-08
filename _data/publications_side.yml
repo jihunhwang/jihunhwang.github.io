@@ -1,3 +1,21 @@
+- title: "PlantPals: Making K-12 Lessons in Precision Agriculture More Precise"
+  coauthors:
+    - "Deliya Kuleshova"
+    - "Andrew Daniels"
+    - "Kathy Daniels"
+    - "Yury Kuleshov"
+    - "Yaguang Zhang"
+    - "Anne Lucietto"
+  venue: "INSTEMED 2027"
+  venue_full: "2027 Indiana STEM Education Conference"
+  abbr: "INSTEMED"
+  venue_url: "https://education.purdue.edu/research/centers-and-institutes/catalyst/indiana-stem-ed-conference/"
+  cv: true
+  abstract:
+    - 'Precision agriculture is actively entering agriculture curriculums as the future of farming. However, prior works center on agricultural data collection, not the trustworthiness and utility of that data.'
+    - 'PlantPals, an interdisciplinary ready-to-deploy course in precision agriculture, bridges this gap. Beginning with plants&#8217; biological needs and characteristics, it establishes trustworthiness through sensor calibrations with number sense activities, and closes by turning the data into automations via decision-making algorithms. Students build and program an Arduino soil moisture sensor and automated irrigation system using a provided installation-free browser-based compiler.'
+    - 'PlantPals aligns with NGSS and CSTA PK-12 standards, and the 5E instructional model.'
+
 
 - title: "Towards Practical Clock Synchronization in the Solar System Internet"
   coauthors:

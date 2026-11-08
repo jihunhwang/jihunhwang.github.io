@@ -1,0 +1,36 @@
+{%- comment -%}
+  Renders one entry of _data/news.yml. Usage: {% include news_item.html item=entry %}
+  Resolves [label](@key) from item.refs, then @[Name] / (@Name) from _data/people.yml.
+{%- endcomment -%}
+{%- assign item = include.item -%}
+{%- assign t = item.text -%}
+{%- for ref in item.refs -%}
+  {%- assign spec = ref[1] -%}
+  {%- assign target = site.data[spec.data] | where: "title", spec.title | first -%}
+  {%- assign needle = "(@" | append: ref[0] | append: ")" -%}
+  {%- assign repl = "(" | append: target[spec.field] | append: ")" -%}
+  {%- assign t = t | replace: needle, repl -%}
+{%- endfor -%}
+{%- if t contains "@" -%}
+  {%- for person in site.data.people -%}
+    {%- assign name = person[0] -%}
+    {%- assign url = person[1] -%}
+    {%- assign tag = "@[" | append: name | append: "]" -%}
+    {%- if t contains tag -%}
+      {%- assign repl = "[" | append: name | append: "](" | append: url | append: ")" -%}
+      {%- assign t = t | replace: tag, repl -%}
+    {%- endif -%}
+    {%- assign tag = "(@" | append: name | append: ")" -%}
+    {%- if t contains tag -%}
+      {%- assign repl = "(" | append: url | append: ")" -%}
+      {%- assign t = t | replace: tag, repl -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+<li class="news-item">
+  <div class="news-date">{{ item.date }}</div>
+  <div class="news-text">
+    {{ t | markdownify }}
+    {%- if item.note %}<div class="news-note">{{ item.note | markdownify }}</div>{% endif %}
+  </div>
+</li>

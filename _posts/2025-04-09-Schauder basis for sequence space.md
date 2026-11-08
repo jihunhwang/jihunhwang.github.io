@@ -2,7 +2,7 @@
 title: "Schauder Basis of Banach Spaces"
 modified: 2025-05-04
 date: 2025-04-09
-description: Schauder Basis of Banach Spaces
+description: 'Do the unit vectors always span a vector space? Why not, and what a Schauder basis is instead, with examples and the role of separability.'
 tags: ['random-math']
 toc: yes
 toc_sticky: yes
@@ -11,14 +11,6 @@ header:
     teaser: "https://preview.redd.it/axiom-of-choice-phobia-v0-p1ewm8rznxsc1.jpeg?width=640&crop=smart&auto=webp&s=358b2bf8bcb369d68bb6562f82c1fbe4e7d46bd5"
 ---
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 I was once asked this question on the spot in a Discord server, but I shamefully (I'll admit) gave a pretty bad answer to it. It was not a difficult or deep question, but I think it is worth spanning (pun intended) a blogpost.
 
@@ -92,7 +84,7 @@ One immediate instance is the commutativity (axiom 5); we learned in undergrad r
 
 In any case, the key takeaway here is that the basis might contain infinitely many elements, but only finite linear combinations should be considered: 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition.</b> Let $X$ be vector space over a field $\mathbb{F}$. A (<b>Hamel</b>) <b>basis</b> of $X$ is a subset $(e_i)_{i \in \mathcal{I}}$ in $V$ such that every $x \in X$ can be uniquely written as
 \[
 x = \sum_{i \in I} a_i e_i
@@ -132,7 +124,7 @@ This might not sound like too big of a deal for some people, understandably so. 
 
 Most crucially, dealing with Hamel basis turns out to be a headache in general; we can prove that there (arguably) cannot exist an explicit procedure for constructing a Hamel basis for every Banach space:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem 1.</b> Let $X$ be an infinite-dimensional Banach space and $\mathcal{E}$ be its Hamel basis. Then $\mathcal{E}$ exists, and is uncountably infinite. 
 </p>
 
@@ -142,7 +134,7 @@ As one might have anticipated already (because the statement that every vector s
 
 We shall also use the Baire Category Theorem, because we want to express $X$ as a countable union of subspaces, after assuming for the sake of contradiction that $\mathcal{E}$ is countable. 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Baire Category Theorem.</b> Let $X$ be a complete metric space and $\{X_n \}_{n \in \mathbb{N}}$ be a sequence of <i>closed subsets</i> in $X$ such that $X_n$ is <i>nowhere dense</i>, i.e. $\mathrm{Int}(X_n) = \emptyset$. Then,
 $$
 X \neq \bigcup_{n \in \mathbb{N}} X_n \;\; \textsf{ but } \;\; \mathrm{Int}\left( \bigcup_{n \in \mathbb{N}} X_n \right) = \emptyset
@@ -153,7 +145,7 @@ $$
 For self-containedness' sake, let us formally define what nowhere dense means.
 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition.</b> Let $X$ be a normed vector space and $W$ is a set in $X$. $W$ is said to be <b>nowhere dense</b> in $X$ if for any open ball $\| x - x_0 \| < r$ in $X$, there always exists an element in it which does not belong to $\overline{W}$ 
 (i.e. $\overline{W}$ contains no open balls). 
 </p>
@@ -187,7 +179,7 @@ Theorem 1 is basically telling us that we cannot write elements of $X$ as finite
 For all these reasons, we introduce Schauder basis over just talking about the closed linear span.
 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition.</b> Let $X$ be a Banach space. A <b>Schauder basis</b> is a sequence $(e_i)_{i \geq 1}$ in $X$ such that for all $x \in X$ there exists a unique sequence $(x_i)_{i \geq 1}$ in $\mathbb{R}$ such that
 \[
 x = \sum_{i=1}^\infty x_i e_i = \lim_{n \to \infty} \sum_{i=1}^n x_i e_i
@@ -274,11 +266,11 @@ The 'intuitive/trivial basis' of $C[0,1]$ turns out to be not a (Schauder) basis
 Interestingly, it turns out $\ell_\infty$ does not have a Schauder basis. Even more interestingly, $\ell_\infty$ is not separable, and every inseparable Banach space has no Schauder basis! We shall prove this by proving its contrapositive. 
 </p>
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition.</b> A topological space $X$ is said to be <b>separable</b> if it contains a countable dense set; equivalently, $X$ is <b>separable</b> if there exists a sequence $(x_n)_{n \geq 1}$ such that every nonempty subset of $X$ contains at least one element in $(x_n)_{n \geq 1}$
 </p>
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem 2.</b> Let $X$ be a Banach space with a Schauder basis. Then $X$ is separable.
 </p>
 
@@ -323,7 +315,7 @@ This completes the proof. $\blacksquare$
 Now we shall show that $\ell_\infty$ is indeed not separable. This is one of my favorite proofs in functional analysis, because it reminds me of the proof of uncountability of $(0,1) \subseteq \mathbb{R}$. 
 </p>
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem 3.</b> $\ell_\infty$ is not separable.
 </p>
 
@@ -348,11 +340,11 @@ Then, $\| b - a^{(k)} \|_\infty \geq \lvert b_k - a_k^{(k)} \rvert \geq 1$ for a
 <font size="4">
 <p>One natural follow-up question is this: <i>Does every separable Banach space have a Schauder basis?</i> The answer turns out to be <i>no</i>, and it was proven by <a href="https://en.wikipedia.org/wiki/Per_Enflo">Enflo</a> in 1973. This is where it starts:</p>
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem 4.</b> Let $X$ and $Y$ be Banach spaces, $(T_n \colon X \to Y)_{n \geq 1}$ be a sequence of finite rank operators, and $T \colon X \to Y$ be an operator such that $\| T_n - T \| \to 0$ as $n \to \infty$. Then $T$ is a compact operator. 
 </p>
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition.</b> Let $X$ and $Y$ be normed vector spaces. A linear operator $T \colon X \to Y$ is said to be of <b>finite rank</b> if its range is finite-dimensional. And it is called a <b>compact operator</b> if for every bounded sequence $(x_n)_{n \geq 1}$ (i.e. for some constant $C$, $\| x_n \| \leq C$ for all $n$), the sequence $( T x_n )_{n \geq 1}$ has a subsequence that converges in $Y$. 
 </p>
 
@@ -403,11 +395,11 @@ then clearly $P_n$ is finite rank (because $P_n(X)$ is finite dimensional) and $
 This is called the <i>approximation property</i> of Banach space, and in fact, one can prove that a Banach space with a Schauder basis has the approximation property.
 </p>
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition.</b> Let $X$ be a Banach space. $X$ is said to have the <b>approximation property</b> if for every compact set $K \subseteq X$ and $\varepsilon > 0$, there exists a finite-rank operator $T$ such that $\| Tx - x\| < \varepsilon$ for all $x \in K$.
 </p>
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Proposition.</b>
 If a Banach space has a Schauder basis, then it has the approximation property.
 </p>
@@ -416,7 +408,7 @@ If a Banach space has a Schauder basis, then it has the approximation property.
 However, <a href="https://en.wikipedia.org/wiki/Per_Enflo">Enflo</a> gave an explicit construction of a Banach space $X$ such that the identity operator $I_X$ cannot be approximated with other finite (lower) rank operator $T_n$.
 </p>
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b><a href="https://projecteuclid.org/journals/acta-mathematica/volume-130/issue-none/A-counterexample-to-the-approximation-problem-in-Banach-spaces/10.1007/BF02392270.full">Theorem (Enflo)</a>.</b> There exists a separable, reflexive Banach space $X$ with a sequence of its finite dimensional subspace $X_n$ such that $\dim(X_n) \to \infty$ as $n \to \infty$, and a constant $C$ such that for all finite rank operator $T$, $\| T - I_X \|$ over $X_n$ (the operator norm with supremum taken over $X_n$) does not converge to $0$ as $n \to \infty$.
 </p>
 

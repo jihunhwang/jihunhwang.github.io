@@ -6,17 +6,11 @@ author_profile: true
 mathjax: true
 ---
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
+{% include base_path %}
+{% assign visible_posts = site.posts | where_exp: "item", "item.hidden != true" %}
+{% assign postsInYear = visible_posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 
 <ul class="taxonomy__index">
-  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -26,18 +20,57 @@ mathjax: true
   {% endfor %}
 </ul>
 
-<!-- <a href="/tags/" style="color: steelblue; text-decoration: underline;text-decoration-style: dotted; text-decoration-thickness: 1px;"><b>Click here to sort posts by tag.</b></a> -->
+{%- comment -%}
+  Tag filter. Without JavaScript the buttons are plain links to the tag page.
+  Tags are listed most-used first.
+{%- endcomment -%}
+{% assign tags_max = 0 %}
+{% for tag in site.tags %}{% if tag[1].size > tags_max %}{% assign tags_max = tag[1].size %}{% endif %}{% endfor %}
+<div class="tag-filter" role="group" aria-label="Filter posts by tag">
+  <a class="link-pill is-active" href="{{ base_path }}/blog/" data-tag="" aria-pressed="true">All <span class="tag-filter__count">{{ visible_posts | size }}</span></a>
+  {%- for i in (1..tags_max) reversed -%}
+    {%- for tag in site.tags -%}
+      {%- if tag[1].size == i -%}
+  <a class="link-pill" href="{{ base_path }}/tags/#{{ tag[0] | slugify }}" data-tag="{{ tag[0] | slugify }}" aria-pressed="false">{{ tag[0] }} <span class="tag-filter__count">{{ i }}</span></a>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor %}
+</div>
 
-<a href="/tags/" style="text-decoration: underline;text-decoration-style: dotted; text-decoration-thickness: 1px;"><b>Click here to sort posts by tag.</b></a>
-
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
+{% for year in postsInYear %}
+<section class="post-year">
+  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
+  {% for post in year.items %}
+    {% include archive-single.html %}
+  {% endfor %}
+</section>
 {% endfor %}
 
+<script>
+  (function () {
+    var buttons = document.querySelectorAll(".tag-filter [data-tag]");
+    function applyFilter(tag) {
+      buttons.forEach(function (b) {
+        var active = b.getAttribute("data-tag") === tag;
+        b.classList.toggle("is-active", active);
+        b.setAttribute("aria-pressed", String(active));
+      });
+      document.querySelectorAll(".post-year").forEach(function (section) {
+        var shown = 0;
+        section.querySelectorAll(".list__item").forEach(function (item) {
+          var tags = (item.getAttribute("data-tags") || "").split(" ");
+          var match = !tag || tags.indexOf(tag) !== -1;
+          item.hidden = !match;
+          if (match) { shown += 1; }
+        });
+        section.hidden = shown === 0;
+      });
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener("click", function (event) {
+        event.preventDefault();
+        applyFilter(b.getAttribute("data-tag"));
+      });
+    });
+  })();
+</script>

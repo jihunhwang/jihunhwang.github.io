@@ -1,20 +1,24 @@
-<ul>
+<ul class="talk-list">
 {% assign talks = site.data[include.data_file] %}
 {% for talk in talks %}
+  {% assign abstract_id = "abstract-" | append: include.data_file | append: "-" | append: forloop.index %}
   <li>
     <b>{{ talk.title }}</b><br>
-    <i>{{ talk.date }}</i>
-      {% if talk.slides %}[<a href="{{ talk.slides }}">Slides</a>{% if talk.annotated_slides %} (<a href="{{ talk.annotated_slides }}">annotated</a>){% endif %}]{% endif %}
-      {% if talk.notes %}[<a href="{{ talk.notes }}">Notes</a>]{% endif %}
-      {% if talk.event_url %}(<a href="{{ talk.event_url }}">Event page</a>){% endif %}<br>
-    {% if talk.venue_url %}<a href="{{ talk.venue_url }}">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}{% if talk.venue_short %} ({{ talk.venue_short }}){% endif %}<br>
+    {% if talk.venue_url %}<a href="{{ talk.venue_url }}">{{ talk.venue }}</a>{% else %}{{ talk.venue }}{% endif %}{% if talk.venue_short %} ({{ talk.venue_short }}){% endif %}
+    <div class="meta-row">
+      {% if talk.date %}<span class="meta-date">{{ talk.date }}</span>{% endif %}
+      {% if talk.slides %}<a class="link-pill" href="{{ talk.slides }}"><i class="fas fa-person-chalkboard"></i>Slides</a>{% endif %}
+      {% if talk.annotated_slides %}<a class="link-pill" href="{{ talk.annotated_slides }}"><i class="fas fa-highlighter"></i>Annotated slides</a>{% endif %}
+      {% if talk.notes %}<a class="link-pill" href="{{ talk.notes }}"><i class="fas fa-file-lines"></i>Notes</a>{% endif %}
+      {% if talk.event_url %}<a class="link-pill" href="{{ talk.event_url }}"><i class="fas fa-calendar"></i>Event page</a>{% endif %}
+      {% if talk.abstract %}<button type="button" class="link-pill abstract-toggle" aria-expanded="false" aria-controls="{{ abstract_id }}"><i class="fas fa-chevron-down"></i>Abstract</button>{% endif %}
+    </div>
     {% if talk.abstract %}
-    <details class="abstract-details" closed>
-      <summary class="abstract-summary"></summary>
+    <div class="abstract-panel is-collapsed" id="{{ abstract_id }}">
       {% for paragraph in talk.abstract %}
-        <p><span class="indented">{{ paragraph }}</span></p>
+        <p>{{ paragraph }}</p>
       {% endfor %}
-    </details>
+    </div>
     {% endif %}
   </li>
 {% endfor %}

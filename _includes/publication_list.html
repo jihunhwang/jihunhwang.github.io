@@ -1,5 +1,5 @@
 {% assign start = include.start_num | default: 1 %}
-<ol start="{{ start }}">
+<ol start="{{ start }}" class="pub-list">
 {% assign papers = site.data[include.data_file] %}
 {% for paper in papers %}
   {% assign paper_num = start | plus: forloop.index0 %}
@@ -8,10 +8,10 @@
     {% if paper.coauthors %}
     {% assign authors_count = paper.coauthors | size %}
     {% assign second_last_index = authors_count | minus:2 %}
-    with 
+    with
     {% for author in paper.coauthors %}
       {% assign url = site.data.people[author] %}{% if url %}<a href="{{ url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}{% if forloop.index0 < second_last_index %},{% elsif forloop.index0 == second_last_index %}, and{% endif %}{% endfor %}<br>{% endif %}
-    <!-- <b>{{ paper.venue }}</b> -->
+    <div class="meta-row">
     {%- if paper.abbr -%}
       {%- assign venue_info = site.data.venues[paper.abbr] -%}
       {%- if venue_info -%}
@@ -31,30 +31,26 @@
       {%- endif -%}
     {%- else -%}
       <b>{{ paper.venue }}</b>
-    {%- endif -%}
-    <!-- <b>{{ paper.venue }}</b> -->
-    {% if paper.pdf %}<b>[<a href="{{ paper.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>]</b>{% endif %}
-    {% if paper.full_version %}<b>[<a href="{{ paper.full_version }}"><i class="fas fa-file-pdf"></i> Full version</a>]</b>{% endif %}
-    {% if paper.ePrint %}<b>[<a href="{{ paper.ePrint }}"><i class="fas fa-file-pdf"></i> ePrint</a>]</b>{% endif %}
-    {% if paper.arXiv %}<b>[<a href="{{ paper.arXiv }}"><i class="fas fa-file-pdf"></i> arXiv</a>]</b>{% endif %}
-    {% if paper.ECCC %}<b>[<a href="{{ paper.ECCC }}"><i class="fas fa-file-pdf"></i> ECCC</a>]</b>{% endif %}
-    {% if paper.NTRS %}<b>[<a href="{{ paper.NTRS }}"><i class="fas fa-file-pdf"></i> NTRS</a>]</b>{% endif %}
-    <!-- {% if paper.LIPIcs %}[<a href="{{ paper.LIPIcs }}">LIPIcs</a>]{% endif %} -->
-    {% if paper.doi %}<font size="3">(<a href="https://doi.org/{{ paper.doi }}">doi</a>)</font>{% endif %}
-    {% if paper.slides %}[<a href="{{ paper.slides }}">Slides</a>]{% endif %}
-    {% if paper.demo %}[<a href="{{ paper.demo }}">Demo</a>]{% endif %}
-    {% if paper.github %}[<a href="{{ paper.github }}">GitHub</a>]{% endif %}
-    {% if paper.video %}[<a href="{{ paper.video }}">Video</a>]{% endif %}
-    <br>
-    <!-- {% if paper.doi %}<font size="3">doi: <a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></font><br>{% endif %} -->
-    <!-- {% if paper.doi %}<font size="3">doi: {{ paper.doi }}</font><br>{% endif %} -->
+    {%- endif %}
+    {% if paper.pdf %}<a class="link-pill" href="{{ paper.pdf }}"><i class="fas fa-file-pdf"></i>PDF</a>{% endif %}
+    {% if paper.full_version %}<a class="link-pill" href="{{ paper.full_version }}"><i class="fas fa-file-pdf"></i>Full version</a>{% endif %}
+    {% if paper.ePrint %}<a class="link-pill" href="{{ paper.ePrint }}"><i class="fas fa-file-pdf"></i>ePrint</a>{% endif %}
+    {% if paper.arXiv %}<a class="link-pill" href="{{ paper.arXiv }}"><i class="fas fa-file-pdf"></i>arXiv</a>{% endif %}
+    {% if paper.ECCC %}<a class="link-pill" href="{{ paper.ECCC }}"><i class="fas fa-file-pdf"></i>ECCC</a>{% endif %}
+    {% if paper.NTRS %}<a class="link-pill" href="{{ paper.NTRS }}"><i class="fas fa-file-pdf"></i>NTRS</a>{% endif %}
+    {% if paper.doi %}<a class="link-pill" href="https://doi.org/{{ paper.doi }}"><i class="fas fa-link"></i>DOI</a>{% endif %}
+    {% if paper.slides %}<a class="link-pill" href="{{ paper.slides }}"><i class="fas fa-person-chalkboard"></i>Slides</a>{% endif %}
+    {% if paper.demo %}<a class="link-pill" href="{{ paper.demo }}"><i class="fas fa-play"></i>Demo</a>{% endif %}
+    {% if paper.github %}<a class="link-pill" href="{{ paper.github }}"><i class="fab fa-github"></i>GitHub</a>{% endif %}
+    {% if paper.video %}<a class="link-pill" href="{{ paper.video }}"><i class="fas fa-video"></i>Video</a>{% endif %}
+    {% if paper.abstract %}<button type="button" class="link-pill abstract-toggle" aria-expanded="false" aria-controls="abstract-{{ paper_num }}"><i class="fas fa-chevron-down"></i>Abstract</button>{% endif %}
+    </div>
     {% if paper.abstract %}
-    <details class="abstract-details" closed>
-      <summary class="abstract-summary"></summary>
+    <div class="abstract-panel is-collapsed" id="abstract-{{ paper_num }}">
       {% for paragraph in paper.abstract %}
-        <p><span class="indented">{{ paragraph }}</span></p>
+        <p>{{ paragraph }}</p>
       {% endfor %}
-    </details>
+    </div>
     {% endif %}
   </li>
 {% endfor %}

@@ -2,7 +2,7 @@
 title: "b01lersCTF 2024 author's writeup"
 modified: 2024-04-24
 date: 2024-04-14
-description: b01lersCTF 2024 author's official writeup
+description: "Author's writeups for my first CTF challenges, including an attack on Shamir secret sharing with badly chosen evaluation points."
 tags: ['CTF']
 toc: true
 toc_sticky: yes
@@ -10,14 +10,6 @@ share: false
 mathjax: true
 ---
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 
 <font size="4">
@@ -171,7 +163,7 @@ for i in range(0, 24 * g):
 <p>The full solution script <code>sol.py</code> is provided below for the sake of completeness:</p>
 
 <details>
-<summary><font size="4"><code>sol.py</code> (Click to expand)</font></summary>
+<summary><code>sol.py</code></summary>
 {% highlight python %}
 ## sol.py
 import math
@@ -247,7 +239,7 @@ for i in range(0, 24 * g):
 <font size="4">
 
 <details>
-<summary><font size="4"><code>server-dist.py</code> (Click to expand)</font></summary>
+<summary><code>server-dist.py</code></summary>
 {% highlight python %}
 ## server-dist.py
 import os
@@ -485,7 +477,7 @@ print(long_to_bytes(sum_shares))
 
 <font size = "4">
 <details>
-<summary><font size="4"><code>server-dist.py</code> (Click to expand)</font></summary>
+<summary><code>server-dist.py</code></summary>
 {% highlight python %}
 import random
 from Crypto.Util.number import getPrime, isPrime, bytes_to_long, long_to_bytes

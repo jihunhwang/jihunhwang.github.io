@@ -1,0 +1,37 @@
+{%- comment -%}
+  Renders _data/news.yml.
+
+  Full timeline, grouped by year (years before collapse_before start collapsed):
+    {% include news_list.html collapse_before="2021" %}
+
+  Flat list of the latest N entries (e.g. for the homepage):
+    {% include news_list.html limit=5 %}
+{%- endcomment -%}
+{%- if include.limit -%}
+<ul class="news-list">
+  {%- for entry in site.data.news limit: include.limit -%}
+    {% include news_item.html item=entry %}
+  {%- endfor -%}
+</ul>
+{%- else -%}
+{%- assign collapse_before = include.collapse_before | default: 0 | plus: 0 -%}
+{%- assign years = site.data.news | group_by_exp: "entry", "entry.date | slice: -4, 4" -%}
+{%- for year in years -%}
+  {%- assign year_num = year.name | plus: 0 -%}
+  {%- assign collapsed = false -%}
+  {%- if year_num < collapse_before -%}{%- assign collapsed = true -%}{%- endif %}
+<h2 id="{{ year.name }}">{{ year.name }}</h2>
+  {%- if collapsed %}
+<details class="collapse-list">
+  <summary><span class="collapse-show">Show entries</span><span class="collapse-hide">Hide entries</span></summary>
+  {%- endif %}
+<ul class="news-list">
+  {%- for entry in year.items -%}
+    {% include news_item.html item=entry %}
+  {%- endfor -%}
+</ul>
+  {%- if collapsed %}
+</details>
+  {%- endif -%}
+{%- endfor -%}
+{%- endif -%}

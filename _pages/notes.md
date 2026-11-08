@@ -9,15 +9,14 @@ sitemap: false
 ---
 
 
-Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended (not I presented!). Please do not reproduce or distribute these without permission.
+Below are the notes I made for the courses I was assigned to teach, classes I took, and the seminars I attended (not ones I presented). Please do not reproduce or distribute these without permission.
 
 
 
 
-## Courses Took at Purdue
-<details open>
-<summary></summary>
-<p></p>
+## Courses Taken at Purdue
+<details class="collapse-list" open>
+<summary><span class="collapse-show">Show <span class="collapse-count"></span>courses</span><span class="collapse-hide">Hide courses</span></summary>
 <p>Roughly, Purdue adopts the following course numbering system: 100-499 Undergraduate and <b>500-699 Graduate</b>. Some 400-levels are often cross-listed and open to both undergrads and graduate students. See <a href="https://www.purdue.edu/registrar/documents/currentStudents/students/preBannerTranscriptKey.pdf">this</a> for more details.</p>
 
 <ul>
@@ -52,11 +51,9 @@ Below are the notes I made for the courses I was assigned to teach, classes I to
 	
 
 
-## Courses Took at UMass
-<details>
-		<summary></summary>
-
-<p></p>
+## Courses Taken at UMass
+<details class="collapse-list">
+<summary><span class="collapse-show">Show <span class="collapse-count"></span>courses</span><span class="collapse-hide">Hide courses</span></summary>
 <p>
 Roughly, UMass Amherst adopts the following course numbering system: 300-599 Undergraduate, <b>500-699 Master's</b>, and <b>600-899 Doctoral</b>. See <a href="https://www.umass.edu/senate/course-proposal-info">this</a> for more details.
 </p>
@@ -83,9 +80,8 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 </details>
 
 ## Courses TAed at UMass
-<details>
-	<summary></summary>
-<p></p>
+<details class="collapse-list">
+<summary><span class="collapse-show">Show <span class="collapse-count"></span>courses</span><span class="collapse-hide">Hide courses</span></summary>
 
 <ul>
 
@@ -97,7 +93,6 @@ Roughly, UMass Amherst adopts the following course numbering system: 300-599 Und
 and 
 	{% include person_link.html name="Patrick Lei" %}.
 (<a href="https://drive.google.com/open?id=1EGCkVuPYk9FzxrCJzTzTBwbOexJaygI2">partial solutions</a>) 
-(<a href="/Downloads/M300_grade.html">grade analytics</a>)
 </li>
 
 <li><a href="https://drive.google.com/file/d/1NBkeN5T1ts7zAJt0A2E7UsKM6R6ORE-b/view?usp=sharing">Spring 2019, MATH 300 Fundamental Concepts of Mathematics</a>.</li>
@@ -124,10 +119,9 @@ and
 
 ## Talks Attended 
 
-<details>
-	<summary></summary>
-	<p></p>
-	<p>Again, these are the talks I attended, not I presented! Also, please note that these notes are not the transcribed copy of the talks. These were all reproduced after the talks, using my own understandings.
+<details class="collapse-list">
+<summary><span class="collapse-show">Show <span class="collapse-count"></span>talks</span><span class="collapse-hide">Hide talks</span></summary>
+	<p>Again, these are the talks I attended, not ones I presented! Also, please note that these notes are not the transcribed copy of the talks. These were all reproduced after the talks, using my own understandings.
 	</p> 
 
 <ul>
@@ -148,28 +142,3 @@ and
 
 </ul>
 </details>
-
-
-<!--
-  CSS snippet that switchs the summary text of an expandable section depending on its state. Essentially, this script makes a <details> element whose <summary> text toggles between "Click to expand" and "Click to collapse" as it expands and collapses.
-  
-  sources: 
-  https://stackoverflow.com/questions/56758098/how-to-position-detail-marker-to-come-after-summary
-	https://stackoverflow.com/questions/49924024/how-to-properly-position-the-arrow-in-details-css
-  -->
-
-<!-- // Testing to make sure it works
-<details>
-  <summary></summary>
-  <p>Hidden content goes here.</p>
-</details>
--->
-
-<style>
-summary::after {
-  content: " Click to expand";
-}
-details[open] summary:after {
-  content: " Click to collapse";
-}
-</style>

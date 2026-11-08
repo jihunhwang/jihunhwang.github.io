@@ -1,3 +1,18 @@
+- title: "Local Leakage Resilience of Multiplication-friendly Shamir Secret Sharing"
+  coauthors:
+    - "Hemanta Maji"
+    - "Ilya Shkredov"
+    - "Xiuyu Ye"
+  full_version: "https://www.cs.purdue.edu/homes/hmaji/papers/HMSY26.pdf"
+  venue: "Preprint"
+  venue_full: "Preprint"
+  abbr: "Preprint"
+  cv: true
+  abstract:
+    - 'Shamir secret sharing lets a quorum of $d+1$ parties recover a secret, while smaller coalitions learn nothing. What if every party reveals one bit computed from its share? Our results reach the so-called multiplication-friendly regime, where $d$ is below half the number of parties, down to any constant fraction of parties. Proving leakage resilience for Shamir sharing in this regime has been challenging. We prove resilience to arbitrary single-bit-per-share leakage throughout this regime. The party count may grow polynomially in the field&#8217;s bit length, with the permitted growth exponent depending on the quorum fraction.'
+    - 'This guarantee holds for nearly every choice of public evaluation points over sufficiently large prime fields. For each such choice, $(2/\pi)^{(1-o(1))d}$ bounds the distinguishing advantage between any two secrets, even under the most damaging choice of local bit functions. This bound is essentially tight: a known leakage strategy achieves distinguishing advantage $(2/\pi)^d$.'
+    - 'The technical core is a new pseudorandomness theorem for Reed-Solomon codes, proved by combining higher-order Fourier analysis with tools for describing these codes through local constraints.'
+
 - title: "Beyond All-or-Nothing Corruption: Additive Secret Sharing under Hamming-Weight Leakage"
   coauthors:
     - "Aniruddha Biswas"

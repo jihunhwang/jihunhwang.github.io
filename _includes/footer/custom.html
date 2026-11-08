@@ -1,3 +1,25 @@
 <!-- start custom footer snippets -->
 <!-- <a href="/sitemap/">Sitemap</a> -->
+
+<!-- "Abstract" buttons in publication_list.html, talk_list.html: show/hide the panel named by aria-controls.
+     Panels are collapsed with a class rather than display:none so MathJax can still measure the text
+     around the math and size equations correctly while they are closed. -->
+<script>
+  document.addEventListener("click", function (event) {
+    var button = event.target.closest(".abstract-toggle");
+    if (!button) { return; }
+    var panel = document.getElementById(button.getAttribute("aria-controls"));
+    var isOpen = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!isOpen));
+    panel.classList.toggle("is-collapsed", isOpen);
+  });
+</script>
+<!-- "Show N courses" labels on collapsible lists (.collapse-list, e.g. Notes): fill in the number of list items -->
+<script>
+  document.querySelectorAll("details.collapse-list .collapse-count").forEach(function (el) {
+    if (el.textContent.trim()) { return; }
+    var n = el.closest("details").querySelectorAll(":scope > ul > li").length;
+    if (n) { el.textContent = n + " "; }
+  });
+</script>
 <!-- end custom footer snippets -->

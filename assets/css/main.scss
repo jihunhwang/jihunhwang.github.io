@@ -92,8 +92,460 @@ details .highlight pre {
   overflow-x: auto;        // safe fallback
 }
 
+/* -----------------------------
+   Colors for the buttons and lines below. The theme's --global-border-color is
+   nearly white in light mode (#f2f3f3), so it vanishes on a white page.
+----------------------------- */
+
+:root {
+  --ui-border-color: var(--global-border-color);  // button outlines, abstract bar (#c4c9cd in light mode)
+  --ui-divider-color: #d6dadd;                     // timeline row separators, a step lighter than borders
+}
+
+html[data-theme="dark"] {
+  --ui-border-color: var(--global-border-color);
+  --ui-divider-color: var(--global-border-color);
+}
+
+:root {
+  --theorem-bg: #f3f6f9;         // theorem/definition boxes in math posts
+}
+
+html[data-theme="dark"] {
+  --theorem-bg: #2a2d30;
+}
+
+/* -----------------------------
+   Publications and talks
+   (_includes/publication_list.html, talk_list.html, talk_list_inclass.html)
+----------------------------- */
+
+.pub-list > li {
+  margin-bottom: 0.9em;
+}
+
+// Talks: date/buttons row sits close under the venue, with more room before the next talk
+.talk-list > li {
+  margin-bottom: 1.4em;
+}
+
+.talk-list .meta-row {
+  margin-top: 0.05em;
+}
+
+// Venue badge (or talk date) + link buttons on one wrapping row
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35em 0.4em;
+  margin-top: 0.3em;
+  line-height: 1.5;
+}
+
+// Talk date, sized like the buttons next to it
+.meta-date {
+  margin-right: 0.15em;
+  font-size: 0.8em;
+  font-style: italic;
+  color: var(--global-archive-subtitle-color);
+}
+
+// Second talk given in the same course (talk_list_inclass.html)
+.talk-second {
+  margin-top: 0.5em;
+}
+
+.meta-row abbr.venue-badge {
+  margin-right: 0.15em;
+}
+
+.link-pill,
+.link-pill:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 1px 7px;            // + 1px border = the venue badge's 2px padding
+  font-family: inherit;
+  font-size: 0.8em;            // same size and weight as abbr.venue-badge
+  font-weight: bold;
+  line-height: inherit;
+  white-space: nowrap;
+  color: var(--global-link-color);
+  background: transparent;
+  border: 1px solid var(--ui-border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.link-pill:hover,
+.link-pill:focus-visible {
+  color: var(--global-bg-color);
+  border-color: var(--global-link-color);
+  background: var(--global-link-color);
+}
+
+.abstract-toggle[aria-expanded="true"] {
+  border-color: var(--global-link-color);
+}
+
+.link-pill i {
+  font-size: 0.95em;
+}
+
+// The site-wide animated underline doesn't suit buttons
+.page a.link-pill::after {
+  display: none;
+}
+
+.abstract-toggle i {
+  transition: transform 0.2s ease;
+}
+
+.abstract-toggle[aria-expanded="true"] i {
+  transform: rotate(180deg);
+}
+
+.abstract-panel {
+  margin: 0.5em 0 0.2em;
+  padding-left: 0.9em;
+  border-left: 3px solid var(--ui-border-color);
+  font-size: 0.8em;
+
+  p {
+    margin: 0 0 0.5em;
+    text-indent: 1em;
+  }
+
+  // Closed state. Not display:none, so the text still has a size MathJax can measure.
+  &.is-collapsed {
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+}
+
+/* -----------------------------
+   Timeline / news (_includes/news_list.html)
+----------------------------- */
+
+.news-list {
+  list-style: none;
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 8.5em 1fr;
+  column-gap: 1.25em;
+  margin: 0;
+  padding: 0.55em 0;
+  border-bottom: 1px solid var(--ui-divider-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.news-date {
+  padding-top: 0.15em;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--global-archive-subtitle-color);
+  font-variant-numeric: tabular-nums;
+}
+
+.news-text p {
+  margin: 0;
+}
+
+.news-note {
+  margin-top: 0.25em;
+  font-size: 0.85em;
+  color: var(--global-archive-subtitle-color);
+}
+
+
+@media (max-width: 600px) {
+  .news-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.1em;
+  }
+}
 
 
 
 
 
+
+
+/* -----------------------------
+   Text helpers (replace the old inline <font size> / <p align> tags)
+----------------------------- */
+
+// Homepage headline (index.md). Scoped under .page__content to beat the theme's `.page__content p { font-size: 1em }`
+.page__content .home-tagline {
+  text-align: center;
+  font-size: 1.333em;          // 24px next to 18px body text on desktop
+  font-weight: bold;
+}
+
+// Slightly smaller supporting text, e.g. the "Nota Bene" on Research, "Modified:" on posts
+.text-small,
+.page__content .text-small {
+  font-size: 0.889em;          // 16px next to 18px body text on desktop
+}
+
+// b01lers CTFtime widget on the homepage: no hover underline under the image
+#ctf-link,
+#ctf-link::after {
+  background: none !important;
+  background-image: none !important;
+  background-size: 0 !important;
+  text-decoration: none !important;
+}
+
+/* -----------------------------
+   Blog: post rows (_includes/archive-single.html), post header (_layouts/single.html),
+   tag filter (_pages/blog.html), theorem boxes in math posts
+----------------------------- */
+
+// Title, then date / read time / tags on the line below, then the TL;DR (.post-description)
+.post-row {
+  .archive__item-title {
+    margin: 0;
+  }
+
+  .post-meta {
+    margin-top: 0.2em;
+  }
+}
+
+// Beat the theme's `.archive__subtitle + .list__item .archive__item-title { margin-top }` for the first row in a year
+.list__item .post-row .archive__item-title {
+  margin: 0;
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3em 0.9em;
+  margin: 0;
+  font-size: $type-size-6;
+  color: var(--global-archive-subtitle-color);
+}
+
+.post-meta__item {
+  white-space: nowrap;
+
+  i {
+    margin-right: 0.3em;
+  }
+}
+
+// In the post header the theme's .page__meta adds a large top margin
+.page__meta.post-meta {
+  margin: 0.5em 0 1.75em;
+}
+
+.post-tag,
+.post-tag:visited,
+.page__meta a.post-tag {         // the theme's `.page__meta a { color: inherit }` would turn it grey
+  color: var(--global-link-color);
+}
+
+.post-tag,
+.post-tag:visited {
+  display: inline-block;
+  padding: 0 0.55em;
+  line-height: 1.6;
+  font-weight: bold;
+  color: var(--global-link-color);
+  border: 1px solid var(--ui-border-color);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.post-tag:hover,
+.post-tag:focus-visible,
+.page__meta a.post-tag:hover {
+  color: var(--global-bg-color);
+  background: var(--global-link-color);
+  border-color: var(--global-link-color);
+}
+
+.post-description {
+  margin: 0.2em 0 0;
+  font-size: 0.85em;
+  color: var(--global-archive-subtitle-color);
+}
+
+// Same gap above every row, whether or not it is first under a year heading (also while filtering)
+.list__item > .archive__item {
+  margin: 1em 0 0;
+}
+
+// The theme's reset sets `section { display: block }`, which would override the hidden attribute
+.post-year[hidden],
+.list__item[hidden] {
+  display: none;
+}
+
+// The theme underlines the whole title heading whenever the cursor is anywhere over a post entry
+// (`.archive__item:hover .archive__item-title`). The sliding link underline above replaces it.
+.archive__item:hover .archive__item-title {
+  text-decoration: none;
+}
+
+// No animated underline on button-like links in lists and post headers
+.page a.post-tag::after,
+.archive a.post-tag::after,
+.archive a.link-pill::after {
+  display: none;
+}
+
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin: 0.5em 0 1.5em;
+
+  .link-pill {
+    font-size: 0.75em;
+  }
+
+  .link-pill.is-active {
+    color: var(--global-bg-color);
+    background: var(--global-link-color);
+    border-color: var(--global-link-color);
+  }
+}
+
+.tag-filter__count {
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+// Theorem / definition / problem boxes in math posts (<p class="theorem">)
+.page__content .theorem {
+  padding: 0.75em 1em;
+  background: var(--theorem-bg);
+  border-left: 4px solid var(--global-link-color);
+  border-radius: 0 4px 4px 0;
+}
+
+/* -----------------------------
+   Collapsible sections
+----------------------------- */
+
+// Font Awesome chevron used by both styles below (rotates when open)
+@mixin collapse-chevron {
+  content: "\f054";                       // fa-chevron-right
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.75em;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+// "Show 5 courses" / "Hide courses" lists: Notes sections and older Timeline years.
+// Markup: <details class="collapse-list"><summary><span class="collapse-show">Show <span class="collapse-count"></span>courses</span>
+//         <span class="collapse-hide">Hide courses</span></summary> ... </details>
+// .collapse-count is filled in with the number of list items by the script in _includes/footer/custom.html.
+.page__content details.collapse-list {
+  margin-bottom: 1.5em;
+
+  > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: var(--global-link-color);
+
+    &::-webkit-details-marker { display: none; }
+    &::before { @include collapse-chevron; }
+  }
+
+  &[open] > summary { margin-bottom: 0.5em; }
+  &[open] > summary::before { transform: rotate(90deg); }
+
+  .collapse-hide { display: none; }
+  &[open] .collapse-hide { display: inline; }
+  &[open] .collapse-show { display: none; }
+}
+
+// Collapsible code/files in blog posts, shown as a file header bar:
+//   <details><summary><code>sol.py</code></summary> {% highlight python %} ... {% endhighlight %} </details>
+// No "click to expand" text needed: the bar says Show / Hide on its own.
+.page__content details:not(.collapse-list) {
+  margin: 0 0 1em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  overflow: hidden;
+
+  > summary {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    padding: 0.45em 0.85em;
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.85em;
+    font-weight: bold;
+    background: var(--global-code-background-color);
+
+    &::-webkit-details-marker { display: none; }
+    &::before { @include collapse-chevron; color: var(--global-link-color); }
+
+    &::after {
+      content: "Show";
+      margin-left: auto;
+      font-size: 0.85em;
+      color: var(--global-link-color);
+    }
+
+    &:hover::after,
+    &:focus-visible::after { text-decoration: underline; }
+
+    code {
+      padding: 0;
+      background: none;
+      font-size: 1em;
+    }
+  }
+
+  &[open] > summary {
+    border-bottom: 1px solid var(--global-border-color);
+
+    &::before { transform: rotate(90deg); }
+    &::after { content: "Hide"; }
+  }
+
+  // The code block sits flush under the header instead of being a second box
+  > figure.highlight,
+  > div.highlighter-rouge {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  // Anything else (images, lists, text) gets some breathing room
+  > :not(summary):not(figure):not(div.highlighter-rouge) {
+    margin: 0.75em 0.85em;
+  }
+}
+
+// A sub-heading that reads as a label: bold, a little larger than the text under it
+// (e.g. "People I published with" under Coauthors on Research). Use `{: .quiet-label}` under a markdown heading.
+.page__content .quiet-label {
+  font-size: 1.1em;
+  font-weight: bold;
+}

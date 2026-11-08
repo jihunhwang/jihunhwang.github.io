@@ -4,11 +4,7 @@ permalink: /
 author_profile: true
 ---
 
-<p align="center">
-<font size="5">
-<b>You have finally reached the end of the internet!</b>
-</font>
-</p>
+<p class="home-tagline">You have finally reached the end of the internet!</p>
 
 Just kidding. My name is Jihun (I go by Jimmy). I am a Ph.D. candidate in [Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/), where I am fortunate to be advised by Professor 
   {% include person_link.html name="Hemanta Maji" %}.
@@ -35,16 +31,6 @@ https://github.com/CygnusX-26/ctftime-card
 
 I added a JavaScript code in /assets/js/main.min.js so the theme (light or dark) gets changed automatically when the website's theme gets toggled between light and dark modes. It's a little laggy, but I still like it!
 -->
-<style>
-/* Completely remove underline for this specific link */
-#ctf-link,
-#ctf-link::after {
-  background: none !important;
-  background-image: none !important;
-  background-size: 0 !important;
-  text-decoration: none !important;
-}
-</style>
 
 <a href="https://ctftime.org/team/11464" id="ctf-link">
   <img id="ctf-stats-widget" alt="b01lers ctftime stats" />

@@ -27,20 +27,30 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
 <!--         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_modified_label | default: "Modified:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %} -->
-        
+
         {% if page.collection == 'teaching' %}
+          {% if page.read_time %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>{% endif %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
+          {% if page.read_time %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>{% endif %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}    
+          {%- comment -%} Blog posts: date, read time and tags on one small line {%- endcomment -%}
+          <p class="page__meta post-meta">
+            <span class="post-meta__item"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+            {%- if page.read_time -%}
+            <span class="post-meta__item"><i class="fa fa-fw fa-clock" aria-hidden="true"></i>{% include read-time.html %}</span>
+            {%- endif -%}
+            {%- for tag in page.tags -%}
+            <a class="post-tag" href="{{ base_path }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+            {%- endfor -%}
+          </p>
+        {% elsif page.read_time %}
+          <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+        {% endif %}
         </header>
       {% endunless %}
 
@@ -87,9 +97,7 @@ layout: default
       </section>
 
       {% if page.modified %}
-      <font size="3">
-        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_modified_label | default: "Modified:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-      </font>
+        <p class="page__date text-small"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_modified_label | default: "Modified:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
       {% endif %}
 
       <footer class="page__meta">

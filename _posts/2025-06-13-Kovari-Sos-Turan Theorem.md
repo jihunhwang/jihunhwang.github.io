@@ -2,7 +2,7 @@
 title: "Kővári-Sós-Turán Theorem"
 modified: 2025-06-13
 date: 2025-06-13
-description: Kovari-Sos-Turan Theorem
+description: 'My favorite theorem in extremal graph theory: Zarankiewicz problems and an application to communication complexity.'
 tags: ['random-math']
 toc: yes
 toc_sticky: yes
@@ -11,14 +11,6 @@ header:
     teaser: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Turan_13-4.svg"
 ---
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            processEscapes: true
-        }
-    });
-</script>
 
 I came across this theorem when my labmates and I together were trying to generalize results in [[Block et al. ITC' 21](https://eprint.iacr.org/2020/1605)] written by [my advisor](https://www.cs.purdue.edu/homes/hmaji/) (+ [Simina](https://simina.info/) and others), and it has then been my favorite theorem in extremal graph theory ever since. 
 The proof involves [double counting](https://en.wikipedia.org/wiki/Double_counting_(proof_technique)), which is a pretty standard technique in math olympiad. It was interesting to see how an olympiad-y technique can lead to a huge result that marked the beginning of a whole field in mathematics!  
@@ -31,7 +23,7 @@ Although I am not an extremal combinatorialist, I am a fan of this theorem enoug
 Extremal combinatorics is essentially concerned with questions of the following form: how complex can a system be, given certain constraints? 
 Substituting graph-theoretic contexts into this question (say, system = graph, complexity = density of edges, and constraints = patterns):
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Problem</b> (Turán-Type Problem)<b>.</b> Let $n \in \mathbb{N}$ and $H$ a graph. Define the Turán number of a graph $H$ to be
 $$
 \mathrm{ex}(n,H) := \max\{ |E| : G = (V,E) \text{ s.t. } |V| = n \text{ and } G \text{ is } H\text{-free} \}
@@ -41,7 +33,7 @@ What is $\mathrm{ex}(n, H)$?
 
 This quantity and problem are named after [Turán](https://en.wikipedia.org/wiki/P%C3%A1l_Tur%C3%A1n) (obviously), in particular it is named after his theorem:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Turán)<b>.</b> Let $K_r$ be the complete graph on $r$ vertices. Then,
 $$
 \mathrm{ex}(n, K_{r+1}) = \left( 1 - \frac{1}{r} + o(1) \right)\frac{n^2}{2}
@@ -58,7 +50,7 @@ $$
 
 And it turns out that this is in fact the most optimal value.
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Mantel)<b>.</b> For all $n \in \mathbb{N}$,
 $ \mathrm{ex}(n, K_3) = \lfloor n/2 \rfloor \lceil n/2 \rceil$.
 </p>
@@ -182,7 +174,7 @@ These exactly comprise the definition of complete bipartite graph $K_{n/2, n/2}$
 
 If your intuition says we would need a complete tripartite graph $K_{n/3, n/3, n/3}$ for $K_4$-free graphs, and more generally a complete $r$-partite graph $K_{n/r, \dots, n/r}$ for $K_{r+1}$-free graphs, then congratulations - you have a keen observation :-) But of course, because $n$ might not be divisible by $r$, we need to be a little bit careful. This is where Turán graphs kick in.
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition</b> (Turán Graph)<b>.</b> A Turan graph $T_{n,r}$ is a complete multipartite graph of $n$ vertices and $r$ partites, where each partite has either the same number of vertices or differ by at most one. Its number of edges is denoted $t(n,r)$.
 </p>
 
@@ -219,7 +211,7 @@ $$
 
 In any case, we now have the following:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Turán: Version 2)<b>.</b> Every $K_{r+1}$-free graph with $n$ vertices that has the maximal number of edges $\mathrm{ex}(n, K_{r+1})$ is a $T_{r,n}$, i.e. $\mathrm{ex}(n, K_{r+1}) \leq t(n,r)$.
 </p>
 
@@ -242,7 +234,7 @@ I initially advertised this proof as a proof that uses a different technique, bu
 
 One thing you might have noticed from the Turán graph $T_{r,n}$ is that it is $r$-colorable, and any graph that requires more than $r$ colors will not exist within $T_{r,n}$, hence the following generalization:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Erdős, Simonovits '66)<b>.</b> For $\chi(H) \geq 2$ where $\chi$ denotes the chromatic number,
 $$
 \mathrm{ex}(n, H) = \left( 1 - \frac{1}{\chi(H) - 1} + o(1) \right) \frac{n^2}{2}
@@ -251,7 +243,7 @@ $$
 
 This theorem is called *the fundamental theorem of extremal graph theory*. To prove this, we need to use Erdős-Stone theorem:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Erdős, Stone '46)<b>.</b> For all $n$, $\mathrm{ex}(n, T_{r, rs}) = t_{r-1}(n) + o(n^2)$. 
 </p>
 
@@ -269,7 +261,7 @@ Clearly, both $K_{r,s}$ and $T_{r, rs}$ have chromatic number $r$. Erdős-Simono
 
 One thing to note here is that if $H$ is bipartite, both theorems say $\mathrm{ex}(n,H) = o(n^2)$ (note $\chi(H) = 2$). But, this does not seem like a good bound, at least for small $n$'s. For example, when $H = K_{2,2}$:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Reiman '58; Erdős, Sós, Rényi '63)<b>. $\mathrm{ex}(n, K_{2,2}) = \Theta(n^{3/2})$.</b>
 </p>
 
@@ -318,7 +310,7 @@ That is, $(a,b)$ and $(c,d)$ only shares up to one neighbor together, making it 
 
 There is also a result for $K_{3,3}$, which I don't feel like proving here:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Brown '66; Füredi '96)<b>.</b> $\mathrm{ex}(n, K_{3,3}) = \Theta(n^{5/3})$. 
 </p>
 
@@ -329,7 +321,7 @@ This sure sparks a new question. Will $n^2$ be a tight bound for $K_{s,t}$-free 
 
 [Zarankiewicz](https://en.wikipedia.org/wiki/Kazimierz_Zarankiewicz) posed a question similar in form to Turán's question, except he restricted to the settings of bipartite graphs. 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Problem</b> (Zarankiewicz)<b>.</b> Let $G = (L,R,E)$ be a $K_{s,t}$-free bipartite graph such that $|L| = \ell$ and $|R| = r$. The Zarankiewicz function $z(\ell,r;s,t) := \mathrm{ex}(\ell,r;K_{s,t})$ denotes the maximum possible number of edges in $G$. 
 </p>
 
@@ -337,7 +329,7 @@ But of course, we do not need to restrict our graph $G$ to be a bipartite graph:
 
 It turns out Zarankiewicz's problem in general is very difficult. Currently, the best result is this result by Alon, Kollar, Rónyai, and Szabó:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (<a href="https://link.springer.com/article/10.1007/BF01261323">Kollar, Rónyai, Szabó '96</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0095895699919068">Alon, Rónyai, Sazbó '99</a>)<b>.</b> If $t \geq (s-1)! + 1$ then $\mathrm{ex}(n, K_{s,t}) = \Theta(n^{2 - 1/s})$.
 </p>
 
@@ -345,7 +337,7 @@ This is an extension of known base cases  $\mathrm{ex}(n, K_{2,2}) = \Theta(n^{3
 
 There are cases where Zarankiewicz's function can be computed exactly, one being the following result by Culik: 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Culik '56)<b>.</b> If $s,t,$ and $\ell$ are fixed, then for all $r > (t-1) \binom{\ell}{s}$,
 $$
 z(\ell,r;s,t) = (s-1)r + (t-1)\binom{\ell}{s}
@@ -357,7 +349,7 @@ Not many results are known in Zarankiewicz's Problem. Currently the most 'well-e
 ### Kővári-Sós-Turán Theorem
 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Kővári, Sós, Turán '54)<b>.</b> Let $G = (L,R,E)$ be a $K_{s,t}$-free bipartite graph such that $\lvert L \rvert = n$ and $\lvert R \rvert = m$. Then,
 $$
 z(n,m;s,t) \leq n(t-1)^{\frac{1}{s}} m^{1 - \frac{1}{s}} + (s-1)m
@@ -447,7 +439,7 @@ as desired. $\blacksquare$
 
 As hinted, the base graph does not have to be a bipartite graph. 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Kővári, Sós, Turán '54: Version 2)<b>.</b> For natural numbers $s$ and $t$ where $s \leq t$,
 $$
 \mathrm{ex}(n, K_{s,t}) \leq \frac{1}{2}(t-1)^{\frac{1}{s}} n^{2 - \frac{1}{s}} + \frac{1}{2} (s-1)n
@@ -459,7 +451,7 @@ The proof is more or less the same.
 
 It is conjectured that the bound induced by Kővári-Sós-Turán Theorem is tight up to a constant factor. Using the power of randomized constructions (Erdős-Rényi graphs), one can prove a lower bound that seems asymptotically close to Kővári-Sós-Turán Theorem.
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem.</b> Let $G = (V,E)$ be a graph. There exists a positive constant $C_G$ such that for all $n \geq 2$, 
 $$
 \mathrm{ex}(n, G) \geq C_G~n^{2 - \frac{\lvert V \rvert-2}{\lvert E \rvert - 1}}
@@ -490,7 +482,7 @@ This is in fact how a communication problem in theoretical computer science is d
 
 As you might have guessed, this can indeed be generalized.
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (<a href="https://doi.org/10.1145/800070.802208">Mehlhorn, Schmidt '82</a>)<b>.</b> Let $M$ be a rank-$r$ matrix. There exists a deterministic two-party protocol that computes $M(a,b) := M_{a,b}$ with $D(M) = r + 1$ bits of communications. In particular,
 $$
 \log(r) \leq D(M) \leq r + 1
@@ -502,7 +494,7 @@ Basically $D(M)$ is the minimum number of bits of communications required to com
 
 This is also where the infamous log-rank conjecture comes from.
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Conjecture</b> (Log-rank Conjecture)<b>.</b> For $M$ with rank $r$,
 $\log(r) \leq D(M) \leq \mathrm{poly}(\log(r))$.
 </p>
@@ -511,7 +503,7 @@ Currently the best upper bound is $D(M) = O(\sqrt{r})$, found by <a href="https:
 
 Because a rectangle of $1$'s is a rank-$1$ matrix, you might have intuitively noticed by now that the rank of the matrix has a close relationship with the number of rectangles you need to partition or cover the matrix. A rectangle is a *biclique* (complete bipartite graph), and hence they are called *biclique partition* and *cover number*, denoted $\mathrm{bp}$ and $\mathrm{bc}$ respectively. 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (<a href="https://doi.org/10.1016/0095-8956(91)90006-6">Gregory et al. '91</a>)<b>.</b> Let $M$ be a binary matrix, then 
 $$
 \mathrm{rank}_{0/1}(M) = \mathrm{bp}(M) \geq \mathrm{rank}_+(M) = \mathrm{bc}(M)
@@ -521,13 +513,13 @@ where $\mathrm{rank}_{0/1}(M)$ denotes the binary rank of $M$ where additions ar
 
 In paricular, the biclique cover number $\mathrm{bc}(M)$ precisely captures the nondeterministic communication complexity $N(M)$. Nondeterministic protocol for $M$ is the deterministic protocol for $M$ where Alice and Bob has access to a common advise string $\pi$ generated by an oracle that has access to both Alice's and Bob's inputs. If $M(a,b) = 0$ then the protocol should return $0$ as intended, regardless of the advise $\pi$; if $M(a,b) = 1$ then there exists $\pi$ such that the protocol returns $1$ (hence the 'nondeterminism'!).
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem.</b> $N(M) = \log(\mathrm{bc}(M))$ for all binary matrix $M$.  
 </p>
 
 A communication from one to the other corresponds to partitioning the matrix $M$ into two parts either horizontally or vertically (depending on who is sending the bit), and in the end the matrix is partitioned into monochromatic rectangles. Because $c$ bits of communication would generate $2^c$ rectangles (note however that the process of partitioning to monochromatic rectangles does not always correspond to a protocol),
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem.</b> $D(M) \geq \log(\mathrm{bp}(M))$ for all binary matrix $M$. 
 </p> 
 
@@ -552,7 +544,7 @@ In particular, its rank is $\lambda$ (it is an identity matrix) and it requires 
 
 This then begs a new question: when computing a two-party function $f(x,y)$, would having an equality oracle give any advantage?
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition.</b> A nondeterministic protocol for $M$ relative to $\mathrm{EQ}$ oracle is a pair of functions $A$ and $B$ such that: <br>
 &nbsp;  <b>1.</b> For all $(a,b)$ s.t. $M(a,b) = 1$, there exists $\pi$ such that $\mathrm{EQ}( A(a, \pi) , B(b, \pi) ) = 1$.<br>
 &nbsp;  <b>2.</b> If $(a,b)$ gives $M(a,b) = 0$, then for all $\pi$, we have $\mathrm{EQ}( A(a,\pi), B(b,\pi)) = 0$.<br>
@@ -564,14 +556,14 @@ $A(a,\pi)$ is basically the 'preprocessing' function that Alice computes based o
 
 Let us introduce our new object of interest.
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition</b> ($P_4$-free Bipartite Graph)<b>.</b>
 We say a bipartite graph $G = (L,R,E)$ is $P_4$-free if no four vertices of $G$ induce a $P_4$ subgraph.
 </p> 
 
 This does not look very interesting, and I hope you agree. But it has a very interesting property, which I also hope you agree. 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Proposition.</b> A bipartite graph $G = (L,R,E)$ is $P_4$-free iff it is a vertex-disjoint union of bicliques, i.e. each connected component is a biclique. More precisely, there exists disjoint $L_1, L_2, \dots, L_n \subseteq L$ and disjoint $R_1, R_2, \dots, R_n \subseteq R$ such that $E = \bigcup_{i=1}^n (L_i \times R_i)$.
 </p>
 
@@ -583,7 +575,7 @@ Now, consider a function $M$ that can be computed using a nondeterministic proto
 
 To formulate this idea precisely, we need a new definition:
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Definition</b> ($P_4$-free Cover Number)<b>.</b>
 The $P_4$-free cover number of $G = (L,R,E)$, denoted $P_4\textsf{-fc}(G)$, is the minimum number of $P_4$-free graphs $G_i = (L,R,E_i)$ where $E = \bigcup_{i} E_i$.
 </p> 
@@ -592,7 +584,7 @@ We can also define the $P_4$-free partition number $P_4\textsf{-fp}(G)$ analogou
 
 Basically, given $G$, we can decompose $G$ into $G_1, G_2 ,\dots, G_k$ such that $G_i$'s are $P_4$-free and they altogether cover $G$. The advise $\pi$ would be a number $\pi \in \{1,2,\dots, k\}$. Then Alice and Bob, upon receiving $G_{\pi}$, can compute their connected component $C_a$ and $C_b$ based on their input $a$ and $b$, and call the equality oracle $\mathrm{EQ}(C_a, C_b)$! 
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Block et al. '21)<b>.</b> Let $\Pi$ be the distribution of nondeterministic advise $\pi$ used in the nondeterministic protocol for $M$. Then $\lvert \mathrm{Supp}(\Pi) \rvert \geq P_4\textsf{-fc}(G)$; in other words, 
 $$
 \mathsf{NP}^{\mathsf{EQ}_{\mathsf{cc}}}(M) \leq \log_2 P_4\textsf{-fc}(G)
@@ -603,7 +595,7 @@ Note that the cover number $P_4\textsf{-fc}(G)$ is the correct model for this pr
 
 Not much is known on values of those numbers $P_4\textsf{-fc}(G)$ and $P_4\textsf{-fp}(G)$. But we know that we can construct a bipartite graph that has high $P_4$-free cover numbers, and the construction uses Zarankiewicz problem!
 
-<p style="border: 2px solid; padding: 10px;">
+<p class="theorem">
 <b>Theorem</b> (Block et al. '21)<b>.</b> There exists bipartite graphs $G = (L,R,E)$ with $\lvert L \rvert = N$ and $\lvert R \rvert = N$ whose $P_4\textsf{-fc}(G) \geq P_4\textsf{-fc}(G) \geq \varepsilon \cdot N^{1-2\varepsilon}$ for some $\varepsilon \in (0,1)$. 
 </p>
 

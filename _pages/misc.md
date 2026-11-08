@@ -8,19 +8,8 @@ search: exclude
 sitemap: false
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-30GFV5VTPS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-30GFV5VTPS');
-</script>
-
 ## Resources
 
-<font size="4">
 <ul>
 	
 <li>
@@ -112,11 +101,9 @@ sitemap: false
 </li>
 
 </ul>
-</font>
 
 ### Purdue
 
-<font size="4">
 
 <ul>
 
@@ -138,11 +125,9 @@ sitemap: false
 
 </ul>
 
-</font>
 
 ## Online Lectures
 
-<font size="4">
 Let us not forget to thank all those people who generously made their courses and seminars open to public for us.
 <ul>
 
@@ -220,11 +205,9 @@ Let us not forget to thank all those people who generously made their courses an
 </li>
 
 </ul>
-</font>
 
 
 ## Thoughts / Pedagogies
-<font size="4">
 <ul>
 
 <li>
@@ -271,11 +254,9 @@ Let us not forget to thank all those people who generously made their courses an
 
 </ul>
 
-</font>
 
 
 ## Personal
-<font size="4">
 <ul>
 
 <li>
@@ -304,4 +285,3 @@ Let us not forget to thank all those people who generously made their courses an
 
 
 </ul>
-</font>

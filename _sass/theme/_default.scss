@@ -32,7 +32,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-nav-title-bg-color          : #{$gray};
     --global-bg-color                   : #fff;
     --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
+    --global-border-color               : #c4c9cd; // was $lighter-gray (#f2f3f3): borders and heading rules were nearly invisible on white
     --global-divider-strong-color       : #cccccc;
     --global-dark-border-color          : #bdc1c4;
     --global-code-background-color      : #fafafa;

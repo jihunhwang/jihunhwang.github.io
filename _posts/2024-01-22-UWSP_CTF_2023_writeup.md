@@ -2,7 +2,7 @@
 title: "Pointer Overflow CTF 2023 Writeups"
 date: 2024-01-22
 modified: 2024-03-20
-description: Pointer Overflow CTF 2023 Writeups
+description: "A solo run of Pointer Overflow CTF: writeups for its crypto, web and forensics challenges."
 tags: ['CTF']
 toc: true
 toc_sticky: yes
@@ -991,8 +991,7 @@ nc_ed.interactive()
 </font>
 
 <details>
-<summary><font size="4"><code>sol.py</code> (Click to expand)</font></summary>
-<font size="4">
+<summary><code>sol.py</code></summary>
 
 {% highlight python %}
 ```python
@@ -1135,7 +1134,6 @@ nc_ed.interactive()
 ```
 {% endhighlight %}
 
-</font>
 </details>
 
 ### Time is but a Window
