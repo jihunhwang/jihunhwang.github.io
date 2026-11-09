@@ -1,3 +1,6 @@
+{% comment %}
+  Original GA4 snippet (kept for easy revert):
+
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -5,4 +8,20 @@
   gtag('js', new Date());
 
   gtag('config', '{{site.analytics.google.tracking_id}}');
+</script>
+{% endcomment %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  /* Suspected bots still send data, tagged traffic_type=bot so the
+     "Bot traffic" data filter in GA4 can drop them.
+     Use block comments only: the build minifies this script onto one
+     line, so a // comment would swallow the code after it. */
+  var suspect = navigator.webdriver === true;
+  /* add more signals here once Step 1 shows you what the bots look like */
+  gtag('config', '{{site.analytics.google.tracking_id}}',
+       suspect ? { traffic_type: 'bot' } : {});
 </script>
