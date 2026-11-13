@@ -1,5 +1,4 @@
-{% comment %}
-  Original GA4 snippet (kept for easy revert):
+
 
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}"></script>
 <script>
@@ -9,7 +8,10 @@
 
   gtag('config', '{{site.analytics.google.tracking_id}}');
 </script>
-{% endcomment %}
+
+
+<!-- {% comment %}
+  Original GA4 snippet (kept for easy revert):
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -31,3 +33,4 @@
   gtag('config', '{{site.analytics.google.tracking_id}}',
        { traffic_type: suspect ? 'bot' : 'external' });
 </script>
+{% endcomment %} -->
